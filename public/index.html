@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeux — Game Dashboard</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="./index.html" class="nav-logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <path d="M8 21h8M12 17v4"/>
+          <path d="M9 8h1m4 0h1M12 7v1m0 3v1"/>
+        </svg>
+        GameTrack
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="./index.html" class="active">Jeux</a></li>
+          <li><a href="./matrix.html">Matrice</a></li>
+        </ul>
+      </nav>
+      <button class="theme-btn" data-theme-toggle aria-label="Basculer le thème"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div>
+        <h1>Mes Jeux</h1>
+        <p>Accédez à l'architecture, au world et au tracker de chaque projet.</p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input class="search-input" type="search" id="search"
+               placeholder="Rechercher un jeu…" aria-label="Rechercher" />
+      </div>
+    </div>
+
+    <div class="card">
+      <table class="game-table" aria-label="Liste des jeux">
+        <thead>
+          <tr>
+            <th>Jeu</th>
+            <th>Liens</th>
+          </tr>
+        </thead>
+        <tbody id="game-list"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer><p>GameTrack &mdash; <span id="yr"></span></p></footer>
+
+  <script>
+  // ── Ajoutez / modifiez vos jeux ici ──────────────────────
+  const games = [
+    { name:'Project Alpha',  genre:'RPG Tour par tour',    icon:'🎲',
+      archi:'https://example.com', aworld:'https://example.com', tracker:'https://example.com' },
+    { name:'DiceMaster',     genre:'Stratégie',            icon:'🎯',
+      archi:'https://example.com', aworld:'',                    tracker:'https://example.com' },
+    { name:'WorldForge',     genre:'Simulation / Sandbox', icon:'🌍',
+      archi:'',                    aworld:'https://example.com', tracker:'' },
+    { name:'CombatGrid',     genre:'Tactique',             icon:'⚔️',
+      archi:'https://example.com', aworld:'https://example.com', tracker:'https://example.com' },
+    { name:'PixelDungeon 2', genre:'Roguelike',            icon:'🏰',
+      archi:'https://example.com', aworld:'',                    tracker:'https://example.com' },
+  ];
+  // ─────────────────────────────────────────────────────────
+
+  function chip(href, label, cls) {
+    return href
+      ? `<a class="chip chip-${cls}" href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`
+      : `<span class="chip chip-empty">${label}</span>`;
+  }
+
+  function render(list) {
+    const tb = document.getElementById('game-list');
+    if (!list.length) {
+      tb.innerHTML = `<tr><td colspan="2">
+        <div class="empty">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <h3>Aucun jeu trouvé</h3>
+          <p>Modifiez votre recherche.</p>
+        </div>
+      </td></tr>`;
+      return;
+    }
+    tb.innerHTML = list.map(g => `
+      <tr>
+        <td>
+          <div class="game-cell">
+            <div class="game-icon">${g.icon}</div>
+            <div>
+              <div class="game-name">${g.name}</div>
+              <div class="game-genre">${g.genre}</div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="link-chips">
+            ${chip(g.archi,   'ARCHI',   'archi'  )}
+            ${chip(g.aworld,  'AWORLD',  'aworld' )}
+            ${chip(g.tracker, 'TRACKER', 'tracker')}
+          </div>
+        </td>
+      </tr>`).join('');
+  }
+
+  document.getElementById('search').addEventListener('input', e => {
+    const q = e.target.value.toLowerCase();
+    render(games.filter(g => g.name.toLowerCase().includes(q)));
+  });
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  render(games);
+
+  // Theme toggle
+  (function(){
+    const btn  = document.querySelector('[data-theme-toggle]');
+    const root = document.documentElement;
+    let theme  = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+    root.setAttribute('data-theme', theme);
+    const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+    const sun  = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
+    const upd  = () => btn.innerHTML = theme === 'dark' ? sun : moon;
+    upd();
+    btn.addEventListener('click', () => {
+      theme = theme === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', theme);
+      upd();
+    });
+  })();
+  </script>
+</body>
+</html>
