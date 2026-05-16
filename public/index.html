@@ -18,12 +18,13 @@
           <path d="M8 21h8M12 17v4"/>
           <path d="M9 8h1m4 0h1M12 7v1m0 3v1"/>
         </svg>
-        GameTrack
+        GronouilleTracker
       </a>
       <nav aria-label="Navigation principale">
         <ul class="nav-links">
           <li><a href="./index.html" class="active">Jeux</a></li>
-          <li><a href="./matrix.html">Matrice</a></li>
+          <li><a href="./matrix.html">Tracker</a></li>
+          <li><a href="./history.html">Historique</a></li>
         </ul>
       </nav>
       <button class="theme-btn" data-theme-toggle aria-label="Basculer le thème"></button>
@@ -33,7 +34,7 @@
   <main>
     <div class="page-header">
       <div>
-        <h1>Mes Jeux</h1>
+        <h1>Jeux dispo</h1>
         <p>Accédez à l'architecture, au world et au tracker de chaque projet.</p>
       </div>
     </div>
@@ -61,16 +62,18 @@
     </div>
   </main>
 
-  <footer><p>GameTrack &mdash; <span id="yr"></span></p></footer>
+  <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
 
   <script>
-  // ── Ajoutez / modifiez vos jeux ici ──────────────────────
+  // JEUX DISPONIBLES
+  // Officiel 🐢
+  // Non officiel ⚙️
   const games = [
-    { name:'Project Alpha',  genre:'RPG Tour par tour',    icon:'🎲',
+    { name:'Project Alpha',  genre:'RPG Tour par tour',    icon:'🐢',
       archi:'https://example.com', aworld:'https://example.com', tracker:'https://example.com' },
-    { name:'DiceMaster',     genre:'Stratégie',            icon:'🎯',
+    { name:'DiceMaster',     genre:'Stratégie',            icon:'🐢',
       archi:'https://example.com', aworld:'',                    tracker:'https://example.com' },
-    { name:'WorldForge',     genre:'Simulation / Sandbox', icon:'🌍',
+    { name:'WorldForge',     genre:'Simulation / Sandbox', icon:'⚙️',
       archi:'',                    aworld:'https://example.com', tracker:'' },
     { name:'CombatGrid',     genre:'Tactique',             icon:'⚔️',
       archi:'https://example.com', aworld:'https://example.com', tracker:'https://example.com' },

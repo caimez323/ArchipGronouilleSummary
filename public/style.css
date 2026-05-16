@@ -274,7 +274,7 @@ main {
   border-bottom: 1px solid var(--border);
   white-space: nowrap;
 }
-.matrix-table th.col-header { text-align: center; }
+.matrix-table th.col-header { text-align: center; color: var(--tx); }
 .matrix-table th.row-header { text-align: left; position: sticky; left: 0; z-index: 2; }
 .matrix-table td {
   padding: var(--sp-2) var(--sp-4);

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historique — Game Dashboard</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="./index.html" class="nav-logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <path d="M8 21h8M12 17v4"/>
+          <path d="M9 8h1m4 0h1M12 7v1m0 3v1"/>
+        </svg>
+        GameTrack
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="./index.html">Jeux</a></li>
+          <li><a href="./matrix.html">Matrice</a></li>
+          <li><a href="./history.html" class="active">Historique</a></li>
+        </ul>
+      </nav>
+      <button class="theme-btn" data-theme-toggle aria-label="Basculer le thème"></button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Vue liste ── -->
+    <div id="view-list">
+      <div class="page-header">
+        <div>
+          <h1>Historique</h1>
+          <p>Toutes les sessions de jeu enregistrées.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <table class="game-table" aria-label="Historique des sessions">
+          <thead>
+            <tr>
+              <th style="width:80px">#</th>
+              <th>Date</th>
+              <th>Joueurs</th>
+              <th>Jeux</th>
+              <th style="width:48px"></th>
+            </tr>
+          </thead>
+          <tbody id="session-list"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ── Vue détail ── -->
+    <div id="view-detail" style="display:none">
+      <div class="page-header">
+        <div>
+          <button class="btn btn-ghost" id="btn-back" onclick="showList()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <path d="M19 12H5M12 5l-7 7 7 7"/>
+            </svg>
+            Retour
+          </button>
+          <h1 id="detail-title" style="margin-top: var(--sp-3)"></h1>
+          <p id="detail-date" style="color:var(--tx-muted); font-size:var(--text-sm)"></p>
+        </div>
+      </div>
+
+      <div class="detail-grid">
+
+        <!-- Infos générales -->
+        <div class="card detail-card">
+          <div class="detail-card-header">Informations</div>
+          <dl class="detail-dl" id="detail-info"></dl>
+        </div>
+
+        <!-- Jeux joués -->
+        <div class="card detail-card">
+          <div class="detail-card-header">Jeux joués</div>
+          <ul class="detail-game-list" id="detail-games"></ul>
+        </div>
+
+        <!-- Notes -->
+        <div class="card detail-card detail-card-full">
+          <div class="detail-card-header">Notes</div>
+          <p class="detail-notes" id="detail-notes"></p>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer><p>GameTrack &mdash; <span id="yr"></span></p></footer>
+
+  <script>
+  // ══════════════════════════════════════════════════════════
+  // DONNÉES — ajoutez vos sessions ici
+  // ══════════════════════════════════════════════════════════
+  const SESSIONS = [
+    {
+      id: 1,
+      date: '2026-05-10',
+      players: 4,
+      games: ['Project Alpha', 'CombatGrid'],
+      winner: 'Équipe A',
+      duration: '3h15',
+      location: 'Salon',
+      notes: 'Première partie de Project Alpha. CombatGrid joué en fin de soirée, partie serrée jusqu\'à la dernière manche.',
+      scores: [
+        { player: 'Alice', score: 142 },
+        { player: 'Bob',   score: 118 },
+        { player: 'Clara', score: 135 },
+        { player: 'Dave',  score: 97  },
+      ],
+    },
+    {
+      id: 2,
+      date: '2026-05-03',
+      players: 3,
+      games: ['DiceMaster'],
+      winner: 'Bob',
+      duration: '2h00',
+      location: 'Salon',
+      notes: 'Session courte. Bob domine dès le départ avec une combinaison de dés exceptionnelle au tour 4.',
+      scores: [
+        { player: 'Alice', score: 88 },
+        { player: 'Bob',   score: 210 },
+        { player: 'Clara', score: 101 },
+      ],
+    },
+    {
+      id: 3,
+      date: '2026-04-19',
+      players: 5,
+      games: ['Project Alpha', 'WorldForge', 'PixelDungeon 2'],
+      winner: '—',
+      duration: '5h30',
+      location: 'Chez Dave',
+      notes: 'Grosse soirée jeux. WorldForge non terminé, à reprendre la prochaine fois. PixelDungeon 2 en mode compétitif.',
+      scores: [],
+    },
+    {
+      id: 4,
+      date: '2026-04-05',
+      players: 2,
+      games: ['CombatGrid'],
+      winner: 'Clara',
+      duration: '1h45',
+      location: 'En ligne',
+      notes: 'Partie en ligne, légère latence. Clara gagne 3-1.',
+      scores: [
+        { player: 'Clara', score: 3 },
+        { player: 'Dave',  score: 1 },
+      ],
+    },
+    {
+      id: 5,
+      date: '2026-03-22',
+      players: 4,
+      games: ['DiceMaster', 'PixelDungeon 2'],
+      winner: 'Alice',
+      duration: '4h00',
+      location: 'Salon',
+      notes: 'Alice enchaîne deux victoires. DiceMaster avec la variante "blitz", très intense.',
+      scores: [
+        { player: 'Alice', score: 295 },
+        { player: 'Bob',   score: 201 },
+        { player: 'Clara', score: 188 },
+        { player: 'Dave',  score: 174 },
+      ],
+    },
+  ];
+  // ══════════════════════════════════════════════════════════
+
+  function fmt(dateStr) {
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' });
+  }
+
+  function gameTagsHtml(games) {
+    return games.map(g =>
+      `<span class="session-game-tag">${g}</span>`
+    ).join('');
+  }
+
+  function buildList() {
+    const tb = document.getElementById('session-list');
+    tb.innerHTML = SESSIONS.map(s => `
+      <tr class="session-row" onclick="showDetail(${s.id})" role="button" tabindex="0"
+          onkeydown="if(event.key==='Enter')showDetail(${s.id})">
+        <td>
+          <span class="session-num">#${String(s.id).padStart(3,'0')}</span>
+        </td>
+        <td style="color:var(--tx-muted); font-size:var(--text-sm); white-space:nowrap">${fmt(s.date)}</td>
+        <td>
+          <div style="display:flex; align-items:center; gap:var(--sp-2)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+            <span style="font-weight:600">${s.players}</span>
+          </div>
+        </td>
+        <td><div class="session-games-wrap">${gameTagsHtml(s.games)}</div></td>
+        <td>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+               stroke-width="2" style="color:var(--tx-faint); margin-left:auto; display:block" aria-hidden="true">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </td>
+      </tr>`).join('');
+  }
+
+  function showDetail(id) {
+    const s = SESSIONS.find(x => x.id === id);
+    if (!s) return;
+
+    document.getElementById('detail-title').textContent = `Session #${String(s.id).padStart(3,'0')}`;
+    document.getElementById('detail-date').textContent  = fmt(s.date);
+
+    document.getElementById('detail-info').innerHTML = [
+      ['Date',       fmt(s.date)],
+      ['Joueurs',    s.players],
+      ['Durée',      s.duration],
+      ['Lieu',       s.location],
+      ['Vainqueur',  s.winner],
+    ].map(([k,v]) => `
+      <div class="dl-row">
+        <dt>${k}</dt>
+        <dd>${v}</dd>
+      </div>`).join('');
+
+    document.getElementById('detail-games').innerHTML = s.games
+      .map(g => `<li class="detail-game-item">
+        <span class="detail-game-dot"></span>${g}
+      </li>`).join('');
+
+    document.getElementById('detail-notes').textContent = s.notes || '—';
+
+    // Scores
+    const existingScores = document.getElementById('detail-scores-card');
+    if (existingScores) existingScores.remove();
+
+    if (s.scores && s.scores.length) {
+      const sorted = [...s.scores].sort((a,b) => b.score - a.score);
+      const max    = sorted[0].score;
+      const card   = document.createElement('div');
+      card.id      = 'detail-scores-card';
+      card.className = 'card detail-card detail-card-full';
+      card.innerHTML = `
+        <div class="detail-card-header">Scores</div>
+        <div class="scores-list">
+          ${sorted.map((sc, i) => `
+            <div class="score-row">
+              <span class="score-rank">${i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i+1}`}</span>
+              <span class="score-name">${sc.player}</span>
+              <div class="score-bar-wrap">
+                <div class="score-bar" style="width:${Math.round(sc.score/max*100)}%"></div>
+              </div>
+              <span class="score-val">${sc.score}</span>
+            </div>`).join('')}
+        </div>`;
+      document.querySelector('.detail-grid').appendChild(card);
+    }
+
+    document.getElementById('view-list').style.display   = 'none';
+    document.getElementById('view-detail').style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function showList() {
+    document.getElementById('view-detail').style.display = 'none';
+    document.getElementById('view-list').style.display   = 'block';
+  }
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  buildList();
+
+  // Theme toggle
+  (function(){
+    const btn  = document.querySelector('[data-theme-toggle]');
+    const root = document.documentElement;
+    let theme  = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+    root.setAttribute('data-theme', theme);
+    const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+    const sun  = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
+    const upd  = () => btn.innerHTML = theme === 'dark' ? sun : moon;
+    upd();
+    btn.addEventListener('click', () => {
+      theme = theme === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', theme);
+      upd();
+    });
+  })();
+  </script>
+</body>
+</html>
