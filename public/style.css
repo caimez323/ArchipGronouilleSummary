@@ -192,13 +192,7 @@ main {
 .btn-ghost:hover { background: oklch(from var(--tx) l c h / .06); color: var(--tx); }
 
 /* ── Card wrapper ────────────────────────────────────────── */
-.card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--r-xl);
-  overflow: hidden;
-  box-shadow: var(--sh-sm);
-}
+
 
 /* ── Game Table ──────────────────────────────────────────── */
 .game-table thead th {
@@ -328,4 +322,28 @@ footer {
 @media (max-width: 640px) {
   main { padding: var(--sp-5) var(--sp-4); }
   .page-header { flex-direction: column; align-items: flex-start; }
+}
+
+/* ── Flat DL (remplace les KPI cards arrondies) ──────────── */
+.flat-dl { display: flex; flex-direction: column; }
+.flat-dl-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-4);
+  padding: var(--sp-3) 0;
+  border-bottom: 1px solid oklch(from var(--tx) l c h / .05);
+}
+.flat-dl-row:last-child { border-bottom: none; }
+.flat-dl-row dt {
+  font-size: var(--text-sm);
+  color: var(--tx-muted);
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.flat-dl-row dd {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--tx);
+  text-align: right;
 }

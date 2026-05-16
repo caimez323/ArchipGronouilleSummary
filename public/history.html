@@ -18,7 +18,7 @@
           <path d="M8 21h8M12 17v4"/>
           <path d="M9 8h1m4 0h1M12 7v1m0 3v1"/>
         </svg>
-        GameTrack
+        GronouilleTracker
       </a>
       <nav aria-label="Navigation principale">
         <ul class="nav-links">
@@ -62,146 +62,62 @@
     <div id="view-detail" style="display:none">
       <div class="page-header">
         <div>
-          <button class="btn btn-ghost" id="btn-back" onclick="showList()">
+          <button class="btn btn-ghost" onclick="showList()">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
               <path d="M19 12H5M12 5l-7 7 7 7"/>
             </svg>
             Retour
           </button>
-          <h1 id="detail-title" style="margin-top: var(--sp-3)"></h1>
-          <p id="detail-date" style="color:var(--tx-muted); font-size:var(--text-sm)"></p>
+          <h1 id="detail-title" style="margin-top:var(--sp-3)"></h1>
+          <p id="detail-subtitle" style="color:var(--tx-muted);font-size:var(--text-sm)"></p>
         </div>
       </div>
 
-      <div class="detail-grid">
-
-        <!-- Infos générales -->
-        <div class="card detail-card">
-          <div class="detail-card-header">Informations</div>
-          <dl class="detail-dl" id="detail-info"></dl>
-        </div>
-
-        <!-- Jeux joués -->
-        <div class="card detail-card">
-          <div class="detail-card-header">Jeux joués</div>
-          <ul class="detail-game-list" id="detail-games"></ul>
-        </div>
-
-        <!-- Notes -->
-        <div class="card detail-card detail-card-full">
-          <div class="detail-card-header">Notes</div>
-          <p class="detail-notes" id="detail-notes"></p>
-        </div>
-
-      </div>
+      <div class="detail-grid" id="detail-grid"></div>
     </div>
 
   </main>
 
-  <footer><p>GameTrack &mdash; <span id="yr"></span></p></footer>
+  <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
 
   <script>
-  // ══════════════════════════════════════════════════════════
-  // DONNÉES — ajoutez vos sessions ici
-  // ══════════════════════════════════════════════════════════
-  const SESSIONS = [
-    {
-      id: 1,
-      date: '2026-05-10',
-      players: 4,
-      games: ['Project Alpha', 'CombatGrid'],
-      winner: 'Équipe A',
-      duration: '3h15',
-      location: 'Salon',
-      notes: 'Première partie de Project Alpha. CombatGrid joué en fin de soirée, partie serrée jusqu\'à la dernière manche.',
-      scores: [
-        { player: 'Alice', score: 142 },
-        { player: 'Bob',   score: 118 },
-        { player: 'Clara', score: 135 },
-        { player: 'Dave',  score: 97  },
-      ],
-    },
-    {
-      id: 2,
-      date: '2026-05-03',
-      players: 3,
-      games: ['DiceMaster'],
-      winner: 'Bob',
-      duration: '2h00',
-      location: 'Salon',
-      notes: 'Session courte. Bob domine dès le départ avec une combinaison de dés exceptionnelle au tour 4.',
-      scores: [
-        { player: 'Alice', score: 88 },
-        { player: 'Bob',   score: 210 },
-        { player: 'Clara', score: 101 },
-      ],
-    },
-    {
-      id: 3,
-      date: '2026-04-19',
-      players: 5,
-      games: ['Project Alpha', 'WorldForge', 'PixelDungeon 2'],
-      winner: '—',
-      duration: '5h30',
-      location: 'Chez Dave',
-      notes: 'Grosse soirée jeux. WorldForge non terminé, à reprendre la prochaine fois. PixelDungeon 2 en mode compétitif.',
-      scores: [],
-    },
-    {
-      id: 4,
-      date: '2026-04-05',
-      players: 2,
-      games: ['CombatGrid'],
-      winner: 'Clara',
-      duration: '1h45',
-      location: 'En ligne',
-      notes: 'Partie en ligne, légère latence. Clara gagne 3-1.',
-      scores: [
-        { player: 'Clara', score: 3 },
-        { player: 'Dave',  score: 1 },
-      ],
-    },
-    {
-      id: 5,
-      date: '2026-03-22',
-      players: 4,
-      games: ['DiceMaster', 'PixelDungeon 2'],
-      winner: 'Alice',
-      duration: '4h00',
-      location: 'Salon',
-      notes: 'Alice enchaîne deux victoires. DiceMaster avec la variante "blitz", très intense.',
-      scores: [
-        { player: 'Alice', score: 295 },
-        { player: 'Bob',   score: 201 },
-        { player: 'Clara', score: 188 },
-        { player: 'Dave',  score: 174 },
-      ],
-    },
-  ];
-  // ══════════════════════════════════════════════════════════
+  let SESSIONS = [];
 
   function fmt(dateStr) {
-    const d = new Date(dateStr + 'T00:00:00');
-    return d.toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' });
+    return new Date(dateStr + 'T00:00:00').toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' });
   }
 
+  function toMinutes(str) {
+    if (!str) return 0;
+    let total = 0;
+    const h = str.match(/(\d+)h/);
+    if (h) total += parseInt(h[1]) * 60;
+    const m = str.match(/h(\d+)/);
+    if (m) total += parseInt(m[1]);
+    return total || (parseInt(str) * 60);
+  }
+
+
   function gameTagsHtml(games) {
-    return games.map(g =>
-      `<span class="session-game-tag">${g}</span>`
-    ).join('');
+    return games.map(g => `<span class="session-game-tag">${g}</span>`).join('');
   }
 
   function buildList() {
     const tb = document.getElementById('session-list');
+    if (!SESSIONS.length) {
+      tb.innerHTML = `<tr><td colspan="5"><div class="empty">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <h3>Aucune session</h3><p>Ajoutez des entrées dans history.json.</p>
+      </div></td></tr>`;
+      return;
+    }
     tb.innerHTML = SESSIONS.map(s => `
       <tr class="session-row" onclick="showDetail(${s.id})" role="button" tabindex="0"
           onkeydown="if(event.key==='Enter')showDetail(${s.id})">
+        <td><span class="session-num">#${String(s.id).padStart(3,'0')}</span></td>
+        <td style="color:var(--tx-muted);font-size:var(--text-sm);white-space:nowrap">${fmt(s.date)}</td>
         <td>
-          <span class="session-num">#${String(s.id).padStart(3,'0')}</span>
-        </td>
-        <td style="color:var(--tx-muted); font-size:var(--text-sm); white-space:nowrap">${fmt(s.date)}</td>
-        <td>
-          <div style="display:flex; align-items:center; gap:var(--sp-2)">
+          <div style="display:flex;align-items:center;gap:var(--sp-2)">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
               <circle cx="9" cy="7" r="4"/>
@@ -210,10 +126,10 @@
             <span style="font-weight:600">${s.players}</span>
           </div>
         </td>
-        <td><div class="session-games-wrap">${gameTagsHtml(s.games)}</div></td>
+        <td><div class="session-games-wrap">${Array.isArray(s.games) ? s.games.join('; ') : (s.games || '')}</div></td>
         <td>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-               stroke-width="2" style="color:var(--tx-faint); margin-left:auto; display:block" aria-hidden="true">
+               stroke-width="2" style="color:var(--tx-faint);margin-left:auto;display:block" aria-hidden="true">
             <path d="M9 18l6-6-6-6"/>
           </svg>
         </td>
@@ -224,53 +140,90 @@
     const s = SESSIONS.find(x => x.id === id);
     if (!s) return;
 
-    document.getElementById('detail-title').textContent = `Session #${String(s.id).padStart(3,'0')}`;
-    document.getElementById('detail-date').textContent  = fmt(s.date);
+    document.getElementById('detail-title').textContent    = `Session #${String(s.id).padStart(3,'0')}`;
+    document.getElementById('detail-subtitle').textContent = fmt(s.date) + (s.seed ? `  ·  Seed : ${s.seed}` : '');
 
-    document.getElementById('detail-info').innerHTML = [
-      ['Date',       fmt(s.date)],
-      ['Joueurs',    s.players],
-      ['Durée',      s.duration],
-      ['Lieu',       s.location],
-      ['Vainqueur',  s.winner],
-    ].map(([k,v]) => `
-      <div class="dl-row">
-        <dt>${k}</dt>
-        <dd>${v}</dd>
-      </div>`).join('');
+    const summary = s.summary || [];
+    const durations  = summary.map(p => toMinutes(p['Temps de completion']));
+    const totalMorts  = summary.reduce((acc, p) => acc + (p['Nombre de morts'] || 0), 0);
+    const mostDeaths  = summary.length ? summary.reduce((a,b) => a['Nombre de morts'] > b['Nombre de morts'] ? a : b) : null;
+    const leastDeaths = summary.length ? summary.reduce((a,b) => a['Nombre de morts'] < b['Nombre de morts'] ? a : b) : null;
+    const maxDeaths   = mostDeaths ? mostDeaths['Nombre de morts'] : 1;
 
-    document.getElementById('detail-games').innerHTML = s.games
-      .map(g => `<li class="detail-game-item">
-        <span class="detail-game-dot"></span>${g}
-      </li>`).join('');
+    const grid = document.getElementById('detail-grid');
+    grid.innerHTML = '';
 
-    document.getElementById('detail-notes').textContent = s.notes || '—';
+    // ── GLOBAL ──
+    const cardGlobal = document.createElement('div');
+    cardGlobal.className = 'card detail-card detail-card-full';
+    cardGlobal.innerHTML = `
+      <div class="detail-card-header detail-card-header-section">
+        <h2>Détails de la session</h2>
+      </div>
+      <div class="detail-section-body">
 
-    // Scores
-    const existingScores = document.getElementById('detail-scores-card');
-    if (existingScores) existingScores.remove();
+        <dl class="flat-dl">
+          <div class="flat-dl-row">
+            <dt>Date</dt><dd>${fmt(s.date)}</dd>
+          </div>
+          <div class="flat-dl-row">
+            <dt>Durée de la session</dt><dd>20h</dd>
+          </div>
+          <div class="flat-dl-row">
+            <dt>Joueurs</dt><dd>${s.players}</dd>
+          </div>
+          ${s.seed ? `<div class="flat-dl-row"><dt>Seed</dt><dd class="kpi-mono">${s.seed}</dd></div>` : ''}
+        </dl>
 
-    if (s.scores && s.scores.length) {
-      const sorted = [...s.scores].sort((a,b) => b.score - a.score);
-      const max    = sorted[0].score;
-      const card   = document.createElement('div');
-      card.id      = 'detail-scores-card';
-      card.className = 'card detail-card detail-card-full';
-      card.innerHTML = `
-        <div class="detail-card-header">Scores</div>
-        <div class="scores-list">
-          ${sorted.map((sc, i) => `
-            <div class="score-row">
-              <span class="score-rank">${i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `#${i+1}`}</span>
-              <span class="score-name">${sc.player}</span>
-              <div class="score-bar-wrap">
-                <div class="score-bar" style="width:${Math.round(sc.score/max*100)}%"></div>
-              </div>
-              <span class="score-val">${sc.score}</span>
-            </div>`).join('')}
-        </div>`;
-      document.querySelector('.detail-grid').appendChild(card);
-    }
+        <br>
+        <h2 class="detail-sub-header">Résumé des performances</h2>
+        <table class="game-table">
+          <thead>
+            <tr>
+              <th>Joueur</th>
+              <th>Jeu</th>
+              <th>Durée</th>
+              <th>Objectif</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${summary.map(p => `
+              <tr>
+                <td style="font-weight:600">${p.player}</td>
+                <td>${p['Jeu']}</td>
+                <td style="font-variant-numeric:tabular-nums">${p['Temps de completion']}</td>
+                <td>${p['Objectif'] || '—'}</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>`;
+    grid.appendChild(cardGlobal);
+
+    // ── MORTS ──
+    const cardMorts = document.createElement('div');
+    cardMorts.className = 'card detail-card detail-card-full';
+    cardMorts.innerHTML = `
+
+      <div class="detail-section-body">
+        <br>
+        <h2 class="detail-sub-header">DeathLink</h2>
+        <dl class="flat-dl">
+          <div class="flat-dl-row flat-dl-danger">
+            <dt>Plus de morts</dt>
+            <dd>${mostDeaths ? `${mostDeaths.player} : ${mostDeaths['Nombre de morts']}` : '—'}</dd>
+          </div>
+          <div class="flat-dl-row flat-dl-success">
+            <dt>Moins de morts</dt>
+            <dd>${leastDeaths ? `${leastDeaths.player} : ${leastDeaths['Nombre de morts']}` : '—'}</dd>
+          </div>
+          <div class="flat-dl-row">
+            <dt>Total</dt>
+            <dd>${totalMorts}</dd>
+          </div>
+        </dl>
+
+      </div>`;
+    grid.appendChild(cardMorts);
 
     document.getElementById('view-list').style.display   = 'none';
     document.getElementById('view-detail').style.display = 'block';
@@ -282,8 +235,20 @@
     document.getElementById('view-list').style.display   = 'block';
   }
 
+  async function loadSessions() {
+    try {
+      const res = await fetch('./history.json');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      SESSIONS = await res.json();
+    } catch (err) {
+      console.error('Impossible de charger history.json :', err);
+      SESSIONS = [];
+    }
+    buildList();
+  }
+
   document.getElementById('yr').textContent = new Date().getFullYear();
-  buildList();
+  loadSessions();
 
   // Theme toggle
   (function(){
