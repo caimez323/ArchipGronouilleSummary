@@ -1,0 +1,650 @@
+[
+  {
+    "name": "Adventure",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Adventure/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Adventure/info/en",
+    "apworld": "https://archipelago.gg/games/Adventure/player-options"
+  },
+  {
+    "name": "APQuest",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/APQuest/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/APQuest/info/en",
+    "apworld": "https://archipelago.gg/games/APQuest/player-options"
+  },
+  {
+    "name": "Aquaria",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Aquaria/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Aquaria/info/en",
+    "apworld": "https://archipelago.gg/games/Aquaria/player-options"
+  },
+  {
+    "name": "Blasphemous",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Blasphemous/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Blasphemous/info/en",
+    "apworld": "https://archipelago.gg/games/Blasphemous/player-options"
+  },
+  {
+    "name": "Bomb Rush Cyberfunk",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Bomb%20Rush%20Cyberfunk/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/info/en",
+    "apworld": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/player-options"
+  },
+  {
+    "name": "Bumper Stickers",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Bumper%20Stickers/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Bumper%20Stickers/info/en",
+    "apworld": "https://archipelago.gg/games/Bumper%20Stickers/player-options"
+  },
+  {
+    "name": "Castlevania - Circle of the Moon",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Castlevania%20-%20Circle%20of%20the%20Moon/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/info/en",
+    "apworld": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/player-options"
+  },
+  {
+    "name": "Castlevania 64",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Castlevania%2064/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Castlevania%2064/info/en",
+    "apworld": "https://archipelago.gg/games/Castlevania%2064/player-options"
+  },
+  {
+    "name": "Celeste (Open World)",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Celeste%20(Open%20World)/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Celeste%20(Open%20World)/info/en",
+    "apworld": "https://archipelago.gg/games/Celeste%20(Open%20World)/player-options"
+  },
+  {
+    "name": "Celeste 64",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Celeste%2064/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Celeste%2064/info/en",
+    "apworld": "https://archipelago.gg/games/Celeste%2064/player-options"
+  },
+  {
+    "name": "ChecksFinder",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/ChecksFinder/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/ChecksFinder/info/en",
+    "apworld": "https://archipelago.gg/games/ChecksFinder/player-options"
+  },
+  {
+    "name": "Choo-Choo Charles",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Choo-Choo%20Charles/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Choo-Choo%20Charles/info/en",
+    "apworld": "https://archipelago.gg/games/Choo-Choo%20Charles/player-options"
+  },
+  {
+    "name": "Civilization VI",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Civilization%20VI/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Civilization%20VI/info/en",
+    "apworld": "https://archipelago.gg/games/Civilization%20VI/player-options"
+  },
+  {
+    "name": "Dark Souls III",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Dark%20Souls%20III/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Dark%20Souls%20III/info/en",
+    "apworld": "https://archipelago.gg/games/Dark%20Souls%20III/player-options"
+  },
+  {
+    "name": "DLCQuest",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/DLCQuest/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/DLCQuest/info/en",
+    "apworld": "https://archipelago.gg/games/DLCQuest/player-options"
+  },
+  {
+    "name": "Donkey Kong Country 3",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Donkey%20Kong%20Country%203/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Donkey%20Kong%20Country%203/info/en",
+    "apworld": "https://archipelago.gg/games/Donkey%20Kong%20Country%203/player-options"
+  },
+  {
+    "name": "DOOM 1993",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/DOOM%201993/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/DOOM%201993/info/en",
+    "apworld": "https://archipelago.gg/games/DOOM%201993/player-options"
+  },
+  {
+    "name": "DOOM II",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/DOOM%20II/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/DOOM%20II/info/en",
+    "apworld": "https://archipelago.gg/games/DOOM%20II/player-options"
+  },
+  {
+    "name": "EarthBound",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/EarthBound/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/EarthBound/info/en",
+    "apworld": "https://archipelago.gg/games/EarthBound/player-options"
+  },
+  {
+    "name": "Factorio",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Factorio/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Factorio/info/en",
+    "apworld": "https://archipelago.gg/games/Factorio/player-options"
+  },
+  {
+    "name": "Faxanadu",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Faxanadu/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Faxanadu/info/en",
+    "apworld": "https://archipelago.gg/games/Faxanadu/player-options"
+  },
+  {
+    "name": "Final Fantasy",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Final%20Fantasy/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Final%20Fantasy/info/en",
+    "apworld": "https://archipelago.gg/games/Final%20Fantasy/player-options"
+  },
+  {
+    "name": "Final Fantasy Mystic Quest",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Final%20Fantasy%20Mystic%20Quest/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/info/en",
+    "apworld": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/player-options"
+  },
+  {
+    "name": "A Hat in Time",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/A%20Hat%20in%20Time/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Hat%20in%20Time/player-options"
+  },
+  {
+    "name": "Heretic",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Heretic/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Heretic/info/en",
+    "apworld": "https://archipelago.gg/games/Heretic/player-options"
+  },
+  {
+    "name": "Hollow Knight",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Hollow%20Knight/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Hollow%20Knight/info/en",
+    "apworld": "https://archipelago.gg/games/Hollow%20Knight/player-options"
+  },
+  {
+    "name": "Hylics 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Hylics%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Hylics%202/info/en",
+    "apworld": "https://archipelago.gg/games/Hylics%202/player-options"
+  },
+  {
+    "name": "Inscryption",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Inscryption/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Inscryption/info/en",
+    "apworld": "https://archipelago.gg/games/Inscryption/player-options"
+  },
+  {
+    "name": "Jak and Daxter: The Precursor Legacy",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/info/en",
+    "apworld": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/player-options"
+  },
+  {
+    "name": "Kingdom Hearts",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Kingdom%20Hearts/info/en",
+    "apworld": "https://archipelago.gg/games/Kingdom%20Hearts/player-options"
+  },
+  {
+    "name": "Kingdom Hearts 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Kingdom%20Hearts%202/info/en",
+    "apworld": "https://archipelago.gg/games/Kingdom%20Hearts%202/player-options"
+  },
+  {
+    "name": "Kirby's Dream Land 3",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Kirby's%20Dream%20Land%203/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/info/en",
+    "apworld": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/player-options"
+  },
+  {
+    "name": "Landstalker - The Treasures of King Nole",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/info/en",
+    "apworld": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/player-options"
+  },
+  {
+    "name": "The Legend of Zelda",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/player-options"
+  },
+  {
+    "name": "Lingo",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Lingo/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Lingo/info/en",
+    "apworld": "https://archipelago.gg/games/Lingo/player-options"
+  },
+  {
+    "name": "A Link to the Past",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Link%20to%20the%20Past/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/player-options"
+  },
+  {
+    "name": "Links Awakening DX",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Links%20Awakening%20DX/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Links%20Awakening%20DX/info/en",
+    "apworld": "https://archipelago.gg/games/Links%20Awakening%20DX/player-options"
+  },
+  {
+    "name": "Lufia II Ancient Cave",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Lufia%20II%20Ancient%20Cave/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Lufia%20II%20Ancient%20Cave/info/en",
+    "apworld": "https://archipelago.gg/games/Lufia%20II%20Ancient%20Cave/player-options"
+  },
+  {
+    "name": "Mario & Luigi Superstar Saga",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Mario%20&%20Luigi%20Superstar%20Saga/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/info/en",
+    "apworld": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/player-options"
+  },
+  {
+    "name": "Mega Man 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Mega%20Man%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Mega%20Man%202/info/en",
+    "apworld": "https://archipelago.gg/games/Mega%20Man%202/player-options"
+  },
+  {
+    "name": "Mega Man 3",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Mega%20Man%203/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Mega%20Man%203/info/en",
+    "apworld": "https://archipelago.gg/games/Mega%20Man%203/player-options"
+  },
+  {
+    "name": "MegaMan Battle Network 3",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/MegaMan%20Battle%20Network%203/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/MegaMan%20Battle%20Network%203/info/en",
+    "apworld": "https://archipelago.gg/games/MegaMan%20Battle%20Network%203/player-options"
+  },
+  {
+    "name": "Meritous",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Meritous/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Meritous/info/en",
+    "apworld": "https://archipelago.gg/games/Meritous/player-options"
+  },
+  {
+    "name": "The Messenger",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Messenger/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/The%20Messenger/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
+  },
+  {
+    "name": "Muse Dash",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Muse%20Dash/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Muse%20Dash/info/en",
+    "apworld": "https://archipelago.gg/games/Muse%20Dash/player-options"
+  },
+  {
+    "name": "Noita",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Noita/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Noita/info/en",
+    "apworld": "https://archipelago.gg/games/Noita/player-options"
+  },
+  {
+    "name": "Ocarina of Time",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Ocarina%20of%20Time/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
+    "apworld": "https://archipelago.gg/games/Ocarina%20of%20Time/player-options"
+  },
+  {
+    "name": "Old School Runescape",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Old%20School%20Runescape/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Old%20School%20Runescape/info/en",
+    "apworld": "https://archipelago.gg/games/Old%20School%20Runescape/player-options"
+  },
+  {
+    "name": "Overcooked! 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Overcooked!%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Overcooked!%202/info/en",
+    "apworld": "https://archipelago.gg/games/Overcooked!%202/player-options"
+  },
+  {
+    "name": "Paint",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Paint/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Paint/info/en",
+    "apworld": "https://archipelago.gg/games/Paint/player-options"
+  },
+  {
+    "name": "Pokemon Emerald",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Pokemon%20Emerald/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Pokemon%20Emerald/info/en",
+    "apworld": "https://archipelago.gg/games/Pokemon%20Emerald/player-options"
+  },
+  {
+    "name": "Pokemon Red and Blue",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Pokemon%20Red%20and%20Blue/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/info/en",
+    "apworld": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/player-options"
+  },
+  {
+    "name": "Raft",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Raft/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Raft/info/en",
+    "apworld": "https://archipelago.gg/games/Raft/player-options"
+  },
+  {
+    "name": "Risk of Rain 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Risk%20of%20Rain%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
+    "apworld": "https://archipelago.gg/games/Risk%20of%20Rain%202/player-options"
+  },
+  {
+    "name": "Satisfactory",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Satisfactory/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Satisfactory/info/en",
+    "apworld": "https://archipelago.gg/games/Satisfactory/player-options"
+  },
+  {
+    "name": "Saving Princess",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Saving%20Princess/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Saving%20Princess/info/en",
+    "apworld": "https://archipelago.gg/games/Saving%20Princess/player-options"
+  },
+  {
+    "name": "Secret of Evermore",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Secret%20of%20Evermore/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Secret%20of%20Evermore/info/en",
+    "apworld": "https://archipelago.gg/games/Secret%20of%20Evermore/player-options"
+  },
+  {
+    "name": "shapez",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/shapez/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/shapez/info/en",
+    "apworld": "https://archipelago.gg/games/shapez/player-options"
+  },
+  {
+    "name": "Shivers",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Shivers/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Shivers/info/en",
+    "apworld": "https://archipelago.gg/games/Shivers/player-options"
+  },
+  {
+    "name": "A Short Hike",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Short%20Hike/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/A%20Short%20Hike/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
+  },
+  {
+    "name": "SMZ3",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/SMZ3/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/SMZ3/info/en",
+    "apworld": "https://archipelago.gg/games/SMZ3/player-options"
+  },
+  {
+    "name": "Sonic Adventure 2 Battle",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Sonic%20Adventure%202%20Battle/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/info/en",
+    "apworld": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/player-options"
+  },
+  {
+    "name": "Starcraft 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Starcraft%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Starcraft%202/info/en",
+    "apworld": "https://archipelago.gg/games/Starcraft%202/player-options"
+  },
+  {
+    "name": "Stardew Valley",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Stardew%20Valley/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Stardew%20Valley/info/en",
+    "apworld": "https://archipelago.gg/games/Stardew%20Valley/player-options"
+  },
+  {
+    "name": "Subnautica",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Subnautica/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Subnautica/info/en",
+    "apworld": "https://archipelago.gg/games/Subnautica/player-options"
+  },
+  {
+    "name": "Super Mario 64",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Super%20Mario%2064/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Super%20Mario%2064/info/en",
+    "apworld": "https://archipelago.gg/games/Super%20Mario%2064/player-options"
+  },
+  {
+    "name": "Super Mario Land 2",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Super%20Mario%20Land%202/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Super%20Mario%20Land%202/info/en",
+    "apworld": "https://archipelago.gg/games/Super%20Mario%20Land%202/player-options"
+  },
+  {
+    "name": "Super Mario World",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Super%20Mario%20World/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Super%20Mario%20World/info/en",
+    "apworld": "https://archipelago.gg/games/Super%20Mario%20World/player-options"
+  },
+  {
+    "name": "Super Metroid",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Super%20Metroid/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Super%20Metroid/info/en",
+    "apworld": "https://archipelago.gg/games/Super%20Metroid/player-options"
+  },
+  {
+    "name": "Terraria",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Terraria/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Terraria/info/en",
+    "apworld": "https://archipelago.gg/games/Terraria/player-options"
+  },
+  {
+    "name": "Timespinner",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Timespinner/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Timespinner/info/en",
+    "apworld": "https://archipelago.gg/games/Timespinner/player-options"
+  },
+  {
+    "name": "TUNIC",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/TUNIC/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/TUNIC/info/en",
+    "apworld": "https://archipelago.gg/games/TUNIC/player-options"
+  },
+  {
+    "name": "Undertale",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Undertale/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Undertale/info/en",
+    "apworld": "https://archipelago.gg/games/Undertale/player-options"
+  },
+  {
+    "name": "VVVVVV",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/VVVVVV/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/VVVVVV/info/en",
+    "apworld": "https://archipelago.gg/games/VVVVVV/player-options"
+  },
+  {
+    "name": "Wargroove",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Wargroove/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Wargroove/info/en",
+    "apworld": "https://archipelago.gg/games/Wargroove/player-options"
+  },
+  {
+    "name": "The Wind Waker",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Wind%20Waker/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/The%20Wind%20Waker/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Wind%20Waker/player-options"
+  },
+  {
+    "name": "The Witness",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Witness/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/The%20Witness/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Witness/player-options"
+  },
+  {
+    "name": "Yacht Dice",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Yacht%20Dice/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Yacht%20Dice/info/en",
+    "apworld": "https://archipelago.gg/games/Yacht%20Dice/player-options"
+  },
+  {
+    "name": "Yoshi's Island",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Yoshi's%20Island/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Yoshi's%20Island/info/en",
+    "apworld": "https://archipelago.gg/games/Yoshi's%20Island/player-options"
+  },
+  {
+    "name": "Yu-Gi-Oh! 2006",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Yu-Gi-Oh!%202006/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/info/en",
+    "apworld": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/player-options"
+  },
+  {
+    "name": "Zillion",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Zillion/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Zillion/info/en",
+    "apworld": "https://archipelago.gg/games/Zillion/player-options"
+  }
+]

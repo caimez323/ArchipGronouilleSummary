@@ -30,8 +30,8 @@
   <main>
     <div class="page-header">
       <div>
-        <h1>Jeux dispo</h1>
-        <p>Accédez à l'architecture, au world et au tracker de chaque jeu.</p>
+        <h1>Jeux disponibles</h1>
+        <p>Accédez aux infos, aux yaml et au tracker de chaque jeu.</p>
       </div>
     </div>
 
@@ -62,21 +62,25 @@
 
   <script>
   // JEUX DISPONIBLES
-  // Officiel 🐢
-  // Non officiel ⚙️
-  const games = [
-    { name:'Project Alpha',  genre:'RPG Tour par tour',    icon:'🐢',
-      archi:'https://example.com', aworld:'https://example.com', tracker:'https://example.com' },
-    { name:'DiceMaster',     genre:'Stratégie',            icon:'🐢',
-      archi:'https://example.com', aworld:'',                    tracker:'https://example.com' },
-    { name:'WorldForge',     genre:'Simulation / Sandbox', icon:'⚙️',
-      archi:'',                    aworld:'https://example.com', tracker:'' },
-    { name:'CombatGrid',     genre:'Tactique',             icon:'⚔️',
-      archi:'https://example.com', aworld:'https://example.com', tracker:'https://example.com' },
-    { name:'PixelDungeon 2', genre:'Roguelike',            icon:'🏰',
-      archi:'https://example.com', aworld:'',                    tracker:'https://example.com' },
-  ];
-  // ─────────────────────────────────────────────────────────
+  let games = [];
+
+  async function loadGames() {
+    try {
+      const response = await fetch('./gameList.json');
+      if (!response.ok) throw new Error('Failed to load game list');
+      games = await response.json();
+      render(games);
+    } catch (err) {
+      const tb = document.getElementById('game-list');
+      tb.innerHTML = `<tr><td colspan="2">
+        <div class="empty">
+          <h3>Impossible de charger la liste des jeux</h3>
+          <p>Vérifiez la connexion ou réessayez plus tard.</p>
+        </div>
+      </td></tr>`;
+      console.error(err);
+    }
+  }
 
   function chip(href, label, cls) {
     return href
@@ -105,16 +109,15 @@
             <div class="game-icon">${g.icon}</div>
             <div>
               <div class="game-name">${g.name}</div>
-              <div class="game-genre">${g.genre}</div>
             </div>
           </div>
-        </td>
         <td>
-          <div class="link-chips">
-            ${chip(g.archi,   'ARCHI',   'archi'  )}
-            ${chip(g.aworld,  'AWORLD',  'aworld' )}
+        <div class="link-chips">
+            ${chip(g.setup,   'SETUP',   'setup'  )}
+            ${chip(g.apworld,  'APWORLD', 'apworld' )}
             ${chip(g.tracker, 'TRACKER', 'tracker')}
-          </div>
+            ${chip(g.info,    'INFO',    'info'   )}
+        </div>
         </td>
       </tr>`).join('');
   }
@@ -125,7 +128,7 @@
   });
 
   document.getElementById('yr').textContent = new Date().getFullYear();
-  render(games);
+  loadGames();
 
   // Theme toggle
   (function(){

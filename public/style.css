@@ -235,10 +235,9 @@ main {
   border: 1px solid transparent;
   letter-spacing: .02em;
 }
-.chip-archi   { background: oklch(from var(--blue) l c h / .1); color: var(--blue); border-color: oklch(from var(--blue) l c h / .22); }
-.chip-archi:hover   { background: oklch(from var(--blue) l c h / .18); }
-.chip-aworld  { background: oklch(from var(--ok) l c h / .1); color: var(--ok); border-color: oklch(from var(--ok) l c h / .22); }
-.chip-aworld:hover  { background: oklch(from var(--ok) l c h / .18); }
+
+.chip-apworld  { background: oklch(from var(--ok) l c h / .1); color: var(--ok); border-color: oklch(from var(--ok) l c h / .22); }
+.chip-apworld:hover  { background: oklch(from var(--ok) l c h / .18); }
 .chip-tracker { background: oklch(from var(--warn) l c h / .1); color: var(--warn); border-color: oklch(from var(--warn) l c h / .22); }
 .chip-tracker:hover { background: oklch(from var(--warn) l c h / .18); }
 .chip-empty {
@@ -246,7 +245,10 @@ main {
   background: transparent; color: var(--tx-faint);
   border-color: oklch(from var(--tx) l c h / .1);
 }
-
+.chip-setup  { background: oklch(from var(--accent) l c h / .1); color: var(--accent); border-color: oklch(from var(--accent) l c h / .22); }
+.chip-setup:hover  { background: oklch(from var(--accent) l c h / .18); }
+.chip-info   { background: oklch(from var(--purple, #7a39bb) l c h / .1); color: var(--purple, #7a39bb); border-color: oklch(from var(--purple, #7a39bb) l c h / .22); }
+.chip-info:hover   { background: oklch(from var(--purple, #7a39bb) l c h / .18); }
 /* Empty state */
 .empty {
   text-align: center; padding: var(--sp-16) var(--sp-8);
