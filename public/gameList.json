@@ -192,6 +192,14 @@
     "apworld": "https://archipelago.gg/games/Dark%20Souls%20III/player-options"
   },
   {
+    "name": "Dead Cells (BETA)",
+    "icon": "⚙️",
+    "setup": "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/latest",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/latest"
+  },
+  {
     "name": "Deltarune",
     "icon": "⚙️",
     "setup": "",
