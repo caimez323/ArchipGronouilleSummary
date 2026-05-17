@@ -416,6 +416,14 @@
     "apworld": "https://archipelago.gg/games/Lingo/player-options"
   },
   {
+    "name": "Lies of P",
+    "icon": "🔧",
+    "setup": "https://github.com/Xtruh/LiesOfAP?tab=readme-ov-file#mod-installation",
+    "tracker": "https://github.com/CaFlavien/Lies-of-P-Poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Xtruh/LiesOfAP/releases/latest"
+  },
+  {
     "name": "Lufia II Ancient Cave",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Lufia%20II%20Ancient%20Cave/setup/en",
