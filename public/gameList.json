@@ -992,6 +992,14 @@
     "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
   },
   {
+    "name": "Zelda : Phantom Hourglass",
+    "icon": "🔧",
+    "setup": "https://github.com/carrotinator/Archipelago/blob/main/worlds/tloz_ph/docs/setup.md",
+    "tracker": "https://github.com/ZobeePlays/PH-AP-Item-Tracker/tree/main",
+    "info": "https://github.com/carrotinator/Archipelago/wiki",
+    "apworld": "https://github.com/carrotinator/Archipelago/releases/latest"
+  },
+  {
     "name": "Zelda : Spirit Tracks",
     "icon": "🔧",
     "setup": "https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md",
