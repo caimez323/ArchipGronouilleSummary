@@ -992,6 +992,14 @@
     "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
   },
   {
+    "name": "Zelda : Spirit Tracks",
+    "icon": "🔧",
+    "setup": "https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md",
+    "tracker": "https://github.com/carrotinator/spirit-tracks-poptracker-ap/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/DayKat/spirit-tracks/releases/latest"
+  },
+  {
     "name": "Zelda : The Legend of Zelda (NES)",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/multiworld_en",
