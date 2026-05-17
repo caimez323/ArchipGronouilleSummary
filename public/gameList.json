@@ -656,6 +656,14 @@
     "apworld": "https://archipelago.gg/games/Raft/player-options"
   },
   {
+    "name": "Ratchet et Clank 3 : Up Your Arsenal",
+    "icon": "🔧",
+    "setup": "https://github.com/Taoshix/Archipelago-RaC3/tree/staging/worlds/rac3/docs/setup_en.md",
+    "tracker": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/latest",
+    "info": "https://archipelago.miraheze.org/wiki/Ratchet_%26_Clank_3",
+    "apworld": "https://github.com/Taoshix/Archipelago-RaC3/releases/latest"
+  },
+  {
     "name": "Risk of Rain 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Risk%20of%20Rain%202/setup/en",
