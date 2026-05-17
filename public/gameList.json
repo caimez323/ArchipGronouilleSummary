@@ -634,7 +634,7 @@
   {
     "name": "Pokemon Rouge Feu et Vert Feuille",
     "icon": "⚙️",
-    "setup": "",
+    "setup": "https://github.com/vyneras/Archipelago/blob/frlg-stable/worlds/pokemon_frlg/docs/setup_en.md",
     "tracker": "https://github.com/vyneras/pokemon-frlg-tracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/vyneras/Archipelago/releases/latest"
