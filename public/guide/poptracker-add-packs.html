@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Installer PopTracker — GronouilleTracker</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .guide-content { max-width: var(--content-narrow); }
+
+    /* Texte */
+    .guide-p {
+      font-size: var(--text-base);
+      color: var(--tx-muted);
+      line-height: 1.75;
+      margin-bottom: var(--sp-4);
+    }
+    .guide-p:last-child { margin-bottom: 0; }
+
+    /* Bloc image */
+    .guide-img-block {
+      margin: var(--sp-6) 0;
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      overflow: hidden;
+      background: var(--surface-off);
+    }
+    .guide-img-block img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .guide-img-caption {
+      padding: var(--sp-3) var(--sp-4);
+      font-size: var(--text-xs);
+      color: var(--tx-muted);
+      border-top: 1px solid var(--border);
+      font-style: italic;
+    }
+
+    /* Note / callout */
+    .guide-note {
+      display: flex;
+      gap: var(--sp-3);
+      padding: var(--sp-4) var(--sp-5);
+      background: oklch(from var(--accent) l c h / .07);
+      border: 1px solid oklch(from var(--accent) l c h / .2);
+      border-radius: var(--r-md);
+      margin: var(--sp-5) 0;
+    }
+    .guide-note-icon { font-size: 1rem; flex-shrink: 0; margin-top: 2px; }
+    .guide-note-text { font-size: var(--text-sm); color: var(--tx); line-height: 1.65; }
+
+    /* Code inline */
+    .guide-code {
+      font-family: monospace;
+      font-size: .9em;
+      background: var(--surface-off);
+      border: 1px solid var(--border);
+      border-radius: var(--r-sm);
+      padding: 1px 6px;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="../index.html" class="nav-logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <path d="M8 21h8M12 17v4"/>
+          <path d="M9 8h1m4 0h1M12 7v1m0 3v1"/>
+        </svg>
+        GronouilleTracker
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="../index.html">Jeux</a></li>
+          <li><a href="../matrix.html">Matrice</a></li>
+          <li><a href="../history.html">Historique</a></li>
+          <li><a href="../guide.html" class="active">Guide</a></li>
+        </ul>
+      </nav>
+      <button class="theme-btn" data-theme-toggle aria-label="Basculer le thème"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div>
+        <a href="../guide.html" class="btn btn-ghost" style="margin-bottom:var(--sp-3);display:inline-flex">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path d="M19 12H5M12 5l-7 7 7 7"/>
+          </svg>
+          Retour aux guides
+        </a>
+        <h1>Installer un pack et le lancer</h1>
+        <p style="color:var(--tx-muted);font-size:var(--text-sm);margin-top:var(--sp-2)">
+          Guide complet pour installer et configurer PopTracker ainsi que les packs de suivi.
+        </p>
+      </div>
+    </div>
+
+    <div class="guide-content">
+      
+      <h2>Introduction</h2>
+        <p class="guide-p">
+          PopTracker est un logiciel de suivi de progression utilisé en multiworld Archipelago.
+          Il permet de visualiser les items collectés, les checks effectués et l'avancement global d'une partie.
+        </p>
+
+        <p class="guide-p">
+          Chaque jeu dispose d'un pack spécifique à télécharger séparément. Ce guide explique comment ajouter le pack du jeu qui vous intéresse.
+        </p>
+        <div class="guide-note">
+          <span class="guide-note-icon">💡</span>
+          <span class="guide-note-text">
+            Pour certains jeux, il existe plusieurs popTracker, j'ai essayé de mettre le plus à jour. Il existe aussi d'autres trackeurs, parfois in game, parfois web en fonction des jeux. Généralement je favorise le poptracker.
+          </span>
+        </div>
+
+        <h2>Installation</h2>
+
+        <p class="guide-p">
+          Les packs sont des fichiers <code class="guide-code">.zip</code> à placer dans un dossier précis.
+          PopTracker les détecte automatiquement au démarrage.
+        </p>
+
+        <div class="guide-steps">
+          <div class="guide-step">
+            <div class="step-body">
+              <div class="step-title">Télécharger le pack</div>
+              <div class="step-desc">
+                Va sur la page d'acceuil du site, clique sur le bouton <strong>TRACKER</strong> pour
+                accéder à la page de téléchargement du pack correspondant.
+              </div>
+              <div class="guide-note">
+            <span class="guide-note-icon">💡</span>
+            <span class="guide-note-text">
+                Si un jeu n'a pas de pack, c'est soit qu'il est in-game, soit pas existant. Rejoins le <a href="https://discord.gg/archipelago" target="_blank" rel="noopener noreferrer">discord</a> pour plus d'infos.
+            </span>
+          </div>
+          <div class="guide-step">
+            <div class="step-body">
+              <div class="step-desc">
+                Copie le fichier <code class="guide-code">.zip</code> dans le dossier
+                <code class="guide-code">packs/</code> situé à côté de l'exécutable PopTracker.
+                <strong>PAS BESOIN DE DECOMPRESSER</strong> — PopTracker lit directement le <code class="guide-code">.zip</code>.
+              </div>
+            </div>
+          </div>
+          <div class="guide-step">
+            <div class="step-body">
+              <div class="step-desc">
+                Sélectionner le pack dans PopTracker en haut à gauche
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-img-block">
+          <img src="../assets/poptracker-pack-select.png"
+               alt="Sélection d'un pack dans PopTracker"
+               width="640" height="360"
+               loading="lazy"
+               onerror="this.parentElement.style.display='none'" />
+          <div class="guide-img-caption">Le menu déroulant de sélection du pack dans PopTracker.</div>
+        </div>
+
+        <div class="guide-note">
+          <span class="guide-note-icon">⚠️</span>
+          <span class="guide-note-text">
+            Si ça ne marche pas, vérifie l'architecture : <code class="guide-code">./packs/MONPACK.zip/doc,images,items,....</code> et pas un sous dossier.
+          </span>
+        </div>
+
+        <h2>Connexion</h2>
+
+        <p class="guide-p">
+          Une fois le pack chargé, tu peux connecter PopTracker à la partie Archipelago pour
+          que les checks se cochent automatiquement.
+        </p>
+
+        <div class="guide-steps">
+          <div class="guide-step">
+            <div class="step-body">
+              <div class="step-desc">
+                Ouvre les paramètres de connexion en cliquant sur l'icône de prise/connexion en haut de PopTracker pour ouvrir le popup de connexion.
+              </div>
+            </div>
+          </div>
+          <div class="guide-step">
+            <div class="step-body">
+              <div class="step-desc">
+                Renseigne l'adresse du serveur (ex. <code class="guide-code">archipelago.gg:38281</code>),
+                ton nom de joueur et le mot de passe si nécessaire.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+  </main>
+
+  <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
+
+  <script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  (function(){
+    const btn  = document.querySelector('[data-theme-toggle]');
+    const root = document.documentElement;
+    let theme  = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+    root.setAttribute('data-theme', theme);
+    const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+    const sun  = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
+    const upd  = () => btn.innerHTML = theme === 'dark' ? sun : moon;
+    upd();
+    btn.addEventListener('click', () => {
+      theme = theme === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', theme);
+      upd();
+    });
+  })();
+  </script>
+</body>
+</html>
