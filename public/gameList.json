@@ -24,12 +24,44 @@
     "apworld": "https://archipelago.gg/games/Aquaria/player-options"
   },
   {
+    "name": "Balatro",
+    "icon": "⚙️",
+    "setup": "https://github.com/BurndiL/BalatroAP/releases/latest",
+    "tracker": "https://github.com/graygooglitch/balatroap_poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/BurndiL/BalatroAP/releases/latest"
+  },
+  {
+    "name": "Banjo tooie",
+    "icon": "⚙️",
+    "setup": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest",
+    "tracker": "https://github.com/Ozone31/banjo-tooie-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest"
+  },
+  {
+    "name": "Binding of Isaac : Repentance",
+    "icon": "⚙️",
+    "setup": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
+    "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
+  },
+  {
     "name": "Blasphemous",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Blasphemous/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Blasphemous/info/en",
     "apworld": "https://archipelago.gg/games/Blasphemous/player-options"
+  },
+  {
+    "name": "Bloons TD 6",
+    "icon": "⚙️",
+    "setup": "https://github.com/Matt41321/BloonsArchipelago/releases/latest",
+    "tracker": "https://github.com/Fairweather-Furry/btd6_fair/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Matt41321/Archipelago/releases/latest"
   },
   {
     "name": "Bomb Rush Cyberfunk",
@@ -56,12 +88,28 @@
     "apworld": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/player-options"
   },
   {
+    "name": "Castlevania - Symphony of the Night",
+    "icon": "⚙️",
+    "setup": "https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/docs/setup_en.md",
+    "tracker": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Darvitz/Archipelago-Crystal/releases/tag/Unofficial_0.8.16"
+  },
+  {
     "name": "Castlevania 64",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Castlevania%2064/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Castlevania%2064/info/en",
     "apworld": "https://archipelago.gg/games/Castlevania%2064/player-options"
+  },
+  {
+    "name": "Celeste",
+    "icon": "⚙️",
+    "setup": "./resources/celeste/CelesteArchipelago-Arrow.zip",
+    "tracker": "https://github.com/seto10987/Celeste-AP-Tracker/releases/latest",
+    "info": "",
+    "apworld": "./resources/celeste/celeste.apworld"
   },
   {
     "name": "Celeste (Open World)",
@@ -104,6 +152,30 @@
     "apworld": "https://archipelago.gg/games/Civilization%20VI/player-options"
   },
   {
+    "name": "Clique",
+    "icon": "⚙️",
+    "setup": "https://clique.pharware.com/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://pharware.com/git/Phar/Clique/releases/latest"
+  },
+  {
+    "name": "Cuphead",
+    "icon": "⚙️",
+    "setup": "https://github.com/JKLeckr/CupheadArchipelagoMod/releases/latest",
+    "tracker": "https://github.com/TheArcticFox42/CupheadPoptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/JKLeckr/Archipelago-cuphead/releases/latest"
+  },
+  {
+    "name": "Dark Souls II",
+    "icon": "⚙️",
+    "setup": "https://github.com/WildBunnie/Archipelago/blob/dark_souls_2/worlds/dark_souls_2/docs/setup_en.md",
+    "tracker": "https://github.com/AkagiCritMagnet/Dark-Souls-2-poptracker-for-Archipelago/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/latest"
+  },
+  {
     "name": "Dark Souls III",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Dark%20Souls%20III/setup/en",
@@ -112,12 +184,36 @@
     "apworld": "https://archipelago.gg/games/Dark%20Souls%20III/player-options"
   },
   {
+    "name": "Darks Souls I Remastered",
+    "icon": "⚙️",
+    "setup": "https://github.com/tathxo/DSAP/releases/latest",
+    "tracker": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/latest",
+    "info": "https://github.com/tathxo/DSAP/blob/main/apworld/dsr/docs/en_Dark%20Souls%20Remastered.md",
+    "apworld": "https://github.com/tathxo/DSAP/releases/latest"
+  },
+  {
+    "name": "Deltarune",
+    "icon": "⚙️",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/latest"
+  },
+  {
     "name": "DLCQuest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DLCQuest/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/DLCQuest/info/en",
     "apworld": "https://archipelago.gg/games/DLCQuest/player-options"
+  },
+  {
+    "name": "Donkey kong 64",
+    "icon": "⚙️",
+    "setup": "https://dev.dk64randomizer.com/wiki/index.html?title=Archipelago-Dev-Setup-Guide",
+    "tracker": "https://github.com/UmedMuzl/dk64pt/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/2dos/DK64-Randomizer-dev/releases/latest"
   },
   {
     "name": "Donkey Kong Country 3",
@@ -184,6 +280,14 @@
     "apworld": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/player-options"
   },
   {
+    "name": "Hades",
+    "icon": "⚙️",
+    "setup": "https://github.com/NaixGames/PolycosmosInstaller",
+    "tracker": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/latest",
+    "info": "https://youtu.be/8LamFneVm_A",
+    "apworld": "https://github.com/NaixGames/Polycosmos/releases/latest"
+  },
+  {
     "name": "A Hat in Time",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup/en",
@@ -232,6 +336,14 @@
     "apworld": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/player-options"
   },
   {
+    "name": "Jigsaw",
+    "icon": "⚙️",
+    "setup": "https://jigsaw-ap.netlify.app/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/spineraks-org/ArchipelagoJigsaw/releases/latest"
+  },
+  {
     "name": "Kingdom Hearts",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts/setup/en",
@@ -246,6 +358,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Kingdom%20Hearts%202/info/en",
     "apworld": "https://archipelago.gg/games/Kingdom%20Hearts%202/player-options"
+  },
+  {
+    "name": "Kirby super star",
+    "icon": "⚙️",
+    "setup": "https://github.com/Silvris/Archipelago/blob/kss/worlds/kss/docs/setup_en.md",
+    "tracker": "https://github.com/Talcerase/kss-ap-poptracker/releases/latest",
+    "info": "https://github.com/Silvris/Archipelago/blob/kss/worlds/kss/docs/en_Kirby%20Super%20Star.md",
+    "apworld": "https://github.com/Silvris/Archipelago/releases/latest"
   },
   {
     "name": "Kirby's Dream Land 3",
@@ -270,6 +390,22 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
     "apworld": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/player-options"
+  },
+  {
+    "name": "Lego Star Wars : The Complete Saga",
+    "icon": "⚙️",
+    "setup": "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/setup_en.md",
+    "tracker": "https://github.com/Mysteryem/TCS_AP_PopTracker/releases/latest",
+    "info": "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/en_Lego%20Star%20Wars%20The%20Complete%20Saga.md",
+    "apworld": "https://github.com/Mysteryem/Archipelago-TCS/releases/latest"
+  },
+  {
+    "name": "Lethal Company",
+    "icon": "⚙️",
+    "setup": "https://github.com/T0r1nn/APLC?tab=readme-ov-file#setup",
+    "tracker": "",
+    "info": "https://archipelago.miraheze.org/wiki/Lethal_Company",
+    "apworld": "https://github.com/T0r1nn/APLC/releases/latest"
   },
   {
     "name": "Lingo",
@@ -302,6 +438,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Lufia%20II%20Ancient%20Cave/info/en",
     "apworld": "https://archipelago.gg/games/Lufia%20II%20Ancient%20Cave/player-options"
+  },
+  {
+    "name": "Luigi's Mansion",
+    "icon": "⚙️",
+    "setup": "https://github.com/BootsinSoots/Archipelago/blob/Luigi's-Mansion-AP/worlds/luigismansion/docs/setup_en.md",
+    "tracker": "https://github.com/DevinLB/Luigis_Mansion_Poptracker/releases/latest",
+    "info": "https://github.com/BootsinSoots/Archipelago/blob/Luigi's-Mansion-AP/worlds/luigismansion/docs/en_Luigi's%20Mansion.md",
+    "apworld": "https://github.com/BootsinSoots/Archipelago/releases/latest"
   },
   {
     "name": "Mario & Luigi Superstar Saga",
@@ -352,6 +496,38 @@
     "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
   },
   {
+    "name": "Metroid Fusion",
+    "icon": "⚙️",
+    "setup": "https://github.com/StalledStorm/ArchipelagoMine/wiki/Metroid-Fusion-Setup-Guide",
+    "tracker": "https://github.com/RunInAWeek/Metroid-Fusion-AP-Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/StalledStorm/ArchipelagoMine/releases/latest"
+  },
+  {
+    "name": "Metroid Prime",
+    "icon": "⚙️",
+    "setup": "https://github.com/UltiNaruto/MetroidAPrime/blob/main/src/docs/setup_en.md#setup-guide-for-metroid-prime-archipelago",
+    "tracker": "https://github.com/lilDavid/MetroidPrimeAP-PoptrackerPack/releases/latest",
+    "info": "https://github.com/UltiNaruto/MetroidAPrime/blob/main/README.md",
+    "apworld": "https://github.com/UltiNaruto/MetroidAPrime/releases/latest"
+  },
+  {
+    "name": "Minecraft",
+    "icon": "⚙️",
+    "setup": "https://github.com/qixils/NeoForgeAP?tab=readme-ov-file#minecraft-randomizer-setup-guide",
+    "tracker": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/qixils/NeoForgeAP/releases/latest"
+  },
+  {
+    "name": "Minish Cap",
+    "icon": "⚙️",
+    "setup": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/setup_fr.md",
+    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
+    "info": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/fr_The%20Minish%20Cap.md",
+    "apworld": "https://github.com/eternalcode0/Archipelago/releases/latest"
+  },
+  {
     "name": "Muse Dash",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Muse%20Dash/setup/en",
@@ -384,6 +560,22 @@
     "apworld": "https://archipelago.gg/games/Old%20School%20Runescape/player-options"
   },
   {
+    "name": "Ori and the Blind Forest",
+    "icon": "⚙️",
+    "setup": "https://github.com/c-ostic/OriBFArchipelago/blob/main/Setup.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/c-ostic/Archipelago/releases/latest"
+  },
+  {
+    "name": "Outer Wilds",
+    "icon": "⚙️",
+    "setup": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation",
+    "tracker": "https://github.com/magicdotexe/Outer-Wilds-PopTracker-Pack/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/latest"
+  },
+  {
     "name": "Overcooked! 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Overcooked!%202/setup/en",
@@ -400,6 +592,54 @@
     "apworld": "https://archipelago.gg/games/Paint/player-options"
   },
   {
+    "name": "Paper Mario 64",
+    "icon": "⚙️",
+    "setup": "https://github.com/JKBSunshine/PMR_APWorld/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/boiscljo/pmr-tracker/releases/latest",
+    "info": "https://github.com/icebound777/PMR-SeedGenerator/wiki",
+    "apworld": "https://github.com/JKBSunshine/PMR_APWorld/releases/latest"
+  },
+  {
+    "name": "Paper Mario La Porte Millénaire",
+    "icon": "⚙️",
+    "setup": "https://github.com/jamesbrq/ArchipelagoTTYD/blob/main/docs%2Fsetup_en.md",
+    "tracker": "https://github.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/releases/latest",
+    "info": "https://www.ttydrandomizer.com/archipelago",
+    "apworld": "https://www.ttydrandomizer.com/generate"
+  },
+  {
+    "name": "Pikmin 2",
+    "icon": "⚙️",
+    "setup": "https://github.com/chpas0/Pikmin2Archipelago/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/Vinaigre1/Pikmin2-PopTracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/chpas0/Pikmin2Archipelago/releases/latest"
+  },
+  {
+    "name": "Pokemon Blanc et Noir",
+    "icon": "⚙️",
+    "setup": "https://github.com/SparkyDaDoggo/Archipelago/blob/main/worlds/pokemon_bw/docs/en_Pokemon%20Black%20and%20White.md",
+    "tracker": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/BlastSlimey/PokemonBWAP/releases/latest"
+  },
+  {
+    "name": "Pokemon Crystal",
+    "icon": "⚙️",
+    "setup": "https://github.com/gerbiljames/Archipelago-Crystal/blob/pokecrystal/worlds/pokemon_crystal/docs/setup_en.md",
+    "tracker": "https://github.com/palex00/crystal-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://gerbiljames.github.io/crystal-ap-web/"
+  },
+  {
+    "name": "Pokemon donjon mystère",
+    "icon": "⚙️",
+    "setup": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/setup_en.md",
+    "tracker": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/releases/",
+    "info": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/FAQ.md",
+    "apworld": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/latest"
+  },
+  {
     "name": "Pokemon Emerald",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Pokemon%20Emerald/setup/en",
@@ -408,12 +648,36 @@
     "apworld": "https://archipelago.gg/games/Pokemon%20Emerald/player-options"
   },
   {
+    "name": "Pokemon Platine",
+    "icon": "⚙️",
+    "setup": "https://github.com/ljtpetersen/platinum_archipelago/blob/v0.1.8/docs/setup_en.md",
+    "tracker": "https://github.com/palex00/platinum-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/ljtpetersen/platinum_archipelago/releases/latest"
+  },
+  {
     "name": "Pokemon Red and Blue",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Pokemon%20Red%20and%20Blue/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/info/en",
     "apworld": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/player-options"
+  },
+  {
+    "name": "Pokemon Rouge Feu et Vert Feuille",
+    "icon": "⚙️",
+    "setup": "",
+    "tracker": "https://github.com/vyneras/pokemon-frlg-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/vyneras/Archipelago/releases/latest"
+  },
+  {
+    "name": "Portal 2",
+    "icon": "⚙️",
+    "setup": "https://github.com/GlassToadstool/Portal2ArchipelagoMod/releases/latest",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/GlassToadstool/Archipelago/releases/latest"
   },
   {
     "name": "Raft",
@@ -430,6 +694,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
     "apworld": "https://archipelago.gg/games/Risk%20of%20Rain%202/player-options"
+  },
+  {
+    "name": "Rogue Legacy",
+    "icon": "⚙️",
+    "setup": "https://github.com/ThePhar/RogueLegacyRandomizer/releases/latest",
+    "tracker": "",
+    "info": "",
+    "apworld": "./resources/rogue_legacy/rogue_legacy.apworld"
   },
   {
     "name": "Satisfactory",
@@ -480,6 +752,30 @@
     "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
   },
   {
+    "name": "Skyward Sword",
+    "icon": "⚙️",
+    "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
+    "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
+    "info": "",
+    "apworld": "https://github.com/Battlecats59/SS_APWorld/releases/latest"
+  },
+  {
+    "name": "Slay the Spire",
+    "icon": "⚙️",
+    "setup": "https://github.com/cjmang/StS-AP-World/blob/sts/worlds/spire/docs/slay-the-spire_en.md",
+    "tracker": "",
+    "info": "https://archipelago.miraheze.org/wiki/Slay_the_Spire",
+    "apworld": "https://github.com/cjmang/StS-AP-World/releases/latest"
+  },
+  {
+    "name": "Slime Rancher",
+    "icon": "⚙️",
+    "setup": "https://github.com/SWCreeperKing/Slimipelago/blob/master/README.md",
+    "tracker": "",
+    "info": "https://docs.google.com/spreadsheets/d/15PdrnGmkYdocX9RU-D5U_9OgihRNN9axX71mm-jOPUQ/edit?usp=sharing",
+    "apworld": "https://github.com/SWCreeperKing/Slimipelago/releases"
+  },
+  {
     "name": "SMZ3",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/SMZ3/setup/en",
@@ -494,6 +790,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/info/en",
     "apworld": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/player-options"
+  },
+  {
+    "name": "Sonic Adventure DX",
+    "icon": "⚙️",
+    "setup": "https://github.com/ClassicSpeed/Archipelago/blob/sadx_adventure_field_update/worlds/sadx/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/ClassicSpeed/SADX-Archipelago-Locations-Wiki/blob/main/README.md",
+    "apworld": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/latest"
   },
   {
     "name": "Starcraft 2",
@@ -536,6 +840,14 @@
     "apworld": "https://archipelago.gg/games/Super%20Mario%20Land%202/player-options"
   },
   {
+    "name": "Super Mario Sunshine",
+    "icon": "⚙️",
+    "setup": "https://github.com/Joshark/archipelago-sms/blob/main/worlds/sms/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Joshark/archipelago-sms/releases/latest"
+  },
+  {
     "name": "Super Mario World",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Super%20Mario%20World/setup/en",
@@ -574,6 +886,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/TUNIC/info/en",
     "apworld": "https://archipelago.gg/games/TUNIC/player-options"
+  },
+  {
+    "name": "Ultrakill",
+    "icon": "⚙️",
+    "setup": "https://github.com/TRPG0/ArchipelagoULTRAKILL/",
+    "tracker": "https://github.com/BowserCrusher/UltrakillPoptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/latest"
   },
   {
     "name": "Undertale",
@@ -640,205 +960,12 @@
     "apworld": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/player-options"
   },
   {
-    "name": "Zillion",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Zillion/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/Zillion/info/en",
-    "apworld": "https://archipelago.gg/games/Zillion/player-options"
-  },
-  {
-    "name": "Balatro",
-    "icon": "⚙️",
-    "setup": "https://github.com/BurndiL/BalatroAP/releases/latest",
-    "tracker": "https://github.com/graygooglitch/balatroap_poptracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/BurndiL/BalatroAP/releases/latest"
-  },
-  {
-    "name": "Banjo tooie",
-    "icon": "⚙️",
-    "setup": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest",
-    "tracker": "https://github.com/Ozone31/banjo-tooie-ap-tracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest"
-  },
-  {
-    "name": "Binding of Isaac : Repentance",
-    "icon": "⚙️",
-    "setup": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/setup_en.md",
-    "tracker": "",
-    "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
-    "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
-  },
-  {
-    "name": "Bloons TD 6",
-    "icon": "⚙️",
-    "setup": "https://github.com/Matt41321/BloonsArchipelago/releases/latest",
-    "tracker": "https://github.com/Fairweather-Furry/btd6_fair/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/Matt41321/Archipelago/releases/latest"
-  }
-  ,
-  {
-    "name": "Castlevania - Symphony of the Night",
-    "icon": "⚙️",
-    "setup": "https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/docs/setup_en.md",
-    "tracker": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/Darvitz/Archipelago-Crystal/releases/tag/Unofficial_0.8.16"
-  },
-  {
-    "name": "Celeste",
-    "icon": "⚙️",
-    "setup": "./resources/celeste/CelesteArchipelago-Arrow.zip",
-    "tracker": "https://github.com/seto10987/Celeste-AP-Tracker/releases/latest",
-    "info": "",
-    "apworld": "./resources/celeste/celeste.apworld"
-  },
-  {
-    "name": "Clique",
-    "icon": "⚙️",
-    "setup": "https://clique.pharware.com/",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://pharware.com/git/Phar/Clique/releases/latest"
-  },
-  {
-    "name": "Cuphead",
-    "icon": "⚙️",
-    "setup": "https://github.com/JKLeckr/CupheadArchipelagoMod/releases/latest",
-    "tracker": "https://github.com/TheArcticFox42/CupheadPoptracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/JKLeckr/Archipelago-cuphead/releases/latest"
-  },
-  {
-    "name": "Darks Souls I Remastered",
-    "icon": "⚙️",
-    "setup": "https://github.com/tathxo/DSAP/releases/latest",
-    "tracker": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/latest",
-    "info": "https://github.com/tathxo/DSAP/blob/main/apworld/dsr/docs/en_Dark%20Souls%20Remastered.md",
-    "apworld": "https://github.com/tathxo/DSAP/releases/latest"
-  },
-  {
-    "name": "Dark Souls II",
-    "icon": "⚙️",
-    "setup": "https://github.com/WildBunnie/Archipelago/blob/dark_souls_2/worlds/dark_souls_2/docs/setup_en.md",
-    "tracker": "https://github.com/AkagiCritMagnet/Dark-Souls-2-poptracker-for-Archipelago/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/WildBunnie/DarkSoulsII-Archipelago/releases/latest"
-  },
-  {
-    "name": "Deltarune",
-    "icon": "⚙️",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/latest"
-  },
-  {
-    "name": "Donkey kong 64",
-    "icon": "⚙️",
-    "setup": "https://dev.dk64randomizer.com/wiki/index.html?title=Archipelago-Dev-Setup-Guide",
-    "tracker": "https://github.com/UmedMuzl/dk64pt/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/2dos/DK64-Randomizer-dev/releases/latest"
-  },
-  {
-    "name": "Hades",
-    "icon": "⚙️",
-    "setup": "https://github.com/NaixGames/PolycosmosInstaller",
-    "tracker": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/latest",
-    "info": "https://youtu.be/8LamFneVm_A",
-    "apworld": "https://github.com/NaixGames/Polycosmos/releases/latest"
-  },
-  {
-    "name": "Jigsaw",
-    "icon": "⚙️",
-    "setup": "https://jigsaw-ap.netlify.app/",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/spineraks-org/ArchipelagoJigsaw/releases/latest"
-  },
-  {
-    "name": "Kirby super star",
-    "icon": "⚙️",
-    "setup": "https://github.com/Silvris/Archipelago/blob/kss/worlds/kss/docs/setup_en.md",
-    "tracker": "https://github.com/Talcerase/kss-ap-poptracker/releases/latest",
-    "info": "https://github.com/Silvris/Archipelago/blob/kss/worlds/kss/docs/en_Kirby%20Super%20Star.md",
-    "apworld": "https://github.com/Silvris/Archipelago/releases/latest"
-  },
-  {
-    "name": "Lego Star Wars : The Complete Saga",
-    "icon": "⚙️",
-    "setup": "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/setup_en.md",
-    "tracker": "https://github.com/Mysteryem/TCS_AP_PopTracker/releases/latest",
-    "info": "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/en_Lego%20Star%20Wars%20The%20Complete%20Saga.md",
-    "apworld": "https://github.com/Mysteryem/Archipelago-TCS/releases/latest"
-  },
-  {
-    "name": "Lethal Company",
-    "icon": "⚙️",
-    "setup": "https://github.com/T0r1nn/APLC?tab=readme-ov-file#setup",
-    "tracker": "",
-    "info": "https://archipelago.miraheze.org/wiki/Lethal_Company",
-    "apworld": "https://github.com/T0r1nn/APLC/releases/latest"
-  },
-  {
     "name": "Zelda : Link Between Worlds",
     "icon": "⚙️",
     "setup": "https://github.com/randomsalience/albw-archipelago/blob/main/docs/setup_en.md",
     "tracker": "https://github.com/guigui0246/albw-ap-poptracker/releases/latest",
     "info": "https://onedrive.live.com/edit?id=9C1FAD54B68F35F4!3195&resid=9C1FAD54B68F35F4!3195&ithint=file%2Cxlsx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBdlExajdaVXJSLWNtSHRTVnYyU2hUUTJEZzJ2P2U9T0NST3lo&migratedtospo=true&wdo=2&cid=9c1fad54b68f35f4",
     "apworld": "https://github.com/randomsalience/albw-archipelago/releases/latest"
-  },
-  {
-    "name": "Luigi's Mansion",
-    "icon": "⚙️",
-    "setup": "https://github.com/BootsinSoots/Archipelago/blob/Luigi's-Mansion-AP/worlds/luigismansion/docs/setup_en.md",
-    "tracker": "https://github.com/DevinLB/Luigis_Mansion_Poptracker/releases/latest",
-    "info": "https://github.com/BootsinSoots/Archipelago/blob/Luigi's-Mansion-AP/worlds/luigismansion/docs/en_Luigi's%20Mansion.md",
-    "apworld": "https://github.com/BootsinSoots/Archipelago/releases/latest"
-  },
-  {
-    "name": "Zelda: Majora's Mask",
-    "icon": "⚙️",
-    "setup": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#setup",
-    "tracker": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest",
-    "info": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#faq",
-    "apworld": "https://github.com/RecompRando/MMRecompRando/releases/latest"
-  },
-  {
-    "name": "Metroid Fusion",
-    "icon": "⚙️",
-    "setup": "https://github.com/StalledStorm/ArchipelagoMine/wiki/Metroid-Fusion-Setup-Guide",
-    "tracker": "https://github.com/RunInAWeek/Metroid-Fusion-AP-Tracker/releases",
-    "info": "",
-    "apworld": "https://github.com/StalledStorm/ArchipelagoMine/releases/latest"
-  },
-  {
-    "name": "Metroid Prime",
-    "icon": "⚙️",
-    "setup": "https://github.com/UltiNaruto/MetroidAPrime/blob/main/src/docs/setup_en.md#setup-guide-for-metroid-prime-archipelago",
-    "tracker": "https://github.com/lilDavid/MetroidPrimeAP-PoptrackerPack/releases/latest",
-    "info": "https://github.com/UltiNaruto/MetroidAPrime/blob/main/README.md",
-    "apworld": "https://github.com/UltiNaruto/MetroidAPrime/releases/latest"
-  },
-  {
-    "name": "Minecraft",
-    "icon": "⚙️",
-    "setup": "https://github.com/qixils/NeoForgeAP?tab=readme-ov-file#minecraft-randomizer-setup-guide",
-    "tracker": "https://github.com/Cyb3RGER/minecraft_rando_tracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/qixils/NeoForgeAP/releases/latest"
-  },
-  {
-    "name": "Minish Cap",
-    "icon": "⚙️",
-    "setup": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/setup_fr.md",
-    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
-    "info": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/fr_The%20Minish%20Cap.md",
-    "apworld": "https://github.com/eternalcode0/Archipelago/releases/latest"
   },
   {
     "name": "Zelda : Ocarina of Time",
@@ -849,156 +976,12 @@
     "apworld": "https://github.com/HarbourMasters/Archipelago-SoH/releases/latest"
   },
   {
-    "name": "Zelda: Oracle of Ages",
-    "icon": "⚙️",
-    "setup": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/ooa_setup_en.md",
-    "tracker": "https://github.com/Dranzior/ooa_brooty/releases",
-    "info": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Ages.md",
-    "apworld": "https://github.com/josephanimate2021/ArchipelagoOoA/releases"
-  },
-  {
     "name": "Zelda : Oracle of Seasons",
     "icon": "⚙️",
     "setup": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/oos_setup_en.md",
     "tracker": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/latest",
     "info": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Seasons.md",
     "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
-  },
-  {
-    "name": "Ori and the Blind Forest",
-    "icon": "⚙️",
-    "setup": "https://github.com/c-ostic/OriBFArchipelago/blob/main/Setup.md",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/c-ostic/Archipelago/releases/latest"
-  },
-  {
-    "name": "Outer Wilds",
-    "icon": "⚙️",
-    "setup": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer#installation",
-    "tracker": "https://github.com/magicdotexe/Outer-Wilds-PopTracker-Pack/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/latest"
-  },
-  {
-    "name": "Paper Mario 64",
-    "icon": "⚙️",
-    "setup": "https://github.com/JKBSunshine/PMR_APWorld/blob/main/docs/setup_en.md",
-    "tracker": "https://github.com/boiscljo/pmr-tracker/releases/latest",
-    "info": "https://github.com/icebound777/PMR-SeedGenerator/wiki",
-    "apworld": "https://github.com/JKBSunshine/PMR_APWorld/releases/latest"
-  },
-  {
-    "name": "Paper Mario La Porte Millénaire",
-    "icon": "⚙️",
-    "setup": "https://github.com/jamesbrq/ArchipelagoTTYD/blob/main/docs%2Fsetup_en.md",
-    "tracker": "https://github.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/releases/latest",
-    "info": "https://www.ttydrandomizer.com/archipelago",
-    "apworld": "https://www.ttydrandomizer.com/generate"
-  },
-  {
-    "name": "Pikmin 2",
-    "icon": "⚙️",
-    "setup": "https://github.com/chpas0/Pikmin2Archipelago/blob/main/docs/setup_en.md",
-    "tracker": "https://github.com/Vinaigre1/Pikmin2-PopTracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/chpas0/Pikmin2Archipelago/releases/latest"
-  },
-  {
-    "name": "Pokemon Blanc et Noir",
-    "icon": "⚙️",
-    "setup": "https://github.com/SparkyDaDoggo/Archipelago/blob/main/worlds/pokemon_bw/docs/en_Pokemon%20Black%20and%20White.md",
-    "tracker": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/BlastSlimey/PokemonBWAP/releases/latest"
-  },
-  {
-    "name": "Pokemon Crystal",
-    "icon": "⚙️",
-    "setup": "https://github.com/gerbiljames/Archipelago-Crystal/blob/pokecrystal/worlds/pokemon_crystal/docs/setup_en.md",
-    "tracker": "https://github.com/palex00/crystal-ap-tracker/releases/latest",
-    "info": "",
-    "apworld": "https://gerbiljames.github.io/crystal-ap-web/"
-  },
-  {
-    "name": "Pokemon Rouge Feu et Vert Feuille",
-    "icon": "⚙️",
-    "setup": "",
-    "tracker": "https://github.com/vyneras/pokemon-frlg-tracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/vyneras/Archipelago/releases/latest"
-  },
-  {
-    "name": "Pokemon donjon mystère",
-    "icon": "⚙️",
-    "setup": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/setup_en.md",
-    "tracker": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/releases/",
-    "info": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/FAQ.md",
-    "apworld": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/latest"
-  },
-  {
-    "name": "Pokemon Platine",
-    "icon": "⚙️",
-    "setup": "https://github.com/ljtpetersen/platinum_archipelago/blob/v0.1.8/docs/setup_en.md",
-    "tracker": "https://github.com/palex00/platinum-ap-tracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/ljtpetersen/platinum_archipelago/releases/latest"
-  },
-  {
-    "name": "Portal 2",
-    "icon": "⚙️",
-    "setup": "https://github.com/GlassToadstool/Portal2ArchipelagoMod/releases/latest",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/GlassToadstool/Archipelago/releases/latest"
-  },
-  {
-    "name": "Rogue Legacy",
-    "icon": "⚙️",
-    "setup": "https://github.com/ThePhar/RogueLegacyRandomizer/releases/latest",
-    "tracker": "",
-    "info": "",
-    "apworld": "./resources/rogue_legacy/rogue_legacy.apworld"
-  },
-  {
-    "name": "Skyward Sword",
-    "icon": "⚙️",
-    "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
-    "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
-    "info": "",
-    "apworld": "https://github.com/Battlecats59/SS_APWorld/releases/latest"
-  },
-  {
-    "name": "Slay the Spire",
-    "icon": "⚙️",
-    "setup": "https://github.com/cjmang/StS-AP-World/blob/sts/worlds/spire/docs/slay-the-spire_en.md",
-    "tracker": "",
-    "info": "https://archipelago.miraheze.org/wiki/Slay_the_Spire",
-    "apworld": "https://github.com/cjmang/StS-AP-World/releases/latest"
-  },
-  {
-    "name": "Slime Rancher",
-    "icon": "⚙️",
-    "setup": "https://github.com/SWCreeperKing/Slimipelago/blob/master/README.md",
-    "tracker": "",
-    "info": "https://docs.google.com/spreadsheets/d/15PdrnGmkYdocX9RU-D5U_9OgihRNN9axX71mm-jOPUQ/edit?usp=sharing",
-    "apworld": "https://github.com/SWCreeperKing/Slimipelago/releases"
-  },
-  {
-    "name": "Sonic Adventure DX",
-    "icon": "⚙️",
-    "setup": "https://github.com/ClassicSpeed/Archipelago/blob/sadx_adventure_field_update/worlds/sadx/docs/setup_en.md",
-    "tracker": "",
-    "info": "https://github.com/ClassicSpeed/SADX-Archipelago-Locations-Wiki/blob/main/README.md",
-    "apworld": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/latest"
-  },
-  {
-    "name": "Super Mario Sunshine",
-    "icon": "⚙️",
-    "setup": "https://github.com/Joshark/archipelago-sms/blob/main/worlds/sms/docs/setup_en.md",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/Joshark/archipelago-sms/releases/latest"
   },
   {
     "name": "Zelda : Twilight Princess",
@@ -1009,12 +992,28 @@
     "apworld": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/latest"
   },
   {
-    "name": "Ultrakill",
+    "name": "Zelda: Majora's Mask",
     "icon": "⚙️",
-    "setup": "https://github.com/TRPG0/ArchipelagoULTRAKILL/",
-    "tracker": "https://github.com/BowserCrusher/UltrakillPoptracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/latest"
+    "setup": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#setup",
+    "tracker": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest",
+    "info": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#faq",
+    "apworld": "https://github.com/RecompRando/MMRecompRando/releases/latest"
+  },
+  {
+    "name": "Zelda: Oracle of Ages",
+    "icon": "⚙️",
+    "setup": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/ooa_setup_en.md",
+    "tracker": "https://github.com/Dranzior/ooa_brooty/releases",
+    "info": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Ages.md",
+    "apworld": "https://github.com/josephanimate2021/ArchipelagoOoA/releases"
+  },
+  {
+    "name": "Zillion",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Zillion/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Zillion/info/en",
+    "apworld": "https://archipelago.gg/games/Zillion/player-options"
   },
   {
     "name": "Zork: Grand Inquisitor",
