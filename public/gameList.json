@@ -656,6 +656,14 @@
     "apworld": "https://github.com/GlassToadstool/Archipelago/releases/latest"
   },
   {
+    "name": "Psychonauts (BETA)",
+    "icon": "🔧",
+    "setup": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/tag/v0.9.3-BETA",
+    "tracker": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/latest"
+  },
+  {
     "name": "Raft",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Raft/setup/en",
