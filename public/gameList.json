@@ -3,7 +3,7 @@
     "name": "Adventure",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Adventure/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/ZobeePlays/Adventure-AP-Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Adventure/info/en",
     "apworld": "https://archipelago.gg/games/Adventure/player-options"
   },
@@ -19,7 +19,7 @@
     "name": "Aquaria",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Aquaria/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/palex00/aquaria-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Aquaria/info/en",
     "apworld": "https://archipelago.gg/games/Aquaria/player-options"
   },
@@ -67,7 +67,7 @@
     "name": "Bomb Rush Cyberfunk",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Bomb%20Rush%20Cyberfunk/setup/en",
-    "tracker": "",
+    "tracker": "https://thunderstore.io/c/bomb-rush-cyberfunk/p/TRPG/MoreMap/",
     "info": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/info/en",
     "apworld": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/player-options"
   },
@@ -83,7 +83,7 @@
     "name": "Castlevania - Circle of the Moon",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Castlevania%20-%20Circle%20of%20the%20Moon/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/BowserCrusher/Circle-of-the-Moon-AP-Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/info/en",
     "apworld": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/player-options"
   },
@@ -115,7 +115,7 @@
     "name": "Celeste (Open World)",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Celeste%20(Open%20World)/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Zeeveez/CelesteOpenWorldPoptracker/releases/latest",
     "info": "https://archipelago.gg/games/Celeste%20(Open%20World)/info/en",
     "apworld": "https://archipelago.gg/games/Celeste%20(Open%20World)/player-options"
   },
@@ -123,7 +123,7 @@
     "name": "Celeste 64",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Celeste%2064/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/PoryGone/Celeste-64-AP-Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Celeste%2064/info/en",
     "apworld": "https://archipelago.gg/games/Celeste%2064/player-options"
   },
@@ -139,7 +139,7 @@
     "name": "Choo-Choo Charles",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Choo-Choo%20Charles/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Xgor/choochoo_ap_tracker/releases/latest",
     "info": "https://archipelago.gg/games/Choo-Choo%20Charles/info/en",
     "apworld": "https://archipelago.gg/games/Choo-Choo%20Charles/player-options"
   },
@@ -147,7 +147,7 @@
     "name": "Civilization VI",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Civilization%20VI/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Gearwcu/CivVI-poptracker-pack/releases/latest",
     "info": "https://archipelago.gg/games/Civilization%20VI/info/en",
     "apworld": "https://archipelago.gg/games/Civilization%20VI/player-options"
   },
@@ -168,6 +168,14 @@
     "apworld": "https://github.com/JKLeckr/Archipelago-cuphead/releases/latest"
   },
   {
+    "name": "Darks Souls I Remastered",
+    "icon": "⚙️",
+    "setup": "https://github.com/tathxo/DSAP/releases/latest",
+    "tracker": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/latest",
+    "info": "https://github.com/tathxo/DSAP/blob/main/apworld/dsr/docs/en_Dark%20Souls%20Remastered.md",
+    "apworld": "https://github.com/tathxo/DSAP/releases/latest"
+  },
+  {
     "name": "Dark Souls II",
     "icon": "⚙️",
     "setup": "https://github.com/WildBunnie/Archipelago/blob/dark_souls_2/worlds/dark_souls_2/docs/setup_en.md",
@@ -179,17 +187,9 @@
     "name": "Dark Souls III",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Dark%20Souls%20III/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/TVV1GK/DS3_AP_Maptracker/releases/latest",
     "info": "https://archipelago.gg/games/Dark%20Souls%20III/info/en",
     "apworld": "https://archipelago.gg/games/Dark%20Souls%20III/player-options"
-  },
-  {
-    "name": "Darks Souls I Remastered",
-    "icon": "⚙️",
-    "setup": "https://github.com/tathxo/DSAP/releases/latest",
-    "tracker": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/latest",
-    "info": "https://github.com/tathxo/DSAP/blob/main/apworld/dsr/docs/en_Dark%20Souls%20Remastered.md",
-    "apworld": "https://github.com/tathxo/DSAP/releases/latest"
   },
   {
     "name": "Deltarune",
@@ -203,12 +203,12 @@
     "name": "DLCQuest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DLCQuest/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/latest",
     "info": "https://archipelago.gg/games/DLCQuest/info/en",
     "apworld": "https://archipelago.gg/games/DLCQuest/player-options"
   },
   {
-    "name": "Donkey kong 64",
+    "name": "Donkey Kong 64",
     "icon": "⚙️",
     "setup": "https://dev.dk64randomizer.com/wiki/index.html?title=Archipelago-Dev-Setup-Guide",
     "tracker": "https://github.com/UmedMuzl/dk64pt/releases/latest",
@@ -224,10 +224,18 @@
     "apworld": "https://archipelago.gg/games/Donkey%20Kong%20Country%203/player-options"
   },
   {
+    "name": "Donkey Kong Toluca (new DKC3)",
+    "icon": "🔧",
+    "setup": "https://thelx5.github.io/dkc/setup.html",
+    "tracker": "https://github.com/pwkfisher/ap-dktoluca-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/TheLX5/Archipelago/releases/latest"
+  },
+  {
     "name": "DOOM 1993",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DOOM%201993/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Ozone31/doom-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/DOOM%201993/info/en",
     "apworld": "https://archipelago.gg/games/DOOM%201993/player-options"
   },
@@ -235,7 +243,7 @@
     "name": "DOOM II",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DOOM%20II/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Ozone31/doomii-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/DOOM%20II/info/en",
     "apworld": "https://archipelago.gg/games/DOOM%20II/player-options"
   },
@@ -243,7 +251,7 @@
     "name": "EarthBound",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/EarthBound/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/PinkSwitch/earthbound_poptracker/releases/latest",
     "info": "https://archipelago.gg/games/EarthBound/info/en",
     "apworld": "https://archipelago.gg/games/EarthBound/player-options"
   },
@@ -267,7 +275,7 @@
     "name": "Final Fantasy",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Final%20Fantasy/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/haate/FFR_AP_autotracking/releases/latest",
     "info": "https://archipelago.gg/games/Final%20Fantasy/info/en",
     "apworld": "https://archipelago.gg/games/Final%20Fantasy/player-options"
   },
@@ -275,7 +283,7 @@
     "name": "Final Fantasy Mystic Quest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Final%20Fantasy%20Mystic%20Quest/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/info/en",
     "apworld": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/player-options"
   },
@@ -291,7 +299,7 @@
     "name": "A Hat in Time",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Mysteryem/ahit-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/A%20Hat%20in%20Time/info/en",
     "apworld": "https://archipelago.gg/games/A%20Hat%20in%20Time/player-options"
   },
@@ -299,7 +307,7 @@
     "name": "Heretic",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Heretic/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Forsaken-angel/heretic-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Heretic/info/en",
     "apworld": "https://archipelago.gg/games/Heretic/player-options"
   },
@@ -315,7 +323,7 @@
     "name": "Hylics 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Hylics%202/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/superfid2006/Hylics2-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Hylics%202/info/en",
     "apworld": "https://archipelago.gg/games/Hylics%202/player-options"
   },
@@ -323,7 +331,7 @@
     "name": "Inscryption",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Inscryption/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/DrBibop/Inscryption_Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Inscryption/info/en",
     "apworld": "https://archipelago.gg/games/Inscryption/player-options"
   },
@@ -331,7 +339,7 @@
     "name": "Jak and Daxter: The Precursor Legacy",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/info/en",
     "apworld": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/player-options"
   },
@@ -347,7 +355,7 @@
     "name": "Kingdom Hearts",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/TopazTK/TrackKH/releases/latest",
     "info": "https://archipelago.gg/games/Kingdom%20Hearts/info/en",
     "apworld": "https://archipelago.gg/games/Kingdom%20Hearts/player-options"
   },
@@ -371,7 +379,7 @@
     "name": "Kirby's Dream Land 3",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Kirby's%20Dream%20Land%203/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/The-ROT8/Kirby_Dream_Land_3_AP_Poptracker",
     "info": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/info/en",
     "apworld": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/player-options"
   },
@@ -382,14 +390,6 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/info/en",
     "apworld": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/player-options"
-  },
-  {
-    "name": "The Legend of Zelda",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
-    "apworld": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/player-options"
   },
   {
     "name": "Lego Star Wars : The Complete Saga",
@@ -411,25 +411,9 @@
     "name": "Lingo",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Lingo/setup/en",
-    "tracker": "",
+    "tracker": "https://code.fourisland.com/lingo-ap-tracker/about/",
     "info": "https://archipelago.gg/games/Lingo/info/en",
     "apworld": "https://archipelago.gg/games/Lingo/player-options"
-  },
-  {
-    "name": "A Link to the Past",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/A%20Link%20to%20the%20Past/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/info/en",
-    "apworld": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/player-options"
-  },
-  {
-    "name": "Links Awakening DX",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Links%20Awakening%20DX/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/Links%20Awakening%20DX/info/en",
-    "apworld": "https://archipelago.gg/games/Links%20Awakening%20DX/player-options"
   },
   {
     "name": "Lufia II Ancient Cave",
@@ -451,7 +435,7 @@
     "name": "Mario & Luigi Superstar Saga",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Mario%20&%20Luigi%20Superstar%20Saga/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/seto10987/MLSS-PopTracker/releases/latest",
     "info": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/info/en",
     "apworld": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/player-options"
   },
@@ -459,7 +443,7 @@
     "name": "Mega Man 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Mega%20Man%202/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/BrianCumminger/megaman2-ap-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Mega%20Man%202/info/en",
     "apworld": "https://archipelago.gg/games/Mega%20Man%202/player-options"
   },
@@ -472,10 +456,10 @@
     "apworld": "https://archipelago.gg/games/Mega%20Man%203/player-options"
   },
   {
-    "name": "MegaMan Battle Network 3",
+    "name": "Mega Man Battle Network 3",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/MegaMan%20Battle%20Network%203/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/latest",
     "info": "https://archipelago.gg/games/MegaMan%20Battle%20Network%203/info/en",
     "apworld": "https://archipelago.gg/games/MegaMan%20Battle%20Network%203/player-options"
   },
@@ -491,7 +475,7 @@
     "name": "The Messenger",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/The%20Messenger/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/latest",
     "info": "https://archipelago.gg/games/The%20Messenger/info/en",
     "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
   },
@@ -520,14 +504,6 @@
     "apworld": "https://github.com/qixils/NeoForgeAP/releases/latest"
   },
   {
-    "name": "Minish Cap",
-    "icon": "⚙️",
-    "setup": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/setup_fr.md",
-    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
-    "info": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/fr_The%20Minish%20Cap.md",
-    "apworld": "https://github.com/eternalcode0/Archipelago/releases/latest"
-  },
-  {
     "name": "Muse Dash",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Muse%20Dash/setup/en",
@@ -539,17 +515,9 @@
     "name": "Noita",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Noita/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/ScipioWright/Noita-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Noita/info/en",
     "apworld": "https://archipelago.gg/games/Noita/player-options"
-  },
-  {
-    "name": "Ocarina of Time",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Ocarina%20of%20Time/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
-    "apworld": "https://archipelago.gg/games/Ocarina%20of%20Time/player-options"
   },
   {
     "name": "Old School Runescape",
@@ -600,7 +568,7 @@
     "apworld": "https://github.com/JKBSunshine/PMR_APWorld/releases/latest"
   },
   {
-    "name": "Paper Mario La Porte Millénaire",
+    "name": "Paper Mario : La Porte Millénaire",
     "icon": "⚙️",
     "setup": "https://github.com/jamesbrq/ArchipelagoTTYD/blob/main/docs%2Fsetup_en.md",
     "tracker": "https://github.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/releases/latest",
@@ -632,7 +600,7 @@
     "apworld": "https://gerbiljames.github.io/crystal-ap-web/"
   },
   {
-    "name": "Pokemon donjon mystère",
+    "name": "Pokemon Donjon Mystère",
     "icon": "⚙️",
     "setup": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/setup_en.md",
     "tracker": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/releases/",
@@ -643,7 +611,7 @@
     "name": "Pokemon Emerald",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Pokemon%20Emerald/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Pokemon%20Emerald/info/en",
     "apworld": "https://archipelago.gg/games/Pokemon%20Emerald/player-options"
   },
@@ -659,7 +627,7 @@
     "name": "Pokemon Red and Blue",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Pokemon%20Red%20and%20Blue/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/palex00/rb_tracker/releases/latest/",
     "info": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/info/en",
     "apworld": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/player-options"
   },
@@ -683,7 +651,7 @@
     "name": "Raft",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Raft/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/PrimePentad/Raft-AP-Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Raft/info/en",
     "apworld": "https://archipelago.gg/games/Raft/player-options"
   },
@@ -691,7 +659,7 @@
     "name": "Risk of Rain 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Risk%20of%20Rain%202/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
     "apworld": "https://archipelago.gg/games/Risk%20of%20Rain%202/player-options"
   },
@@ -707,7 +675,7 @@
     "name": "Satisfactory",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Satisfactory/setup/en",
-    "tracker": "",
+    "tracker": "https://archipelago.gg/tracker/Qj8VVLnkTeaBJ2XYE3zeZw/0/266",
     "info": "https://archipelago.gg/games/Satisfactory/info/en",
     "apworld": "https://archipelago.gg/games/Satisfactory/player-options"
   },
@@ -723,7 +691,7 @@
     "name": "Secret of Evermore",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Secret%20of%20Evermore/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
     "info": "https://archipelago.gg/games/Secret%20of%20Evermore/info/en",
     "apworld": "https://archipelago.gg/games/Secret%20of%20Evermore/player-options"
   },
@@ -731,7 +699,7 @@
     "name": "shapez",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/shapez/setup/en",
-    "tracker": "",
+    "tracker": "https://eclassic32.github.io/ShapezAPTracker",
     "info": "https://archipelago.gg/games/shapez/info/en",
     "apworld": "https://archipelago.gg/games/shapez/player-options"
   },
@@ -747,7 +715,7 @@
     "name": "A Short Hike",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/A%20Short%20Hike/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Oshroth/shorthike-archipelago-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/A%20Short%20Hike/info/en",
     "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
   },
@@ -779,7 +747,7 @@
     "name": "SMZ3",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/SMZ3/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Dessyreqt/smz3-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/SMZ3/info/en",
     "apworld": "https://archipelago.gg/games/SMZ3/player-options"
   },
@@ -819,7 +787,7 @@
     "name": "Subnautica",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Subnautica/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/lurch9229/SubnauticaAP_maptracker_lurch9229/releases/latest",
     "info": "https://archipelago.gg/games/Subnautica/info/en",
     "apworld": "https://archipelago.gg/games/Subnautica/player-options"
   },
@@ -827,7 +795,7 @@
     "name": "Super Mario 64",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Super%20Mario%2064/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/ThePhar/APSM64TrackerPack/releases/latest",
     "info": "https://archipelago.gg/games/Super%20Mario%2064/info/en",
     "apworld": "https://archipelago.gg/games/Super%20Mario%2064/player-options"
   },
@@ -851,7 +819,7 @@
     "name": "Super Mario World",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Super%20Mario%20World/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/PoryGone/SMW_AP_Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Super%20Mario%20World/info/en",
     "apworld": "https://archipelago.gg/games/Super%20Mario%20World/player-options"
   },
@@ -859,7 +827,7 @@
     "name": "Super Metroid",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Super%20Metroid/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Cyb3RGER/sm_ap_tracker/releases/latest",
     "info": "https://archipelago.gg/games/Super%20Metroid/info/en",
     "apworld": "https://archipelago.gg/games/Super%20Metroid/player-options"
   },
@@ -875,7 +843,7 @@
     "name": "Timespinner",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Timespinner/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/ZobeePlays/Timespinner-AP-Item-Tracker/tree/main",
     "info": "https://archipelago.gg/games/Timespinner/info/en",
     "apworld": "https://archipelago.gg/games/Timespinner/player-options"
   },
@@ -883,7 +851,7 @@
     "name": "TUNIC",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/TUNIC/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/SapphireSapphic/TunicTracker/releases/latest",
     "info": "https://archipelago.gg/games/TUNIC/info/en",
     "apworld": "https://archipelago.gg/games/TUNIC/player-options"
   },
@@ -899,7 +867,7 @@
     "name": "Undertale",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Undertale/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Pikachu979/Undertale-Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Undertale/info/en",
     "apworld": "https://archipelago.gg/games/Undertale/player-options"
   },
@@ -907,7 +875,7 @@
     "name": "VVVVVV",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/VVVVVV/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/JBarrows/vvvvvv_archipelago_tracker/releases/latest",
     "info": "https://archipelago.gg/games/VVVVVV/info/en",
     "apworld": "https://archipelago.gg/games/VVVVVV/player-options"
   },
@@ -920,18 +888,10 @@
     "apworld": "https://archipelago.gg/games/Wargroove/player-options"
   },
   {
-    "name": "The Wind Waker",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/The%20Wind%20Waker/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/The%20Wind%20Waker/info/en",
-    "apworld": "https://archipelago.gg/games/The%20Wind%20Waker/player-options"
-  },
-  {
     "name": "The Witness",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/The%20Witness/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/NewSoupVi/witness_archipelago_tracker/releases/latest",
     "info": "https://archipelago.gg/games/The%20Witness/info/en",
     "apworld": "https://archipelago.gg/games/The%20Witness/player-options"
   },
@@ -947,7 +907,7 @@
     "name": "Yoshi's Island",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Yoshi's%20Island/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Radagast81/yoshis-island-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Yoshi's%20Island/info/en",
     "apworld": "https://archipelago.gg/games/Yoshi's%20Island/player-options"
   },
@@ -955,41 +915,17 @@
     "name": "Yu-Gi-Oh! 2006",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Yu-Gi-Oh!%202006/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Rensen3/poptracker-ygo06/releases/latest",
     "info": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/info/en",
     "apworld": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/player-options"
   },
-  {
-    "name": "Zelda : Link Between Worlds",
-    "icon": "⚙️",
-    "setup": "https://github.com/randomsalience/albw-archipelago/blob/main/docs/setup_en.md",
-    "tracker": "https://github.com/guigui0246/albw-ap-poptracker/releases/latest",
-    "info": "https://onedrive.live.com/edit?id=9C1FAD54B68F35F4!3195&resid=9C1FAD54B68F35F4!3195&ithint=file%2Cxlsx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBdlExajdaVXJSLWNtSHRTVnYyU2hUUTJEZzJ2P2U9T0NST3lo&migratedtospo=true&wdo=2&cid=9c1fad54b68f35f4",
-    "apworld": "https://github.com/randomsalience/albw-archipelago/releases/latest"
-  },
-  {
-    "name": "Zelda : Ocarina of Time",
-    "icon": "⚙️",
-    "setup": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/guide_en.md",
-    "tracker": "https://github.com/Brian0255/ship-of-harkinian-ap-tracker/releases/latest",
-    "info": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/en_Ship%20of%20Harkinian.md",
-    "apworld": "https://github.com/HarbourMasters/Archipelago-SoH/releases/latest"
-  },
-  {
-    "name": "Zelda : Oracle of Seasons",
-    "icon": "⚙️",
-    "setup": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/oos_setup_en.md",
-    "tracker": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/latest",
-    "info": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Seasons.md",
-    "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
-  },
-  {
-    "name": "Zelda : Twilight Princess",
-    "icon": "⚙️",
-    "setup": "https://tinyurl.com/mrz7juwe",
-    "tracker": "https://github.com/Kizugaya/TPRAP_poptracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/latest"
+  { 
+    "name": "Zelda : A Link to the Past",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Link%20to%20the%20Past/setup/en",
+    "tracker": "https://github.com/StripesOO7/alttp-ap-poptracker-pack/releases/latest",
+    "info": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/player-options"
   },
   {
     "name": "Zelda: Majora's Mask",
@@ -1000,6 +936,46 @@
     "apworld": "https://github.com/RecompRando/MMRecompRando/releases/latest"
   },
   {
+    "name": "Zelda : The Minish Cap",
+    "icon": "⚙️",
+    "setup": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/setup_fr.md",
+    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
+    "info": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/fr_The%20Minish%20Cap.md",
+    "apworld": "https://github.com/eternalcode0/Archipelago/releases/latest"
+  },
+  {
+    "name": "Zelda : Link Between Worlds",
+    "icon": "⚙️",
+    "setup": "https://github.com/randomsalience/albw-archipelago/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/guigui0246/albw-ap-poptracker/releases/latest",
+    "info": "https://onedrive.live.com/edit?id=9C1FAD54B68F35F4!3195&resid=9C1FAD54B68F35F4!3195&ithint=file%2Cxlsx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBdlExajdaVXJSLWNtSHRTVnYyU2hUUTJEZzJ2P2U9T0NST3lo&migratedtospo=true&wdo=2&cid=9c1fad54b68f35f4",
+    "apworld": "https://github.com/randomsalience/albw-archipelago/releases/latest"
+  },
+  {
+    "name": "Zelda : Links Awakening DX",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Links%20Awakening%20DX/setup/en",
+    "tracker": "https://magpietracker.us/",
+    "info": "https://archipelago.gg/games/Links%20Awakening%20DX/info/en",
+    "apworld": "https://archipelago.gg/games/Links%20Awakening%20DX/player-options"
+  },
+  {
+    "name": "Zelda : Ocarina of Time (not ship)",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Ocarina%20of%20Time/setup/en",
+    "tracker": "https://nightly.track-oot.net/",
+    "info": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
+    "apworld": "https://archipelago.gg/games/Ocarina%20of%20Time/player-options"
+  },
+  {
+    "name": "Zelda : Ocarina of Time (ship)",
+    "icon": "⚙️",
+    "setup": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/guide_en.md",
+    "tracker": "https://github.com/Brian0255/ship-of-harkinian-ap-tracker/releases/latest",
+    "info": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/en_Ship%20of%20Harkinian.md",
+    "apworld": "https://github.com/HarbourMasters/Archipelago-SoH/releases/latest"
+  },
+  {
     "name": "Zelda: Oracle of Ages",
     "icon": "⚙️",
     "setup": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/ooa_setup_en.md",
@@ -1008,10 +984,42 @@
     "apworld": "https://github.com/josephanimate2021/ArchipelagoOoA/releases"
   },
   {
+    "name": "Zelda : Oracle of Seasons",
+    "icon": "⚙️",
+    "setup": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/oos_setup_en.md",
+    "tracker": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/latest",
+    "info": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Seasons.md",
+    "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
+  },
+  {
+    "name": "Zelda : The Legend of Zelda (NES)",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/multiworld_en",
+    "tracker": "https://github.com/Br00ty/tloz_brooty/releases/latest",
+    "info": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/player-options"
+  },
+  {
+    "name": "Zelda : Twilight Princess",
+    "icon": "⚙️",
+    "setup": "https://tinyurl.com/mrz7juwe",
+    "tracker": "https://github.com/Kizugaya/TPRAP_poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/latest"
+  },
+  {
+    "name": "Zelda : The Wind Waker",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Wind%20Waker/setup/en",
+    "tracker": "https://github.com/Mysteryem/ww-poptracker/releases/latest",
+    "info": "https://archipelago.gg/games/The%20Wind%20Waker/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Wind%20Waker/player-options"
+  },
+  {
     "name": "Zillion",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Zillion/setup/en",
-    "tracker": "",
+    "tracker": "https://github.com/Br00ty/zillion_brooty/releases/latest",
     "info": "https://archipelago.gg/games/Zillion/info/en",
     "apworld": "https://archipelago.gg/games/Zillion/player-options"
   },
