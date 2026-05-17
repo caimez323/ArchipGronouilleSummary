@@ -512,6 +512,14 @@
     "apworld": "https://archipelago.gg/games/Muse%20Dash/player-options"
   },
   {
+    "name": "Nodebuster",
+    "icon": "🔧",
+    "setup": "https://github.com/josephwhite/Emerlads-Nodebuster_AP_Mod/blob/dev/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/AzuriCaelum2/Archipelago-Nodebuster/releases/latest"
+  },
+  {
     "name": "Noita",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Noita/setup/en",
@@ -678,6 +686,14 @@
     "tracker": "",
     "info": "",
     "apworld": "./resources/rogue_legacy/rogue_legacy.apworld"
+  },
+  {
+    "name": "Rune Factory 4 Special",
+    "icon": "🔧",
+    "setup": "https://github.com/Happyhappyism/Archipelago/releases/tag/rune4_v0.1.0",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Archipelago/releases/latest"
   },
   {
     "name": "Satisfactory",
