@@ -576,6 +576,14 @@
     "apworld": "https://github.com/JKBSunshine/PMR_APWorld/releases/latest"
   },
   {
+    "name": "Plants Vs Zombies GOTY",
+    "icon": "🔧",
+    "setup": "https://github.com/dannybonz/replanted_archipelago/blob/main/apworld/docs/setup.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/dannybonz/replanted_archipelago/releases/latest"
+  },
+  {
     "name": "Paper Mario : La Porte Millénaire",
     "icon": "⚙️",
     "setup": "https://github.com/jamesbrq/ArchipelagoTTYD/blob/main/docs%2Fsetup_en.md",
