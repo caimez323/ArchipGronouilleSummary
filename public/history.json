@@ -6,7 +6,7 @@
     "games": ["Dark Souls Remastered", "Jak and Daxter: The Precursor Legacy", "Celeste (Open World)", "Ori and the Blind Forest", "Hollow Knight", "A Link Between Worlds"],
     "seed" : 	"KfsLb8a-Q-KKYYLH0IjioA",
     "summary": [
-      { "player": "Lucas", "Jeu": "Dark Souls Remastered" ,"Temps de completion": "12h", "Nombre de morts": 25, "Objectif": "gwyn"},
+      { "player": "Lucas", "Jeu": "Dark Souls Remastered" ,"Temps de completion": "12h", "Nombre de morts": 25, "Objectif": "Gwyn Lord of Cinder"},
       { "player": "Alexis",   "Jeu": "Jak and Daxter: The Precursor Legacy" ,"Temps de completion": "15h", "Nombre de morts": 69, "Objectif": "Fin du jeu"},
       { "player": "Léo", "Jeu": "Celeste (Open World)" ,"Temps de completion": "22h", "Nombre de morts": 54, "Objectif": "Farwell"},
       { "player": "Sébastien",  "Jeu": "Ori and the Blind Forest" ,"Temps de completion": "11h", "Nombre de morts": 43, "Objectif": "Fin du jeu + Skill Tree"},
