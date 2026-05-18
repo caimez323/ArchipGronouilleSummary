@@ -8,6 +8,14 @@
     "apworld": "https://archipelago.gg/games/Adventure/player-options"
   },
   {
+    "name": "ANIMAL WELL",
+    "icon": "🔧",
+    "setup": "https://github.com/ScipioWright/Archipelago-SW/blob/animal-well/worlds/animal_well/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ScipioWright/Archipelago-SW/releases/latest"
+  },
+  {
     "name": "APQuest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/APQuest/setup/en",
@@ -22,6 +30,14 @@
     "tracker": "https://github.com/palex00/aquaria-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Aquaria/info/en",
     "apworld": "https://archipelago.gg/games/Aquaria/player-options"
+  },
+  {
+    "name": "Archipeladoku",
+    "icon": "🔧",
+    "setup": "https://galdiuz.github.io/archipeladoku/",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Balatro",
@@ -193,7 +209,7 @@
   },
   {
     "name": "Dead Cells (BETA)",
-    "icon": "⚙️",
+    "icon": "🔧",
     "setup": "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/latest",
     "tracker": "",
     "info": "",
@@ -528,6 +544,14 @@
     "apworld": "https://archipelago.gg/games/Muse%20Dash/player-options"
   },
   {
+    "name": "Nine sols",
+    "icon": "🔧",
+    "setup": "https://github.com/Ixrec/NineSolsArchipelagoRandomizer?tab=readme-ov-file#installation",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Ixrec/NineSolsArchipelagoRandomizer/releases/latest"
+  },
+  {
     "name": "Nodebuster",
     "icon": "🔧",
     "setup": "https://github.com/josephwhite/Emerlads-Nodebuster_AP_Mod/blob/dev/docs/setup_en.md",
@@ -558,6 +582,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/c-ostic/Archipelago/releases/latest"
+  },
+  {
+    "name": "Ori and the Will of the Wisps",
+    "icon": "🔧",
+    "setup": "https://github.com/Satisha10/APwotw_release",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Satisha10/APwotw_release/releases/latest"
   },
   {
     "name": "Outer Wilds",
@@ -704,6 +736,14 @@
     "apworld": "https://github.com/Taoshix/Archipelago-RaC3/releases/latest"
   },
   {
+    "name": "Rayman 2 : The Great Escape",
+    "icon": "🔧",
+    "setup": "https://github.com/Aeltumn/Rayman2AP",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Aeltumn/Rayman2AP/releases/latest"
+  },
+  {
     "name": "Risk of Rain 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Risk%20of%20Rain%202/setup/en",
@@ -822,6 +862,14 @@
     "tracker": "",
     "info": "https://github.com/ClassicSpeed/SADX-Archipelago-Locations-Wiki/blob/main/README.md",
     "apworld": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/latest"
+  },
+  {
+    "name": "Spyro : A hero's tail",
+    "icon": "🔧",
+    "setup": "https://github.com/XuaTheGrate/Archipelago/tree/spyro/worlds/spyro-aht#setup-guide",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/XuaTheGrate/Archipelago/releases/latest"
   },
   {
     "name": "Starcraft 2",
