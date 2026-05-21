@@ -15,6 +15,14 @@
     "info": "",
     "apworld": "https://github.com/ScipioWright/Archipelago-SW/releases/latest"
   },
+    {
+    "name": "Another's Crab Treasure",
+    "icon": "🔧",
+    "setup": "https://github.com/Automagic00/ACT-AP-Client-Plugin",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Automagic00/ACT-AP-Client-Plugin/releases"
+  },
   {
     "name": "APQuest",
     "icon": "🐢",
@@ -384,6 +392,14 @@
     "apworld": "https://github.com/spineraks-org/ArchipelagoJigsaw/releases/latest"
   },
   {
+    "name": "Keep Talking and Nobody Explodes",
+    "icon": "🔧",
+    "setup": "https://github.com/GreenPower713/KTaNE-Archipelago-Expert-Manuals/releases",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/GreenPower713/Archipelago/releases/latest"
+  },
+  {
     "name": "Kingdom Hearts",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts/setup/en",
@@ -622,6 +638,22 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Paint/info/en",
     "apworld": "https://archipelago.gg/games/Paint/player-options"
+  },
+  {
+    "name": "Placid Duck Simulator",
+    "icon": "🔧",
+    "setup": "https://github.com/SWCreeperKing/PPDSArchipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SWCreeperKing/PPDSArchipelago/releases/latest"
+  },
+  {
+    "name": "Pseudoregalia",
+    "icon": "🔧",
+    "setup": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/setup_en.md",
+    "tracker": "https://github.com/highrow623/pseudoregalia_brooty/releases/latest",
+    "info": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/en_Pseudoregalia.md#locations",
+    "apworld": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/latest"
   },
   {
     "name": "Paper Mario 64",
@@ -958,6 +990,14 @@
     "tracker": "https://github.com/ZobeePlays/Timespinner-AP-Item-Tracker/tree/main",
     "info": "https://archipelago.gg/games/Timespinner/info/en",
     "apworld": "https://archipelago.gg/games/Timespinner/player-options"
+  },
+  {
+    "name": "Trackmania : Random Campaign",
+    "icon": "🔧",
+    "setup": "https://openplanet.dev/plugin/archipelagoplugin",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SerialBoxes/ArchipelagoTrackmania/releases"
   },
   {
     "name": "TUNIC",
