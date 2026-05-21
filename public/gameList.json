@@ -856,14 +856,6 @@
     "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
   },
   {
-    "name": "Skyward Sword",
-    "icon": "⚙️",
-    "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
-    "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
-    "info": "",
-    "apworld": "https://github.com/Battlecats59/SS_APWorld/releases/latest"
-  },
-  {
     "name": "Slay the Spire",
     "icon": "⚙️",
     "setup": "https://github.com/cjmang/StS-AP-World/blob/sts/worlds/spire/docs/slay-the-spire_en.md",
@@ -1150,6 +1142,14 @@
     "tracker": "https://github.com/ZobeePlays/PH-AP-Item-Tracker/tree/main",
     "info": "https://github.com/carrotinator/Archipelago/wiki",
     "apworld": "https://github.com/carrotinator/Archipelago/releases/latest"
+  },
+  {
+    "name": "Skyward Sword",
+    "icon": "⚙️",
+    "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
+    "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
+    "info": "",
+    "apworld": "https://github.com/Battlecats59/SS_APWorld/releases/latest"
   },
   {
     "name": "Zelda : Spirit Tracks",
