@@ -349,3 +349,34 @@ footer {
   color: var(--tx);
   text-align: right;
 }
+
+/* ── Filter chips ────────────────────────────────────────── */
+.filter-chips {
+  display: flex;
+  gap: var(--sp-2);
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  padding: 5px 12px;
+  border-radius: var(--r-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: var(--text-sm);
+  cursor: pointer;
+  user-select: none;
+  transition: background var(--ease), border-color var(--ease), opacity var(--ease);
+}
+.filter-chip:hover { background: var(--surface-2); }
+.filter-chip input { display: none; }
+.filter-chip:has(input:checked) {
+  background: oklch(from var(--accent) l c h / .12);
+  border-color: oklch(from var(--accent) l c h / .35);
+}
+.filters-disabled .filter-chip {
+  opacity: .4;
+  pointer-events: none;
+}
