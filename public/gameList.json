@@ -368,6 +368,14 @@
     "apworld": "https://archipelago.gg/games/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/player-options"
   },
   {
+    "name": "Jak 2",
+    "icon": "🔧",
+    "setup": "https://github.com/narramoment/ArchipelaGOAL-II/releases/latest",
+    "tracker": "https://github.com/Blake645/Jak-II-AP-Poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/narramoment/Archipelago/releases/latest"
+  },
+  {
     "name": "Jigsaw",
     "icon": "⚙️",
     "setup": "https://jigsaw-ap.netlify.app/",
