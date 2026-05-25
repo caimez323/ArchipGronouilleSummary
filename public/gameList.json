@@ -112,12 +112,28 @@
     "apworld": "https://archipelago.gg/games/Bumper%20Stickers/player-options"
   },
   {
+    "name": "Castlevania - Dawn of Sorrow",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/SchwartzGandhi/CVDoSPT/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20dawn%20of%20sorrow&expanded=true"
+  },
+  {
     "name": "Castlevania - Circle of the Moon",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Castlevania%20-%20Circle%20of%20the%20Moon/setup/en",
     "tracker": "https://github.com/BowserCrusher/Circle-of-the-Moon-AP-Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/info/en",
     "apworld": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/player-options"
+  },
+  {
+    "name": "Castlevania - Portrait of Ruin",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/SchwartzGandhi/CVPoRPT/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20portrait%20of%20ruin&expanded=true"
   },
   {
     "name": "Castlevania - Symphony of the Night",
@@ -321,6 +337,14 @@
     "apworld": "https://archipelago.gg/games/DOOM%20II/player-options"
   },
   {
+    "name": "Dracomino",
+    "icon": "🥚",
+    "setup": "https://github.com/DragonWolfLeo/Dracomino",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/DragonWolfLeo/DracominoAPWorld/releases"
+  },
+  {
     "name": "Dredge",
     "icon": "🥚",
     "setup": "https://github.com/alextric234/ArchipelagoDredge/blob/main/worlds/dredge/docs/setup_en.md",
@@ -377,12 +401,36 @@
     "apworld": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/player-options"
   },
   {
+    "name": "Final Fantasy Tactics: Ivalice Island",
+    "icon": "🥚",
+    "setup": "https://github.com/Rosalie-A/Archipelago/wiki/Final-Fantasy-Tactics:-Ivalice-Island-Setup-Guide",
+    "tracker": "https://github.com/Rosalie-A/FFTII-Tracker/releases/",
+    "info": "https://github.com/Rosalie-A/Archipelago/wiki/FFT-How-To-Play",
+    "apworld": "https://github.com/Rosalie-A/Archipelago/releases/"
+  },
+  {
+    "name": "Funny Raccoon Game",
+    "icon": "🥚",
+    "setup": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md",
+    "tracker": "https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonPopTracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/latest"
+  },
+  {
     "name": "Hades",
     "icon": "🐛",
     "setup": "https://github.com/NaixGames/PolycosmosInstaller",
     "tracker": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/latest",
     "info": "https://youtu.be/8LamFneVm_A",
     "apworld": "https://github.com/NaixGames/Polycosmos/releases/latest"
+  },
+  {
+    "name": "Harry Potter and the Chamber of Secrets",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Kryen112/HP2PC_AP/releases/"
   },
   {
     "name": "A Hat in Time",
@@ -721,14 +769,6 @@
     "apworld": "https://github.com/ShadowKitty42/ONI-Archipelago/releases/latest"
   },
   {
-    "name": "Peggle Deluxe (EN)",
-    "icon": "🥚",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+deluxe%22&expanded=true"
-  },
-  {
     "name": "Paint",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Paint/setup/en",
@@ -743,6 +783,22 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/SWCreeperKing/PPDSArchipelago/releases/latest"
+  },
+  {
+    "name": "Peggle Night (EN)",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+nights%22&expanded=true"
+  },
+  {
+    "name": "Peggle Deluxe (EN)",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+deluxe%22&expanded=true"
   },
   {
     "name": "Pseudoregalia",
@@ -905,6 +961,14 @@
     "apworld": "./resources/rogue_legacy/rogue_legacy.apworld"
   },
   {
+    "name": "Rubrik's Cube AP",
+    "icon": "🥚",
+    "setup": "https://cube-ap.netlify.app/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest"
+  },
+  {
     "name": "Rune Factory 4 Special",
     "icon": "🥚",
     "setup": "https://github.com/Happyhappyism/Archipelago/releases/tag/rune4_v0.1.0",
@@ -983,6 +1047,14 @@
     "tracker": "",
     "info": "https://docs.google.com/spreadsheets/d/15PdrnGmkYdocX9RU-D5U_9OgihRNN9axX71mm-jOPUQ/edit?usp=sharing",
     "apworld": "https://github.com/SWCreeperKing/Slimipelago/releases"
+  },
+  {
+    "name": "SMW: Spicy Mycena Waffles",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "SMZ3",
@@ -1169,6 +1241,14 @@
     "apworld": "https://archipelago.gg/games/Yacht%20Dice/player-options"
   },
   {
+    "name": "Yohane the Parhelion : Blaze in the DeepBlue",
+    "icon": "",
+    "setup": "",
+    "tracker": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/releases/latest",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Yoshi's Island",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Yoshi's%20Island/setup/en",
@@ -1265,7 +1345,7 @@
     "apworld": "https://github.com/carrotinator/Archipelago/releases/latest"
   },
   {
-    "name": "Skyward Sword",
+    "name": "Zelda :Skyward Sword",
     "icon": "🐛",
     "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
     "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
