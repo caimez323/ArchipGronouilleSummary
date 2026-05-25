@@ -25,6 +25,30 @@
     "apworld": "https://github.com/BlastSlimey/GrabbingChecks/releases"
   },
   {
+    "name": "A Hat in Time",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup/en",
+    "tracker": "https://github.com/Mysteryem/ahit-poptracker/releases/latest",
+    "info": "https://archipelago.gg/games/A%20Hat%20in%20Time/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Hat%20in%20Time/player-options"
+  },
+  {
+    "name": "A Short Hike",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Short%20Hike/setup/en",
+    "tracker": "https://github.com/Oshroth/shorthike-archipelago-poptracker/releases/latest",
+    "info": "https://archipelago.gg/games/A%20Short%20Hike/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
+  },
+  {
+    "name": "ActRaiser",
+    "icon": "🥚",
+    "setup": "https://rentry.co/actraiserv0-1",
+    "tracker": "https://github.com/ShinyNT/actraiser-poptracker/releases/",
+    "info": "https://docs.google.com/document/d/1Ymh4AtH6-bVUGIvrUxdntMkXSzKS7Tmt8HuaxRTpWD0/edit?usp=sharing",
+    "apworld": "https://github.com/Happyhappyism/Archipelago/releases?q=actraiser&expanded=true"
+  },
+  {
     "name": "Adventure",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Adventure/setup/en",
@@ -512,14 +536,6 @@
     "tracker": "",
     "info": "https://github.com/WritingHusky/haste_apworld",
     "apworld": "https://github.com/WritingHusky/haste_apworld/releases"
-  },
-  {
-    "name": "A Hat in Time",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup/en",
-    "tracker": "https://github.com/Mysteryem/ahit-poptracker/releases/latest",
-    "info": "https://archipelago.gg/games/A%20Hat%20in%20Time/info/en",
-    "apworld": "https://archipelago.gg/games/A%20Hat%20in%20Time/player-options"
   },
   {
     "name": "Heretic",
@@ -1152,14 +1168,6 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Shivers/info/en",
     "apworld": "https://archipelago.gg/games/Shivers/player-options"
-  },
-  {
-    "name": "A Short Hike",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/A%20Short%20Hike/setup/en",
-    "tracker": "https://github.com/Oshroth/shorthike-archipelago-poptracker/releases/latest",
-    "info": "https://archipelago.gg/games/A%20Short%20Hike/info/en",
-    "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
   },
   {
     "name": "Skul the Hero Slayer",
