@@ -633,6 +633,14 @@
     "apworld": "https://github.com/kbab13reel/Archipelago/releases/latest"
   },
   {
+    "name": "Lego Rock Raiders / Manic Miners",
+    "icon": "🥚",
+    "setup": "https://github.com/fogmike/Archipelago_ManicMiners/blob/main/worlds/manicminers/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/fogmike/Archipelago_ManicMiners/blob/main/worlds/manicminers/docs/en_ManicMiners.md",
+    "apworld": "https://github.com/fogmike/Archipelago_ManicMiners/releases/"
+  },
+  {
     "name": "Lego Star Wars : The Complete Saga",
     "icon": "🐛",
     "setup": "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/setup_en.md",
@@ -695,6 +703,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases"
+  },
+  {
+    "name": "Mario sport Mix",
+    "icon": "🥚",
+    "setup": "https://github.com/ElectroStarz/ArchipelagoMSM/blob/main/worlds/mario_sports_mix/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ElectroStarz/ArchipelagoMSM/releases"
   },
   {
     "name": "Mega Man 2",
@@ -1295,6 +1311,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Wargroove/info/en",
     "apworld": "https://archipelago.gg/games/Wargroove/player-options"
+  },
+  {
+    "name": "WitchSpring R",
+    "icon": "🥚",
+    "setup": "https://github.com/LeiAfkpuz/WitchSpring-R-Archipelago/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/LeiAfkpuz/WitchSpring-R-Archipelago/releases/"
   },
   {
     "name": "The Witness",
