@@ -1,5 +1,21 @@
 [
   {
+    "name": "A Difficult Game About Climbing",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/setup_en.md",
+    "info": "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/en_A%20Difficult%20Game%20About%20Climbing.md",
+    "apworld": "https://github.com/BlastSlimey/GrabbingChecks/releases"
+  },
+  {
+    "name": "A Dance of Fire and Ice",
+    "icon": "🥚",
+    "setup": "https://github.com/ClaudeChibout/ADOFAI_AP-Mod",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ClaudeChibout/Archipelago-ADOFAI/releases"
+  },
+  {
     "name": "Adventure",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Adventure/setup/en",
@@ -102,6 +118,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases/latest"
+  },
+  {
+    "name": "Buckshot Roulette",
+    "icon": "🥚",
+    "setup": "https://github.com/asdfwyay/APBuckshot/blob/dev/worlds/buckshot/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/asdfwyay/APBuckshot/blob/dev/worlds/buckshot/docs/en_Buckshot%20Roulette.md",
+    "apworld": "https://github.com/asdfwyay/APBuckshot/releases"
   },
   {
     "name": "Bumper Stickers",
@@ -272,6 +296,22 @@
     "apworld": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/latest"
   },
   {
+    "name": "Deep Rock Galactic",
+    "icon": "🥚",
+    "setup": "https://docs.google.com/document/d/16At-2kS_azJRf9PdUcZeA8Esfoh6kNm2dWVWy8u8wA0/edit?usp=drive_link",
+    "tracker": "",
+    "info": "https://docs.google.com/spreadsheets/d/118DwffPEEFUVRaCzyy_Iem1lAsyslyCiLRU6CpNg3tc/edit?gid=1449642911#gid=1449642911",
+    "apworld": "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases"
+  },
+  {
+    "name": "Dicey Dungeons",
+    "icon": "🥚",
+    "setup": "https://github.com/Fylcoast/AP_diceydungeons/blob/release/worlds/diceydungeons/docs/setup_en.md",
+    "tracker": "https://github.com/Fylcoast/Dicey-Dungeons-AP-Tracker/releases/",
+    "info": "https://github.com/Fylcoast/AP_diceydungeons/blob/release/worlds/diceydungeons/docs/en_Dicey%20Dungeons.md",
+    "apworld": "https://github.com/Fylcoast/AP_diceydungeons/releases"
+  },
+  {
     "name": "DLCQuest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DLCQuest/setup/en",
@@ -409,6 +449,14 @@
     "apworld": "https://github.com/Rosalie-A/Archipelago/releases/"
   },
   {
+    "name": "Fire Emblem: The Sacred Stones (FE8)",
+    "icon": "🥚",
+    "setup": "https://github.com/CT075/fe8-archipelago/blob/main/setup.md",
+    "tracker": "",
+    "info": "https://github.com/CT075/fe8-archipelago/blob/main/README.md",
+    "apworld": "https://github.com/CT075/Archipelago/releases"
+  },
+  {
     "name": "Funny Raccoon Game",
     "icon": "🥚",
     "setup": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/blob/main/worlds/funi_raccoon/docs/setup_en.md",
@@ -433,6 +481,14 @@
     "apworld": "https://github.com/Kryen112/HP2PC_AP/releases/"
   },
   {
+    "name": "HASTE",
+    "icon": "🥚",
+    "setup": "https://github.com/WritingHusky/haste_apworld/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/WritingHusky/haste_apworld",
+    "apworld": "https://github.com/WritingHusky/haste_apworld/releases"
+  },
+  {
     "name": "A Hat in Time",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/A%20Hat%20in%20Time/setup/en",
@@ -447,6 +503,14 @@
     "tracker": "https://github.com/Forsaken-angel/heretic-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Heretic/info/en",
     "apworld": "https://archipelago.gg/games/Heretic/player-options"
+  },
+  {
+    "name": "Hexcells Infinite",
+    "icon": "🥚",
+    "setup": "../../resources/hexcells_infinite/hexcells_infinite_setup.html",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Heaxeus/Archipelago/releases/"
   },
   {
     "name": "Hollow Knight",
@@ -1052,9 +1116,9 @@
     "name": "SMW: Spicy Mycena Waffles",
     "icon": "🥚",
     "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
+    "tracker": "https://github.com/IsoFrieze/SMW_AP_Tracker/releases",
+    "info": "https://thelx5.github.io/smw/",
+    "apworld": "https://github.com/TheLX5/Archipelago/releases"
   },
   {
     "name": "SMZ3",
