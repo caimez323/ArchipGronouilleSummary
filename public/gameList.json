@@ -521,6 +521,14 @@
     "apworld": "https://github.com/Heaxeus/Archipelago/releases/"
   },
   {
+    "name": "Hi-fi Rush",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TRPG0/HbkArchipelago/releases/"
+  },
+  {
     "name": "Hollow Knight",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Hollow%20Knight/setup/en",
@@ -767,6 +775,14 @@
     "tracker": "https://github.com/lilDavid/MetroidPrimeAP-PoptrackerPack/releases/latest",
     "info": "https://github.com/UltiNaruto/MetroidAPrime/blob/main/README.md",
     "apworld": "https://github.com/UltiNaruto/MetroidAPrime/releases/latest"
+  },
+  {
+    "name": "Metroid : Samus Returns",
+    "icon": "🥚",
+    "setup": "https://github.com/lilDavid/AP-SamusReturns/blob/main/src/msr/docs/setup_en.md",
+    "tracker": "https://github.com/LuigiXRules/Metroid-Samus-Returns-Poptracker-Pack/releases/",
+    "info": "https://github.com/lilDavid/AP-SamusReturns/blob/main/src/msr/docs/en_Metroid%20Samus%20Returns.md",
+    "apworld": "https://github.com/lilDavid/AP-SamusReturns/releases/"
   },
   {
     "name": "Minecraft",
