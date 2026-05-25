@@ -232,6 +232,14 @@
     "apworld": "https://archipelago.gg/games/Civilization%20VI/player-options"
   },
   {
+    "name": "Clair Obscur: Expedition 33",
+    "icon": "🥚",
+    "setup": "https://github.com/Demorck/ClairObscur_APWorld/wiki",
+    "tracker": "https://github.com/Demorck/ClairObscur-Archipelago-Poptracker",
+    "info": "",
+    "apworld": "https://github.com/Demorck/ClairObscur_APWorld/releases"
+  },
+  {
     "name": "Clique",
     "icon": "🐛",
     "setup": "https://clique.pharware.com/",
@@ -1049,6 +1057,14 @@
     "apworld": "https://github.com/Aeltumn/Rayman2AP/releases/latest"
   },
   {
+    "name": "Return of the Obra Dinn",
+    "icon": "🥚",
+    "setup": "https://gitlab.com/obra-dinn-archipelago/mod",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://gitlab.com/obra-dinn-archipelago/world/-/releases/"
+  },
+  {
     "name": "Risk of Rain 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Risk%20of%20Rain%202/setup/en",
@@ -1359,6 +1375,14 @@
     "tracker": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/releases/latest",
     "info": "",
     "apworld": ""
+  },
+  {
+    "name": "Ys VIII : Lacrimosa of Dana",
+    "icon": "🥚",
+    "setup": "https://github.com/junglechief87/Ys-8-AP-World/blob/master/worlds/ys_8/Docs/setup_en.md",
+    "tracker": "https://github.com/AkagiCritMagnet/Ys-VIII-randomizer-poptracker-pack/releases",
+    "info": "https://github.com/junglechief87/Ys-8-AP-World/blob/master/worlds/ys_8/Docs/en_Ys%208.md",
+    "apworld": "https://github.com/junglechief87/Ys-8-AP-World/releases"
   },
   {
     "name": "Yoshi's Island",
