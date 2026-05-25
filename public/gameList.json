@@ -1,11 +1,12 @@
 [
+  
   {
-    "name": "A Difficult Game About Climbing",
+    "name": "2048",
     "icon": "🥚",
-    "setup": "",
-    "tracker": "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/setup_en.md",
-    "info": "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/en_A%20Difficult%20Game%20About%20Climbing.md",
-    "apworld": "https://github.com/BlastSlimey/GrabbingChecks/releases"
+    "setup": "https://github.com/Ishigh1/Archipelago/blob/2048/worlds/2048/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/Ishigh1/Archipelago/blob/2048/worlds/2048/docs/en_2048.md",
+    "apworld": "https://github.com/Ishigh1/Archipelago/releases/"
   },
   {
     "name": "A Dance of Fire and Ice",
@@ -14,6 +15,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/ClaudeChibout/Archipelago-ADOFAI/releases"
+  },
+  {
+    "name": "A Difficult Game About Climbing",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/setup_en.md",
+    "info": "https://github.com/BlastSlimey/Archipelago/blob/difficult_climbing/worlds/difficult_climbing/docs/en_A%20Difficult%20Game%20About%20Climbing.md",
+    "apworld": "https://github.com/BlastSlimey/GrabbingChecks/releases"
   },
   {
     "name": "Adventure",
@@ -951,6 +960,14 @@
     "tracker": "https://github.com/Vinaigre1/Pikmin2-PopTracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/chpas0/Pikmin2Archipelago/releases/latest"
+  },
+  {
+    "name": "Pizza Tower",
+    "icon": "🥚",
+    "setup": "https://github.com/unsafetyskizzers/Archipelago/blob/pizza_ap/worlds/pizza_tower/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/unsafetyskizzers/Archipelago/releases/"
   },
   {
     "name": "Pokemon Blanc et Noir",
