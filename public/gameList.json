@@ -57,6 +57,38 @@
     "apworld": "https://archipelago.gg/games/Adventure/player-options"
   },
   {
+    "name": "Against the Storm",
+    "icon": "🥚",
+    "setup": "https://github.com/RyanCirincione/ArchipelagoATS/blob/main/worlds/against_the_storm/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/RyanCirincione/ArchipelagoATS/blob/main/worlds/against_the_storm/docs/en_Against_The_Storm.md",
+    "apworld": "https://github.com/Ryguy-9999/ArchipelagoATS/releases"
+  },
+  {
+    "name": "Age of Empires II: Definitive Edition",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/dmwever/Ageipelago/releases/"
+  },
+  {
+    "name": "Air Delivery",
+    "icon": "🥚",
+    "setup": "https://qwint.github.io/air_delivery/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/qwint/ap-air-delivery/releases"
+  },
+  {
+    "name": "An Untitled Story",
+    "icon": "🥚",
+    "setup": "https://github.com/ThatOneGuy27/Archipelago-aus/releases/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ThatOneGuy27/Archipelago-aus/releases/"
+  },
+  {
     "name": "ANIMAL WELL",
     "icon": "🥚",
     "setup": "https://github.com/ScipioWright/Archipelago-SW/blob/animal-well/worlds/animal_well/docs/setup_en.md",
@@ -73,6 +105,14 @@
     "apworld": "https://github.com/Dark-Listener/ArchipelagoA1800/releases"
   },
   {
+    "name": "Anodyne",
+    "icon": "🥚",
+    "setup": "https://github.com/SephDB/AnodyneArchipelagoClient?tab=readme-ov-file#installation",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/PixieCatSupreme/ArchipelagoAno/releases"
+  },
+  {
     "name": "Another's Crab Treasure",
     "icon": "🥚",
     "setup": "https://github.com/Automagic00/ACT-AP-Client-Plugin",
@@ -87,6 +127,22 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/APQuest/info/en",
     "apworld": "https://archipelago.gg/games/APQuest/player-options"
+  },
+  {
+    "name": "Ape Escape",
+    "icon": "🥚",
+    "setup": "https://github.com/Thedragon005/Archipelago-Ape-Escape/blob/apeescape/worlds/apeescape/docs/setup_fr.md",
+    "tracker": "https://github.com/lurch9229/Ape-Escape-Tracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/Thedragon005/Archipelago-Ape-Escape/releases/"
+  },
+  {
+    "name": "Ape Escape 3",
+    "icon": "🥚",
+    "setup": "https://github.com/aidanii24/ae3-archipelago/blob/main/docs/setup.md",
+    "tracker": "https://git.ddd.rip/SophiaNya/ae3-poptracker-pack/releases",
+    "info": "",
+    "apworld": "https://github.com/aidanii24/ae3-archipelago/releases"
   },
   {
     "name": "Aquaria",
