@@ -96,6 +96,14 @@
     "apworld": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/player-options"
   },
   {
+    "name": "Brotato",
+    "icon": "🥚",
+    "setup": "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SpenserHaddad/Brotato-ArchipelagoClient/releases/latest"
+  },
+  {
     "name": "Bumper Stickers",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Bumper%20Stickers/setup/en",
@@ -184,6 +192,22 @@
     "apworld": "https://pharware.com/git/Phar/Clique/releases/latest"
   },
   {
+    "name": "Clustertruck",
+    "icon": "🥚",
+    "setup": "https://github.com/Nullctipus/ArchipelagoClusterTruck",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases"
+  },
+  {
+    "name": "Crypt of the NecroDancer",
+    "icon": "🥚",
+    "setup": "https://github.com/lastingParadox/Archipelago-CotND/blob/crypt-of-the-necrodancer/worlds/cotnd/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/lastingParadox/Archipelago-CotND/releases"
+  },
+  {
     "name": "Cuphead",
     "icon": "🐛",
     "setup": "https://github.com/JKLeckr/CupheadArchipelagoMod/releases/latest",
@@ -240,6 +264,14 @@
     "apworld": "https://archipelago.gg/games/DLCQuest/player-options"
   },
   {
+    "name": "Dome Keeper",
+    "icon": "🥚",
+    "setup": "https://github.com/Arrcival/DomeKeeperArchipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Arrcival/ArchipelagoDK/releases"
+  },
+  {
     "name": "Donkey Kong 64",
     "icon": "🐛",
     "setup": "https://dev.dk64randomizer.com/wiki/index.html?title=Archipelago-Dev-Setup-Guide",
@@ -287,6 +319,14 @@
     "tracker": "https://github.com/Ozone31/doomii-ap-tracker/releases/latest",
     "info": "https://archipelago.gg/games/DOOM%20II/info/en",
     "apworld": "https://archipelago.gg/games/DOOM%20II/player-options"
+  },
+  {
+    "name": "Dredge",
+    "icon": "🥚",
+    "setup": "https://github.com/alextric234/ArchipelagoDredge/blob/main/worlds/dredge/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/alextric234/ArchipelagoDredge/releases/latest"
   },
   {
     "name": "EarthBound",
@@ -465,6 +505,14 @@
     "apworld": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/player-options"
   },
   {
+    "name": "League of Legends",
+    "icon": "🥚",
+    "setup": "./resources/lol/lol_setup.html",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/kbab13reel/Archipelago/releases/latest"
+  },
+  {
     "name": "Lego Star Wars : The Complete Saga",
     "icon": "🐛",
     "setup": "https://github.com/Mysteryem/Archipelago-TCS/blob/main/lego_star_wars_tcs/docs/setup_en.md",
@@ -519,6 +567,14 @@
     "tracker": "https://github.com/seto10987/MLSS-PopTracker/releases/latest",
     "info": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/info/en",
     "apworld": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/player-options"
+  },
+  {
+    "name": "Mario is Missing",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases"
   },
   {
     "name": "Mega Man 2",
@@ -655,6 +711,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Overcooked!%202/info/en",
     "apworld": "https://archipelago.gg/games/Overcooked!%202/player-options"
+  },
+  {
+    "name": "Oxygen Not Included : Prehistoric Planet Pack",
+    "icon": "🥚",
+    "setup": "https://github.com/ShadowKitty42/ONI-Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ShadowKitty42/ONI-Archipelago/releases/latest"
   },
   {
     "name": "Peggle Deluxe (EN)",
