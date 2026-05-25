@@ -31,7 +31,15 @@
     "info": "",
     "apworld": "https://github.com/ScipioWright/Archipelago-SW/releases/latest"
   },
-    {
+  {
+    "name": "Anno 1800",
+    "icon": "🥚",
+    "setup": "https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v0.4.0/worlds/a1800/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v0.4.0/worlds/a1800/docs/en_Anno%201800.md",
+    "apworld": "https://github.com/Dark-Listener/ArchipelagoA1800/releases"
+  },
+  {
     "name": "Another's Crab Treasure",
     "icon": "🥚",
     "setup": "https://github.com/Automagic00/ACT-AP-Client-Plugin",
