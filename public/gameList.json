@@ -161,6 +161,46 @@
     "apworld": "https://galdiuz.github.io/archipeladoku/archipeladoku.apworld"
   },
   {
+    "name": "Archipela-Go!",
+    "icon": "🥚",
+    "setup": "https://github.com/aki665/react-native-archipelago/blob/archipela-go/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/aki665/react-native-archipelago/releases/"
+  },
+  {
+    "name": "Armored Core",
+    "icon": "🥚",
+    "setup": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/tree/main/docs",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/releases"
+  },
+  {
+    "name": "Astalion : Tears of the Earth",
+    "icon": "🥚",
+    "setup": "https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/en_Astalon.md",
+    "apworld": "https://github.com/drtchops/Archipelago-Astalon/releases"
+  },
+  {
+    "name": "Autopelago",
+    "icon": "🥚",
+    "setup": "https://autopelago.app/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/airbreather/Archipelago/releases/"
+  },
+  {
+    "name": "Axiom Verge",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/mail-liam/Archipelago/releases/latest"
+  },
+  {
     "name": "Balatro",
     "icon": "🐛",
     "setup": "https://github.com/BurndiL/BalatroAP/releases/latest",
