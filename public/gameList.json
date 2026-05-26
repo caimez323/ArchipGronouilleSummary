@@ -217,20 +217,20 @@
     "apworld": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest"
   },
   {
-    "name": "Binding of Isaac : Repentance",
-    "icon": "🐛",
-    "setup": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/setup_en.md",
-    "tracker": "",
-    "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
-    "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
-  },
-  {
     "name": "Blasphemous",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Blasphemous/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Blasphemous/info/en",
     "apworld": "https://archipelago.gg/games/Blasphemous/player-options"
+  },
+  {
+    "name": "Blasphemous 2 (Mea Culpa DLC)",
+    "icon": "🥚",
+    "setup": "https://github.com/BrandenEK/BlasII.Randomizer.Multiworld",
+    "tracker": "",
+    "info": "",
+    "apworld": "../resources/blasphemous2/blasphemous2.apworld"
   },
   {
     "name": "Bloons TD 6",
@@ -241,12 +241,52 @@
     "apworld": "https://github.com/Matt41321/Archipelago/releases/latest"
   },
   {
+    "name": "Bomberman Quest",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/RunInAWeek/Bomberman-Quest-AP-Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Archipelago/releases/"
+  },
+  {
+    "name": "Bomberman 64",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1326400868773400677/1327799614660939816",
+    "tracker": "https://github.com/RunInAWeek/Bomberman-64-AP-Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Archipelago/releases/"
+  },
+  {
+    "name": "Bomberman 64 : The Second Attack!",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1064213698861879459/1351952574496116829",
+    "tracker": "https://github.com/Pikachu979/Bomberman-64-The-Second-Attack-Poptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Archipelago/releases/"
+  },
+  {
+    "name": "Bomberman Hero",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1330612852867858505/1330736271525675042",
+    "tracker": "https://github.com/Happyhappyism/Bomberman_Hero_Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Bomberman-Hero-Archipelago/releases/"
+  },
+  {
     "name": "Bomb Rush Cyberfunk",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Bomb%20Rush%20Cyberfunk/setup/en",
     "tracker": "https://thunderstore.io/c/bomb-rush-cyberfunk/p/TRPG/MoreMap/",
     "info": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/info/en",
     "apworld": "https://archipelago.gg/games/Bomb%20Rush%20Cyberfunk/player-options"
+  },
+  {
+    "name": "Brave Fencer Musashi",
+    "icon": "🥚",
+    "setup": "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/AegeusEvander/Brave-Fencer-Musashi-AP-World/releases/"
   },
   {
     "name": "Brotato",
@@ -1408,6 +1448,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Terraria/info/en",
     "apworld": "https://archipelago.gg/games/Terraria/player-options"
+  },
+  {
+    "name": "The Binding of Isaac : Repentance",
+    "icon": "🐛",
+    "setup": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
+    "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
   },
   {
     "name": "Timespinner",
