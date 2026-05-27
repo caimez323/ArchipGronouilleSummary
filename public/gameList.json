@@ -465,7 +465,7 @@
     "apworld": "https://archipelago.gg/games/Dark%20Souls%20III/player-options"
   },
   {
-    "name": "Dead Cells (BETA)",
+    "name": "Dead Cells",
     "icon": "🥚",
     "setup": "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/latest",
     "tracker": "",
@@ -648,6 +648,22 @@
     "tracker": "https://github.com/Jeffdev-Archipelago-Implementations/FuniRaccoonPopTracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/latest"
+  },
+  {
+    "name": "FNAF",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1104088448127729704/1187854264375193721",
+    "tracker": "https://drive.google.com/file/d/1r864XblcMptcgUWNombDOCzxJmc8brqm/view?usp=sharing",
+    "info": "",
+    "apworld": "https://github.com/EviVirus/Archipelago/releases/"
+  },
+  {
+    "name": "Gnosia",
+    "icon": "🥚",
+    "setup": "https://github.com/Mat8071/Gnosia-AP-Client/releases/latest",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/latest"
   },
   {
     "name": "Hades",
@@ -866,6 +882,14 @@
     "apworld": "https://github.com/BootsinSoots/Archipelago/releases/latest"
   },
   {
+    "name": "Marble it Up! Ultra",
+    "icon": "🥚",
+    "setup": "https://github.com/KitLemonfoot/ArchipelagoMIUU/",
+    "tracker": "",
+    "info": "https://github.com/KitLemonfoot/ArchipelagoMIUU/",
+    "apworld": "https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/"
+  },
+  {
     "name": "Mario & Luigi Superstar Saga",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Mario%20&%20Luigi%20Superstar%20Saga/setup/en",
@@ -880,6 +904,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/TheRealSolidusSnake/Mario-Is-Missing/releases"
+  },
+  {
+    "name": "Mario Kart : Double Dash",
+    "icon": "🥚",
+    "setup": "https://github.com/aXu-AP/archipelago-double-dash/blob/main/docs/en_Setup.md",
+    "tracker": "",
+    "info": "https://github.com/aXu-AP/archipelago-double-dash",
+    "apworld": "https://github.com/aXu-AP/archipelago-double-dash/releases/"
   },
   {
     "name": "Mario sport Mix",
@@ -1434,12 +1466,20 @@
     "apworld": "https://archipelago.gg/games/Super%20Metroid/player-options"
   },
   {
-    "name": "The Talos Principle Reawakened",
+    "name": "Taskipelago Taskipelabingo",
     "icon": "🥚",
-    "setup": "https://github.com/johnso48/TalosPrincipleArchipelagoClient",
+    "setup": "https://github.com/barretg/Taskipelago",
     "tracker": "",
     "info": "",
-    "apworld": "https://github.com/johnso48/TalosPrincipleArchipelago/releases/latest"
+    "apworld": "https://github.com/barretg/Taskipelago/releases"
+  },
+  {
+    "name": "Teardown",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1212530181655498752/1504993635366735952",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Evereliquest/Archipelago/releases/"
   },
   {
     "name": "Terraria",
@@ -1456,6 +1496,14 @@
     "tracker": "",
     "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
     "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
+  },
+  {
+    "name": "The Talos Principle Reawakened",
+    "icon": "🥚",
+    "setup": "https://github.com/johnso48/TalosPrincipleArchipelagoClient",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/johnso48/TalosPrincipleArchipelago/releases/latest"
   },
   {
     "name": "Timespinner",
