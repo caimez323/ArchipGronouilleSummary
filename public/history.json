@@ -24,8 +24,8 @@
       { "player": "Lucas", "Jeu": "Celeste (Open World)" ,"Temps de completion": "16h", "Nombre de morts": -1, "Objectif": "Farwell"},
       { "player": "Alexis",   "Jeu": "Subnautica" ,"Temps de completion": "15h", "Nombre de morts": -1, "Objectif": "Fin du jeu"},
       { "player": "Sébastien",  "Jeu": "Hadès" ,"Temps de completion": "3 jours", "Nombre de morts": -1, "Objectif": "Hadès avec chaque armes"},
-      { "player": "Clément (Axo)",  "Jeu": "TUNIC" ,"Temps de completion": "10h", "Nombre de morts": -1, "Objectif": "Fin du jeu"},
-      { "player": "Clément (caimez)",  "Jeu": "Minecraft" ,"Temps de completion": "11h", "Nombre de morts": -1, "Objectif": "Ender Dragon + 60 succès"}
+      { "player": "Clément (Axo)",  "Jeu": "TUNIC" ,"Temps de completion": "13h", "Nombre de morts": -1, "Objectif": "Fin du jeu"},
+      { "player": "Clément (caimez)",  "Jeu": "Minecraft" ,"Temps de completion": "12h", "Nombre de morts": -1, "Objectif": "Ender Dragon + 60 succès"}
     ]
   }
 ]
