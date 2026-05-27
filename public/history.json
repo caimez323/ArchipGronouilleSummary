@@ -18,7 +18,7 @@
     "id": 2,
     "date": "2026-05-23",
     "players": 5,
-    "games": ["Celeste (Open World)", "Subnautica", "Celeste (Open World)", "Hadès", "TUNIC", "Minecraft"],
+    "games": ["Celeste (Open World)", "Subnautica", "Hadès", "TUNIC", "Minecraft"],
     "seed" : 	"1CalxA2lTmCKcL-x9upn_g",
     "summary": [
       { "player": "Lucas", "Jeu": "Celeste (Open World)" ,"Temps de completion": "16h", "Nombre de morts": -1, "Objectif": "Farwell"},
