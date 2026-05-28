@@ -1595,10 +1595,10 @@
   {
     "name": "Yellow Taxi Goes Vroom",
     "icon": "🥚",
-    "setup": "",
+    "setup": "https://github.com/soopercool101/Archipelago/blob/YTGV.v0.5.0/worlds/yellowtaxi/docs/setup_en.md",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/soopercool101/Archipelago/releases/"
   },
   {
     "name": "Yohane the Parhelion : Blaze in the DeepBlue",
