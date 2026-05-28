@@ -1,5 +1,4 @@
 [
-  
   {
     "name": "2048",
     "icon": "🥚",
@@ -656,6 +655,14 @@
     "tracker": "https://drive.google.com/file/d/1r864XblcMptcgUWNombDOCzxJmc8brqm/view?usp=sharing",
     "info": "",
     "apworld": "https://github.com/EviVirus/Archipelago/releases/"
+  },
+  {
+    "name": "Gemcraft : Frostborn Wrath",
+    "icon": "🥚",
+    "setup": "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/blob/main/Setup.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/"
   },
   {
     "name": "Gnosia",
@@ -1586,8 +1593,16 @@
     "apworld": "https://archipelago.gg/games/Yacht%20Dice/player-options"
   },
   {
+    "name": "Yellow Taxi Goes Vroom",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Yohane the Parhelion : Blaze in the DeepBlue",
-    "icon": "",
+    "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/releases/latest",
     "info": "",
