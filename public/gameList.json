@@ -1217,6 +1217,14 @@
     "apworld": "https://github.com/vyneras/Archipelago/releases/latest"
   },
   {
+    "name": "Pokepelago",
+    "icon": "🥚",
+    "setup": "https://dowlle.github.io/PokepelagoClient/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/dowlle/PokepelagoClient/releases/"
+  },
+  {
     "name": "Portal 2",
     "icon": "🐛",
     "setup": "https://github.com/GlassToadstool/Portal2ArchipelagoMod/releases/latest",
@@ -1473,6 +1481,14 @@
     "apworld": "https://archipelago.gg/games/Super%20Metroid/player-options"
   },
   {
+    "name": "Super Smash Bros 64",
+    "icon": "🥚",
+    "setup": "https://github.com/IncidiousJacob/Smashipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/IncidiousJacob/Smashipelago/releases/tag/startup"
+  },
+  {
     "name": "Taskipelago Taskipelabingo",
     "icon": "🥚",
     "setup": "https://github.com/barretg/Taskipelago",
@@ -1511,6 +1527,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/johnso48/TalosPrincipleArchipelago/releases/latest"
+  },
+  {
+    "name": "Three Goblin Wobblin",
+    "icon": "🥚",
+    "setup": "https://github.com/melenehh/Three-Goblin-Archipelago#installation",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/melenehh/Three-Goblin-Archipelago/releases/latest"
   },
   {
     "name": "Timespinner",
