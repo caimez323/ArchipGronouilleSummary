@@ -376,6 +376,14 @@
     "apworld": "https://archipelago.gg/games/Celeste%2064/player-options"
   },
   {
+    "name": "Chained Echoes",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "ChecksFinder",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/ChecksFinder/setup/en",
@@ -424,12 +432,28 @@
     "apworld": "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases"
   },
   {
+    "name": "CrossCode",
+    "icon": "🥚",
+    "setup": "https://github.com/CodeTriangle/CCMultiworldRandomizer/wiki/Setupv",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/"
+  },
+  {
     "name": "Crypt of the NecroDancer",
     "icon": "🥚",
     "setup": "https://github.com/lastingParadox/Archipelago-CotND/blob/crypt-of-the-necrodancer/worlds/cotnd/docs/setup_en.md",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/lastingParadox/Archipelago-CotND/releases"
+  },
+  {
+    "name": "Crystal Project",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Emerassi/CrystalProjectAPWorld/releases"
   },
   {
     "name": "Cuphead",
@@ -569,6 +593,14 @@
     "apworld": "https://github.com/DragonWolfLeo/DracominoAPWorld/releases"
   },
   {
+    "name": "Dragon Warrior 1",
+    "icon": "🥚",
+    "setup": "https://github.com/Serpikmin/Archipelago-DragonWarrior/tree/dragon_warrior?tab=readme-ov-file#dragon-warrior-apworld",
+    "tracker": "https://github.com/Quinian/Dragon-Warrior-Poptracker",
+    "info": "",
+    "apworld": "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/"
+  },
+  {
     "name": "Dredge",
     "icon": "🥚",
     "setup": "https://github.com/alextric234/ArchipelagoDredge/blob/main/worlds/dredge/docs/setup_en.md",
@@ -657,12 +689,20 @@
     "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/latest"
   },
   {
-    "name": "FNAF",
+    "name": "FNAF Worlds",
     "icon": "🥚",
     "setup": "https://discord.com/channels/731205301247803413/1104088448127729704/1187854264375193721",
     "tracker": "https://drive.google.com/file/d/1r864XblcMptcgUWNombDOCzxJmc8brqm/view?usp=sharing",
     "info": "",
     "apworld": "https://github.com/EviVirus/Archipelago/releases/"
+  },
+  {
+    "name": "Gato Roboto B-Sides",
+    "icon": "🥚",
+    "setup": "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago",
+    "tracker": "https://github.com/FarisTheAncient/Archipelago/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago/releases"
   },
   {
     "name": "Gemcraft : Frostborn Wrath",
@@ -823,6 +863,14 @@
     "tracker": "https://github.com/The-ROT8/Kirby_Dream_Land_3_AP_Poptracker",
     "info": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/info/en",
     "apworld": "https://archipelago.gg/games/Kirby's%20Dream%20Land%203/player-options"
+  },
+  {
+    "name": "La-Mulana 2",
+    "icon": "🥚",
+    "setup": "https://github.com/Crownmuri/LaMulana2Archipelago",
+    "tracker": "https://github.com/Crownmuri/LaMulana2AP-PopTracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Crownmuri/Archipelago/releases"
   },
   {
     "name": "Landstalker - The Treasures of King Nole",
@@ -1433,6 +1481,22 @@
     "apworld": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/latest"
   },
   {
+    "name": "Spark The Electric Jester 3",
+    "icon": "🥚",
+    "setup": "https://github.com/Kylogias/Spark3-Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Kylogias/Spark3-Archipelago/releases/"
+  },
+  {
+    "name": "Splasher",
+    "icon": "🥚",
+    "setup": "https://github.com/Frisk202020/Archipelago/blob/main/worlds/splasher/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Frisk202020/SplasherArchipelago/releases"
+  },
+  {
     "name": "Spyro : A hero's tail",
     "icon": "🥚",
     "setup": "https://github.com/XuaTheGrate/Archipelago/tree/spyro/worlds/spyro-aht#setup-guide",
@@ -1513,12 +1577,28 @@
     "apworld": "https://github.com/IncidiousJacob/Smashipelago/releases/tag/startup"
   },
   {
+    "name": "Super Smash Bros Brawl - The Subspace Emissary",
+    "icon": "🥚",
+    "setup": "https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary_Setup.md",
+    "tracker": "",
+    "info": "https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary.md",
+    "apworld": "https://github.com/kenniky/ArchipelagoSSE/releases/"
+  },
+  {
     "name": "Taskipelago Taskipelabingo",
     "icon": "🥚",
     "setup": "https://github.com/barretg/Taskipelago",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/barretg/Taskipelago/releases"
+  },
+  {
+    "name": "TCG Card Shop Simulator",
+    "icon": "🥚",
+    "setup": "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/blob/main/worlds/tcg_card_shop_simulator/docs/setup_en.md#setup",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/FyreDay/Archipelago-TCGCardShopSimulator/releases/"
   },
   {
     "name": "Teardown",
