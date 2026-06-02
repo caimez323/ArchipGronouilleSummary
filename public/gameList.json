@@ -1273,6 +1273,14 @@
     "apworld": "https://github.com/Aeltumn/Rayman2AP/releases/latest"
   },
   {
+    "name": "Refunct",
+    "icon": "🥚",
+    "setup": "https://github.com/spinerak/refunct-tas-archipelago/blob/master/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/spinerak/refunct-tas-archipelago/releases/latest"
+  },
+  {
     "name": "Return of the Obra Dinn",
     "icon": "🥚",
     "setup": "https://gitlab.com/obra-dinn-archipelago/mod",
