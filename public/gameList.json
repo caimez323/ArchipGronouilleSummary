@@ -378,10 +378,10 @@
   {
     "name": "Chained Echoes",
     "icon": "🥚",
-    "setup": "",
+    "setup": "https://github.com/Samupo/ChainedEchoesRandomizer",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/Samupo/ChainedEchoesAPWorld/releases"
   },
   {
     "name": "ChecksFinder",
