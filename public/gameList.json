@@ -633,6 +633,14 @@
     "apworld": "https://github.com/Rosalie-A/Archipelago/releases/"
   },
   {
+    "name": "Final Fantasy X HD Remaster",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/FFX-AP/Archipelago/releases"
+  },
+  {
     "name": "Fire Emblem: The Sacred Stones (FE8)",
     "icon": "🥚",
     "setup": "https://github.com/CT075/fe8-archipelago/blob/main/setup.md",
@@ -914,7 +922,7 @@
   },
   {
     "name": "Mario Kart : Double Dash",
-    "icon": "🥚",
+    "icon": "🐛",
     "setup": "https://github.com/aXu-AP/archipelago-double-dash/blob/main/docs/en_Setup.md",
     "tracker": "",
     "info": "https://github.com/aXu-AP/archipelago-double-dash",
@@ -1127,6 +1135,14 @@
     "tracker": "https://github.com/boiscljo/pmr-tracker/releases/latest",
     "info": "https://github.com/icebound777/PMR-SeedGenerator/wiki",
     "apworld": "https://github.com/JKBSunshine/PMR_APWorld/releases/latest"
+  },
+  {
+    "name": "Paper Please",
+    "icon": "",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Plants Vs Zombies GOTY",
@@ -1567,6 +1583,14 @@
     "tracker": "https://github.com/SapphireSapphic/TunicTracker/releases/latest",
     "info": "https://archipelago.gg/games/TUNIC/info/en",
     "apworld": "https://archipelago.gg/games/TUNIC/player-options"
+  },
+  {
+    "name": "Tyrian / Tyrian 2000",
+    "icon": "🥚",
+    "setup": "https://github.com/KScl/TyrianAPWorld/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/KScl/TyrianAPWorld/blob/main/docs/en_Tyrian.md",
+    "apworld": "https://github.com/KScl/TyrianArchipelago/releases/"
   },
   {
     "name": "Ultrakill",
