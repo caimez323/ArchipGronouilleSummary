@@ -609,6 +609,14 @@
     "apworld": "https://github.com/alextric234/ArchipelagoDredge/releases/latest"
   },
   {
+    "name": "Dwarf Fortress",
+    "icon": "🥚",
+    "setup": "https://github.com/EthanTheBrave/Dwarfipelago/blob/master/worlds/dwarf_fortress/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/EthanTheBrave/Dwarfipelago/releases"
+  },
+  {
     "name": "EarthBound",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/EarthBound/setup/en",
@@ -623,6 +631,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases/latest"
+  },
+  {
+    "name": "Etrian Odyssey",
+    "icon": "🥚",
+    "setup": "https://github.com/TheMasterZelda/Etrian_Odyssey_1_Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TheMasterZelda/Etrian_Odyssey_1_Archipelago/releases"
   },
   {
     "name": "Factorio",
@@ -711,6 +727,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/Levisaxos/Archipelago_GemcraftFrostbornWrath/releases/"
+  },
+  {
+    "name": "Glover",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Smg065/GloverArchipelago/releases/"
   },
   {
     "name": "Gnosia",
@@ -1623,6 +1647,14 @@
     "tracker": "",
     "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
     "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
+  },
+  {
+    "name": "The Farmer Was Replaced",
+    "icon": "🥚",
+    "setup": "https://github.com/seadoggie001/TFWR-APMod?tab=readme-ov-file",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/seadoggie001/TFWR-APMod/releases/"
   },
   {
     "name": "The Talos Principle Reawakened",
