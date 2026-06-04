@@ -200,6 +200,14 @@
     "apworld": "https://github.com/mail-liam/Archipelago/releases/latest"
   },
   {
+    "name": "Backlog Expedition",
+    "icon": "🥚",
+    "setup": "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld/blob/main/docs/en_Backlog%20Expedition.md",
+    "apworld": "https://github.com/Nikkilites/Archipelago-BacklogExpedition-APWorld/releases"
+  },
+  {
     "name": "Balatro",
     "icon": "🐛",
     "setup": "https://github.com/BurndiL/BalatroAP/releases/latest",
@@ -907,6 +915,14 @@
   {
     "name": "League of Legends",
     "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "League of Legends",
+    "icon": "🥚",
     "setup": "./resources/lol/lol_setup.html",
     "tracker": "",
     "info": "",
@@ -1041,14 +1057,6 @@
     "apworld": "https://archipelago.gg/games/Meritous/player-options"
   },
   {
-    "name": "The Messenger",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/The%20Messenger/setup/en",
-    "tracker": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/latest",
-    "info": "https://archipelago.gg/games/The%20Messenger/info/en",
-    "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
-  },
-  {
     "name": "Metroid Fusion",
     "icon": "🐛",
     "setup": "https://github.com/StalledStorm/ArchipelagoMine/wiki/Metroid-Fusion-Setup-Guide",
@@ -1071,6 +1079,14 @@
     "tracker": "https://github.com/LuigiXRules/Metroid-Samus-Returns-Poptracker-Pack/releases/",
     "info": "https://github.com/lilDavid/AP-SamusReturns/blob/main/src/msr/docs/en_Metroid%20Samus%20Returns.md",
     "apworld": "https://github.com/lilDavid/AP-SamusReturns/releases/"
+  },
+  {
+    "name": "Mindustry",
+    "icon": "🥚",
+    "setup": "https://github.com/JohnMahglass/Mindustry-Archipelago-Randomizer/blob/master/ap-doc/SetupGuides.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/JohnMahglass/Archipelago-Mindustry/releases"
   },
   {
     "name": "Minecraft",
@@ -1647,6 +1663,14 @@
     "tracker": "",
     "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
     "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
+  },
+  {
+    "name": "The Messenger",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Messenger/setup/en",
+    "tracker": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/latest",
+    "info": "https://archipelago.gg/games/The%20Messenger/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
   },
   {
     "name": "The Farmer Was Replaced",
