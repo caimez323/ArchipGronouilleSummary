@@ -40,6 +40,14 @@
     "apworld": "https://archipelago.gg/games/A%20Short%20Hike/player-options"
   },
   {
+    "name": "A Space Archipelago",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1514091091320639498/1514091267322155169",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://berserker66.itch.io/space-archipelago"
+  },
+  {
     "name": "ActRaiser",
     "icon": "🥚",
     "setup": "https://rentry.co/actraiserv0-1",
@@ -70,6 +78,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/dmwever/Ageipelago/releases/"
+  },
+  {
+    "name": "Age of Mythology: Retold",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/1-800-thewolf/AoM-Archipelago/releases/latest"
   },
   {
     "name": "Air Delivery",
@@ -126,6 +142,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/APQuest/info/en",
     "apworld": "https://archipelago.gg/games/APQuest/player-options"
+  },
+  {
+    "name": "AP-Rummy",
+    "icon": "🥚",
+    "setup": "https://miiroun.github.io/ap-rummy/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Miiroun/ap-rummy/releases"
   },
   {
     "name": "Ape Escape",
@@ -320,12 +344,28 @@
     "apworld": "https://archipelago.gg/games/Bumper%20Stickers/player-options"
   },
   {
-    "name": "Castlevania - Dawn of Sorrow",
+    "name": "Candy Box 2",
     "icon": "🥚",
-    "setup": "",
-    "tracker": "https://github.com/SchwartzGandhi/CVDoSPT/releases/latest",
+    "setup": "https://vicr123.com/candy-box-2/",
+    "tracker": "",
     "info": "",
-    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20dawn%20of%20sorrow&expanded=true"
+    "apworld": "https://github.com/vicr123/Archipelago/releases"
+  },
+  {
+    "name": "CartogrAP",
+    "icon": "🥚",
+    "setup": "https://xmcacutt.itch.io/cartograp",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Castlevania 64",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Castlevania%2064/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Castlevania%2064/info/en",
+    "apworld": "https://archipelago.gg/games/Castlevania%2064/player-options"
   },
   {
     "name": "Castlevania - Circle of the Moon",
@@ -334,6 +374,22 @@
     "tracker": "https://github.com/BowserCrusher/Circle-of-the-Moon-AP-Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/info/en",
     "apworld": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/player-options"
+  },
+  {
+    "name": "Castlevania - Dawn of Sorrow",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/SchwartzGandhi/CVDoSPT/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20dawn%20of%20sorrow&expanded=true"
+  },
+  {
+    "name": "Castlevania - Legacy of Darkness",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/LiquidCat64/LiquidCatipelago/releases/tag/cvlod_v1.1"
   },
   {
     "name": "Castlevania - Portrait of Ruin",
@@ -352,12 +408,28 @@
     "apworld": "https://github.com/Darvitz/Archipelago-Crystal/releases/tag/Unofficial_0.8.16"
   },
   {
-    "name": "Castlevania 64",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Castlevania%2064/setup/en",
+    "name": "Cat Quest",
+    "icon": "🥚",
+    "setup": "https://github.com/Nikkilites/CatQuest-Randomizer/releases",
     "tracker": "",
-    "info": "https://archipelago.gg/games/Castlevania%2064/info/en",
-    "apworld": "https://archipelago.gg/games/Castlevania%2064/player-options"
+    "info": "",
+    "apworld": "https://github.com/Nikkilites/Archipelago-CatQuest/releases"
+  },
+  {
+    "name": "Cave Story",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1083474864150695956/1325133108827127821",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/kl3cks7r/CaveStoryArchipelago"
+  },
+  {
+    "name": "Cavern of Dreams",
+    "icon": "🥚",
+    "setup": "https://github.com/wu4/CavernOfDreamsAP/releases",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/wu4/Archipelago/releases"
   },
   {
     "name": "Celeste",
@@ -400,6 +472,22 @@
     "apworld": "https://archipelago.gg/games/ChecksFinder/player-options"
   },
   {
+    "name": "ChecksMate",
+    "icon": "🥚",
+    "setup": "https://github.com/chesslogic/Archipelago/blob/checks_mate/worlds/checksmate/docs/checksmate-example.yaml",
+    "tracker": "https://github.com/checkerslogic/checksmate-poptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/chesslogic/chessv/releases/"
+  },
+  {
+    "name": "Chrono Trigger",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Anguirel86/Archipelago/releases?q=Chrono+Trigger&expanded=true"
+  },
+  {
     "name": "Choo-Choo Charles",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Choo-Choo%20Charles/setup/en",
@@ -440,12 +528,60 @@
     "apworld": "https://github.com/Nullctipus/ArchipelagoClusterTruck/releases"
   },
   {
+    "name": "Cobalt Core",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/"
+  },
+  {
+    "name": "Conbunn Cardboard",
+    "icon": "🥚",
+    "setup": "https://github.com/SWCreeperKing/Conbunnipelago/blob/master/Readme.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SWCreeperKing/Conbunnipelago/releases/latest"
+  },
+  {
+    "name": "Content Warning",
+    "icon": "🥚",
+    "setup": "https://github.com/Jakeodude/cw-archipelago-mod/blob/main/THUNDERSTORE_README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Jakeodude/cw-apworld/releases/latest"
+  },
+  {
+    "name": "Corn Kidz 64",
+    "icon": "🥚",
+    "setup": "https://github.com/Cyb3RGER/cornkidz64_apworld/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Cyb3RGER/cornkidz64_apworld/releases"
+  },
+  {
+    "name": "Crazy Taxi",
+    "icon": "🥚",
+    "setup": "https://github.com/Spriddles/crazy-taxi-apworld",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Spriddles/crazy-taxi-apworld/releases"
+  },
+  {
     "name": "CrossCode",
     "icon": "🥚",
     "setup": "https://github.com/CodeTriangle/CCMultiworldRandomizer/wiki/Setupv",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/CodeTriangle/CCMultiworldRandomizer/releases/"
+  },
+  {
+    "name": "Crosswords",
+    "icon": "🥚",
+    "setup": "https://github.com/jm771/ap_crossword",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/jm771/apworld_crossword/releases/"
   },
   {
     "name": "Crypt of the NecroDancer",
@@ -464,12 +600,28 @@
     "apworld": "https://github.com/Emerassi/CrystalProjectAPWorld/releases"
   },
   {
+    "name": "Crystalis",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1041412559460389017/1291621296140189706",
+    "tracker": "https://github.com/Ars-Ignis/crystalis-randomizer-tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Ars-Ignis/Archipelago/releases"
+  },
+  {
     "name": "Cuphead",
     "icon": "🐛",
     "setup": "https://github.com/JKLeckr/CupheadArchipelagoMod/releases/latest",
     "tracker": "https://github.com/TheArcticFox42/CupheadPoptracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/JKLeckr/Archipelago-cuphead/releases/latest"
+  },
+  {
+    "name": "Dark Cloud",
+    "icon": "🥚",
+    "setup": "https://github.com/Lizardman175/DC1AP",
+    "tracker": "https://github.com/cloudofdarkhole6/DC1-poptracker/releases/tag/0.1.0",
+    "info": "",
+    "apworld": "https://github.com/Lizardman175/DC1AP/releases"
   },
   {
     "name": "Darks Souls I Remastered",
@@ -504,12 +656,20 @@
     "apworld": "https://github.com/Maxlamenace572/DeadCellsArchipelago/releases/latest"
   },
   {
-    "name": "Deltarune",
-    "icon": "🐛",
-    "setup": "",
+    "name": "Deadlock",
+    "icon": "🥚",
+    "setup": "https://github.com/ArchipelagoBrad/deadlockipelago",
     "tracker": "",
     "info": "",
-    "apworld": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/latest"
+    "apworld": "https://github.com/ArchipelagoBrad/deadlockipelago/releases/latest"
+  },
+  {
+    "name": "Death's Door",
+    "icon": "🥚",
+    "setup": "https://github.com/Chris-Is-Awesome/DDArchipelagoRandomizer",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/roseasromeo/DeathsDoorAPWorld/releases/latest"
   },
   {
     "name": "Deep Rock Galactic",
@@ -518,6 +678,38 @@
     "tracker": "",
     "info": "https://docs.google.com/spreadsheets/d/118DwffPEEFUVRaCzyy_Iem1lAsyslyCiLRU6CpNg3tc/edit?gid=1449642911#gid=1449642911",
     "apworld": "https://github.com/Cousinit117/Deep-Rock-Galactic-AP/releases"
+  },
+  {
+    "name": "Delivering HOPE",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Deltarune",
+    "icon": "🐛",
+    "setup": "https://github.com/theemeraldsword85/DELTARUNEAP/blob/main/worlds/deltarune/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/theemeraldsword85/DELTARUNEAP/releases/latest"
+  },
+  {
+    "name": "Devil May Cry 3",
+    "icon": "🥚",
+    "setup": "https://github.com/AshIndigo/Archipelago/blob/dmc3-world/worlds/dmc3/docs/en_setup.md",
+    "tracker": "https://github.com/DanielSchaack/DMC3-PopTracker/releases",
+    "info": "",
+    "apworld": "https://github.com/AshIndigo/Archipelago/releases/"
+  },
+  {
+    "name": "Diablo II: Lord of Destruction",
+    "icon": "🥚",
+    "setup": "https://github.com/solida1987/Diablo-II-Archipelago/releases",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Dicey Dungeons",
@@ -1233,7 +1425,7 @@
     "apworld": ""
   },
   {
-    "name": "Plants Vs Zombies GOTY",
+    "name": "Plants Vs Zombies: Replanted (GOTY)",
     "icon": "🥚",
     "setup": "https://github.com/dannybonz/replanted_archipelago/blob/main/apworld/docs/setup.md",
     "tracker": "",
@@ -1449,6 +1641,14 @@
     "apworld": "https://archipelago.gg/games/Secret%20of%20Evermore/player-options"
   },
   {
+    "name": "Shadow The Hedgehog",
+    "icon": "🥚",
+    "setup": "https://github.com/choatix/Archipelago/blob/shadow-cp/worlds/shadow_the_hedgehog/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/choatix/Archipelago/releases/latest"
+  },
+  {
     "name": "shapez",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/shapez/setup/en",
@@ -1519,6 +1719,14 @@
     "tracker": "",
     "info": "https://github.com/ClassicSpeed/SADX-Archipelago-Locations-Wiki/blob/main/README.md",
     "apworld": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/latest"
+  },
+  {
+    "name": "Sonic Colours (DS)",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SilicDev/Archipelago/releases?q=Sonic+Colours&expanded=true"
   },
   {
     "name": "Spark The Electric Jester 3",
@@ -1663,6 +1871,14 @@
     "tracker": "",
     "info": "https://github.com/NaveTK/Archipelago/blob/main/worlds/tboir/docs/en_The%20Binding%20of%20Isaac%20Repentance.md",
     "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
+  },
+  {
+    "name": "The Legend of Spyro: Dawn of the Dragon",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/IcyPenguin28/DotDAP/releases/"
   },
   {
     "name": "The Messenger",
