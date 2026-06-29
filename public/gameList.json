@@ -897,12 +897,28 @@
     "apworld": "https://archipelago.gg/games/EarthBound/player-options"
   },
   {
+    "name": "Ender Lilies: Qquietus of the Knights",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/lurch9229/ender-lilies-poptracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Trexounay/EnderLilies.Archipelago"
+  },
+  {
     "name": "Enter the Gungeon",
     "icon": "🥚",
     "setup": "https://thunderstore.io/c/enter-the-gungeon/p/GungeonArchipelago/Gungeon_Archipelago/",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/MaoBoulve/ArchipelaGunAPWorld/releases/latest"
+  },
+  {
+    "name": "Everhood 2",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/commanderdot/Everhood-2-Poptracker/releases",
+    "info": "",
+    "apworld": "https://github.com/DeamonHunter/ArchipelagoEverhood2"
   },
   {
     "name": "Etrian Odyssey",
