@@ -720,6 +720,22 @@
     "apworld": "https://github.com/Fylcoast/AP_diceydungeons/releases"
   },
   {
+    "name": "Diddy Kong Racing",
+    "icon": "🥚",
+    "setup": "https://github.com/zakwiz/DiddyKongRacingAP/blob/main/worlds/diddy_kong_racing/docs/setup_en.md",
+    "tracker": "https://github.com/Ozone31/diddy-kong-racing-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/zakwiz/DiddyKongRacingAP/releases/latest"
+  },
+  {
+    "name": "Digimon World",
+    "icon": "🥚",
+    "setup": "https://github.com/ArsonAssassin/Archipelago.Core/wiki/How-to-start-playing-a-game-using-this-library",
+    "tracker": "https://github.com/seto10987/Digimon-World-AP-PopTracker-Pack",
+    "info": "",
+    "apworld": "https://github.com/ArsonAssassin/DWAP/releases"
+  },
+  {
     "name": "DLCQuest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DLCQuest/setup/en",
@@ -742,6 +758,22 @@
     "tracker": "https://github.com/UmedMuzl/dk64pt/releases/latest",
     "info": "",
     "apworld": "https://github.com/2dos/DK64-Randomizer-dev/releases/latest"
+  },
+  {
+    "name": "Donkey Kong Country",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TheLX5/Archipelago/releases/tag/dkc-v1.2.3"
+  },
+  {
+    "name": "Donkey Kong Country 2",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Donkey Kong Country 3",
