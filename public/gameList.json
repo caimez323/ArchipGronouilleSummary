@@ -762,18 +762,18 @@
   {
     "name": "Donkey Kong Country",
     "icon": "🥚",
-    "setup": "",
-    "tracker": "",
-    "info": "",
+    "setup": "https://thelx5.github.io/dkc/#setup",
+    "tracker": "https://github.com/pwkfisher/ap-dkc-tracker/releases/",
+    "info": "https://thelx5.github.io/dkc/",
     "apworld": "https://github.com/TheLX5/Archipelago/releases/tag/dkc-v1.2.3"
   },
   {
     "name": "Donkey Kong Country 2",
     "icon": "🥚",
     "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
+    "tracker": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/",
+    "info": "https://thelx5.github.io/dkc2/",
+    "apworld": "https://github.com/TheLX5/Archipelago/releases/tag/dkc2-v3.1.1"
   },
   {
     "name": "Donkey Kong Country 3",
@@ -817,6 +817,22 @@
     "apworld": "https://archipelago.gg/games/DOOM%20II/player-options"
   },
   {
+    "name": "Door to Door Door Salesman",
+    "icon": "🥚",
+    "setup": "https://interestedsc2.itch.io/door-to-door-door-salesman",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "DORONKO WANKO",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Vendily/DoronkoWankoArchipelago/releases/latest"
+  },
+  {
     "name": "Dracomino",
     "icon": "🥚",
     "setup": "https://github.com/DragonWolfLeo/Dracomino",
@@ -833,12 +849,36 @@
     "apworld": "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/"
   },
   {
+    "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1427594624389742716/1491731633684877376",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/kid2407/ArchipelagoDQIX/releases/"
+  },
+  {
     "name": "Dredge",
     "icon": "🥚",
     "setup": "https://github.com/alextric234/ArchipelagoDredge/blob/main/worlds/dredge/docs/setup_en.md",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/alextric234/ArchipelagoDredge/releases/latest"
+  },
+  {
+    "name": "Duke Nukem 3D : Atomic Edition",
+    "icon": "🥚",
+    "setup": "https://github.com/randomcodegen/NBloodAP/blob/master/README.md",
+    "tracker": "https://github.com/Joxtacy/dukenukem3d-poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/randomcodegen/NBloodAP/releases/latest"
+  },
+  {
+    "name": "Dungeon Clawler",
+    "icon": "🥚",
+    "setup": "https://github.com/agilbert1412/Clawrchipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/agilbert1412/Clawrchipelago/releases"
   },
   {
     "name": "Dwarf Fortress",
