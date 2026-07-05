@@ -329,7 +329,16 @@
             <div class="flat-dl-row">
               <dt>Joueurs</dt><dd>${s.players}</dd>
             </div>
-            ${s.seed ? `<div class="flat-dl-row"><dt>Seed</dt><dd class="kpi-mono">${escapeHtml(s.seed)}</dd></div>` : ''}
+            ${s.seed ? `
+            <div class="flat-dl-row">
+              <dt>Seed</dt>
+              <dd class="kpi-mono">
+                ${s.seedUrl
+                  ? `<a class="seed-link" href="${escapeHtml(s.seedUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.seed)}</a>`
+                  : escapeHtml(s.seed)}
+              </dd>
+            </div>
+          ` : ''}
           </dl>
 
           <br>
@@ -351,7 +360,16 @@
 
                 return `
                   <tr>
-                    <td style="font-weight:600">${escapeHtml(playerRow.player)}</td>
+                    <td style="font-weight:600">
+                      ${playerRow.playerUrl
+                        ? `<a
+                            class="player-link"
+                            href="${escapeHtml(playerRow.playerUrl)}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >${escapeHtml(playerRow.player)}</a>`
+                        : escapeHtml(playerRow.player)}
+                    </td>
                     <td>${escapeHtml(playerRow['Jeu'] || '—')}</td>
                     <td>${escapeHtml(playerRow['Objectif'] || '—')}</td>
                     <td class="review-cell">
@@ -368,6 +386,7 @@
                           rows="1"
                           placeholder="Note..."
                         >${escapeHtml(comment)}</textarea>
+                        <div class="review-status"></div>
                       </div>
                     </td>
                   </tr>

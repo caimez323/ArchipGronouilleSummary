@@ -12,60 +12,43 @@
       "A Link Between Worlds"
     ],
     "seed": "KfsLb8a-Q-KKYYLH0IjioA",
+    "seedUrl": "./yaml_backup/1/spoileer.txt",
     "summary": [
       {
         "player": "Lucas",
+        "playerUrl": "./yaml_backup/1/Lutrion.yaml",
         "Jeu": "Dark Souls Remastered",
-        "Temps de completion": "12h",
-        "Nombre de morts": 25,
-        "Objectif": "Gwyn, Lord of Cinder",
-        "note": 4,
-        "commentaire": "Run solide, bonne régularité."
+        "Objectif": "Gwyn, Lord of Cinder"
       },
       {
         "player": "Alexis",
+        "playerUrl": "./yaml_backup/1/Alexis.yaml",
         "Jeu": "Jak and Daxter: The Precursor Legacy",
-        "Temps de completion": "15h",
-        "Nombre de morts": 69,
-        "Objectif": "Fin du jeu",
-        "note": 4,
-        "commentaire": "Belle endurance, run maîtrisé malgré les morts."
+        "Objectif": "Fin du jeu"
       },
       {
         "player": "Léo",
+        "playerUrl": "./yaml_backup/1/Laiken.yaml",
         "Jeu": "Celeste (Open World)",
-        "Temps de completion": "22h",
-        "Nombre de morts": 54,
-        "Objectif": "Farwell",
-        "note": 5,
-        "commentaire": "Très gros objectif, performance impressionnante."
+        "Objectif": "Farwell"
       },
       {
         "player": "Sébastien",
+        "playerUrl": "./yaml_backup/1/Seb.yaml",
         "Jeu": "Ori and the Blind Forest",
-        "Temps de completion": "11h",
-        "Nombre de morts": 43,
-        "Objectif": "Fin du jeu + Skill Tree",
-        "note": 4,
-        "commentaire": "Run propre et bien tenu jusqu'au bout."
+        "Objectif": "Fin du jeu + Skill Tree"
       },
       {
         "player": "Clément (Axo)",
+        "playerUrl": "./yaml_backup/1/Axolotl.yaml",
         "Jeu": "Hollow Knight",
-        "Temps de completion": "15h",
-        "Nombre de morts": 1,
-        "Objectif": "Radiance",
-        "note": 5,
-        "commentaire": "Très grosse maîtrise, quasi flawless."
+        "Objectif": "Radiance"
       },
       {
         "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/1/caimez.yaml",
         "Jeu": "A Link Between Worlds",
-        "Temps de completion": "18h",
-        "Nombre de morts": 1,
-        "Objectif": "Fin du jeu",
-        "note": 5,
-        "commentaire": "Run ultra clean, très peu d'erreurs."
+        "Objectif": "Fin du jeu"
       }
     ]
   },
@@ -81,51 +64,37 @@
       "Minecraft"
     ],
     "seed": "1CalxA2lTmCKcL-x9upn_g",
+    "seedUrl": "./yaml_backup/2/spoiler.txt",
     "summary": [
       {
         "player": "Lucas",
+        "playerUrl": "./yaml_backup/2/Lutrion.yaml",
         "Jeu": "Celeste (Open World)",
-        "Temps de completion": "16h",
-        "Nombre de morts": -1,
-        "Objectif": "Farwell",
-        "note": 4,
-        "commentaire": "Objectif exigeant, run bien géré."
+        "Objectif": "Farwell"
       },
       {
         "player": "Alexis",
+        "playerUrl": "./yaml_backup/2/Alexis.yaml",
         "Jeu": "Subnautica",
-        "Temps de completion": "14h50",
-        "Nombre de morts": -1,
-        "Objectif": "Fin du jeu",
-        "note": 4,
-        "commentaire": "Bonne progression et run constant."
+        "Objectif": "Fin du jeu"
       },
       {
         "player": "Sébastien",
+        "playerUrl": "./yaml_backup/2/Ryozen.yaml",
         "Jeu": "Hadès",
-        "Temps de completion": "21h",
-        "Nombre de morts": -1,
-        "Objectif": "Hadès avec chaque armes",
-        "note": 5,
-        "commentaire": "Challenge ambitieux, très belle session."
+        "Objectif": "Hadès avec chaque armes"
       },
       {
         "player": "Clément (Axo)",
+        "playerUrl": "./yaml_backup/2/Axolotl.yaml",
         "Jeu": "TUNIC",
-        "Temps de completion": "13h",
-        "Nombre de morts": -1,
-        "Objectif": "Fin du jeu",
-        "note": 4,
-        "commentaire": "Run sérieux et objectif bien rempli."
+        "Objectif": "Fin du jeu"
       },
       {
         "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/2/caimez.yaml",
         "Jeu": "Minecraft",
-        "Temps de completion": "11h30",
-        "Nombre de morts": -1,
-        "Objectif": "Ender Dragon + 60 succès",
-        "note": 5,
-        "commentaire": "Objectif très dense, excellente exécution."
+        "Objectif": "Ender Dragon + 60 succès"
       }
     ]
   },
@@ -143,55 +112,49 @@
       "Ori and the Will of the Wisps"
     ],
     "seed": "dRW9dRR2TCevVFYvpT6-WQ",
+    "seedUrl": "./yaml_backup/3/spoiler.txt",
     "summary": [
       {
         "player": "Alexis",
+        "playerUrl": "./yaml_backup/3/Alexis.yaml",
         "Jeu": "The Legend of Zelda",
-        "Objectif": "Fin du jeu",
-        "note": 4,
-        "commentaire": "Run efficace et objectif clair."
+        "Objectif": "Fin du jeu"
       },
       {
         "player": "Clément (Axo)",
+        "playerUrl": "./yaml_backup/3/Axolotl.yaml",
         "Jeu": "Celeste (Open World)",
-        "Objectif": "Farwell",
-        "note": 5,
-        "commentaire": "Très beau challenge, grosse perf."
+        "Objectif": "Farwell"
       },
       {
         "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/3/caimez.yaml",
         "Jeu": "Outer Wilds",
-        "Objectif": "Atteindre l'oeil avec 2 copains",
-        "note": 5,
-        "commentaire": "Objectif original et très stylé."
+        "Objectif": "Atteindre l'oeil avec 2 amis"
       },
       {
         "player": "Lucas",
+        "playerUrl": "./yaml_backup/3/Lutrion.yaml",
         "Jeu": "Dark Souls Remastered",
-        "Objectif": "Fin du jeu",
-        "note": 4,
-        "commentaire": "Bonne tenue globale sur toute la session."
+        "Objectif": "Fin du jeu"
       },
       {
         "player": "Léo",
+        "playerUrl": "./yaml_backup/3/Noixdelekan.yaml",
         "Jeu": "Hadès",
-        "Objectif": "5 Hadès",
-        "note": 5,
-        "commentaire": "Très gros volume, super perf."
+        "Objectif": "5 Hadès"
       },
       {
         "player": "Ronflex",
+        "playerUrl": "./yaml_backup/3/Ronflex.yaml",
         "Jeu": "Balatro",
-        "Objectif": "10 Decks White Stakes",
-        "note": 4,
-        "commentaire": "Objectif costaud, run bien mené."
+        "Objectif": "10 Decks White Stakes"
       },
       {
         "player": "Sébastien",
+        "playerUrl": "./yaml_backup/3/Ryozen.yaml",
         "Jeu": "Ori and the Blind Forest",
-        "Objectif": "Skill Tree + Wisps + Quêtes",
-        "note": 4,
-        "commentaire": "Session complète et bien exécutée."
+        "Objectif": "Skill Tree + Wisps + Quêtes"
       }
     ]
   }
