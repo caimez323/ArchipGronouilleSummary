@@ -7,6 +7,145 @@
   <link rel="preconnect" href="https://api.fontshare.com" />
   <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./style.css" />
+  <style>
+    .review-inline {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+      width: 100%;
+    }
+
+    .review-inline textarea {
+      flex: 1;
+      min-width: 140px;
+      min-height: 36px;
+      max-height: 120px;
+      resize: vertical;
+      border: 1px solid var(--border, rgba(128,128,128,.22));
+      border-radius: 10px;
+      background: var(--surface-2, transparent);
+      color: inherit;
+      padding: 8px 10px;
+      font: inherit;
+      line-height: 1.35;
+    }
+
+    .review-inline textarea::placeholder {
+      color: var(--tx-faint);
+    }
+
+    .review-inline textarea:focus {
+      outline: none;
+      border-color: var(--accent, #2d6cdf);
+      box-shadow: 0 0 0 3px rgba(45,108,223,.14);
+    }
+
+    .review-meta {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      flex: 0 0 auto;
+      white-space: nowrap;
+    }
+
+    .review-status {
+      font-size: 12px;
+      color: var(--tx-muted);
+      min-width: 70px;
+    }
+
+    .review-status.is-error {
+      color: #c0392b;
+    }
+
+    .review-status.is-success {
+      color: #2e8b57;
+    }
+
+    .star-rating {
+      border: 0;
+      margin: 0;
+      padding: 0;
+      min-width: 110px;
+      flex: 0 0 auto;
+    }
+
+    .star-rating legend {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .star-rating .stars {
+      display: inline-flex;
+      flex-direction: row-reverse;
+      gap: 1px;
+    }
+
+    .star-rating input[type="radio"] {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .star-rating label {
+      cursor: pointer;
+      font-size: 1.15rem;
+      line-height: 1;
+      color: var(--tx-faint);
+      transition: color .15s ease, transform .15s ease;
+      padding: 2px;
+    }
+
+    .star-rating label:hover,
+    .star-rating label:hover ~ label {
+      color: #f5b301;
+      transform: translateY(-1px);
+    }
+
+    .star-rating input[type="radio"]:checked ~ label {
+      color: #f5b301;
+    }
+
+    .star-rating input[type="radio"]:focus-visible + label {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .review-cell {
+      min-width: 360px;
+      width: 100%;
+    }
+
+    .review-hint {
+      font-size: 12px;
+      color: var(--tx-faint);
+      margin-top: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .review-inline {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .review-meta {
+        justify-content: space-between;
+      }
+
+      .review-cell {
+        min-width: 260px;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -29,8 +168,6 @@
   </header>
 
   <main>
-
-    <!-- ── Vue liste ── -->
     <div id="view-list">
       <div class="page-header">
         <div>
@@ -55,7 +192,6 @@
       </div>
     </div>
 
-    <!-- ── Vue détail ── -->
     <div id="view-detail" style="display:none">
       <div class="page-header">
         <div>
@@ -72,165 +208,345 @@
 
       <div class="detail-grid" id="detail-grid"></div>
     </div>
-
   </main>
 
   <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
 
   <script>
-  let SESSIONS = [];
+    let SESSIONS = [];
+    let REVIEWS = [];
 
-  function fmt(dateStr) {
-    return new Date(dateStr + 'T00:00:00').toLocaleDateString('fr-FR', { day:'numeric', month:'long', year:'numeric' });
-  }
-
-  function toMinutes(str) {
-    if (!str) return 0;
-    let total = 0;
-    const h = str.match(/(\d+)h/);
-    if (h) total += parseInt(h[1]) * 60;
-    const m = str.match(/h(\d+)/);
-    if (m) total += parseInt(m[1]);
-    return total || (parseInt(str) * 60);
-  }
-
-
-  function gameTagsHtml(games) {
-    return games.map(g => `<span class="session-game-tag">${g}</span>`).join('');
-  }
-
-  function buildList() {
-    const tb = document.getElementById('session-list');
-    if (!SESSIONS.length) {
-      tb.innerHTML = `<tr><td colspan="5"><div class="empty">
-        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        <h3>Aucune session</h3><p>Ajoutez des entrées dans history.json.</p>
-      </div></td></tr>`;
-      return;
+    function fmt(dateStr) {
+      return new Date(dateStr + 'T00:00:00').toLocaleDateString('fr-FR', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
     }
-    tb.innerHTML = SESSIONS.map(s => `
-      <tr class="session-row" onclick="showDetail(${s.id})" role="button" tabindex="0"
-          onkeydown="if(event.key==='Enter')showDetail(${s.id})">
-        <td><span class="session-num">#${String(s.id).padStart(3,'0')}</span></td>
-        <td style="color:var(--tx-muted);font-size:var(--text-sm);white-space:nowrap">${fmt(s.date)}</td>
-        <td>
-          <div style="display:flex;align-items:center;gap:var(--sp-2)">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-              <circle cx="9" cy="7" r="4"/>
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
-            </svg>
-            <span style="font-weight:600">${s.players}</span>
-          </div>
-        </td>
-        <td><div class="session-games-wrap">${Array.isArray(s.games) ? s.games.join('; ') : (s.games || '')}</div></td>
-        <td>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-               stroke-width="2" style="color:var(--tx-faint);margin-left:auto;display:block" aria-hidden="true">
-            <path d="M9 18l6-6-6-6"/>
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function getReview(sessionId, player) {
+      return REVIEWS.find(r =>
+        Number(r.sessionId) === Number(sessionId) &&
+        String(r.player).trim().toLowerCase() === String(player).trim().toLowerCase()
+      ) || null;
+    }
+
+    function buildList() {
+      const tb = document.getElementById('session-list');
+
+      if (!SESSIONS.length) {
+        tb.innerHTML = `<tr><td colspan="5"><div class="empty">
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
           </svg>
-        </td>
-      </tr>`).join('');
-  }
+          <h3>Aucune session</h3>
+          <p>Ajoutez des entrées dans history.json.</p>
+        </div></td></tr>`;
+        return;
+      }
 
-  function showDetail(id) {
-    const s = SESSIONS.find(x => x.id === id);
-    if (!s) return;
-
-    document.getElementById('detail-title').textContent    = `Session #${String(s.id).padStart(3,'0')}`;
-    document.getElementById('detail-subtitle').textContent = fmt(s.date) + (s.seed ? `  ·  Seed : ${s.seed}` : '');
-
-    const summary = s.summary || [];
-    const durations  = summary.map(p => toMinutes(p['Temps de completion']));
-    const totalMorts  = summary.reduce((acc, p) => acc + (p['Nombre de morts'] || 0), 0);
-    const mostDeaths  = summary.length ? summary.reduce((a,b) => a['Nombre de morts'] > b['Nombre de morts'] ? a : b) : null;
-    const leastDeaths = summary.length ? summary.reduce((a,b) => a['Nombre de morts'] < b['Nombre de morts'] ? a : b) : null;
-    const maxDeaths   = mostDeaths ? mostDeaths['Nombre de morts'] : 1;
-
-    const grid = document.getElementById('detail-grid');
-    grid.innerHTML = '';
-
-    // ── GLOBAL ──
-    const cardGlobal = document.createElement('div');
-    cardGlobal.className = 'card detail-card detail-card-full';
-    cardGlobal.innerHTML = `
-      <div class="detail-card-header detail-card-header-section">
-        <h2>Détails de la session</h2>
-      </div>
-      <div class="detail-section-body">
-
-        <dl class="flat-dl">
-          <div class="flat-dl-row">
-            <dt>Date</dt><dd>${fmt(s.date)}</dd>
-          </div>
-          <div class="flat-dl-row">
-            <dt>Joueurs</dt><dd>${s.players}</dd>
-          </div>
-          ${s.seed ? `<div class="flat-dl-row"><dt>Seed</dt><dd class="kpi-mono">${s.seed}</dd></div>` : ''}
-        </dl>
-
-        <br>
-        <h2 class="detail-sub-header">Résumé des performances</h2>
-        <table class="game-table">
-          <thead>
-            <tr>
-              <th>Joueur</th>
-              <th>Jeu</th>
-              <th>Objectif</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${summary.map(p => `
-              <tr>
-                <td style="font-weight:600">${p.player}</td>
-                <td>${p['Jeu']}</td>
-                <td>${p['Objectif'] || '—'}</td>
-              </tr>`).join('')}
-          </tbody>
-        </table>
-      </div>`;
-    grid.appendChild(cardGlobal);
-    document.getElementById('view-list').style.display   = 'none';
-    document.getElementById('view-detail').style.display = 'block';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  function showList() {
-    document.getElementById('view-detail').style.display = 'none';
-    document.getElementById('view-list').style.display   = 'block';
-  }
-
-  async function loadSessions() {
-    try {
-      const res = await fetch('./history.json');
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      SESSIONS = await res.json();
-    } catch (err) {
-      console.error('Impossible de charger history.json :', err);
-      SESSIONS = [];
+      tb.innerHTML = SESSIONS.map(s => `
+        <tr class="session-row" onclick="showDetail(${s.id})" role="button" tabindex="0"
+            onkeydown="if(event.key==='Enter')showDetail(${s.id})">
+          <td><span class="session-num">#${String(s.id).padStart(3,'0')}</span></td>
+          <td style="color:var(--tx-muted);font-size:var(--text-sm);white-space:nowrap">${fmt(s.date)}</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:var(--sp-2)">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span style="font-weight:600">${s.players}</span>
+            </div>
+          </td>
+          <td><div class="session-games-wrap">${Array.isArray(s.games) ? s.games.join('; ') : (s.games || '')}</div></td>
+          <td>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" style="color:var(--tx-faint);margin-left:auto;display:block" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </td>
+        </tr>
+      `).join('');
     }
-    buildList();
-  }
 
-  document.getElementById('yr').textContent = new Date().getFullYear();
-  loadSessions();
+    function buildRatingField(sessionId, player, currentRating = 0) {
+      const safePlayer = escapeHtml(player);
+      const baseId = `rating-${sessionId}-${String(player).toLowerCase().replace(/[^a-z0-9]+/gi, '-')}`;
 
-  // Theme toggle
-  (function(){
-    const btn  = document.querySelector('[data-theme-toggle]');
-    const root = document.documentElement;
-    let theme  = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
-    root.setAttribute('data-theme', theme);
-    const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
-    const sun  = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
-    const upd  = () => btn.innerHTML = theme === 'dark' ? sun : moon;
-    upd();
-    btn.addEventListener('click', () => {
-      theme = theme === 'dark' ? 'light' : 'dark';
+      return `
+        <fieldset class="star-rating">
+          <legend>Note de ${safePlayer}</legend>
+          <div class="stars">
+            ${[5, 4, 3, 2, 1].map(value => `
+              <input
+                type="radio"
+                id="${baseId}-${value}"
+                name="${baseId}"
+                value="${value}"
+                ${Number(currentRating) === value ? 'checked' : ''}
+              />
+              <label for="${baseId}-${value}" title="${value} étoile${value > 1 ? 's' : ''}" aria-label="${value} étoile${value > 1 ? 's' : ''}">★</label>
+            `).join('')}
+          </div>
+        </fieldset>
+      `;
+    }
+
+    function showDetail(id) {
+      const s = SESSIONS.find(x => x.id === id);
+      if (!s) return;
+
+      document.getElementById('detail-title').textContent = `Session #${String(s.id).padStart(3,'0')}`;
+      document.getElementById('detail-subtitle').textContent = fmt(s.date) + (s.seed ? ` · Seed : ${s.seed}` : '');
+
+      const summary = s.summary || [];
+      const grid = document.getElementById('detail-grid');
+      grid.innerHTML = '';
+
+      const cardGlobal = document.createElement('div');
+      cardGlobal.className = 'card detail-card detail-card-full';
+      cardGlobal.innerHTML = `
+        <div class="detail-card-header detail-card-header-section">
+          <h2>Avis des joueurs</h2>
+        </div>
+        <div class="detail-section-body">
+          <dl class="flat-dl">
+            <div class="flat-dl-row">
+              <dt>Date</dt><dd>${fmt(s.date)}</dd>
+            </div>
+            <div class="flat-dl-row">
+              <dt>Joueurs</dt><dd>${s.players}</dd>
+            </div>
+            ${s.seed ? `<div class="flat-dl-row"><dt>Seed</dt><dd class="kpi-mono">${escapeHtml(s.seed)}</dd></div>` : ''}
+          </dl>
+
+          <br>
+
+          <table class="game-table" aria-label="Avis des joueurs">
+            <thead>
+              <tr>
+                <th>Joueur</th>
+                <th>Jeu</th>
+                <th>Objectif</th>
+                <th style="width:420px">Note & avis</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${summary.map(playerRow => {
+                const review = getReview(s.id, playerRow.player);
+                const rating = review?.rating || 0;
+                const comment = review?.comment || '';
+
+                return `
+                  <tr>
+                    <td style="font-weight:600">${escapeHtml(playerRow.player)}</td>
+                    <td>${escapeHtml(playerRow['Jeu'] || '—')}</td>
+                    <td>${escapeHtml(playerRow['Objectif'] || '—')}</td>
+                    <td class="review-cell">
+                      <div
+                        class="review-inline"
+                        data-review-form
+                        data-session-id="${s.id}"
+                        data-player="${escapeHtml(playerRow.player)}"
+                      >
+                        ${buildRatingField(s.id, playerRow.player, rating)}
+                        <textarea
+                          name="comment"
+                          maxlength="300"
+                          rows="1"
+                          placeholder="Note..."
+                        >${escapeHtml(comment)}</textarea>
+                      </div>
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+
+      grid.appendChild(cardGlobal);
+      bindReviewForms();
+
+      document.getElementById('view-list').style.display = 'none';
+      document.getElementById('view-detail').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    async function fetchJsonSafe(url, options = {}) {
+      const res = await fetch(url, options);
+      const text = await res.text();
+      let data = null;
+
+      if (text) {
+        try {
+          data = JSON.parse(text);
+        } catch {
+          if (!res.ok) {
+            throw new Error(`HTTP ${res.status}: ${text.slice(0, 120)}`);
+          }
+          throw new Error('Réponse JSON invalide.');
+        }
+      }
+
+      if (!res.ok) {
+        throw new Error(data?.error || `HTTP ${res.status}`);
+      }
+
+      return data;
+    }
+
+    function bindReviewForms() {
+      document.querySelectorAll('[data-review-form]').forEach(wrapper => {
+        const textarea = wrapper.querySelector('textarea[name="comment"]');
+        const radios = Array.from(wrapper.querySelectorAll('input[type="radio"]'));
+        const status = wrapper.querySelector('.review-status');
+
+        let lastSaved = snapshot(wrapper);
+        let saving = false;
+
+        function snapshot(node) {
+          const checked = node.querySelector('input[type="radio"]:checked');
+          return JSON.stringify({
+            rating: checked ? Number(checked.value) : 0,
+            comment: textarea.value.trim()
+          });
+        }
+
+        async function saveReview() {
+          const current = snapshot(wrapper);
+          if (saving || current === lastSaved) return;
+
+          saving = true;
+          status.textContent = 'Sauvegarde...';
+          status.className = 'review-status';
+
+          const checked = wrapper.querySelector('input[type="radio"]:checked');
+          const payload = {
+            sessionId: Number(wrapper.dataset.sessionId),
+            player: wrapper.dataset.player,
+            rating: checked ? Number(checked.value) : 0,
+            comment: textarea.value.trim()
+          };
+
+          try {
+            const data = await fetchJsonSafe('/api/reviews', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(payload)
+            });
+
+            const index = REVIEWS.findIndex(r =>
+              Number(r.sessionId) === payload.sessionId &&
+              String(r.player).trim().toLowerCase() === String(payload.player).trim().toLowerCase()
+            );
+
+            if (index >= 0) {
+              REVIEWS[index] = data.review;
+            } else {
+              REVIEWS.push(data.review);
+            }
+
+            lastSaved = snapshot(wrapper);
+            status.textContent = 'Enregistré';
+            status.className = 'review-status is-success';
+
+            setTimeout(() => {
+              if (status.textContent === 'Enregistré') {
+                status.textContent = '';
+                status.className = 'review-status';
+              }
+            }, 1200);
+          } catch (err) {
+            status.textContent = err.message || 'Erreur';
+            status.className = 'review-status is-error';
+          } finally {
+            saving = false;
+          }
+        }
+
+        radios.forEach(radio => {
+          radio.addEventListener('change', () => {
+            saveReview();
+          });
+        });
+
+        textarea.addEventListener('blur', () => {
+          saveReview();
+        });
+
+        textarea.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' && !event.shiftKey) {
+            event.preventDefault();
+            textarea.blur();
+          }
+        });
+      });
+    }
+
+    function showList() {
+      document.getElementById('view-detail').style.display = 'none';
+      document.getElementById('view-list').style.display = 'block';
+    }
+
+    async function loadSessions() {
+      try {
+        const res = await fetch('./history.json');
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        SESSIONS = await res.json();
+      } catch (err) {
+        console.error('Impossible de charger history.json :', err);
+        SESSIONS = [];
+      }
+    }
+
+    async function loadReviews() {
+      try {
+        REVIEWS = await fetchJsonSafe('/api/reviews');
+      } catch (err) {
+        console.error('Impossible de charger les reviews :', err);
+        REVIEWS = [];
+      }
+    }
+
+    async function init() {
+      document.getElementById('yr').textContent = new Date().getFullYear();
+      await Promise.all([loadSessions(), loadReviews()]);
+      buildList();
+    }
+
+    init();
+
+    (function(){
+      const btn = document.querySelector('[data-theme-toggle]');
+      const root = document.documentElement;
+      let theme = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
       root.setAttribute('data-theme', theme);
+      const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+      const sun = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
+      const upd = () => btn.innerHTML = theme === 'dark' ? sun : moon;
       upd();
-    });
-  })();
+      btn.addEventListener('click', () => {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        upd();
+      });
+    })();
   </script>
 </body>
 </html>

@@ -3,46 +3,196 @@
     "id": 1,
     "date": "2026-05-14",
     "players": 6,
-    "games": ["Dark Souls Remastered", "Jak and Daxter: The Precursor Legacy", "Celeste (Open World)", "Ori and the Blind Forest", "Hollow Knight", "A Link Between Worlds"],
-    "seed" : 	"KfsLb8a-Q-KKYYLH0IjioA",
+    "games": [
+      "Dark Souls Remastered",
+      "Jak and Daxter: The Precursor Legacy",
+      "Celeste (Open World)",
+      "Ori and the Blind Forest",
+      "Hollow Knight",
+      "A Link Between Worlds"
+    ],
+    "seed": "KfsLb8a-Q-KKYYLH0IjioA",
     "summary": [
-      { "player": "Lucas", "Jeu": "Dark Souls Remastered" ,"Temps de completion": "12h", "Nombre de morts": 25, "Objectif": "Gwyn, Lord of Cinder"},
-      { "player": "Alexis",   "Jeu": "Jak and Daxter: The Precursor Legacy" ,"Temps de completion": "15h", "Nombre de morts": 69, "Objectif": "Fin du jeu"},
-      { "player": "Léo", "Jeu": "Celeste (Open World)" ,"Temps de completion": "22h", "Nombre de morts": 54, "Objectif": "Farwell"},
-      { "player": "Sébastien",  "Jeu": "Ori and the Blind Forest" ,"Temps de completion": "11h", "Nombre de morts": 43, "Objectif": "Fin du jeu + Skill Tree"},
-      { "player": "Clément (Axo)",  "Jeu": "Hollow Knight" ,"Temps de completion": "15h", "Nombre de morts": 1, "Objectif": "Radiance"},
-      { "player": "Clément (caimez)",  "Jeu": "A Link Between Worlds" ,"Temps de completion": "18h", "Nombre de morts": 1, "Objectif": "Fin du jeu"}
+      {
+        "player": "Lucas",
+        "Jeu": "Dark Souls Remastered",
+        "Temps de completion": "12h",
+        "Nombre de morts": 25,
+        "Objectif": "Gwyn, Lord of Cinder",
+        "note": 4,
+        "commentaire": "Run solide, bonne régularité."
+      },
+      {
+        "player": "Alexis",
+        "Jeu": "Jak and Daxter: The Precursor Legacy",
+        "Temps de completion": "15h",
+        "Nombre de morts": 69,
+        "Objectif": "Fin du jeu",
+        "note": 4,
+        "commentaire": "Belle endurance, run maîtrisé malgré les morts."
+      },
+      {
+        "player": "Léo",
+        "Jeu": "Celeste (Open World)",
+        "Temps de completion": "22h",
+        "Nombre de morts": 54,
+        "Objectif": "Farwell",
+        "note": 5,
+        "commentaire": "Très gros objectif, performance impressionnante."
+      },
+      {
+        "player": "Sébastien",
+        "Jeu": "Ori and the Blind Forest",
+        "Temps de completion": "11h",
+        "Nombre de morts": 43,
+        "Objectif": "Fin du jeu + Skill Tree",
+        "note": 4,
+        "commentaire": "Run propre et bien tenu jusqu'au bout."
+      },
+      {
+        "player": "Clément (Axo)",
+        "Jeu": "Hollow Knight",
+        "Temps de completion": "15h",
+        "Nombre de morts": 1,
+        "Objectif": "Radiance",
+        "note": 5,
+        "commentaire": "Très grosse maîtrise, quasi flawless."
+      },
+      {
+        "player": "Clément (caimez)",
+        "Jeu": "A Link Between Worlds",
+        "Temps de completion": "18h",
+        "Nombre de morts": 1,
+        "Objectif": "Fin du jeu",
+        "note": 5,
+        "commentaire": "Run ultra clean, très peu d'erreurs."
+      }
     ]
   },
   {
     "id": 2,
     "date": "2026-05-23",
     "players": 5,
-    "games": ["Celeste (Open World)", "Subnautica", "Hadès", "TUNIC", "Minecraft"],
-    "seed" : 	"1CalxA2lTmCKcL-x9upn_g",
+    "games": [
+      "Celeste (Open World)",
+      "Subnautica",
+      "Hadès",
+      "TUNIC",
+      "Minecraft"
+    ],
+    "seed": "1CalxA2lTmCKcL-x9upn_g",
     "summary": [
-      { "player": "Lucas", "Jeu": "Celeste (Open World)" ,"Temps de completion": "16h", "Nombre de morts": -1, "Objectif": "Farwell"},
-      { "player": "Alexis",   "Jeu": "Subnautica" ,"Temps de completion": "14h50", "Nombre de morts": -1, "Objectif": "Fin du jeu"},
-      { "player": "Sébastien",  "Jeu": "Hadès" ,"Temps de completion": "21h", "Nombre de morts": -1, "Objectif": "Hadès avec chaque armes"},
-      { "player": "Clément (Axo)",  "Jeu": "TUNIC" ,"Temps de completion": "13h", "Nombre de morts": -1, "Objectif": "Fin du jeu"},
-      { "player": "Clément (caimez)",  "Jeu": "Minecraft" ,"Temps de completion": "11h30", "Nombre de morts": -1, "Objectif": "Ender Dragon + 60 succès"}
+      {
+        "player": "Lucas",
+        "Jeu": "Celeste (Open World)",
+        "Temps de completion": "16h",
+        "Nombre de morts": -1,
+        "Objectif": "Farwell",
+        "note": 4,
+        "commentaire": "Objectif exigeant, run bien géré."
+      },
+      {
+        "player": "Alexis",
+        "Jeu": "Subnautica",
+        "Temps de completion": "14h50",
+        "Nombre de morts": -1,
+        "Objectif": "Fin du jeu",
+        "note": 4,
+        "commentaire": "Bonne progression et run constant."
+      },
+      {
+        "player": "Sébastien",
+        "Jeu": "Hadès",
+        "Temps de completion": "21h",
+        "Nombre de morts": -1,
+        "Objectif": "Hadès avec chaque armes",
+        "note": 5,
+        "commentaire": "Challenge ambitieux, très belle session."
+      },
+      {
+        "player": "Clément (Axo)",
+        "Jeu": "TUNIC",
+        "Temps de completion": "13h",
+        "Nombre de morts": -1,
+        "Objectif": "Fin du jeu",
+        "note": 4,
+        "commentaire": "Run sérieux et objectif bien rempli."
+      },
+      {
+        "player": "Clément (caimez)",
+        "Jeu": "Minecraft",
+        "Temps de completion": "11h30",
+        "Nombre de morts": -1,
+        "Objectif": "Ender Dragon + 60 succès",
+        "note": 5,
+        "commentaire": "Objectif très dense, excellente exécution."
+      }
     ]
   },
   {
     "id": 3,
     "date": "2026-07-03",
     "players": 7,
-    "games": ["The Legend of Zelda", "Celeste (Open World)", "Outer Wilds", "Darks Souls Remastered", "Hadès","Balatro", "Ori and the Will of the Wisps"],
-    "seed" : 	"dRW9dRR2TCevVFYvpT6-WQ",
+    "games": [
+      "The Legend of Zelda",
+      "Celeste (Open World)",
+      "Outer Wilds",
+      "Darks Souls Remastered",
+      "Hadès",
+      "Balatro",
+      "Ori and the Will of the Wisps"
+    ],
+    "seed": "dRW9dRR2TCevVFYvpT6-WQ",
     "summary": [
-      { "player": "Alexis", "Jeu": "The Legend of Zelda" , "Objectif": "Fin du jeu"},
-      { "player": "Clément (Axo)",   "Jeu": "Celeste (Open World)", "Objectif": "Farwell"},
-      { "player": "Clément (caimez)",  "Jeu": "Outer Wilds" , "Objectif": "Atteindre l'oeil avec 2 copains"},
-      { "player": "Lucas",  "Jeu": "Dark Souls Remastered" , "Objectif": "Fin du jeu"},
-      { "player": "Léo",  "Jeu": "Hadès" , "Objectif": "5 Hadès"},
-      { "player": "Ronflex",  "Jeu": "Balatro" , "Objectif": "10 Decks White Stakes"},
-      { "player": "Sébastien",  "Jeu": "Ori and the Blind Forest" , "Objectif": "Skill Tree + Wisps + Quêtes"}
+      {
+        "player": "Alexis",
+        "Jeu": "The Legend of Zelda",
+        "Objectif": "Fin du jeu",
+        "note": 4,
+        "commentaire": "Run efficace et objectif clair."
+      },
+      {
+        "player": "Clément (Axo)",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "Farwell",
+        "note": 5,
+        "commentaire": "Très beau challenge, grosse perf."
+      },
+      {
+        "player": "Clément (caimez)",
+        "Jeu": "Outer Wilds",
+        "Objectif": "Atteindre l'oeil avec 2 copains",
+        "note": 5,
+        "commentaire": "Objectif original et très stylé."
+      },
+      {
+        "player": "Lucas",
+        "Jeu": "Dark Souls Remastered",
+        "Objectif": "Fin du jeu",
+        "note": 4,
+        "commentaire": "Bonne tenue globale sur toute la session."
+      },
+      {
+        "player": "Léo",
+        "Jeu": "Hadès",
+        "Objectif": "5 Hadès",
+        "note": 5,
+        "commentaire": "Très gros volume, super perf."
+      },
+      {
+        "player": "Ronflex",
+        "Jeu": "Balatro",
+        "Objectif": "10 Decks White Stakes",
+        "note": 4,
+        "commentaire": "Objectif costaud, run bien mené."
+      },
+      {
+        "player": "Sébastien",
+        "Jeu": "Ori and the Blind Forest",
+        "Objectif": "Skill Tree + Wisps + Quêtes",
+        "note": 4,
+        "commentaire": "Session complète et bien exécutée."
+      }
     ]
   }
-  
 ]
