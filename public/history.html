@@ -176,7 +176,6 @@
             <tr>
               <th>Joueur</th>
               <th>Jeu</th>
-              <th>Durée</th>
               <th>Objectif</th>
             </tr>
           </thead>
@@ -185,40 +184,12 @@
               <tr>
                 <td style="font-weight:600">${p.player}</td>
                 <td>${p['Jeu']}</td>
-                <td style="font-variant-numeric:tabular-nums">${p['Temps de completion']}</td>
                 <td>${p['Objectif'] || '—'}</td>
               </tr>`).join('')}
           </tbody>
         </table>
       </div>`;
     grid.appendChild(cardGlobal);
-
-    // ── MORTS ──
-    const cardMorts = document.createElement('div');
-    cardMorts.className = 'card detail-card detail-card-full';
-    cardMorts.innerHTML = `
-
-      <div class="detail-section-body">
-        <br>
-        <h2 class="detail-sub-header">DeathLink</h2>
-        <dl class="flat-dl">
-          <div class="flat-dl-row flat-dl-danger">
-            <dt>Plus de morts</dt>
-            <dd>${mostDeaths ? `${mostDeaths.player} : ${mostDeaths['Nombre de morts']}` : '—'}</dd>
-          </div>
-          <div class="flat-dl-row flat-dl-success">
-            <dt>Moins de morts</dt>
-            <dd>${leastDeaths ? `${leastDeaths.player} : ${leastDeaths['Nombre de morts']}` : '—'}</dd>
-          </div>
-          <div class="flat-dl-row">
-            <dt>Total</dt>
-            <dd>${totalMorts}</dd>
-          </div>
-        </dl>
-
-      </div>`;
-    grid.appendChild(cardMorts);
-
     document.getElementById('view-list').style.display   = 'none';
     document.getElementById('view-detail').style.display = 'block';
     window.scrollTo({ top: 0, behavior: 'smooth' });

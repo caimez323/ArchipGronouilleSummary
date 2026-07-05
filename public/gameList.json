@@ -937,6 +937,22 @@
     "apworld": "https://archipelago.gg/games/Factorio/player-options"
   },
   {
+    "name": "Factorio Space Age Without Space",
+    "icon": "🥚",
+    "setup": "https://github.com/silasary/Archipelago/blob/factorio_saws/worlds/factorio_saws/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/silasary/Archipelago/releases"
+  },
+  {
+    "name": "Fakutori",
+    "icon": "🥚",
+    "setup": "https://github.com/chickentuna/FakutoriRandomizer/releases/tag/plugin",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/chickentuna/Archipelago-Fakutori/releases/tag/apworld"
+  },
+  {
     "name": "Faxanadu",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Faxanadu/setup/en",
@@ -953,12 +969,68 @@
     "apworld": "https://archipelago.gg/games/Final%20Fantasy/player-options"
   },
   {
+    "name": "Final Fantasy IV",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/seto10987/Final-Fantasy-4-Free-Enterprise-AP-Poptracker-Pack/releases",
+    "info": "",
+    "apworld": "https://github.com/Rosalie-A/Archipelago/releases"
+  },
+  {
+    "name": "Final Fantasy VI",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Rosalie-A/Archipelago/releases"
+  },
+  {
+    "name": "Final Fantasy X HD Remaster",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/FFX-AP/Archipelago/releases"
+  },
+  {
+    "name": "Final Fantasy XII: Open World",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/silasary/ffxii-poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/Bartz24/Archipelago/releases/latest"
+  },
+  {
+    "name": "Final Fantasy XII: Trial Mode",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Final Fantasy Mystic Quest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Final%20Fantasy%20Mystic%20Quest/setup/en",
     "tracker": "https://github.com/D-Skye/ffmq-ap-poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/info/en",
     "apworld": "https://archipelago.gg/games/Final%20Fantasy%20Mystic%20Quest/player-options"
+  },
+  {
+    "name": "Final Fantasy Pixel Remaster",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Final Fantasy Tactics Advance",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Final Fantasy Tactics: Ivalice Island",
@@ -969,12 +1041,12 @@
     "apworld": "https://github.com/Rosalie-A/Archipelago/releases/"
   },
   {
-    "name": "Final Fantasy X HD Remaster",
+    "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
     "icon": "🥚",
     "setup": "",
     "tracker": "",
     "info": "",
-    "apworld": "https://github.com/FFX-AP/Archipelago/releases"
+    "apworld": ""
   },
   {
     "name": "Fire Emblem: The Sacred Stones (FE8)",

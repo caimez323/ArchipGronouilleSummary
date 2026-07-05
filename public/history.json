@@ -27,5 +27,21 @@
       { "player": "Clément (Axo)",  "Jeu": "TUNIC" ,"Temps de completion": "13h", "Nombre de morts": -1, "Objectif": "Fin du jeu"},
       { "player": "Clément (caimez)",  "Jeu": "Minecraft" ,"Temps de completion": "11h30", "Nombre de morts": -1, "Objectif": "Ender Dragon + 60 succès"}
     ]
+  },
+  {
+    "id": 3,
+    "date": "2026-07-03",
+    "players": 7,
+    "games": ["The Legend of Zelda", "Celeste (Open World)", "Outer Wilds", "Darks Souls Remastered", "Hadès","Balatro", "Ori and the Will of the Wisps"],
+    "seed" : 	"dRW9dRR2TCevVFYvpT6-WQ",
+    "summary": [
+      { "player": "Alexis", "Jeu": "The Legend of Zelda" , "Objectif": "Fin du jeu"},
+      { "player": "Clément (Axo)",   "Jeu": "Celeste (Open World)", "Objectif": "Farwell"},
+      { "player": "Clément (caimez)",  "Jeu": "Outer Wilds" , "Objectif": "Atteindre l'oeil avec 2 copains"},
+      { "player": "Lucas",  "Jeu": "Dark Souls Remastered" , "Objectif": "Fin du jeu"},
+      { "player": "Léo",  "Jeu": "Hadès" , "Objectif": "5 Hadès"},
+      { "player": "Ronflex",  "Jeu": "Balatro" , "Objectif": "10 Decks White Stakes"},
+      { "player": "Sébastien",  "Jeu": "Ori and the Blind Forest" , "Objectif": "Skill Tree + Wisps + Quêtes"}
+    ]
   }
 ]
