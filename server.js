@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 
 const PORT = Number(process.env.PORT) || 3000;
-const HOST = '0.0.0.0';
 
 const PUBLIC_DIR = path.join(__dirname, 'public');
 const REVIEWS_FILE = path.join(PUBLIC_DIR, 'reviews.json');
@@ -181,6 +180,4 @@ const server = http.createServer(async (req, res) => {
   });
 });
 
-server.listen(PORT, HOST, () => {
-  console.log(`Server listening on ${HOST}:${PORT}`);
-});
+server.listen(PORT, () => console.log(`http://localhost:${PORT}`));
