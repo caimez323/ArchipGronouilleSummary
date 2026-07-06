@@ -8,6 +8,8 @@ const HOST = '0.0.0.0';
 const PUBLIC_DIR = path.join(__dirname, 'public');
 const REVIEWS_FILE = path.join(PUBLIC_DIR, 'reviews.json');
 
+console.log('BOOT SERVER OK — fichier chargé, PORT =', process.env.PORT);
+
 const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
