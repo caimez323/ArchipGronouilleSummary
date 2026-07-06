@@ -357,7 +357,7 @@
     "setup": "https://xmcacutt.itch.io/cartograp",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/xMcacutt-Archipelago/CartogrAP/releases"
   },
   {
     "name": "Castlevania 64",
@@ -1103,6 +1103,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/latest"
+  },
+  {
+    "name": "Goldeneye 007",
+    "icon": "🥚",
+    "setup": "https://github.com/NotFamilyJules/goldeneye_ap/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/NotFamilyJules/goldeneye_ap/blob/main/docs/setup_en.md"
   },
   {
     "name": "Hades",
