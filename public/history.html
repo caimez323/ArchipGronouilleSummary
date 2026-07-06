@@ -462,7 +462,7 @@
           };
 
           try {
-            const data = await fetchJsonSafe('/api/reviews', {
+            const data = await fetchJsonSafe('/reviews', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
@@ -536,7 +536,7 @@
 
     async function loadReviews() {
       try {
-        REVIEWS = await fetchJsonSafe('/api/reviews');
+        REVIEWS = await fetchJsonSafe('/reviews');
       } catch (err) {
         console.error('Impossible de charger les reviews :', err);
         REVIEWS = [];

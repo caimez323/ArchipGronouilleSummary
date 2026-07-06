@@ -108,11 +108,11 @@ function normalizeReview(input) {
 async function handleApi(req, res) {
   const pathname = req.url.split('?')[0];
 
-  if (pathname === '/api/reviews' && req.method === 'GET') {
+  if (pathname === '/reviews' && req.method === 'GET') {
     return sendJson(res, 200, readReviews());
   }
 
-  if (pathname === '/api/reviews' && req.method === 'POST') {
+  if (pathname === '/reviews' && req.method === 'POST') {
     try {
       const body = await collectJsonBody(req);
       const normalized = normalizeReview(body);
@@ -142,7 +142,7 @@ async function handleApi(req, res) {
     }
   }
 
-  if (pathname === '/api/reviews' && req.method === 'OPTIONS') {
+  if (pathname === '/reviews' && req.method === 'OPTIONS') {
     res.writeHead(204, {
       'Allow': 'GET, POST, OPTIONS'
     });
