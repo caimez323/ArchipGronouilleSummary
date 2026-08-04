@@ -1,0 +1,23 @@
+name: Ryozen
+game: Resident Evil 2 Remake
+requires:
+    version: 0.6.4
+
+Resident Evil 2 Remake:
+    progression_balancing: 50
+    accessibility: items
+    character: leon
+    scenario: a
+    difficulty: standard
+    starting_hip_pouches: 2
+    bonus_start: true
+    extra_clock_tower_items: true
+    extra_medallions: true
+    early_medallions: true
+    starting_ink_ribbons: 0
+    cross_scenario_weapons: none
+    oops_all_rockets: false
+    oops_all_miniguns: false
+    oops_all_grenades: false
+    oops_all_knives: false
+    ammo_pack_modifier: double

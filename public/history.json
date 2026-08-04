@@ -157,5 +157,91 @@
         "Objectif": "Skill Tree + Wisps + Quêtes"
       }
     ]
+  },
+  {
+    "id": 4,
+    "date": "2026-07-25",
+    "players": 5,
+    "games": [
+      "A Link to the Past",
+      "Ori and the Will of the Wisps",
+      "The Binding of Isaac Repentance",
+      "Celeste (Open World)",
+      "Resident Evil 2 Remake"
+    ],
+    "seed": "UcwgL8FDR0yrCCRxaVHbNA",
+    "seedUrl": "./yaml_backup/4/spoiler.txt",
+    "summary": [
+      {
+        "player": "Alexis",
+        "playerUrl": "./yaml_backup/4/Alexis.yaml",
+        "Jeu": "A Link to the Past",
+        "Objectif": "Fin du jeu"
+      },
+      {
+        "player": "Clément (Axo)",
+        "playerUrl": "./yaml_backup/4/Axolotl.yaml",
+        "Jeu": "Ori and the Will of the Wisps",
+        "Objectif": "Fin du jeu + Skill Tree"
+      },
+      {
+        "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/4/caimez.yaml",
+        "Jeu": "The Binding of Isaac Repentance",
+        "Objectif": "Tout les boss avec persos spécifiques"
+      },
+      {
+        "player": "Lucas",
+        "playerUrl": "./yaml_backup/4/Lutrion.yaml",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "200 fraises"
+      },
+      {
+        "player": "Sébastien",
+        "playerUrl": "./yaml_backup/4/Ryozen.yaml",
+        "Jeu": "Resident Evil 2 Remake",
+        "Objectif": "Fin du jeu"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2026-07-31",
+    "players": 5,
+    "games": [
+      "Links Awakening DX",
+      "shapez.io",
+      "Outer Wilds",
+      "Dark Souls Remastered"
+    ],
+    "seed": "DMnewHtsSPSrOgHzaCsGsw",
+    "seedUrl": "./yaml_backup/5/spoiler.txt",
+    "summary": [
+      {
+        "player": "Alexis",
+        "playerUrl": "./yaml_backup/5/Alexis.yaml",
+        "Jeu": "Links Awakening DX",
+        "Objectif": "Fin du jeu"
+      },
+      {
+        "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/5/caimez.yaml",
+        "Jeu": "shapez.io",
+        "Objectif": "Niveau 50"
+      },
+      {
+        "player": "Léo",
+        "playerUrl": "./yaml_backup/5/Laiken.yaml",
+        "Jeu": "Outer Wilds",
+        "Objectif": "Fin avec 5 copains"
+      },
+      {
+        "player": "Lucas",
+        "playerUrl": "./yaml_backup/5/Lutrion.yaml",
+        "Jeu": "Dark Souls Remastered",
+        "Objectif": "All bosses randomized"
+      }
+    ]
   }
+
 ]
