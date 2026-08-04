@@ -1,13 +1,16 @@
+require('dotenv').config();
+
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const { Pool } = require('pg');
 
 const PORT = Number(process.env.PORT) || 3000;
 
 const PUBLIC_DIR = path.join(__dirname, 'public');
-const REVIEWS_FILE = path.join(PUBLIC_DIR, 'reviews.json');
 
 console.log('BOOT SERVER OK — fichier chargé, PORT =', process.env.PORT);
+console.log('DATABASE_URL chargée ?', !!process.env.DATABASE_URL);
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -18,35 +21,74 @@ const MIME = {
   '.ico': 'image/x-icon',
 };
 
+// --- Connexion PostgreSQL ---
+// En local : DATABASE_URL vient du .env (DATABASE_PUBLIC_URL de Railway).
+// En prod (Railway) : DATABASE_URL est injectée automatiquement (réseau interne).
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: process.env.DATABASE_URL && process.env.DATABASE_URL.includes('railway.internal')
+    ? false
+    : { rejectUnauthorized: false },
+});
+
+async function initDb() {
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS reviews (
+      id SERIAL PRIMARY KEY,
+      session_id INTEGER NOT NULL,
+      player TEXT NOT NULL,
+      rating INTEGER NOT NULL CHECK (rating >= 0 AND rating <= 5),
+      comment TEXT,
+      updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    );
+  `);
+
+  await pool.query(`
+    CREATE UNIQUE INDEX IF NOT EXISTS reviews_session_player_uidx
+    ON reviews (session_id, lower(player));
+  `);
+
+  console.log('DB OK — table "reviews" prête.');
+}
+
 function sendJson(res, status, payload) {
   res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8' });
   res.end(JSON.stringify(payload, null, 2));
 }
 
-function ensureReviewsFile() {
-  if (!fs.existsSync(REVIEWS_FILE)) {
-    fs.writeFileSync(REVIEWS_FILE, '[]', 'utf-8');
-  }
+function rowToReview(row) {
+  return {
+    sessionId: row.session_id,
+    player: row.player,
+    rating: row.rating,
+    comment: row.comment || '',
+    updatedAt: row.updated_at instanceof Date
+      ? row.updated_at.toISOString()
+      : row.updated_at,
+  };
 }
 
-function readReviews() {
-  ensureReviewsFile();
-  try {
-    const raw = fs.readFileSync(REVIEWS_FILE, 'utf-8');
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
+async function readReviews() {
+  const { rows } = await pool.query(
+    'SELECT * FROM reviews ORDER BY id ASC'
+  );
+  return rows.map(rowToReview);
 }
 
-function writeReviews(reviews) {
-  return new Promise((resolve, reject) => {
-    fs.writeFile(REVIEWS_FILE, JSON.stringify(reviews, null, 2), 'utf-8', (err) => {
-      if (err) reject(err);
-      else resolve();
-    });
-  });
+async function upsertReview(review) {
+  const { rows } = await pool.query(
+    `INSERT INTO reviews (session_id, player, rating, comment, updated_at)
+     VALUES ($1, $2, $3, $4, $5)
+     ON CONFLICT (session_id, lower(player))
+     DO UPDATE SET
+       player = EXCLUDED.player,
+       rating = EXCLUDED.rating,
+       comment = EXCLUDED.comment,
+       updated_at = EXCLUDED.updated_at
+     RETURNING *`,
+    [review.sessionId, review.player, review.rating, review.comment, review.updatedAt]
+  );
+  return rowToReview(rows[0]);
 }
 
 function collectJsonBody(req) {
@@ -110,7 +152,12 @@ async function handleApi(req, res) {
   const pathname = req.url.split('?')[0];
 
   if (pathname === '/reviews' && req.method === 'GET') {
-    return sendJson(res, 200, readReviews());
+    try {
+      const reviews = await readReviews();
+      return sendJson(res, 200, reviews);
+    } catch (err) {
+      return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
+    }
   }
 
   if (pathname === '/reviews' && req.method === 'POST') {
@@ -122,21 +169,7 @@ async function handleApi(req, res) {
         return sendJson(res, 400, { error: normalized.error });
       }
 
-      const review = normalized.value;
-      const reviews = readReviews();
-
-      const index = reviews.findIndex(r =>
-        Number(r.sessionId) === review.sessionId &&
-        String(r.player).trim().toLowerCase() === review.player.trim().toLowerCase()
-      );
-
-      if (index >= 0) {
-        reviews[index] = { ...reviews[index], ...review };
-      } else {
-        reviews.push(review);
-      }
-
-      await writeReviews(reviews);
+      const review = await upsertReview(normalized.value);
       return sendJson(res, 200, { ok: true, review });
     } catch (err) {
       return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
@@ -180,4 +213,11 @@ const server = http.createServer(async (req, res) => {
   });
 });
 
-server.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+initDb()
+  .then(() => {
+    server.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+  })
+  .catch(err => {
+    console.error('Échec de connexion à PostgreSQL :', err);
+    process.exit(1);
+  });
