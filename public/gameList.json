@@ -2418,7 +2418,7 @@
     "apworld": "https://github.com/Happyhappyism/Plok-Archipelago/releases/"
   },
   {
-    "name": "Pokemon Red and Blue",
+    "name": "Pokémon Red and Blue",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Pokemon%20Red%20and%20Blue/setup/en",
     "tracker": "https://github.com/palex00/rb_tracker/releases/latest/",
@@ -2426,15 +2426,15 @@
     "apworld": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/player-options"
   },
   {
-    "name": "Pokemon Blanc et Noir",
-    "icon": "🐛",
-    "setup": "https://github.com/SparkyDaDoggo/Archipelago/blob/main/worlds/pokemon_bw/docs/en_Pokemon%20Black%20and%20White.md",
-    "tracker": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/releases/latest",
+    "name": "Pokémon Pinball",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1358934774647095447/1464486746786889863",
+    "tracker": "",
     "info": "",
-    "apworld": "https://github.com/BlastSlimey/PokemonBWAP/releases/latest"
+    "apworld": "https://github.com/Happyhappyism/Archipelago/releases?q=Pok%C3%A9mon+Pinball+Apworld&expanded=true"
   },
   {
-    "name": "Pokemon Crystal",
+    "name": "Pokémon Crystal",
     "icon": "🐛",
     "setup": "https://github.com/gerbiljames/Archipelago-Crystal/blob/pokecrystal/worlds/pokemon_crystal/docs/setup_en.md",
     "tracker": "https://github.com/palex00/crystal-ap-tracker/releases/latest",
@@ -2442,31 +2442,7 @@
     "apworld": "https://gerbiljames.github.io/crystal-ap-web/"
   },
   {
-    "name": "Pokemon Donjon Mystère",
-    "icon": "🐛",
-    "setup": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/setup_en.md",
-    "tracker": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/releases/",
-    "info": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/FAQ.md",
-    "apworld": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/latest"
-  },
-  {
-    "name": "Pokemon Emerald",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Pokemon%20Emerald/setup/en",
-    "tracker": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/releases/latest",
-    "info": "https://archipelago.gg/games/Pokemon%20Emerald/info/en",
-    "apworld": "https://archipelago.gg/games/Pokemon%20Emerald/player-options"
-  },
-  {
-    "name": "Pokemon Platine",
-    "icon": "🐛",
-    "setup": "https://github.com/ljtpetersen/platinum_archipelago/blob/v0.1.8/docs/setup_en.md",
-    "tracker": "https://github.com/palex00/platinum-ap-tracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/ljtpetersen/platinum_archipelago/releases/latest"
-  },
-  {
-    "name": "Pokemon Rouge Feu et Vert Feuille",
+    "name": "Pokémon FireRed and LeafGreen",
     "icon": "🐛",
     "setup": "https://github.com/vyneras/Archipelago/blob/frlg-stable/worlds/pokemon_frlg/docs/setup_en.md",
     "tracker": "https://github.com/vyneras/pokemon-frlg-tracker/releases/latest",
@@ -2474,12 +2450,76 @@
     "apworld": "https://github.com/vyneras/Archipelago/releases/latest"
   },
   {
-    "name": "Pokepelago",
+    "name": "Pokémon Emerald",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Pokemon%20Emerald/setup/en",
+    "tracker": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/releases/latest",
+    "info": "https://archipelago.gg/games/Pokemon%20Emerald/info/en",
+    "apworld": "https://archipelago.gg/games/Pokemon%20Emerald/player-options"
+  },
+  {
+    "name": "Pokémon Black and White",
+    "icon": "🐛",
+    "setup": "https://github.com/SparkyDaDoggo/Archipelago/blob/main/worlds/pokemon_bw/docs/en_Pokemon%20Black%20and%20White.md",
+    "tracker": "https://github.com/Radis7Noir/pokemon-bw-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/BlastSlimey/PokemonBWAP/releases/latest"
+  },
+  {
+    "name": "Pokémon Platinum",
+    "icon": "🐛",
+    "setup": "https://github.com/ljtpetersen/platinum_archipelago/blob/v0.1.8/docs/setup_en.md",
+    "tracker": "https://github.com/palex00/platinum-ap-tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/ljtpetersen/platinum_archipelago/releases/latest"
+  },
+  {
+    "name": "Pokémon Ranger (Quest)",
+    "icon": "🥚",
+    "setup": "https://github.com/BlastSlimey/Archipelago/blob/customs/worlds/pkmn_ranger_quest/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/BlastSlimey/Archipelago/blob/customs/worlds/pkmn_ranger_quest/docs/en_Pokemon%20Ranger%20(Quest).md",
+    "apworld": "https://github.com/BlastSlimey/Archipelago/releases?q=Pok%C3%A9mon+Ranger+(Quest)&expanded=true"
+  },
+  {
+    "name": "Pokémon Trozei / Link!",
+    "icon": "🥚",
+    "setup": "https://github.com/WCutePy/ArchipelagoAlmia/blob/pokemon_link_trozei/worlds/pokemon_trozei/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/WCutePy/ArchipelagoAlmia/blob/pokemon_link_trozei/worlds/pokemon_trozei/docs/en_Pokemon%20Trozei.md",
+    "apworld": "https://github.com/WCutePy/ArchipelagoAlmia/releases?q=Pokemon+Trozei&expanded=true"
+  },
+  {
+    "name": "Pokémon Mystery Dungeon Explorers of Sky",
+    "icon": "🐛",
+    "setup": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/setup_en.md",
+    "tracker": "https://github.com/ScarredSceptile/pmd_eos-AP-poptracker/releases/",
+    "info": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/blob/main/worlds/pmd_eos/docs/FAQ.md",
+    "apworld": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/latest"
+  },
+  {
+    "name": "PokéPark Wii: Pikachu's Adventure",
+    "icon": "🥚",
+    "setup": "https://github.com/Mekurushi/Archipelago_Pokepark/blob/main/worlds/pokepark/docs/setup_en.md",
+    "tracker": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/",
+    "info": "https://github.com/Mekurushi/Archipelago_Pokepark/blob/main/worlds/pokepark/docs/en_PokePark.md",
+    "apworld": "https://github.com/Mekurushi/Archipelago_Pokepark/releases"
+  },
+  {
+    "name": "Poképelago - Pokémon Guessing Game",
     "icon": "🥚",
     "setup": "https://dowlle.github.io/PokepelagoClient/",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/dowlle/PokepelagoClient/releases/"
+  },
+  {
+    "name": "POOLS",
+    "icon": "👻",
+    "setup": "https://github.com/SerpentAI/Archipelago/blob/pools/worlds/pools/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/SerpentAI/Archipelago/blob/pools/worlds/pools/docs/en_POOLS.md",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22POOLS%22&expanded=true"
   },
   {
     "name": "Portal 2",
@@ -2498,6 +2538,14 @@
     "apworld": "https://github.com/SWCreeperKing/PowerwashSimAP/releases/latest"
   },
   {
+    "name": "Prodigal",
+    "icon": "👻",
+    "setup": "https://github.com/randomsalience/ProdigalArchipelago#installation",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/randomsalience/ProdigalArchipelago/releases"
+  },
+  {
     "name": "Pseudoregalia",
     "icon": "🥚",
     "setup": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/setup_en.md",
@@ -2506,12 +2554,20 @@
     "apworld": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/latest"
   },
   {
-    "name": "Psychonauts (BETA)",
+    "name": "Psychonauts",
     "icon": "🥚",
     "setup": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/tag/v0.9.3-BETA",
     "tracker": "https://github.com/Mysteryem/Psychonauts_AP_PopTracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/latest"
+  },
+  {
+    "name": "Rabi-Ribi",
+    "icon": "👻",
+    "setup": "https://github.com/tdkollins/Archipelago-Rabi-Ribi/blob/main/worlds/rabi_ribi/docs/setup_beta_en.md",
+    "tracker": "https://github.com/rajanb/RabiRibiPoptracker",
+    "info": "https://github.com/tdkollins/Archipelago-Rabi-Ribi/blob/main/worlds/rabi_ribi/docs/en_Rabi-Ribi.md",
+    "apworld": "https://github.com/tdkollins/Archipelago-Rabi-Ribi/releases"
   },
   {
     "name": "Raft",
@@ -2520,6 +2576,22 @@
     "tracker": "https://github.com/PrimePentad/Raft-AP-Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Raft/info/en",
     "apworld": "https://archipelago.gg/games/Raft/player-options"
+  },
+  {
+    "name": "Ratchet & Clank",
+    "icon": "🥚",
+    "setup": "https://github.com/Panda291/Archipelago/blob/main/worlds/RAC1/docs/setup_en.md",
+    "tracker": "https://github.com/SomeLazyGamer/RaC-AP-Poptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/Panda291/Archipelago/releases"
+  },
+  {
+    "name": "Ratchet & Clank : Going Commando",
+    "icon": "🥚",
+    "setup": "https://github.com/evilwb/APRac2/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/cloudofdarkhole6/RaC2-poptracker/releases/latest",
+    "info": "https://github.com/evilwb/APRac2/blob/main/docs/en_Ratchet%20%26%20Clank%202.md",
+    "apworld": "https://github.com/evilwb/APRac2/releases"
   },
   {
     "name": "Ratchet et Clank 3 : Up Your Arsenal",
@@ -2539,11 +2611,19 @@
   },
   {
     "name": "Refunct",
-    "icon": "🥚",
+    "icon": "👻",
     "setup": "https://github.com/spinerak/refunct-tas-archipelago/blob/master/README.md",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/spinerak/refunct-tas-archipelago/releases/latest"
+  },
+    {
+    "name": "R.E.P.O.",
+    "icon": "🐛",
+    "setup": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/tree/main?tab=readme-ov-file#multiworld-setup-instructions",
+    "tracker": "",
+    "info": "https://archipelago.miraheze.org/wiki/R.E.P.O",
+    "apworld": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases"
   },
   {
     "name": "Return of the Obra Dinn",
@@ -2554,12 +2634,60 @@
     "apworld": "https://gitlab.com/obra-dinn-archipelago/world/-/releases/"
   },
   {
+    "name": "Reventure",
+    "icon": "🥚",
+    "setup": "https://github.com/Droppel/ReventureEndingRando#installation",
+    "tracker": "https://github.com/fhnnhf/reventure_tracker/",
+    "info": "https://reventure.fandom.com/wiki/Map:Reventure_Map",
+    "apworld": "https://github.com/Droppel/ReventureEndingRando/releases/"
+  },
+    {
+    "name": "Rift of the NecroDancer",
+    "icon": "🥚",
+    "setup": "https://github.com/studkid/Archipelago/blob/RotN/worlds/rotn/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/studkid/RiftArchipelago/releases/latest"
+  },
+    {
+    "name": "Rift Wizard",
+    "icon": "👻",
+    "setup": "https://github.com/TheBigSalarius/Archipelago/blob/main/worlds/riftwizard/docs/rift-wizard_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TheBigSalarius/Archipelago/releases"
+  },
+    {
+    "name": "Risk of Rain",
+    "icon": "🥚",
+    "setup": "https://github.com/studkid/Archipelago/blob/main/worlds/ror1/docs/setup_RoR1_en.md",
+    "tracker": "",
+    "info": "https://saturnyoshi.gitlab.io/RoRML-Docs/index.html",
+    "apworld": "https://github.com/studkid/RoR_Archipelago/releases"
+  },
+  {
     "name": "Risk of Rain 2",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Risk%20of%20Rain%202/setup/en",
     "tracker": "https://github.com/Swiftmane/Ror2-AP-tracker/releases/latest",
     "info": "https://archipelago.gg/games/Risk%20of%20Rain%202/info/en",
     "apworld": "https://archipelago.gg/games/Risk%20of%20Rain%202/player-options"
+  },
+  {
+    "name": "Risk of Rain Returns",
+    "icon": "🥚",
+    "setup": "https://github.com/studkid/Archipelago/blob/main/worlds/ror1/docs/setup_RoRR_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/studkid/RoR_Archipelago/releases/"
+  },
+  {
+    "name": "Riven",
+    "icon": "👻",
+    "setup": "https://github.com/SerpentAI/Archipelago/blob/riven/worlds/riven/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/SerpentAI/Archipelago/blob/riven/worlds/riven/docs/en_Riven.md",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22riven%22&expanded=true"
   },
   {
     "name": "Rogue Legacy",
@@ -2570,20 +2698,20 @@
     "apworld": "./resources/rogue_legacy/rogue_legacy.apworld"
   },
   {
-    "name": "Rubrik's Cube AP",
-    "icon": "👻",
-    "setup": "https://cube-ap.netlify.app/",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest"
-  },
-  {
     "name": "Rune Factory 4 Special",
     "icon": "👻",
     "setup": "https://github.com/Happyhappyism/Archipelago/releases/tag/rune4_v0.1.0",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/Happyhappyism/Archipelago/releases/latest"
+  },
+  {
+    "name": "Rusted Moss",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Satisfactory",
@@ -2904,6 +3032,14 @@
     "tracker": "https://github.com/SapphireSapphic/TunicTracker/releases/latest",
     "info": "https://archipelago.gg/games/TUNIC/info/en",
     "apworld": "https://archipelago.gg/games/TUNIC/player-options"
+  },
+  {
+    "name": "Twisty Cube",
+    "icon": "👻",
+    "setup": "https://cube-ap.netlify.app/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest"
   },
   {
     "name": "Tyrian / Tyrian 2000",
