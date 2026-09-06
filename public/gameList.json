@@ -2130,7 +2130,7 @@
     "apworld": "https://github.com/richarm4/Archipelago/releases/"
   },
   {
-    "name": "New Super Mario Bros. Wii",
+    "name": "New Super Mario Bros Wii",
     "icon": "👻",
     "setup": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md",
     "tracker": "",
@@ -2138,7 +2138,7 @@
     "apworld": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases"
   },
   {
-    "name": "Nine sols",
+    "name": "Nine Sols",
     "icon": "🥚",
     "setup": "https://github.com/Ixrec/NineSolsArchipelagoRandomizer?tab=readme-ov-file#installation",
     "tracker": "",
@@ -2194,7 +2194,7 @@
     "apworld": "https://github.com/stubobis1/archipelago-openomf/releases"
   },
   {
-    "name": "OpenRTC2",
+    "name": "OpenRCT2",
     "icon": "👻",
     "setup": "",
     "tracker": "",
@@ -2266,7 +2266,7 @@
     "apworld": "https://archipelago.gg/games/Overcooked!%202/player-options"
   },
   {
-    "name": "Oxygen Not Included : Prehistoric Planet Pack",
+    "name": "Oxygen Not Included",
     "icon": "🥚",
     "setup": "https://github.com/ShadowKitty42/ONI-Archipelago",
     "tracker": "",
@@ -2290,7 +2290,7 @@
     "apworld": "https://archipelago.gg/games/Paint/player-options"
   },
   {
-    "name": "Paper Mario 64",
+    "name": "Paper Mario",
     "icon": "🐛",
     "setup": "https://github.com/JKBSunshine/PMR_APWorld/blob/main/docs/setup_en.md",
     "tracker": "https://github.com/boiscljo/pmr-tracker/releases/latest",
@@ -2322,7 +2322,7 @@
     "apworld": "https://discord.com/channels/731205301247803413/1332506808182378677/1495813121573519410"
   },
   {
-    "name": "Peggle Night",
+    "name": "Peggle Nights",
     "icon": "🥚",
     "setup": "",
     "tracker": "",
@@ -2386,7 +2386,7 @@
     "apworld": "https://github.com/unsafetyskizzers/Archipelago/releases/"
   },
   {
-    "name": "Placid Duck Simulator",
+    "name": "Placid Plastic Duck Simulator",
     "icon": "🥚",
     "setup": "https://github.com/SWCreeperKing/PPDSArchipelago",
     "tracker": "",
@@ -2394,7 +2394,7 @@
     "apworld": "https://github.com/SWCreeperKing/PPDSArchipelago/releases/latest"
   },
   {
-    "name": "Plants Vs Zombies: Replanted/GOTY",
+    "name": "Plants vs Zombies : Replanted/GOTY",
     "icon": "🥚",
     "setup": "https://github.com/dannybonz/replanted_archipelago/blob/main/apworld/docs/setup.md",
     "tracker": "",
@@ -2498,7 +2498,7 @@
     "apworld": "https://github.com/CrypticMonkey33/ArchipelagoExplorersOfSky/releases/latest"
   },
   {
-    "name": "PokéPark Wii: Pikachu's Adventure",
+    "name": "PokéPark Wii : Pikachu's Adventure",
     "icon": "🥚",
     "setup": "https://github.com/Mekurushi/Archipelago_Pokepark/blob/main/worlds/pokepark/docs/setup_en.md",
     "tracker": "https://github.com/Mekurushi/pokepark_ap_poptracker/releases/",
@@ -2530,7 +2530,7 @@
     "apworld": "https://github.com/GlassToadstool/Archipelago/releases/latest"
   },
   {
-    "name": "PowerWash Simulator",
+    "name": "Powerwash Simulator",
     "icon": "🥚",
     "setup": "https://github.com/SWCreeperKing/PowerwashSimAP/blob/master/README.md",
     "tracker": "",
@@ -2562,6 +2562,14 @@
     "apworld": "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/latest"
   },
   {
+    "name": "Q-Up",
+    "icon": "👻",
+    "setup": "https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/setup_en.md",
+    "tracker": "https://github.com/cxve/q-ap-poptracker/releases/",
+    "info": "https://github.com/cxve/q-ap-world/blob/main-q-up/worlds/q_up/docs/en_Q-UP.md",
+    "apworld": "https://github.com/cxve/q-ap-world/releases/"
+  },
+  {
     "name": "Rabi-Ribi",
     "icon": "👻",
     "setup": "https://github.com/tdkollins/Archipelago-Rabi-Ribi/blob/main/worlds/rabi_ribi/docs/setup_beta_en.md",
@@ -2576,6 +2584,14 @@
     "tracker": "https://github.com/PrimePentad/Raft-AP-Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Raft/info/en",
     "apworld": "https://archipelago.gg/games/Raft/player-options"
+  },
+  {
+    "name": "Rain World",
+    "icon": "🥚",
+    "setup": "https://github.com/alphappy/ArchipelagoRW/blob/1.5/worlds/rain_world/docs/README.md",
+    "tracker": "https://github.com/jdmccork/Rain-World-PopTracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/alphappy/ArchipelagoRW/releases/latest"
   },
   {
     "name": "Ratchet & Clank",
@@ -2594,7 +2610,7 @@
     "apworld": "https://github.com/evilwb/APRac2/releases"
   },
   {
-    "name": "Ratchet et Clank 3 : Up Your Arsenal",
+    "name": "Ratchet & Clank 3 : Up Your Arsenal",
     "icon": "🥚",
     "setup": "https://github.com/Taoshix/Archipelago-RaC3/tree/staging/worlds/rac3/docs/setup_en.md",
     "tracker": "https://github.com/SomeLazyGamer/RaC-3-UYA-AP-Poptracker/releases/latest",
@@ -2710,8 +2726,8 @@
     "icon": "👻",
     "setup": "",
     "tracker": "",
-    "info": "",
-    "apworld": ""
+    "info": "https://github.com/dgrossmann144/Archipelago/blob/main/worlds/rusted_moss/docs/en_Rusted%20Moss.md",
+    "apworld": "https://github.com/dgrossmann144/Archipelago/releases/latest"
   },
   {
     "name": "Satisfactory",
