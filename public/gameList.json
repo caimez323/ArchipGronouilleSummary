@@ -112,6 +112,14 @@
     "apworld": "https://github.com/ScipioWright/Archipelago-SW/releases/latest"
   },
   {
+    "name": "Angband",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/zane31415/APangband/releases/"
+  },
+  {
     "name": "Anno 1800",
     "icon": "👻",
     "setup": "https://github.com/Dark-Listener/ArchipelagoA1800/blob/release/v0.4.0/worlds/a1800/docs/setup_en.md",
@@ -128,7 +136,7 @@
     "apworld": "https://github.com/PixieCatSupreme/ArchipelagoAno/releases"
   },
   {
-    "name": "Another's Crab Treasure",
+    "name": "Another Crab's Treasure",
     "icon": "🥚",
     "setup": "https://github.com/Automagic00/ACT-AP-Client-Plugin",
     "tracker": "",
@@ -200,7 +208,7 @@
     "apworld": "https://github.com/JustinMarshall98/Armored-Core-PSX-Archipelago/releases"
   },
   {
-    "name": "Astalion : Tears of the Earth",
+    "name": "Astalon : Tears of the Earth",
     "icon": "👻",
     "setup": "https://github.com/drtchops/Archipelago/blob/astalon/worlds/astalon/docs/setup_en.md",
     "tracker": "",
@@ -240,7 +248,7 @@
     "apworld": "https://github.com/BurndiL/BalatroAP/releases/latest"
   },
   {
-    "name": "Banjo tooie",
+    "name": "Banjo-Tooie",
     "icon": "🐛",
     "setup": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest",
     "tracker": "https://github.com/Ozone31/banjo-tooie-ap-tracker/releases/latest",
@@ -256,7 +264,7 @@
     "apworld": "https://archipelago.gg/games/Blasphemous/player-options"
   },
   {
-    "name": "Blasphemous 2 (Mea Culpa DLC)",
+    "name": "Blasphemous 2",
     "icon": "🥚",
     "setup": "https://github.com/BrandenEK/BlasII.Randomizer.Multiworld",
     "tracker": "",
@@ -264,7 +272,7 @@
     "apworld": "../resources/blasphemous2/blasphemous2.apworld"
   },
   {
-    "name": "Bloons TD 6",
+    "name": "Bloons Tower Defense 6",
     "icon": "🐛",
     "setup": "https://github.com/Matt41321/BloonsArchipelago/releases/latest",
     "tracker": "https://github.com/Fairweather-Furry/btd6_fair/releases/latest",
@@ -336,7 +344,7 @@
     "apworld": "https://github.com/asdfwyay/APBuckshot/releases"
   },
   {
-    "name": "Bugs Bunny: Lost in Time",
+    "name": "Bugs Bunny : Lost in Time",
     "icon": "👻",
     "setup": "",
     "tracker": "",
@@ -384,7 +392,15 @@
     "apworld": "https://archipelago.gg/games/Castlevania%2064/player-options"
   },
   {
-    "name": "Castlevania - Circle of the Moon",
+    "name": "Castlevania : Aria of Sorrow",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/SchwartzGandhi/CVAoSPT",
+    "info": "",
+    "apworld": "https://github.com/anonymous-heap/Archipelago/releases"
+  },
+  {
+    "name": "Castlevania : Circle of the Moon",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Castlevania%20-%20Circle%20of%20the%20Moon/setup/en",
     "tracker": "https://github.com/BowserCrusher/Circle-of-the-Moon-AP-Tracker/releases/latest",
@@ -392,7 +408,7 @@
     "apworld": "https://archipelago.gg/games/Castlevania%20-%20Circle%20of%20the%20Moon/player-options"
   },
   {
-    "name": "Castlevania - Dawn of Sorrow",
+    "name": "Castlevania : Dawn of Sorrow",
     "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/SchwartzGandhi/CVDoSPT/releases/latest",
@@ -400,7 +416,15 @@
     "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20dawn%20of%20sorrow&expanded=true"
   },
   {
-    "name": "Castlevania - Legacy of Darkness",
+    "name": "Castlevania : Harmony of Dissonance",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/Armipotent/HarmonyOfDissonancePoptracker/releases",
+    "info": "",
+    "apworld": "https://github.com/LiquidCat64/LiquidCatipelago/releases"
+  },
+  {
+    "name": "Castlevania : Legacy of Darkness",
     "icon": "🥚",
     "setup": "",
     "tracker": "",
@@ -408,7 +432,15 @@
     "apworld": "https://github.com/LiquidCat64/LiquidCatipelago/releases/tag/cvlod_v1.1"
   },
   {
-    "name": "Castlevania - Portrait of Ruin",
+    "name": "Castlevania : Order of Ecclesia",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/SchwartzGandhi/CVOoEPT/releases/latest",
+    "info": "https://github.com/PinkSwitch/Archipelago/blob/order-of-ecclesia/worlds/cv_ooe/docs/logic_tricks.md",
+    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20order%20of%20ecclesia&expanded=true"
+  },
+  {
+    "name": "Castlevania : Portrait of Ruin",
     "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/SchwartzGandhi/CVPoRPT/releases/latest",
@@ -416,7 +448,7 @@
     "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=castlevania:%20portrait%20of%20ruin&expanded=true"
   },
   {
-    "name": "Castlevania - Symphony of the Night",
+    "name": "Castlevania : Symphony of the Night",
     "icon": "🐛",
     "setup": "https://github.com/fdelduque/Archipelago/blob/main/worlds/sotn/docs/setup_en.md",
     "tracker": "https://github.com/DorkmasterFlek/SOTN-AP-MapTracker/releases/latest",
@@ -545,7 +577,7 @@
     "apworld": "https://pharware.com/git/Phar/Clique/releases/latest"
   },
   {
-    "name": "Clustertruck",
+    "name": "ClusterTruck",
     "icon": "🥚",
     "setup": "https://github.com/Nullctipus/ArchipelagoClusterTruck",
     "tracker": "",
@@ -591,6 +623,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/JustinMarshall98/Crash-Bash-PSX-Archipelago/releases"
+  },
+  {
+    "name": "Crash Team Racing",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/dowlle/ctr-native-ap/releases/"
   },
   {
     "name": "Crazy Taxi",
@@ -657,7 +697,7 @@
     "apworld": "https://github.com/Lizardman175/DC1AP/releases"
   },
   {
-    "name": "Darks Souls I Remastered",
+    "name": "Dark Souls : Remastered",
     "icon": "🐛",
     "setup": "https://github.com/tathxo/DSAP/releases/latest",
     "tracker": "https://github.com/routhken/Dark_Souls_Remastered_tracker/releases/latest",
@@ -769,7 +809,7 @@
     "apworld": "https://github.com/ArsonAssassin/DWAP/releases"
   },
   {
-    "name": "DLCQuest",
+    "name": "DLC Quest",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/DLCQuest/setup/en",
     "tracker": "https://github.com/RaceProUK/DLCQuest-APTracker/releases/latest",
@@ -801,7 +841,7 @@
     "apworld": "https://github.com/TheLX5/Archipelago/releases/tag/dkc-v1.2.3"
   },
   {
-    "name": "Donkey Kong Country 2",
+    "name": "Donkey Kong Country 2 : Diddy's Kong Quest",
     "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/pwkfisher/ap-dkc2-tracker/releases/",
@@ -809,12 +849,20 @@
     "apworld": "https://github.com/TheLX5/Archipelago/releases/tag/dkc2-v3.1.1"
   },
   {
-    "name": "Donkey Kong Country 3",
+    "name": "Donkey Kong Country 3 : Dixie Kong's Double Trouble!",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Donkey%20Kong%20Country%203/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Donkey%20Kong%20Country%203/info/en",
     "apworld": "https://archipelago.gg/games/Donkey%20Kong%20Country%203/player-options"
+  },
+  {
+    "name": "Donkey Kong Country Returns",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/MagicMason1000/DKCR-AP-PopTracker-Package/releases",
+    "info": "https://docs.google.com/document/d/1HLGthO0-K62RDuJ4j3v3pbDkw2cnlp-bfqjszAG5CSQ/edit?tab=t.dpp9wzmnlwpy#heading=h.2hcy6rgkb7v8",
+    "apworld": "https://github.com/CallmeZewo/DKCR_APWorld/releases"
   },
   {
     "name": "Donkey Kong Toluca (new DKC3)",
@@ -824,7 +872,7 @@
     "info": "",
     "apworld": "https://github.com/TheLX5/Archipelago/releases/latest"
   },
-{
+  {
     "name": "Don't Starve Together",
     "icon": "🥚",
     "setup": "https://github.com/DragonWolfLeo/Archipelago-DST/blob/main/worlds/dst/docs/setup_en.md",
@@ -882,7 +930,7 @@
     "apworld": "https://github.com/Serpikmin/Archipelago-DragonWarrior/releases/"
   },
   {
-    "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+    "name": "Dragon Quest IX : Sentinels of the Starry Skies",
     "icon": "🥚",
     "setup": "https://discord.com/channels/731205301247803413/1427594624389742716/1491731633684877376",
     "tracker": "",
@@ -890,7 +938,7 @@
     "apworld": "https://github.com/kid2407/ArchipelagoDQIX/releases/"
   },
   {
-    "name": "Dredge",
+    "name": "DREDGE",
     "icon": "🥚",
     "setup": "https://github.com/alextric234/ArchipelagoDredge/blob/main/worlds/dredge/docs/setup_en.md",
     "tracker": "",
@@ -930,7 +978,7 @@
     "apworld": "https://archipelago.gg/games/EarthBound/player-options"
   },
   {
-    "name": "Empire Earth: The Art of Conquest",
+    "name": "Empire Earth : The Art of Conquest",
     "icon": "👻",
     "setup": "https://github.com/povka/EmpireEarth_Archipelago/tree/master#install-and-play",
     "tracker": "",
@@ -938,7 +986,7 @@
     "apworld": "https://discord.com/channels/731205301247803413/1533221949822599218/1545327490560426046"
   },
   {
-    "name": "Ender Lilies: Quietus of the Knights",
+    "name": "Ender Lilies : Quietus of the Knights",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/lurch9229/ender-lilies-poptracker/releases",
@@ -1034,7 +1082,7 @@
     "apworld": "https://github.com/FFX-AP/Archipelago/releases"
   },
   {
-    "name": "Final Fantasy XII: Open World",
+    "name": "Final Fantasy XII : Open World",
     "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/silasary/ffxii-poptracker/releases/latest",
@@ -1042,7 +1090,7 @@
     "apworld": "https://github.com/Bartz24/Archipelago/releases/latest"
   },
   {
-    "name": "Final Fantasy XII: Trial Mode",
+    "name": "Final Fantasy XII : Trial Mode",
     "icon": "🥚",
     "setup": "",
     "tracker": "",
@@ -1074,7 +1122,7 @@
     "apworld": "https://github.com/spicynun/Archipelago/releases/"
   },
   {
-    "name": "Final Fantasy Tactics: Ivalice Island",
+    "name": "Final Fantasy Tactics : Ivalice Island",
     "icon": "🥚",
     "setup": "https://github.com/Rosalie-A/Archipelago/wiki/Final-Fantasy-Tactics:-Ivalice-Island-Setup-Guide",
     "tracker": "https://github.com/Rosalie-A/FFTII-Tracker/releases/",
@@ -1082,7 +1130,7 @@
     "apworld": "https://github.com/Rosalie-A/Archipelago/releases/"
   },
   {
-    "name": "Final Fantasy Tactics A2: Grimoire of the Rift",
+    "name": "Final Fantasy Tactics A2 : Grimoire of the Rift",
     "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/Rurusachi/Archipelago/releases/tag/BizhawkUT_1.3.0",
@@ -1090,7 +1138,7 @@
     "apworld": "https://github.com/Rurusachi/Archipelago/releases/tag/FFTA2_0.0.9"
   },
   {
-    "name": "Fire Emblem: The Sacred Stones (FE8)",
+    "name": "Fire Emblem : The Sacred Stones",
     "icon": "🥚",
     "setup": "https://github.com/CT075/fe8-archipelago/blob/main/setup.md",
     "tracker": "",
@@ -1106,7 +1154,7 @@
     "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Funi/releases/latest"
   },
   {
-    "name": "FNAF Worlds",
+    "name": "FNAF Ultimate Custom Night",
     "icon": "🥚",
     "setup": "https://discord.com/channels/731205301247803413/1106009391427227750/1536856859145928936",
     "tracker": "",
@@ -1114,12 +1162,52 @@
     "apworld": "https://github.com/fewffwa/UCN-AP/releases/latest"
   },
   {
-    "name": "FNAF Worlds",
+    "name": "FNAF World",
     "icon": "🥚",
     "setup": "https://discord.com/channels/731205301247803413/1104088448127729704/1187854264375193721",
     "tracker": "https://drive.google.com/file/d/1r864XblcMptcgUWNombDOCzxJmc8brqm/view?usp=sharing",
     "info": "",
     "apworld": "https://github.com/EviVirus/Archipelago/releases/"
+  },
+  {
+    "name": "Freddy Fazbear's Pizzeria Simulator",
+    "icon": "🥚",
+    "setup": "https://docs.google.com/document/d/1vDoTrIvj97X0VwBhmYFmJWLSGgmC9gIC03pTeYrI64g/edit?usp=sharing",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/EviVirus/Archipelago-FFPS/releases"
+  },
+  {
+    "name": "Freedom Planet 2",
+    "icon": "👻",
+    "setup": "https://discord.com/channels/731205301247803413/1204965442494660608/1431095468041048074",
+    "tracker": "",
+    "info": "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/wiki",
+    "apworld": "https://github.com/Knuxfan24/Freedom-Planet-2-Archipelago/releases/latest"
+  },
+  {
+    "name": "Friday Night Funkin'",
+    "icon": "👻",
+    "setup": "https://github.com/Z11Coding/Mixtape-Engine-Rework/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Z11Coding/Mixtape-Engine-Rework/releases/latest"
+  },
+  {
+    "name": "Frogmonster",
+    "icon": "👻",
+    "setup": "https://github.com/Rooby-Roo/FrogmonsterAPWorld",
+    "tracker": "",
+    "info": "https://archipelago.miraheze.org/wiki/Frogmonster",
+    "apworld": "https://github.com/Rooby-Roo/FrogmonsterAPWorld/releases/"
+  },
+  {
+    "name": "Garfield Kart - Furious Racing",
+    "icon": "👻",
+    "setup": "https://github.com/FeluciaPS/GarfieldKartAP/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/FeluciaPS/GarfieldKartAP/blob/main/docs/setup_en.md",
+    "apworld": "https://github.com/FeluciaPS/GarfieldKartAP/releases/latest"
   },
   {
     "name": "Gato Roboto",
@@ -1130,7 +1218,7 @@
     "apworld": "https://github.com/Ravenmist-Games/Gato-Roboto-APWorld/releases/"
   },
   {
-    "name": "Gato Roboto B-Sides",
+    "name": "Gato Roboto B-Side",
     "icon": "👻",
     "setup": "https://github.com/Nitroxyz/Gato-Roboto-B-Side-Archipelago",
     "tracker": "https://github.com/FarisTheAncient/Archipelago/releases/latest",
@@ -1186,7 +1274,7 @@
     "apworld": "https://github.com/Mat8071/Gnosia-Archipelago-Randomizer/releases/latest"
   },
   {
-    "name": "Golden Sun: The Lost Age",
+    "name": "Golden Sun : The Lost Age",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/cloudofdarkhole6/GSTLAPopTracker/releases/latest",
@@ -1258,7 +1346,7 @@
     "apworld": "https://github.com/Kryen112/HP2PC_AP/releases/"
   },
   {
-    "name": "HASTE",
+    "name": "HASTE : Broken Worlds",
     "icon": "🥚",
     "setup": "https://github.com/WritingHusky/haste_apworld/blob/main/docs/setup_en.md",
     "tracker": "",
@@ -1266,7 +1354,7 @@
     "apworld": "https://github.com/WritingHusky/haste_apworld/releases"
   },
   {
-    "name": "Hatsune Miku: Project DIVA Mega Mix+",
+    "name": "Hatsune Miku : Project Diva Mega Mix+",
     "icon": "👻",
     "setup": "https://github.com/Cynichill/DivaAPworld/blob/main/docs/setup_en.md",
     "tracker": "",
@@ -1274,7 +1362,7 @@
     "apworld": "https://github.com/Cynichill/DivaAPworld/releases/"
   },
   {
-    "name": "Hello Kitty: Roller Rescue",
+    "name": "Hello Kitty : Roller Rescue",
     "icon": "👻",
     "setup": "",
     "tracker": "",
@@ -1322,7 +1410,7 @@
     "apworld": "https://github.com/ElireFeltores/High-Roller/releases/"
   },
   {
-    "name": "Hi-fi Rush",
+    "name": "Hi-Fi RUSH",
     "icon": "🥚",
     "setup": "",
     "tracker": "",
@@ -1426,7 +1514,7 @@
     "apworld": "https://github.com/Extra-2-Dew/ArchipelagoRandomizer/releases/latest"
   },
   {
-    "name": "Jak and Daxter: The Precursor Legacy",
+    "name": "Jak and Daxter : The Precursor Legacy",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Jak%20and%20Daxter:%20The%20Precursor%20Legacy/setup/en",
     "tracker": "https://github.com/LegsLegsLegs/Jak-and-Daxter-Poptracker/releases/latest",
@@ -1522,7 +1610,7 @@
     "apworld": "https://github.com/Birdwards/keysofthecays/releases"
   },
   {
-    "name": "Kingdom Hearts Final Mix",
+    "name": "KINGDOM HEARTS FINAL MIX",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts/kh1_en",
     "tracker": "",
@@ -1530,7 +1618,7 @@
     "apworld": "https://archipelago.gg/games/Kingdom%20Hearts/player-options"
   },
   {
-    "name": "Kingdom Hearts Chain of Memories",
+    "name": "KINGDOM HEARTS Chain of Memories",
     "icon": "👻",
     "setup": "",
     "tracker": "",
@@ -1538,7 +1626,7 @@
     "apworld": "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases/latest"
   },
   {
-    "name": "Kingdom Hearts Re:Chain of Memories",
+    "name": "KINGDOM HEARTS Re:Chain of Memories",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/Kuzurreesh/Kingdom-Hearts-ReCom-Poptracker/releases",
@@ -1546,7 +1634,7 @@
     "apworld": "https://github.com/gaithernOrg/ArchipelagoKHRECOM/releases/latest"
   },
   {
-    "name": "Kingdom Hearts 2",
+    "name": "KINGDOM HEARTS II FINAL MIX",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Kingdom%20Hearts%202/setup/en",
     "tracker": "",
@@ -1554,7 +1642,7 @@
     "apworld": "https://archipelago.gg/games/Kingdom%20Hearts%202/player-options"
   },
   {
-    "name": "Kingdom Hearts Birth by Sleep Final Mix",
+    "name": "KINGDOM HEARTS Birth by Sleep FINAL MIX",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/esutley/Kingdom-Hearts-BBS-AP-Tracker",
@@ -1562,7 +1650,7 @@
     "apworld": "https://github.com/gaithernOrg/ArchipelagoKHBBS/releases/"
   },
   {
-    "name": "Kirby 64 - The Crystal Shards (CHECK VERSION DISCORD)",
+    "name": "Kirby 64 : The Crystal Shards",
     "icon": "🥚",
     "setup": "",
     "tracker": "https://github.com/RunInAWeek/Kirby-64-Archipelago-Tracker/releases",
