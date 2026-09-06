@@ -72,7 +72,7 @@
     "apworld": "https://github.com/Ryguy-9999/ArchipelagoATS/releases"
   },
   {
-    "name": "Age of Empires II: Definitive Edition",
+    "name": "Age of Empires II : Definitive Edition",
     "icon": "👻",
     "setup": "",
     "tracker": "",
@@ -1610,7 +1610,7 @@
     "apworld": "https://archipelago.gg/games/Landstalker%20-%20The%20Treasures%20of%20King%20Nole/player-options"
   },
   {
-    "name": "Laika: Aged Through Blood",
+    "name": "Laika : Aged Through Blood",
     "icon": "👻",
     "setup": "",
     "tracker": "",
@@ -1642,7 +1642,7 @@
     "apworld": "https://github.com/pkolb-dev/Archipelago/releases/latest"
   },
   {
-    "name": "Lego Batman",
+    "name": "Lego Batman : The Video Game",
     "icon": "🥚",
     "setup": "https://github.com/ZAPaDASH04/LEGO-Batman-Archipelago-Mod#instructions",
     "tracker": "",
@@ -1730,7 +1730,7 @@
     "apworld": "https://github.com/AutomaticFrenzy/Archipelago/releases/"
   },
   {
-    "name": "Lufia II : Rise of the Sinistrals (Ancient Cave)",
+    "name": "Lufia II : Rise of the Sinistrals",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Lufia%20II%20Ancient%20Cave/setup/en",
     "tracker": "",
@@ -1762,7 +1762,7 @@
     "apworld": "https://github.com/KitLemonfoot/ArchipelagoMIUU/releases/"
   },
   {
-    "name": "Mario & Luigi Superstar Saga",
+    "name": "Mario & Luigi : Superstar Saga",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Mario%20&%20Luigi%20Superstar%20Saga/setup/en",
     "tracker": "https://github.com/seto10987/MLSS-PopTracker/releases/latest",
@@ -1770,7 +1770,7 @@
     "apworld": "https://archipelago.gg/games/Mario%20&%20Luigi%20Superstar%20Saga/player-options"
   },
   {
-    "name": "Mario is Missing",
+    "name": "Mario is Missing!",
     "icon": "🥚",
     "setup": "",
     "tracker": "",
@@ -1802,7 +1802,7 @@
     "apworld": "https://github.com/toent/Archipelago-MKWii/releases/latest"
   },
   {
-    "name": "Mario Sport Mix",
+    "name": "Mario Sports Mix",
     "icon": "🥚",
     "setup": "https://github.com/ElectroStarz/ArchipelagoMSM/blob/main/worlds/mario_sports_mix/docs/setup_en.md",
     "tracker": "",
@@ -1810,7 +1810,7 @@
     "apworld": "https://github.com/ElectroStarz/ArchipelagoMSM/releases"
   },
   {
-    "name": "Mario Super Slugers",
+    "name": "Mario Super Sluggers",
     "icon": "🥚",
     "setup": "https://github.com/MarioManTAW/Archipelago/blob/sluggers-v0.0.0/worlds/mario_super_sluggers/docs/setup_en.md",
     "tracker": "https://github.com/MarioManTAW/MarioSuperSluggersAPTracker/releases",
@@ -1818,7 +1818,7 @@
     "apworld": "https://github.com/MarioManTAW/Archipelago/releases/"
   },
   {
-    "name": "MediEvil",
+    "name": "MediEvil (1998)",
     "icon": "👻",
     "setup": "https://github.com/riezahughes/MedievilAPWorld/blob/main/worlds/medievil/docs/setup.md",
     "tracker": "https://github.com/Kuzurreesh/MedievilAp-Poptracker/releases/",
@@ -1874,7 +1874,7 @@
     "apworld": "https://github.com/TheLX5/Archipelago/releases?q=Mega+Man+X3&expanded=true"
   },
   {
-    "name": "Mega Man Battle Network 3",
+    "name": "Mega Man Battle Network 3 Blue",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/MegaMan%20Battle%20Network%203/setup/en",
     "tracker": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/latest",
