@@ -2026,6 +2026,14 @@
     "apworld": "https://github.com/lilDavid/AP-SamusReturns/releases/"
   },
   {
+    "name": "Mina the Hollower",
+    "icon": "🐛",
+    "setup": "https://github.com/FyreDay/Archipelago-MinaTheHollower/blob/main/worlds/mina_the_hollower/docs/setup_en.md",
+    "tracker": "https://github.com/FarisTheAncient/Archipelago/releases?q=Tracker",
+    "info": "https://github.com/FyreDay/Archipelago-MinaTheHollower/blob/main/worlds/mina_the_hollower/docs/en_Mina%20The%20Hollower.md",
+    "apworld": "https://github.com/FyreDay/Archipelago-MinaTheHollower/releases/latest"
+  },
+  {
     "name": "Mindustry",
     "icon": "🥚",
     "setup": "https://github.com/JohnMahglass/Mindustry-Archipelago-Randomizer/blob/master/ap-doc/SetupGuides.md",
@@ -2042,12 +2050,92 @@
     "apworld": "https://github.com/qixils/NeoForgeAP/releases/latest"
   },
   {
+    "name": "Minecraft Dig",
+    "icon": "🥚",
+    "setup": "https://docs.google.com/document/d/1AMcototDovob8YJ7w4UFKAiUMCV21uQjJqzw_dr-sJQ/edit?tab=t.0#heading=h.3qyu9hceool0",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/jacobmix/Minecraft_AP_Randomizer/releases"
+  },
+  {
+    "name": "Minishoot' Adventures",
+    "icon": "👻",
+    "setup": "https://github.com/TheNooodle/MinishootRandomizer/blob/main/docs/players/installation.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TheNooodle/MinishootRandomizer/releases/"
+  },
+  {
+    "name": "Minit",
+    "icon": "👻",
+    "setup": "https://github.com/qwint/APMinit/tree/main",
+    "tracker": "https://ezraiii.github.io/MinitERTracker/",
+    "info": "",
+    "apworld": "https://github.com/qwint/APMinit/releases"
+  },
+  {
+    "name": "Momodora : Moonlit Farewell",
+    "icon": "👻",
+    "setup": "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/blob/Archipelago-Randomizer/README.md",
+    "tracker": "https://github.com/RFOyashiro/Momodora-Moonlit-Farewell-Poptracker/releases",
+    "info": "",
+    "apworld": "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/releases"
+  },
+  {
+    "name": "Monster Hunter World",
+    "icon": "🐛",
+    "setup": "https://github.com/QPL22/MHW_Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/QPL22/MHW_Archipelago/releases"
+  },
+  {
+    "name": "Monster Sanctuary",
+    "icon": "👻",
+    "setup": "https://github.com/Gtaray/archipelago-monstersanctuary",
+    "tracker": "https://github.com/Cyb3RGER/monster_sanctuary_ap_pack/releases",
+    "info": "",
+    "apworld": "https://github.com/Gtaray/archipelago-monstersanctuary/releases/"
+  },
+  {
+    "name": "Muck",
+    "icon": "🥚",
+    "setup": "https://github.com/PGMProductions/Muck-for-Archipelago/blob/main/HOW%20TO%20USE.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/PGMProductions/Muck-for-Archipelago/releases/"
+  },
+  {
     "name": "Muse Dash",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Muse%20Dash/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Muse%20Dash/info/en",
     "apworld": "https://archipelago.gg/games/Muse%20Dash/player-options"
+  },
+  {
+    "name": "Mystical Ninja Starring Goemon",
+    "icon": "👻",
+    "setup": "https://github.com/Killklli/MNSGRecompRando#installation",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Killklli/MNSGRecompRando/releases"
+  },
+  {
+    "name": "Naruto : Clash of Ninja 2",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/richarm4/Archipelago/releases/"
+  },
+  {
+    "name": "New Super Mario Bros. Wii",
+    "icon": "👻",
+    "setup": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/releases"
   },
   {
     "name": "Nine sols",
@@ -2074,12 +2162,60 @@
     "apworld": "https://archipelago.gg/games/Noita/player-options"
   },
   {
+    "name": "Nonogram (Picross)",
+    "icon": "👻",
+    "setup": "https://nonograhmm.netlify.app/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/spineraks-org/ArchipelagoNonogram/releases/latest"
+  },
+  {
+    "name": "Northgard",
+    "icon": "👻",
+    "setup": "https://github.com/ChakraaThePanda/Archipelago-Northgard/blob/main/worlds/northgard/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/latest"
+  },
+  {
     "name": "Old School Runescape",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Old%20School%20Runescape/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Old%20School%20Runescape/info/en",
     "apworld": "https://archipelago.gg/games/Old%20School%20Runescape/player-options"
+  },
+  {
+    "name": "One Must Fall 2097",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/stubobis1/archipelago-openomf/releases"
+  },
+  {
+    "name": "OpenRTC2",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Crazycolbster/rollercoaster-tycoon-randomizer/releases/latest"
+  },
+  {
+    "name": "OpenTTD",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/solida1987/openttd-archipelago/releases"
+  },
+  {
+    "name": "OpenTTD CargoLock",
+    "icon": "👻",
+    "setup": "https://github.com/kbab13reel/openttd-archipelago#install",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/kbab13reel/openttd-archipelago/releases/latest"
   },
   {
     "name": "Ori and the Blind Forest",
@@ -2096,6 +2232,22 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/Satisha10/APwotw_release/releases/latest"
+  },
+  {
+    "name": "Osu!",
+    "icon": "🥚",
+    "setup": "https://discord.com/channels/731205301247803413/1195040661171355730/1220286358472622140",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/lilymnky-F/Archipelago-Osu/releases/"
+  },
+  {
+    "name": "Our Ascent",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/AzuriCaelum/OurAscentAPWorld/releases/"
   },
   {
     "name": "Outer Wilds",
@@ -2122,44 +2274,20 @@
     "apworld": "https://github.com/ShadowKitty42/ONI-Archipelago/releases/latest"
   },
   {
+    "name": "Panel De Pon/Tetris Attack",
+    "icon": "👻",
+    "setup": "https://github.com/AgStarRay/TetrisAttackAP/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/AgStarRay/TetrisAttackAP/releases/"
+  },
+  {
     "name": "Paint",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Paint/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Paint/info/en",
     "apworld": "https://archipelago.gg/games/Paint/player-options"
-  },
-  {
-    "name": "Placid Duck Simulator",
-    "icon": "🥚",
-    "setup": "https://github.com/SWCreeperKing/PPDSArchipelago",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/SWCreeperKing/PPDSArchipelago/releases/latest"
-  },
-  {
-    "name": "Peggle Night (EN)",
-    "icon": "🥚",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+nights%22&expanded=true"
-  },
-  {
-    "name": "Peggle Deluxe (EN)",
-    "icon": "🥚",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+deluxe%22&expanded=true"
-  },
-  {
-    "name": "Pseudoregalia",
-    "icon": "🥚",
-    "setup": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/setup_en.md",
-    "tracker": "https://github.com/highrow623/pseudoregalia_brooty/releases/latest",
-    "info": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/en_Pseudoregalia.md#locations",
-    "apworld": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/latest"
   },
   {
     "name": "Paper Mario 64",
@@ -2170,28 +2298,52 @@
     "apworld": "https://github.com/JKBSunshine/PMR_APWorld/releases/latest"
   },
   {
-    "name": "Paper Please",
-    "icon": "",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
-  },
-  {
-    "name": "Plants Vs Zombies: Replanted (GOTY)",
-    "icon": "🥚",
-    "setup": "https://github.com/dannybonz/replanted_archipelago/blob/main/apworld/docs/setup.md",
-    "tracker": "",
-    "info": "",
-    "apworld": "https://github.com/dannybonz/replanted_archipelago/releases/latest"
-  },
-  {
-    "name": "Paper Mario : La Porte Millénaire",
+    "name": "Paper Mario : The Thousand Year Door",
     "icon": "🐛",
     "setup": "https://github.com/jamesbrq/ArchipelagoTTYD/blob/main/docs%2Fsetup_en.md",
     "tracker": "https://github.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/releases/latest",
     "info": "https://www.ttydrandomizer.com/archipelago",
     "apworld": "https://www.ttydrandomizer.com/generate"
+  },
+  {
+    "name": "Parkitect",
+    "icon": "👻",
+    "setup": "https://github.com/CrusherRL/AP_Parkitect?tab=readme-ov-file#-installation",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/CrusherRL/AP_Parkitect_World/releases/"
+  },
+  {
+    "name": "Peaks of Yore",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://discord.com/channels/731205301247803413/1332506808182378677/1495813121573519410"
+  },
+  {
+    "name": "Peggle Night",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+nights%22&expanded=true"
+  },
+  {
+    "name": "Peggle Deluxe",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22peggle+deluxe%22&expanded=true"
+  },
+  {
+    "name": "Pikmin 1",
+    "icon": "👻",
+    "setup": "https://github.com/TheLynk/Archipelago/blob/PikminV2/worlds/pikmin/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/TheLynk/Archipelago/blob/PikminV2/worlds/pikmin/docs/en_pikmin1.md",
+    "apworld": "https://github.com/TheLynk/Archipelago/releases"
   },
   {
     "name": "Pikmin 2",
@@ -2202,12 +2354,76 @@
     "apworld": "https://github.com/chpas0/Pikmin2Archipelago/releases/latest"
   },
   {
+    "name": "Pikuniku",
+    "icon": "👻",
+    "setup": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/blob/main/worlds/pikuniku/docs/setup_en.md",
+    "tracker": "https://github.com/robotzurg/PikunikuPopTracker/releases/latest",
+    "info": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/blob/main/worlds/pikuniku/docs/en_Pikuniku.md",
+    "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/releases/latest"
+  },
+  {
+    "name": "Pinball FX3",
+    "icon": "👻",
+    "setup": "https://discord.com/channels/731205301247803413/1465211526141972684/1465211600490467472",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22pinball+fx3%22&expanded=true"
+  },
+  {
+    "name": "PixelDraw",
+    "icon": "👻",
+    "setup": "https://interestedsc2.itch.io/pixel-draw",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TheOmnipresence/PixelDraw/releases"
+  },
+  {
     "name": "Pizza Tower",
     "icon": "🥚",
     "setup": "https://github.com/unsafetyskizzers/Archipelago/blob/pizza_ap/worlds/pizza_tower/docs/setup_en.md",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/unsafetyskizzers/Archipelago/releases/"
+  },
+  {
+    "name": "Placid Duck Simulator",
+    "icon": "🥚",
+    "setup": "https://github.com/SWCreeperKing/PPDSArchipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SWCreeperKing/PPDSArchipelago/releases/latest"
+  },
+  {
+    "name": "Plants Vs Zombies: Replanted/GOTY",
+    "icon": "🥚",
+    "setup": "https://github.com/dannybonz/replanted_archipelago/blob/main/apworld/docs/setup.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/dannybonz/replanted_archipelago/releases/latest"
+  },
+  {
+    "name": "Plateup!",
+    "icon": "🥚",
+    "setup": "https://github.com/CazIsABoi/Archipelago/blob/plateup/worlds/plateup/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/CazIsABoi/Archipelago/releases/latest"
+  },
+  {
+    "name": "Plok",
+    "icon": "👻",
+    "setup": "https://github.com/Happyhappyism/Plok-Archipelago#installation-procedures",
+    "tracker": "https://github.com/Happyhappyism/Plok_Tracker/releases/tag/plok_tracker_v0.1.0",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Plok-Archipelago/releases/"
+  },
+  {
+    "name": "Pokemon Red and Blue",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Pokemon%20Red%20and%20Blue/setup/en",
+    "tracker": "https://github.com/palex00/rb_tracker/releases/latest/",
+    "info": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/info/en",
+    "apworld": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/player-options"
   },
   {
     "name": "Pokemon Blanc et Noir",
@@ -2250,14 +2466,6 @@
     "apworld": "https://github.com/ljtpetersen/platinum_archipelago/releases/latest"
   },
   {
-    "name": "Pokemon Red and Blue",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Pokemon%20Red%20and%20Blue/setup/en",
-    "tracker": "https://github.com/palex00/rb_tracker/releases/latest/",
-    "info": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/info/en",
-    "apworld": "https://archipelago.gg/games/Pokemon%20Red%20and%20Blue/player-options"
-  },
-  {
     "name": "Pokemon Rouge Feu et Vert Feuille",
     "icon": "🐛",
     "setup": "https://github.com/vyneras/Archipelago/blob/frlg-stable/worlds/pokemon_frlg/docs/setup_en.md",
@@ -2288,6 +2496,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/SWCreeperKing/PowerwashSimAP/releases/latest"
+  },
+  {
+    "name": "Pseudoregalia",
+    "icon": "🥚",
+    "setup": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/setup_en.md",
+    "tracker": "https://github.com/highrow623/pseudoregalia_brooty/releases/latest",
+    "info": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/blob/main/AP_Randomizer/apworld/docs/en_Pseudoregalia.md#locations",
+    "apworld": "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/latest"
   },
   {
     "name": "Psychonauts (BETA)",
