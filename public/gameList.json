@@ -351,7 +351,7 @@
     "info": "",
     "apworld": "https://github.com/SynthKat67/BugsBunnylitAPWorld/tree/main"
   },
-    {
+  {
     "name": "Build a Jetpack",
     "icon": "👻",
     "setup": "",
@@ -527,7 +527,6 @@
     "info": "",
     "apworld": "https://github.com/chesslogic/chessv/releases/"
   },
-  
   {
     "name": "Chibi Robo Plug Into Adventure",
     "icon": "🥚",
@@ -880,7 +879,6 @@
     "info": "https://github.com/DragonWolfLeo/Archipelago-DST/blob/main/worlds/dst/docs/en_Don't%20Starve%20Together.md",
     "apworld": "https://github.com/DragonWolfLeo/Archipelago-DST/releases/latest"
   },
-  
   {
     "name": "DOOM 1993",
     "icon": "🐢",
@@ -1297,7 +1295,7 @@
     "info": "",
     "apworld": "https://github.com/routhken/Archipelago/releases"
   },
-    {
+  {
     "name": "Guild Wars 2",
     "icon": "🥚",
     "setup": "https://github.com/Feldar99/Archipelago/blob/main/worlds/gw2/docs/setup_en.md",
@@ -1305,7 +1303,7 @@
     "info": "",
     "apworld": "https://github.com/Feldar99/Archipelago/releases/"
   },
-    {
+  {
     "name": "gzDoom",
     "icon": "👻",
     "setup": "https://github.com/ToxicFrog/doom-mods/blob/gzap-0.8.5/gzap/README.md",
@@ -1329,7 +1327,7 @@
     "info": "https://youtu.be/8LamFneVm_A",
     "apworld": "https://github.com/NaixGames/Polycosmos/releases/latest"
   },
-    {
+  {
     "name": "Hammerwatch",
     "icon": "👻",
     "setup": "https://github.com/Parcosmic/Hammerwatch-Archipelago/blob/dev/worlds/hammerwatch/docs/setup_en.md",
@@ -1401,7 +1399,7 @@
     "info": "",
     "apworld": "https://github.com/Heaxeus/Archipelago/releases/"
   },
-{
+  {
     "name": "High Roller",
     "icon": "👻",
     "setup": "https://discord.com/channels/731205301247803413/1470104360682917961/1470104390701678812",
@@ -2633,7 +2631,7 @@
     "info": "",
     "apworld": "https://github.com/spinerak/refunct-tas-archipelago/releases/latest"
   },
-    {
+  {
     "name": "R.E.P.O.",
     "icon": "🐛",
     "setup": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/tree/main?tab=readme-ov-file#multiworld-setup-instructions",
@@ -2657,7 +2655,7 @@
     "info": "https://reventure.fandom.com/wiki/Map:Reventure_Map",
     "apworld": "https://github.com/Droppel/ReventureEndingRando/releases/"
   },
-    {
+  {
     "name": "Rift of the NecroDancer",
     "icon": "🥚",
     "setup": "https://github.com/studkid/Archipelago/blob/RotN/worlds/rotn/docs/setup_en.md",
@@ -2665,7 +2663,7 @@
     "info": "",
     "apworld": "https://github.com/studkid/RiftArchipelago/releases/latest"
   },
-    {
+  {
     "name": "Rift Wizard",
     "icon": "👻",
     "setup": "https://github.com/TheBigSalarius/Archipelago/blob/main/worlds/riftwizard/docs/rift-wizard_en.md",
@@ -2673,7 +2671,7 @@
     "info": "",
     "apworld": "https://github.com/TheBigSalarius/Archipelago/releases"
   },
-    {
+  {
     "name": "Risk of Rain",
     "icon": "🥚",
     "setup": "https://github.com/studkid/Archipelago/blob/main/worlds/ror1/docs/setup_RoR1_en.md",
@@ -2746,12 +2744,60 @@
     "apworld": "https://archipelago.gg/games/Saving%20Princess/player-options"
   },
   {
+    "name": "Scooby-Doo! Night of 100 Frights",
+    "icon": "👻",
+    "setup": "https://github.com/vgm5/Night_Of_100_Frights_ap_world/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/imklubb/no100f-poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/vgm5/Night_Of_100_Frights_ap_world/releases"
+  },
+  {
+    "name": "Scooby Doo Unmasked",
+    "icon": "👻",
+    "setup": "https://github.com/Its-Retro/Archipelago/blob/SDU-AP/worlds/scooby_doo_unmasked/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Its-Retro/Archipelago/releases/"
+  },
+  {
     "name": "Secret of Evermore",
     "icon": "👻",
     "setup": "https://archipelago.gg/tutorial/Secret%20of%20Evermore/setup/en",
     "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
     "info": "https://archipelago.gg/games/Secret%20of%20Evermore/info/en",
     "apworld": "https://archipelago.gg/games/Secret%20of%20Evermore/player-options"
+  },
+  {
+    "name": "Secret of Mana",
+    "icon": "👻",
+    "setup": "https://discord.com/channels/731205301247803413/1228235556589146193/1465615184352510082",
+    "tracker": "https://github.com/Cyb3RGER/SoM-Open-Mode-Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/black-sliver/som-apworld/releases/"
+  },
+  {
+    "name": "Sentinels of the Multiverse",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Totox00/Archipelago-sotm/releases"
+  },
+  {
+    "name": "Severed Soul",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Grenhunterr/Archipelago/releases"
+  },
+  {
+    "name": "Severed Steel",
+    "icon": "👻",
+    "setup": "https://github.com/SerpentAI/Archipelago/blob/severed_steel/worlds/severed_steel/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/SerpentAI/Archipelago/blob/severed_steel/worlds/severed_steel/docs/en_Severed%20Steel.md",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22Severed+Steel%22&expanded=true"
   },
   {
     "name": "Shadow The Hedgehog",
@@ -2762,12 +2808,36 @@
     "apworld": "https://github.com/choatix/Archipelago/releases/latest"
   },
   {
-    "name": "shapez",
+    "name": "Shadowgate 64",
+    "icon": "👻",
+    "setup": "https://github.com/jjjj12212/Archipelago-Shadowgate64/blob/main/world/shadowgate64/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/jjjj12212/Archipelago-Shadowgate64/releases"
+  },
+  {
+    "name": "Shapez",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/shapez/setup/en",
     "tracker": "https://eclassic32.github.io/ShapezAPTracker",
     "info": "https://archipelago.gg/games/shapez/info/en",
     "apworld": "https://archipelago.gg/games/shapez/player-options"
+  },
+  {
+    "name": "Shapez 2",
+    "icon": "👻",
+    "setup": "https://github.com/BlastSlimey/Archipelago/blob/shapez_2/worlds/shapez_2/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/BlastSlimey/Archipelago/blob/shapez_2/worlds/shapez_2/docs/en_shapez%202.md",
+    "apworld": "https://github.com/BlastSlimey/2hapezipelago/releases"
+  },
+  {
+    "name": "Shellipelago",
+    "icon": "👻",
+    "setup": "https://dragonsidestudios.itch.io/shellipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Shivers",
@@ -2776,6 +2846,30 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Shivers/info/en",
     "apworld": "https://archipelago.gg/games/Shivers/player-options"
+  },
+  {
+    "name": "Sid Meier's Civilization V",
+    "icon": "👻",
+    "setup": "https://github.com/1313e/Civ-V-AP-World?tab=readme-ov-file#setup",
+    "tracker": "https://github.com/Sparky5000/Civ5APpoptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/1313e/Civ-V-AP-World/releases"
+  },
+  {
+    "name": "Sid Meier's Civilization VI",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Civilization%20VI/setup_en",
+    "tracker": "https://github.com/Gearwcu/CivVI-poptracker-pack/releases",
+    "info": "https://archipelago.gg/games/Civilization%20VI/info/en",
+    "apworld": "https://archipelago.gg/games/Civilization%20VI/player-options"
+  },
+  {
+    "name": "Simon Tatham's Portable Puzzle Collection",
+    "icon": "👻",
+    "setup": "https://ishanpm.github.io/ap-sgtpuzzles-web/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/ishanpm/Archipelago-sgtpuzzles/releases/"
   },
   {
     "name": "Skul the Hero Slayer",
@@ -2794,12 +2888,28 @@
     "apworld": "https://github.com/cjmang/StS-AP-World/releases/latest"
   },
   {
+    "name": "Slay the Spire 2",
+    "icon": "🐛",
+    "setup": "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/dlueben1/Slay-the-Spire-2-Archipelago/releases"
+  },
+  {
     "name": "Slime Rancher",
     "icon": "🐛",
     "setup": "https://github.com/SWCreeperKing/Slimipelago/blob/master/README.md",
     "tracker": "",
     "info": "https://docs.google.com/spreadsheets/d/15PdrnGmkYdocX9RU-D5U_9OgihRNN9axX71mm-jOPUQ/edit?usp=sharing",
     "apworld": "https://github.com/SWCreeperKing/Slimipelago/releases"
+  },
+  {
+    "name": "Smushi Come Home",
+    "icon": "👻",
+    "setup": "https://github.com/xMcacutt-Archipelago/Smushi-AP-Client",
+    "tracker": "https://github.com/xMcacutt-Archipelago/Smushi-Poptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHome/releases/"
   },
   {
     "name": "SMW: Spicy Mycena Waffles",
@@ -2818,12 +2928,12 @@
     "apworld": "https://archipelago.gg/games/SMZ3/player-options"
   },
   {
-    "name": "Sonic Adventure 2 Battle",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Sonic%20Adventure%202%20Battle/setup/en",
-    "tracker": "",
-    "info": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/info/en",
-    "apworld": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/player-options"
+    "name": "Sonic The Hedgehog",
+    "icon": "👻",
+    "setup": "https://github.com/kaithar/Archipelago/blob/sonic1/worlds/sonic1/docs/setup_en.md",
+    "tracker": "https://github.com/kaithar/Archipelago/releases/",
+    "info": "",
+    "apworld": "https://github.com/kaithar/Archipelago/releases/"
   },
   {
     "name": "Sonic Adventure DX",
@@ -2834,12 +2944,60 @@
     "apworld": "https://github.com/ClassicSpeed/sadx-classic-randomizer/releases/latest"
   },
   {
-    "name": "Sonic Colours (DS)",
+    "name": "Sonic Adventure 2 : Battle",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Sonic%20Adventure%202%20Battle/setup/en",
+    "tracker": "",
+    "info": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/info/en",
+    "apworld": "https://archipelago.gg/games/Sonic%20Adventure%202%20Battle/player-options"
+  },
+  {
+    "name": "Sonic Battle",
+    "icon": "👻",
+    "setup": "https://discord.com/channels/731205301247803413/1256300159701225572/1464718270350233839",
+    "tracker": "https://github.com/Happyhappyism/sonic_battle_poptracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Happyhappyism/Sonic-Battle-Archipelago/releases/"
+  },
+  {
+    "name": "Sonic Colours",
     "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/SilicDev/SonicColoursDS-poptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/SilicDev/Archipelago/releases?q=Sonic+Colours&expanded=true"
+  },
+  {
+    "name": "Sonic Heroes",
+    "icon": "👻",
     "setup": "",
     "tracker": "",
     "info": "",
-    "apworld": "https://github.com/SilicDev/Archipelago/releases?q=Sonic+Colours&expanded=true"
+    "apworld": "https://github.com/Ethicallogic-Archipelago/SonicHeroesArchipelago/releases"
+  },
+  {
+    "name": "Sonic Riders",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "./resources/sonic_riders/Tracker1.1.zip",
+    "info": "",
+    "apworld": "https://github.com/Orangestar12/Archipelago-SR-J-SJ/releases/latest"
+  },
+  {
+    "name": "Sonic Rush",
+    "icon": "👻",
+    "setup": "https://github.com/BlastSlimey/Archipelago/blob/sonic_rush/worlds/sonic_rush/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/BlastSlimey/Archipelago/blob/sonic_rush/worlds/sonic_rush/docs/en_Sonic%20Rush.md",
+    "apworld": "https://github.com/BlastSlimey/SonicRushAP/releases"
+  },
+  {
+    "name": "Soulblazer",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "https://github.com/powerlord/soulblazer-emotracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Tranquilite0/Archipelago-SoulBlazer/releases/"
   },
   {
     "name": "Spark The Electric Jester 3",
@@ -3161,7 +3319,7 @@
     "info": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/info/en",
     "apworld": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/player-options"
   },
-  { 
+  {
     "name": "Zelda : A Link to the Past",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/A%20Link%20to%20the%20Past/setup/en",
