@@ -2800,7 +2800,7 @@
     "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22Severed+Steel%22&expanded=true"
   },
   {
-    "name": "Shadow The Hedgehog",
+    "name": "Shadow the Hedgehog",
     "icon": "🥚",
     "setup": "https://github.com/choatix/Archipelago/blob/shadow-cp/worlds/shadow_the_hedgehog/docs/setup_en.md",
     "tracker": "",
@@ -2904,6 +2904,22 @@
     "apworld": "https://github.com/SWCreeperKing/Slimipelago/releases"
   },
   {
+    "name": "Sly Cooper and the Thievius Raccoonus",
+    "icon": "👻",
+    "setup": "https://github.com/hoppel16/ArchipelagoBranchSly1/blob/main/worlds/sly1/docs/setup_en.md",
+    "tracker": "https://github.com/Slinq17/Sly1-Poptracker/releases/",
+    "info": "",
+    "apworld": "https://github.com/hoppel16/ArchipelagoBranchSly1/releases/latest"
+  },
+  {
+    "name": "Sly 2 : Band of Thieves",
+    "icon": "👻",
+    "setup": "https://github.com/NikolajDanger/APSly2/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/NikolajDanger/APSly2/releases/latest"
+  },
+  {
     "name": "Smushi Come Home",
     "icon": "👻",
     "setup": "https://github.com/xMcacutt-Archipelago/Smushi-AP-Client",
@@ -2912,7 +2928,7 @@
     "apworld": "https://github.com/xMcacutt-Archipelago/Archipelago-SmushiComeHome/releases/"
   },
   {
-    "name": "SMW: Spicy Mycena Waffles",
+    "name": "SMW : Spicy Mycena Waffles",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/IsoFrieze/SMW_AP_Tracker/releases",
@@ -2928,7 +2944,7 @@
     "apworld": "https://archipelago.gg/games/SMZ3/player-options"
   },
   {
-    "name": "Sonic The Hedgehog",
+    "name": "Sonic the Hedgehog",
     "icon": "👻",
     "setup": "https://github.com/kaithar/Archipelago/blob/sonic1/worlds/sonic1/docs/setup_en.md",
     "tracker": "https://github.com/kaithar/Archipelago/releases/",
@@ -3040,7 +3056,7 @@
     "apworld": "https://spineraks-pinball.netlify.app/"
   },
   {
-    "name": "SpongeBob SquarePants : Battle for Bikini Bottom",
+    "name": "SpongeBob SquarePants : Battle For Bikini Bottom",
     "icon": "👻",
     "setup": "https://github.com/Cyb3RGER/bfbb_ap_world/blob/main/docs/setup_en.md",
     "tracker": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases",
@@ -3064,7 +3080,7 @@
     "apworld": "https://github.com/Uroogla/S3AP/releases/"
   },
   {
-    "name": "Spyro : A hero's tail",
+    "name": "Spyro : A Hero's Tail",
     "icon": "🥚",
     "setup": "https://github.com/XuaTheGrate/Archipelago/tree/spyro/worlds/spyro-aht#setup-guide",
     "tracker": "",
@@ -3096,7 +3112,7 @@
     "apworld": "https://github.com/wcolding/SWR_AP_Client/releases/latest"
   },
   {
-    "name": "Starcraft II",
+    "name": "StarCraft II",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Starcraft%202/setup/en",
     "tracker": "",
@@ -3136,7 +3152,7 @@
     "apworld": "https://github.com/Kryen112/AP_Stick_Ranger/releases/"
   },
   {
-    "name": "Steets of Rage",
+    "name": "Streets of Rage",
     "icon": "👻",
     "setup": "https://github.com/UltiNaruto/SOR_AP_Randomizer/blob/main/src/data/setup_en.md",
     "tracker": "https://github.com/UltiNaruto/SOR_AP_Tracker/releases/latest",
@@ -3248,7 +3264,7 @@
     "apworld": "https://github.com/lordlou/Archipelago/releases"
   },
   {
-    "name": "Super Smash Bros",
+    "name": "Super Smash Bros.",
     "icon": "🥚",
     "setup": "https://github.com/IncidiousJacob/Smashipelago",
     "tracker": "",
@@ -3256,8 +3272,16 @@
     "apworld": "https://github.com/IncidiousJacob/Smashipelago/releases/tag/startup"
   },
   {
-    "name": "Super Smash Bros Brawl : The Subspace Emissary",
-    "icon": "🥚",
+    "name": "Super Smash Bros. Melee",
+    "icon": "🐛",
+    "setup": "https://discord.com/channels/731205301247803413/1517571334551371856/1519166710467530863",
+    "tracker": "https://github.com/ZobeePlays/Melee-AP-Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=Smash+melee&expanded=true"
+  },
+  {
+    "name": "Super Smash Bros. Brawl : Subspace Emissary",
+    "icon": "🐛",
     "setup": "https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary_Setup.md",
     "tracker": "",
     "info": "https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary.md",
