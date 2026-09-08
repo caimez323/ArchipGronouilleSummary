@@ -3008,12 +3008,60 @@
     "apworld": "https://github.com/Kylogias/Spark3-Archipelago/releases/"
   },
   {
+    "name": "Spelunker",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "./resources/spelunker/spelunker.apworld"
+  },
+  {
+    "name": "Spelunky 2",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "https://github.com/Bogdan1000pink/Spelunky-2-Tracker",
+    "info": "",
+    "apworld": "https://github.com/DDR-Khat/Spelunky2-Archipelago/releases/"
+  },
+  {
     "name": "Splasher",
     "icon": "👻",
     "setup": "https://github.com/Frisk202020/Archipelago/blob/main/worlds/splasher/docs/setup_en.md",
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/Frisk202020/SplasherArchipelago/releases"
+  },
+  {
+    "name": "Spinball",
+    "icon": "👻",
+    "setup": "https://spineraks-pinball.netlify.app/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://spineraks-pinball.netlify.app/"
+  },
+  {
+    "name": "SpongeBob SquarePants : Battle for Bikini Bottom",
+    "icon": "👻",
+    "setup": "https://github.com/Cyb3RGER/bfbb_ap_world/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/Cyb3RGER/bfbb_ap_pack/releases",
+    "info": "",
+    "apworld": "https://github.com/Cyb3RGER/bfbb_ap_world/releases"
+  },
+  {
+    "name": "Spyro 2",
+    "icon": "👻",
+    "setup": "https://github.com/Uroogla/S2AP/blob/main/README.md",
+    "tracker": "https://github.com/routhken/Spyro_2_tracker/releases",
+    "info": "https://discord.com/channels/731205301247803413/1281660590431015046/1413598345225699399",
+    "apworld": "https://github.com/Uroogla/S2AP/releases/"
+  },
+  {
+    "name": "Spyro 3",
+    "icon": "👻",
+    "setup": "https://github.com/Uroogla/S3AP/blob/main/README.md",
+    "tracker": "",
+    "info": "https://discord.com/channels/731205301247803413/1018847303722872843/1413597104646918144",
+    "apworld": "https://github.com/Uroogla/S3AP/releases/"
   },
   {
     "name": "Spyro : A hero's tail",
@@ -3024,7 +3072,31 @@
     "apworld": "https://github.com/XuaTheGrate/Archipelago/releases/latest"
   },
   {
-    "name": "Starcraft 2",
+    "name": "(The Legend of) Spyro : Dawn of the Dragon",
+    "icon": "👻",
+    "setup": "https://github.com/IcyPenguin28/DotDAP",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/IcyPenguin28/DotDAP/releases"
+  },
+  {
+    "name": "Stacklands",
+    "icon": "👻",
+    "setup": "https://github.com/JammyGeeza/Stacklands-Randomizer/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/JammyGeeza/Stacklands-Randomizer/releases"
+  },
+  {
+    "name": "Star Wars : Episode I - Racer",
+    "icon": "👻",
+    "setup": "https://github.com/wcolding/SWR_apworld/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/wcolding/SWR_AP_Client/releases/latest"
+  },
+  {
+    "name": "Starcraft II",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Starcraft%202/setup/en",
     "tracker": "",
@@ -3040,6 +3112,38 @@
     "apworld": "https://archipelago.gg/games/Stardew%20Valley/player-options"
   },
   {
+    "name": "Starfox 64",
+    "icon": "👻",
+    "setup": "https://github.com/Auztin/AP-Star-Fox-64/blob/v0.4.1/ap/docs/setup_en.md",
+    "tracker": "https://github.com/Fouton/StarFox64Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/Auztin/AP-Star-Fox-64/releases"
+  },
+  {
+    "name": "StarQuest 64",
+    "icon": "👻",
+    "setup": "https://caesius.itch.io/star-quest-64",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://caesius.itch.io/star-quest-64"
+  },
+  {
+    "name": "Stick Ranger",
+    "icon": "👻",
+    "setup": "https://kryen112.github.io/",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Kryen112/AP_Stick_Ranger/releases/"
+  },
+  {
+    "name": "Steets of Rage",
+    "icon": "👻",
+    "setup": "https://github.com/UltiNaruto/SOR_AP_Randomizer/blob/main/src/data/setup_en.md",
+    "tracker": "https://github.com/UltiNaruto/SOR_AP_Tracker/releases/latest",
+    "info": "https://archipelago.miraheze.org/wiki/Streets_of_Rage",
+    "apworld": "https://github.com/UltiNaruto/SOR_AP_Randomizer/releases/latest"
+  },
+  {
     "name": "Subnautica",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Subnautica/setup/en",
@@ -3048,15 +3152,23 @@
     "apworld": "https://archipelago.gg/games/Subnautica/player-options"
   },
   {
-    "name": "Super Mario 64",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Super%20Mario%2064/setup/en",
-    "tracker": "https://github.com/ThePhar/APSM64TrackerPack/releases/latest",
-    "info": "https://archipelago.gg/games/Super%20Mario%2064/info/en",
-    "apworld": "https://archipelago.gg/games/Super%20Mario%2064/player-options"
+    "name": "Super Cat Planet",
+    "icon": "👻",
+    "setup": "https://github.com/lone01/scp",
+    "tracker": "",
+    "info": "https://github.com/lone01/scp",
+    "apworld": "https://github.com/lone01/scp/releases/"
   },
   {
-    "name": "Super Mario Land 2",
+    "name": "Super Junkoid",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Ninjakakes/Archipelago/releases/"
+  },
+  {
+    "name": "Super Mario Land 2 : 6 Golden Coins",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Super%20Mario%20Land%202/setup/en",
     "tracker": "",
@@ -3072,12 +3184,52 @@
     "apworld": "https://github.com/Joshark/archipelago-sms/releases/latest"
   },
   {
+    "name": "Super Mario Sunshine Arcade 2",
+    "icon": "👻",
+    "setup": "https://github.com/Jorbori/SMSA2AP",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Jorbori/SMSA2AP/releases/"
+  },
+  {
     "name": "Super Mario World",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Super%20Mario%20World/setup/en",
     "tracker": "https://github.com/PoryGone/SMW_AP_Tracker/releases/latest",
     "info": "https://archipelago.gg/games/Super%20Mario%20World/info/en",
     "apworld": "https://archipelago.gg/games/Super%20Mario%20World/player-options"
+  },
+  {
+    "name": "Super Mario World 2 : Yoshi's Island",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Yoshi's%20Island/setup_en",
+    "tracker": "https://github.com/Radagast81/yoshis-island-tracker/releases",
+    "info": "https://archipelago.gg/games/Yoshi's%20Island/info/en",
+    "apworld": "https://archipelago.gg/games/Yoshi's%20Island/player-options"
+  },
+  {
+    "name": "Super Mario 64",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Super%20Mario%2064/setup/en",
+    "tracker": "https://github.com/ThePhar/APSM64TrackerPack/releases/latest",
+    "info": "https://archipelago.gg/games/Super%20Mario%2064/info/en",
+    "apworld": "https://archipelago.gg/games/Super%20Mario%2064/player-options"
+  },
+  {
+    "name": "Super Mario RPG",
+    "icon": "👻",
+    "setup": "https://github.com/TheRealSolidusSnake/SMRPG_apworld",
+    "tracker": "https://github.com/seto10987/SMRPG-AP-Tracker/releases",
+    "info": "",
+    "apworld": "https://github.com/TheRealSolidusSnake/SMRPG_apworld/releases/"
+  },
+  {
+    "name": "Super Market Simulator",
+    "icon": "👻",
+    "setup": "https://github.com/Lemix028/SupermarketSimulator-Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Lemix028/SupermarketSimulator-Archipelago/releases/"
   },
   {
     "name": "Super Metroid",
@@ -3088,7 +3240,15 @@
     "apworld": "https://archipelago.gg/games/Super%20Metroid/player-options"
   },
   {
-    "name": "Super Smash Bros 64",
+    "name": "Super Metroid Map Rando",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/lordlou/Archipelago/releases"
+  },
+  {
+    "name": "Super Smash Bros",
     "icon": "🥚",
     "setup": "https://github.com/IncidiousJacob/Smashipelago",
     "tracker": "",
@@ -3096,12 +3256,36 @@
     "apworld": "https://github.com/IncidiousJacob/Smashipelago/releases/tag/startup"
   },
   {
-    "name": "Super Smash Bros Brawl - The Subspace Emissary",
+    "name": "Super Smash Bros Brawl : The Subspace Emissary",
     "icon": "🥚",
     "setup": "https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary_Setup.md",
     "tracker": "",
     "info": "https://github.com/kenniky/ArchipelagoSSE/blob/main/worlds/ssbb_sse/docs/en_SubspaceEmissary.md",
     "apworld": "https://github.com/kenniky/ArchipelagoSSE/releases/"
+  },
+  {
+    "name": "Sweet Defeat",
+    "icon": "👻",
+    "setup": "https://interestedsc2.itch.io/sweet-defeat",
+    "tracker": "",
+    "info": "https://archipelago.miraheze.org/wiki/Sweet_Defeat",
+    "apworld": ""
+  },
+  {
+    "name": "System Shock 2",
+    "icon": "👻",
+    "setup": "https://codeberg.org/Partatio/SS2-Apworld",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://codeberg.org/Partatio/SS2-Apworld/releases"
+  },
+  {
+    "name": "Talos Principle Reawakened",
+    "icon": "👻",
+    "setup": "https://github.com/johnso48/TalosPrincipleArchipelagoClient/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/johnso48/TalosPrincipleArchipelago/releases/"
   },
   {
     "name": "Taskipelago Taskipelabingo",
@@ -3110,6 +3294,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/barretg/Taskipelago/releases"
+  },
+  {
+    "name": "Taz Wanted",
+    "icon": "👻",
+    "setup": "https://github.com/imklubb/Archipelago-Taz-Wanted",
+    "tracker": "https://github.com/imklubb/Taz-Wanted-Poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/imklubb/Archipelago-Taz-Wanted/releases/latest"
   },
   {
     "name": "TCG Card Shop Simulator",
@@ -3134,6 +3326,22 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Terraria/info/en",
     "apworld": "https://archipelago.gg/games/Terraria/player-options"
+  },
+  {
+    "name": "Tetris",
+    "icon": "🥚",
+    "setup": "https://github.com/Alchav/Archipelago/blob/tetris-gb/worlds/tetris_gb/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/Alchav/Archipelago/blob/tetris-gb/worlds/tetris_gb/docs/en_Tetris.md",
+    "apworld": "https://github.com/Alchav/Archipelago/releases?q=Tetris&expanded=true"
+  },
+  {
+    "name": "TEVI",
+    "icon": "👻",
+    "setup": "https://github.com/BlackSoulKnight/Tevi_Randomizer",
+    "tracker": "https://github.com/BlackSoulKnight/Tevi_Poptracker/releases",
+    "info": "https://github.com/BlackSoulKnight/Tevi_Randomizer",
+    "apworld": "https://github.com/BlackSoulKnight/Tevi_Randomizer/releases"
   },
   {
     "name": "The Binding of Isaac : Repentance",
