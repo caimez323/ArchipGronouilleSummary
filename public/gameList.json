@@ -2761,9 +2761,9 @@
   },
   {
     "name": "Secret of Evermore",
-    "icon": "👻",
+    "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Secret%20of%20Evermore/setup/en",
-    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
+    "tracker": "https://github.com/Cyb3RGER/evermizer-tracker-package/releases",
     "info": "https://archipelago.gg/games/Secret%20of%20Evermore/info/en",
     "apworld": "https://archipelago.gg/games/Secret%20of%20Evermore/player-options"
   },
@@ -3376,12 +3376,173 @@
     "apworld": "https://github.com/NaveTK/Archipelago/releases/latest"
   },
   {
-    "name": "The Legend of Spyro: Dawn of the Dragon",
-    "icon": "🥚",
+    "name": "The Forged Curse",
+    "icon": "👻",
     "setup": "",
     "tracker": "",
     "info": "",
-    "apworld": "https://github.com/IcyPenguin28/DotDAP/releases/"
+    "apworld": ""
+  },
+    {
+    "name": "The Farmer Was Replaced",
+    "icon": "🥚",
+    "setup": "https://github.com/seadoggie001/TFWR-APMod?tab=readme-ov-file",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/seadoggie001/TFWR-APMod/releases/"
+  },
+  {
+    "name": "The Grinch",
+    "icon": "👻",
+    "setup": "https://github.com/MarioSpore/Grinch-AP/blob/dev/worlds%2Fgrinch%2Fdocs%2Fsetup_en.md",
+    "tracker": "https://github.com/JAHapner01/Grinch-AP-Tracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/MarioSpore/Grinch-AP/releases/"
+  },
+  {
+    "name": "The Legend of Heroes : Trails in the Sky 3rd",
+    "icon": "👻",
+    "setup": "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/blob/main/worlds/tits_the_3rd/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/releases/"
+  },
+  {
+    "name": "The Legend of Zelda",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/multiworld_en",
+    "tracker": "https://github.com/Br00ty/tloz_brooty/releases/latest",
+    "info": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/player-options"
+  },
+  {
+    "name": "The Legend of Zelda II : The Adventure of Link",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "https://github.com/palex00/zelda-2-ap-tracker/releases/latest/",
+    "info": "",
+    "apworld": "https://github.com/PinkSwitch/Archipelago/releases?q=Zelda+II&expanded=true"
+    
+  },
+  {
+    "name": "The Legend of Zelda : A Link to the Past",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/A%20Link%20to%20the%20Past/setup/en",
+    "tracker": "https://github.com/StripesOO7/alttp-ap-poptracker-pack/releases/latest",
+    "info": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/info/en",
+    "apworld": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/player-options"
+  },
+  {
+    "name": "The Legend of Zelda : Link's Awakening DX",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Links%20Awakening%20DX/setup/en",
+    "tracker": "https://magpietracker.us/",
+    "info": "https://archipelago.gg/games/Links%20Awakening%20DX/info/en",
+    "apworld": "https://archipelago.gg/games/Links%20Awakening%20DX/player-options"
+  },
+  {
+    "name": "The Legend of Zelda : Ocarina of Time",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/Ocarina%20of%20Time/setup/en",
+    "tracker": "https://nightly.track-oot.net/",
+    "info": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
+    "apworld": "https://archipelago.gg/games/Ocarina%20of%20Time/player-options"
+  },
+  {
+    "name": "The Legend of Zelda : Ocarina of Time (Ship of Harkinian)",
+    "icon": "🐛",
+    "setup": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/guide_en.md",
+    "tracker": "https://github.com/Brian0255/ship-of-harkinian-ap-tracker/releases/latest",
+    "info": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/en_Ship%20of%20Harkinian.md",
+    "apworld": "https://github.com/HarbourMasters/Archipelago-SoH/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : Ocarina of Time but it's just Master Quest Water Temple",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Alchav/Archipelago/releases/"
+  },
+  {
+    "name": "The Legend of Zelda : Majora's Mask",
+    "icon": "🐛",
+    "setup": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#setup",
+    "tracker": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest",
+    "info": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#faq",
+    "apworld": "https://github.com/RecompRando/MMRecompRando/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : Oracle of Ages",
+    "icon": "🐛",
+    "setup": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/ooa_setup_en.md",
+    "tracker": "https://github.com/Dranzior/ooa_brooty/releases",
+    "info": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Ages.md",
+    "apworld": "https://github.com/josephanimate2021/ArchipelagoOoA/releases"
+  },
+  {
+    "name": "The Legend of Zelda : Oracle of Seasons",
+    "icon": "🐛",
+    "setup": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/oos_setup_en.md",
+    "tracker": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/latest",
+    "info": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Seasons.md",
+    "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : The Wind Waker",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Wind%20Waker/setup/en",
+    "tracker": "https://github.com/Mysteryem/ww-poptracker/releases/latest",
+    "info": "https://archipelago.gg/games/The%20Wind%20Waker/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Wind%20Waker/player-options"
+  },
+  {
+    "name": "The Legend of Zelda : The Minish Cap",
+    "icon": "🐛",
+    "setup": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/setup_fr.md",
+    "tracker": "https://github.com/deoxis9001/tmcrando_maptracker_deoxis/releases/latest",
+    "info": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/fr_The%20Minish%20Cap.md",
+    "apworld": "https://github.com/eternalcode0/Archipelago/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : Twilight Princess",
+    "icon": "🐛",
+    "setup": "https://tinyurl.com/mrz7juwe",
+    "tracker": "https://github.com/Kizugaya/TPRAP_poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : Skyward Sword",
+    "icon": "🐛",
+    "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
+    "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
+    "info": "",
+    "apworld": "https://github.com/Battlecats59/SS_APWorld/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : Phantom Hourglass",
+    "icon": "🥚",
+    "setup": "https://github.com/carrotinator/Archipelago/blob/main/worlds/tloz_ph/docs/setup.md",
+    "tracker": "https://github.com/ZobeePlays/PH-AP-Item-Tracker/tree/main",
+    "info": "https://github.com/carrotinator/Archipelago/wiki",
+    "apworld": "https://github.com/carrotinator/Archipelago/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : Spirit Tracks",
+    "icon": "🥚",
+    "setup": "https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md",
+    "tracker": "https://github.com/carrotinator/spirit-tracks-poptracker-ap/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/DayKat/spirit-tracks/releases/latest"
+  },
+  {
+    "name": "The Legend of Zelda : A Link Between Worlds",
+    "icon": "🐛",
+    "setup": "https://github.com/randomsalience/albw-archipelago/blob/main/docs/setup_en.md",
+    "tracker": "https://github.com/guigui0246/albw-ap-poptracker/releases/latest",
+    "info": "https://onedrive.live.com/edit?id=9C1FAD54B68F35F4!3195&resid=9C1FAD54B68F35F4!3195&ithint=file%2Cxlsx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBdlExajdaVXJSLWNtSHRTVnYyU2hUUTJEZzJ2P2U9T0NST3lo&migratedtospo=true&wdo=2&cid=9c1fad54b68f35f4",
+    "apworld": "https://github.com/randomsalience/albw-archipelago/releases/latest"
   },
   {
     "name": "The Messenger",
@@ -3392,12 +3553,20 @@
     "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
   },
   {
-    "name": "The Farmer Was Replaced",
-    "icon": "🥚",
-    "setup": "https://github.com/seadoggie001/TFWR-APMod?tab=readme-ov-file",
-    "tracker": "",
+    "name": "The Simpsons : Hit and Run",
+    "icon": "🐛",
+    "setup": "https://github.com/nmize1/Archipelago/blob/main/worlds/simpsonshitnrun/docs/setup_en.md",
+    "tracker": "https://github.com/Tommaygun/SHAR-Poptracker/releases/",
     "info": "",
-    "apworld": "https://github.com/seadoggie001/TFWR-APMod/releases/"
+    "apworld": "https://github.com/nmize1/Archipelago/releases"
+  },
+  {
+    "name": "The Sims 4",
+    "icon": "👻",
+    "setup": "https://github.com/Simsipelago/Archipelago/blob/2.0.0-beta.1/worlds/sims4/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/Simsipelago/Archipelago/blob/5d36885c917523b6218046b7aa178ab3039b2d83/worlds/sims4/docs/en_The%20Sims%204.md",
+    "apworld": "https://github.com/Simsipelago/Archipelago/releases"
   },
   {
     "name": "The Talos Principle Reawakened",
@@ -3406,6 +3575,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/johnso48/TalosPrincipleArchipelago/releases/latest"
+  },
+  {
+    "name": "The Witness",
+    "icon": "🐢",
+    "setup": "https://archipelago.gg/tutorial/The%20Witness/setup_en",
+    "tracker": "https://github.com/NewSoupVi/witness_archipelago_tracker/releases",
+    "info": "https://archipelago.gg/games/The%20Witness/info/en",
+    "apworld": "https://archipelago.gg/games/The%20Witness/player-options"
   },
   {
     "name": "Three Goblin Wobblin",
@@ -3550,126 +3727,6 @@
     "tracker": "https://github.com/Rensen3/poptracker-ygo06/releases/latest",
     "info": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/info/en",
     "apworld": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/player-options"
-  },
-  {
-    "name": "Zelda : A Link to the Past",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/A%20Link%20to%20the%20Past/setup/en",
-    "tracker": "https://github.com/StripesOO7/alttp-ap-poptracker-pack/releases/latest",
-    "info": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/info/en",
-    "apworld": "https://archipelago.gg/games/A%20Link%20to%20the%20Past/player-options"
-  },
-  {
-    "name": "Zelda: Majora's Mask",
-    "icon": "🐛",
-    "setup": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#setup",
-    "tracker": "https://github.com/G4M3RL1F3/Majoras-Mask-AP-PopTracker-Pack/releases/latest",
-    "info": "https://github.com/RecompRando/MMRecompRando?tab=readme-ov-file#faq",
-    "apworld": "https://github.com/RecompRando/MMRecompRando/releases/latest"
-  },
-  {
-    "name": "Zelda : The Minish Cap",
-    "icon": "🐛",
-    "setup": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/setup_fr.md",
-    "tracker": "https://github.com/black-sliver/PopTracker/releases/latest",
-    "info": "https://github.com/eternalcode0/Archipelago/blob/feat/new-game-minish-cap/worlds/tmc/docs/fr_The%20Minish%20Cap.md",
-    "apworld": "https://github.com/eternalcode0/Archipelago/releases/latest"
-  },
-  {
-    "name": "Zelda : Link Between Worlds",
-    "icon": "🐛",
-    "setup": "https://github.com/randomsalience/albw-archipelago/blob/main/docs/setup_en.md",
-    "tracker": "https://github.com/guigui0246/albw-ap-poptracker/releases/latest",
-    "info": "https://onedrive.live.com/edit?id=9C1FAD54B68F35F4!3195&resid=9C1FAD54B68F35F4!3195&ithint=file%2Cxlsx&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3gvcyFBdlExajdaVXJSLWNtSHRTVnYyU2hUUTJEZzJ2P2U9T0NST3lo&migratedtospo=true&wdo=2&cid=9c1fad54b68f35f4",
-    "apworld": "https://github.com/randomsalience/albw-archipelago/releases/latest"
-  },
-  {
-    "name": "Zelda : Links Awakening DX",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Links%20Awakening%20DX/setup/en",
-    "tracker": "https://magpietracker.us/",
-    "info": "https://archipelago.gg/games/Links%20Awakening%20DX/info/en",
-    "apworld": "https://archipelago.gg/games/Links%20Awakening%20DX/player-options"
-  },
-  {
-    "name": "Zelda : Ocarina of Time (not ship)",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Ocarina%20of%20Time/setup/en",
-    "tracker": "https://nightly.track-oot.net/",
-    "info": "https://archipelago.gg/games/Ocarina%20of%20Time/info/en",
-    "apworld": "https://archipelago.gg/games/Ocarina%20of%20Time/player-options"
-  },
-  {
-    "name": "Zelda : Ocarina of Time (ship)",
-    "icon": "🐛",
-    "setup": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/guide_en.md",
-    "tracker": "https://github.com/Brian0255/ship-of-harkinian-ap-tracker/releases/latest",
-    "info": "https://github.com/HarbourMasters/Archipelago-SoH/blob/oot-soh/worlds/oot_soh/docs/en_Ship%20of%20Harkinian.md",
-    "apworld": "https://github.com/HarbourMasters/Archipelago-SoH/releases/latest"
-  },
-  {
-    "name": "Zelda : Oracle of Ages",
-    "icon": "🐛",
-    "setup": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/ooa_setup_en.md",
-    "tracker": "https://github.com/Dranzior/ooa_brooty/releases",
-    "info": "https://github.com/josephanimate2021/ArchipelagoOoA/blob/ooa/worlds/tloz_ooa/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Ages.md",
-    "apworld": "https://github.com/josephanimate2021/ArchipelagoOoA/releases"
-  },
-  {
-    "name": "Zelda : Oracle of Seasons",
-    "icon": "🐛",
-    "setup": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/oos_setup_en.md",
-    "tracker": "https://github.com/OmegaZeron/Oracle-of-Seasons-AP-Poptracker-Pack/releases/latest",
-    "info": "https://github.com/Dinopony/ArchipelagoOoS/blob/oos/worlds/tloz_oos/docs/en_The%20Legend%20of%20Zelda%20-%20Oracle%20of%20Seasons.md",
-    "apworld": "https://github.com/Dinopony/ArchipelagoOoS/releases/latest"
-  },
-  {
-    "name": "Zelda : Phantom Hourglass",
-    "icon": "🥚",
-    "setup": "https://github.com/carrotinator/Archipelago/blob/main/worlds/tloz_ph/docs/setup.md",
-    "tracker": "https://github.com/ZobeePlays/PH-AP-Item-Tracker/tree/main",
-    "info": "https://github.com/carrotinator/Archipelago/wiki",
-    "apworld": "https://github.com/carrotinator/Archipelago/releases/latest"
-  },
-  {
-    "name": "Zelda :Skyward Sword",
-    "icon": "🐛",
-    "setup": "https://github.com/Battlecats59/SSArchipelago/blob/ss/worlds/ss/docs/setup_en.md",
-    "tracker": "https://youraveragelink.github.io/SSR-AP-Tracker",
-    "info": "",
-    "apworld": "https://github.com/Battlecats59/SS_APWorld/releases/latest"
-  },
-  {
-    "name": "Zelda : Spirit Tracks",
-    "icon": "🥚",
-    "setup": "https://github.com/DayKat/spirit-tracks/blob/main/worlds/tloz_st/docs/setup.md",
-    "tracker": "https://github.com/carrotinator/spirit-tracks-poptracker-ap/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/DayKat/spirit-tracks/releases/latest"
-  },
-  {
-    "name": "Zelda : The Legend of Zelda (NES)",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/The%20Legend%20of%20Zelda/multiworld_en",
-    "tracker": "https://github.com/Br00ty/tloz_brooty/releases/latest",
-    "info": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/info/en",
-    "apworld": "https://archipelago.gg/games/The%20Legend%20of%20Zelda/player-options"
-  },
-  {
-    "name": "Zelda : Twilight Princess",
-    "icon": "🐛",
-    "setup": "https://tinyurl.com/mrz7juwe",
-    "tracker": "https://github.com/Kizugaya/TPRAP_poptracker/releases/latest",
-    "info": "",
-    "apworld": "https://github.com/WritingHusky/Twilight_Princess_apworld/releases/latest"
-  },
-  {
-    "name": "Zelda : The Wind Waker",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/The%20Wind%20Waker/setup/en",
-    "tracker": "https://github.com/Mysteryem/ww-poptracker/releases/latest",
-    "info": "https://archipelago.gg/games/The%20Wind%20Waker/info/en",
-    "apworld": "https://archipelago.gg/games/The%20Wind%20Waker/player-options"
   },
   {
     "name": "Zillion",
