@@ -48,7 +48,21 @@ async function initDb() {
     ON reviews (session_id, lower(player));
   `);
 
-  console.log('DB OK — table "reviews" prête.');
+  await pool.query(`
+    CREATE TABLE IF NOT EXISTS todos (
+      id SERIAL PRIMARY KEY,
+      player TEXT NOT NULL,
+      game TEXT NOT NULL,
+      created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    );
+  `);
+
+  await pool.query(`
+    CREATE UNIQUE INDEX IF NOT EXISTS todos_player_game_uidx
+    ON todos (lower(player), lower(game));
+  `);
+
+  console.log('DB OK — tables "reviews" et "todos" prêtes.');
 }
 
 function sendJson(res, status, payload) {
@@ -89,6 +103,62 @@ async function upsertReview(review) {
     [review.sessionId, review.player, review.rating, review.comment, review.updatedAt]
   );
   return rowToReview(rows[0]);
+}
+
+function rowToTodo(row) {
+  return {
+    id: row.id,
+    player: row.player,
+    game: row.game,
+    createdAt: row.created_at instanceof Date
+      ? row.created_at.toISOString()
+      : row.created_at,
+  };
+}
+
+async function readTodos() {
+  const { rows } = await pool.query(
+    'SELECT * FROM todos ORDER BY id ASC'
+  );
+  return rows.map(rowToTodo);
+}
+
+async function addTodo(todo) {
+  const { rows } = await pool.query(
+    `INSERT INTO todos (player, game)
+     VALUES ($1, $2)
+     ON CONFLICT (lower(player), lower(game)) DO NOTHING
+     RETURNING *`,
+    [todo.player, todo.game]
+  );
+
+  if (rows[0]) return rowToTodo(rows[0]);
+
+  const existing = await pool.query(
+    'SELECT * FROM todos WHERE lower(player) = lower($1) AND lower(game) = lower($2)',
+    [todo.player, todo.game]
+  );
+  return rowToTodo(existing.rows[0]);
+}
+
+async function deleteTodo(id) {
+  const { rowCount } = await pool.query('DELETE FROM todos WHERE id = $1', [id]);
+  return rowCount > 0;
+}
+
+function normalizeTodo(input) {
+  const player = String(input.player || '').trim();
+  const game = String(input.game || '').trim();
+
+  if (!player) {
+    return { error: 'player est requis.' };
+  }
+
+  if (!game) {
+    return { error: 'game est requis.' };
+  }
+
+  return { value: { player, game } };
 }
 
 function collectJsonBody(req) {
@@ -179,6 +249,58 @@ async function handleApi(req, res) {
   if (pathname === '/reviews' && req.method === 'OPTIONS') {
     res.writeHead(204, {
       'Allow': 'GET, POST, OPTIONS'
+    });
+    res.end();
+    return;
+  }
+
+  if (pathname === '/todos' && req.method === 'GET') {
+    try {
+      const todos = await readTodos();
+      return sendJson(res, 200, todos);
+    } catch (err) {
+      return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
+    }
+  }
+
+  if (pathname === '/todos' && req.method === 'POST') {
+    try {
+      const body = await collectJsonBody(req);
+      const normalized = normalizeTodo(body);
+
+      if (normalized.error) {
+        return sendJson(res, 400, { error: normalized.error });
+      }
+
+      const todo = await addTodo(normalized.value);
+      return sendJson(res, 200, { ok: true, todo });
+    } catch (err) {
+      return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
+    }
+  }
+
+  const todoIdMatch = pathname.match(/^\/todos\/(\d+)$/);
+  if (todoIdMatch && req.method === 'DELETE') {
+    try {
+      const ok = await deleteTodo(Number(todoIdMatch[1]));
+      if (!ok) return sendJson(res, 404, { error: 'Entrée introuvable.' });
+      return sendJson(res, 200, { ok: true });
+    } catch (err) {
+      return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
+    }
+  }
+
+  if (pathname === '/todos' && req.method === 'OPTIONS') {
+    res.writeHead(204, {
+      'Allow': 'GET, POST, OPTIONS'
+    });
+    res.end();
+    return;
+  }
+
+  if (todoIdMatch && req.method === 'OPTIONS') {
+    res.writeHead(204, {
+      'Allow': 'DELETE, OPTIONS'
     });
     res.end();
     return;

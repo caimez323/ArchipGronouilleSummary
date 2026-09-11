@@ -3378,10 +3378,10 @@
   {
     "name": "The Forged Curse",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/cheesepak/ap-forged-curse",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/cheesepak/ap-forged-curse/releases"
   },
     {
     "name": "The Farmer Was Replaced",
@@ -3593,12 +3593,84 @@
     "apworld": "https://github.com/melenehh/Three-Goblin-Archipelago/releases/latest"
   },
   {
+    "name": "Time is Broken Again",
+    "icon": "👻",
+    "setup": "https://foxolotl713.itch.io/time-is-broken-again",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Timespinner",
     "icon": "👻",
     "setup": "https://archipelago.gg/tutorial/Timespinner/setup/en",
     "tracker": "https://github.com/ZobeePlays/Timespinner-AP-Item-Tracker/tree/main",
     "info": "https://archipelago.gg/games/Timespinner/info/en",
     "apworld": "https://archipelago.gg/games/Timespinner/player-options"
+  },
+  {
+    "name": "Toejam & Earl",
+    "icon": "👻",
+    "setup": "https://github.com/IgnisUmbrae/TJE-Archipelago",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/"
+  },
+  {
+    "name": "TOEM",
+    "icon": "👻",
+    "setup": "https://github.com/bbernardoni/Archipelago/blob/toem/worlds/toem/docs/setup_en.md",
+    "tracker": "https://github.com/culk/toem-poptracker-pack/releases/latest",
+    "info": "https://github.com/bbernardoni/Archipelago/blob/toem/worlds/toem/docs/en_TOEM_A_Photo_Adventure.md",
+    "apworld": "https://github.com/bbernardoni/Archipelago.TOEM/releases/"
+  },
+  {
+    "name": "Tombola",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "https://github.com/Arenes214/APWorld-Tombola/blob/master/docs/en_AP%20Tombola.md",
+    "apworld": "https://github.com/Arenes214/APWorld-Tombola/releases"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 1 + 2",
+    "icon": "👻",
+    "setup": "https://github.com/SerpentAI/Archipelago/blob/thps12/worlds/tony_hawks_pro_skater_1_2/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/SerpentAI/Archipelago/blob/thps12/worlds/tony_hawks_pro_skater_1_2/docs/en_Tony%20Hawk's%20Pro%20Skater%201%20%2B%202.md",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22tony+hawk%22&expanded=true"
+  },
+  {
+    "name": "Total War Warhammer 3 : Immortal Empires",
+    "icon": "👻",
+    "setup": "https://github.com/jordansds/Archipelago_TWW3_Alt/blob/main/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/jordansds/Archipelago_TWW3_Alt/releases/latest"
+  },
+  {
+    "name": "Totally Accurate Battle Simulator",
+    "icon": "👻",
+    "setup": "https://github.com/duckboycool/TABS-Archipelago/blob/main/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/duckboycool/TABS-Archipelago/releases/"
+  },
+  {
+    "name": "Touhou 18.5",
+    "icon": "👻",
+    "setup": "https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/setup_en.md",
+    "tracker": "https://github.com/furret78/hbm-pack/releases/latest",
+    "info": "https://github.com/furret78/Archipelago/blob/main/worlds/th185/docs/en_100th%20Black%20Market.md",
+    "apworld": "https://github.com/furret78/Archipelago/releases/"
+  },
+  {
+    "name": "Toy Story 2 : Buzz Lightyear to the Rescue",
+    "icon": "👻",
+    "setup": "https://github.com/imklubb/Archipelago-Toy-Story-2",
+    "tracker": "https://github.com/imklubb/Toy-Story-2-Poptracker/releases/latest",
+    "info": "",
+    "apworld": "https://github.com/imklubb/Archipelago-Toy-Story-2/releases/latest"
   },
   {
     "name": "Trackmania : Random Campaign",
@@ -3617,6 +3689,14 @@
     "apworld": "https://archipelago.gg/games/TUNIC/player-options"
   },
   {
+    "name": "Turnip Boy Commits Tax Evasion",
+    "icon": "👻",
+    "setup": "https://github.com/pointfivetee/TurnipBoyRandomizer",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/pointfivetee/TurnipBoyRandomizer/releases/latest"
+  },
+  {
     "name": "Twisty Cube",
     "icon": "👻",
     "setup": "https://cube-ap.netlify.app/",
@@ -3625,7 +3705,7 @@
     "apworld": "https://github.com/spineraks-org/ArchipelagoTwistyCube/releases/latest"
   },
   {
-    "name": "Tyrian / Tyrian 2000",
+    "name": "Tyrian",
     "icon": "👻",
     "setup": "https://github.com/KScl/TyrianAPWorld/blob/main/docs/setup_en.md",
     "tracker": "",
@@ -3633,12 +3713,36 @@
     "apworld": "https://github.com/KScl/TyrianArchipelago/releases/"
   },
   {
-    "name": "Ultrakill",
+    "name": "Ty the Tasmanian Tiger",
+    "icon": "👻",
+    "setup": "https://github.com/xMcacutt-Archipelago/Ty1AP-Client",
+    "tracker": "https://github.com/FyreDay/Ty1-Poptracker/releases/latest",
+    "info": "https://github.com/xMcacutt-Archipelago/Ty1AP-Client/blob/master/FAQ.md",
+    "apworld": "https://github.com/xMcacutt-Archipelago/Archipelago-TyTheTasmanianTiger/releases/latest"
+  },
+  {
+    "name": "UFO 50",
+    "icon": "👻",
+    "setup": "https://github.com/UFO-50-Archipelago/Archipelago/blob/main/worlds/ufo50/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/UFO-50-Archipelago/Archipelago/blob/main/worlds/ufo50/docs/en_UFO%2050.md",
+    "apworld": "https://github.com/UFO-50-Archipelago/Archipelago/releases/latest"
+  },
+  {
+    "name": "ULTRAKILL",
     "icon": "🐛",
     "setup": "https://github.com/TRPG0/ArchipelagoULTRAKILL/",
     "tracker": "https://github.com/BowserCrusher/UltrakillPoptracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/latest"
+  },
+  {
+    "name": "Uncanny Cat Golf",
+    "icon": "👻",
+    "setup": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/blob/main/worlds/ucg/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-UCG/releases/latest"
   },
   {
     "name": "Undertale",
@@ -3647,6 +3751,70 @@
     "tracker": "https://github.com/Pikachu979/Undertale-Poptracker/releases/latest",
     "info": "https://archipelago.gg/games/Undertale/info/en",
     "apworld": "https://archipelago.gg/games/Undertale/player-options"
+  },
+  {
+    "name": "Undertale Yellow",
+    "icon": "👻",
+    "setup": "https://github.com/Pugie38/Undertale-Yellow-AP/blob/main/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Pugie38/Undertale-Yellow-AP/releases"
+  },
+  {
+    "name": "Unfair Flips",
+    "icon": "👻",
+    "setup": "https://github.com/robotzurg/UnfairFlipsAPMod",
+    "tracker": "https://github.com/lighting8282/Unfair-Flips-PopTracker/releases/tag/v0.0.3",
+    "info": "",
+    "apworld": "https://github.com/xMcacutt-Archipelago/Archipelago-UnfairFlips/releases/latest"
+  },
+  {
+    "name": "Vacation Simulator",
+    "icon": "👻",
+    "setup": "https://github.com/energymaster22/Archipelago/blob/energy22_vacation_simulator/worlds/vsim/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/energymaster22/Archipelago/blob/energy22_vacation_simulator/worlds/vsim/docs/en_VacationSimulator.md",
+    "apworld": "https://github.com/chandler05/APVacationSim/releases"
+  },
+  {
+    "name": "Vampire Survivors",
+    "icon": "🐛",
+    "setup": "https://github.com/SWCreeperKing/ArchipelagoSurvivors/blob/master/README.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/SWCreeperKing/ArchipelagoSurvivors/releases/latest"
+  },
+  {
+    "name": "Vardrain--",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/flingoXD/Archipelago/releases/latest"
+  },
+  {
+    "name": "Voltorb Flip (HGSS)",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/BlastSlimey/Archipelago/releases?q=Voltorb+Flip&expanded=true"
+  },
+  {
+    "name": "Void Sols",
+    "icon": "👻",
+    "setup": "https://github.com/cookie966507/Archipelago/blob/1.0.2-Void-Sols/worlds/void_sols/docs/setup_en.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/cookie966507/Archipelago/releases/"
+  },
+  {
+    "name": "Void Stranger",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Cavin856/void-stranger-ap"
   },
   {
     "name": "VVVVVV",
@@ -3658,11 +3826,67 @@
   },
   {
     "name": "Wargroove",
-    "icon": "👻",
+    "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Wargroove/setup/en",
     "tracker": "",
     "info": "https://archipelago.gg/games/Wargroove/info/en",
     "apworld": "https://archipelago.gg/games/Wargroove/player-options"
+  },
+  {
+    "name": "Wargroove 2",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/FlySniper/Archipelago/releases/"
+  },
+  {
+    "name": "Wario Land : Super Mario Land 3",
+    "icon": "🥚",
+    "setup": "https://github.com/randomcodegen/Archipelago/blob/wl_dev/worlds/wl/docs/setup_en.md",
+    "tracker": "https://github.com/randomcodegen/wl_ap_tracker/releases/latest",
+    "info": "https://github.com/randomcodegen/Archipelago/blob/wl_dev/worlds/wl/docs/en_Wario_Land.md",
+    "apworld": "https://github.com/randomcodegen/wl_ap_tracker/releases/latest"
+  },
+  {
+    "name": "Wario Land 3",
+    "icon": "🥚",
+    "setup": "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/blob/main/docs/Setup.md",
+    "tracker": "https://github.com/LizzieTwoShoes/WL3-AP-PopTracker-Pack/releases",
+    "info": "",
+    "apworld": "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/releases"
+  },
+  {
+    "name": "Wario Land 4",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Watery Words",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "WEBFISHING",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "West of Loathing",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "WitchSpring R",
@@ -3673,12 +3897,36 @@
     "apworld": "https://github.com/LeiAfkpuz/WitchSpring-R-Archipelago/releases/"
   },
   {
-    "name": "The Witness",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/The%20Witness/setup/en",
-    "tracker": "https://github.com/NewSoupVi/witness_archipelago_tracker/releases/latest",
-    "info": "https://archipelago.gg/games/The%20Witness/info/en",
-    "apworld": "https://archipelago.gg/games/The%20Witness/player-options"
+    "name": "Wordipelago",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Wynncraft",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "XCOM2 : War of the Chosen",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Xenoblade Chronicles X",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Yacht Dice",
@@ -3689,6 +3937,22 @@
     "apworld": "https://archipelago.gg/games/Yacht%20Dice/player-options"
   },
   {
+    "name": "YARG (Yet Another Rythm Game)",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "YARG (Guitar Hero/Rock Band)",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Yellow Taxi Goes Vroom",
     "icon": "👻",
     "setup": "https://github.com/soopercool101/Archipelago/blob/YTGV.v0.5.0/worlds/yellowtaxi/docs/setup_en.md",
@@ -3697,10 +3961,34 @@
     "apworld": "https://github.com/soopercool101/Archipelago/releases/"
   },
   {
+    "name": "(SENS) yrtnuoC gnoK yeknoD",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Yohane the Parhelion : Blaze in the DeepBlue",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/releases/latest",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Yoku's Island Express",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Yooka-Laylee",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
     "info": "",
     "apworld": ""
   },
@@ -3713,20 +4001,36 @@
     "apworld": "https://github.com/junglechief87/Ys-8-AP-World/releases"
   },
   {
-    "name": "Yoshi's Island",
-    "icon": "🐢",
-    "setup": "https://archipelago.gg/tutorial/Yoshi's%20Island/setup/en",
-    "tracker": "https://github.com/Radagast81/yoshis-island-tracker/releases/latest",
-    "info": "https://archipelago.gg/games/Yoshi's%20Island/info/en",
-    "apworld": "https://archipelago.gg/games/Yoshi's%20Island/player-options"
+    "name": "Yu-Gi-Oh! Dungeon Dice Monsters",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
-    "name": "Yu-Gi-Oh! 2006",
+    "name": "Yu-Gi-Oh! Ultimate Masters : WCT 2006",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Yu-Gi-Oh!%202006/setup/en",
     "tracker": "https://github.com/Rensen3/poptracker-ygo06/releases/latest",
     "info": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/info/en",
     "apworld": "https://archipelago.gg/games/Yu-Gi-Oh!%202006/player-options"
+  },
+  {
+    "name": "Yu-Gi-Oh! Forbidden Memories",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
+    "name": "Yu-Gi-Oh GX Duel Academy",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Zillion",
@@ -3735,6 +4039,14 @@
     "tracker": "https://github.com/Br00ty/zillion_brooty/releases/latest",
     "info": "https://archipelago.gg/games/Zillion/info/en",
     "apworld": "https://archipelago.gg/games/Zillion/player-options"
+  },
+  {
+    "name": "Zoomineos",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
   },
   {
     "name": "Zork: Grand Inquisitor",

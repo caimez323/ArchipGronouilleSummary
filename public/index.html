@@ -8,6 +8,115 @@
   <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./style.css" />
   <link rel="icon" href="./resources/favicon.png" type="image/svg+xml" />
+  <style>
+    .link-chips { align-items: center; }
+
+    .todo-add-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: var(--r-pill);
+      border: 1px solid var(--border);
+      color: var(--tx-muted);
+      background: transparent;
+      font-size: 15px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .todo-add-btn:hover {
+      color: var(--accent);
+      background: oklch(from var(--accent) l c h / .1);
+      border-color: oklch(from var(--accent) l c h / .3);
+    }
+
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: oklch(0.2 0.01 80 / .45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--sp-5);
+      z-index: 300;
+    }
+
+    .modal-overlay[hidden] { display: none; }
+
+    .modal-panel {
+      width: 100%;
+      max-width: 340px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      box-shadow: var(--sh-md);
+      padding: var(--sp-5);
+    }
+
+    .modal-panel h2 {
+      font-size: var(--text-base);
+      font-weight: 700;
+      color: var(--tx);
+      margin-bottom: var(--sp-1);
+    }
+
+    .modal-hint {
+      font-size: var(--text-xs);
+      color: var(--tx-muted);
+      margin-bottom: var(--sp-4);
+    }
+
+    .modal-players {
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-2);
+      margin-bottom: var(--sp-4);
+    }
+
+    .todo-player-btn {
+      width: 100%;
+      text-align: left;
+      padding: var(--sp-2) var(--sp-3);
+      border-radius: var(--r-md);
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--tx);
+      font-size: var(--text-sm);
+      font-weight: 500;
+    }
+
+    .todo-player-btn:hover {
+      border-color: oklch(from var(--accent) l c h / .3);
+      background: oklch(from var(--accent) l c h / .08);
+      color: var(--accent);
+    }
+
+    .todo-player-btn:disabled { opacity: .5; pointer-events: none; }
+
+    .modal-actions { display: flex; justify-content: flex-end; }
+
+    .toast {
+      position: fixed;
+      bottom: var(--sp-6);
+      right: var(--sp-6);
+      background: var(--tx);
+      color: var(--bg);
+      padding: var(--sp-3) var(--sp-5);
+      border-radius: var(--r-md);
+      box-shadow: var(--sh-md);
+      font-size: var(--text-sm);
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity var(--ease), transform var(--ease);
+      pointer-events: none;
+      z-index: 400;
+    }
+
+    .toast.is-visible { opacity: 1; transform: translateY(0); }
+    .toast.is-error { background: var(--err); color: #fff; }
+  </style>
 </head>
 <body>
 
@@ -22,6 +131,7 @@
           <li><a href="./index.html" class="active">Jeux</a></li>
           <li><a href="./matrix.html">Tracker</a></li>
           <li><a href="./history.html">Historique</a></li>
+          <li><a href="./todoliste.html">Todo liste</a></li>
           <li><a href="./guide.html">Guide</a></li>
         </ul>
       </nav>
@@ -77,9 +187,99 @@
 
   <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
 
+  <div class="modal-overlay" id="todo-modal" hidden>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="todo-modal-title">
+      <h2 id="todo-modal-title">Ajouter à la todo liste</h2>
+      <p class="modal-hint">Choisissez le joueur concerné.</p>
+      <div class="modal-players" id="todo-modal-players"></div>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="todo-modal-cancel">Annuler</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
 <script>
 let games = [];
 let searchActive = false;
+let PLAYERS = [];
+let modalGame = null;
+
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+let toastTimer = null;
+function showToast(message, isError) {
+  const toast = document.getElementById('toast');
+  toast.textContent = message;
+  toast.classList.toggle('is-error', !!isError);
+  toast.classList.add('is-visible');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 2200);
+}
+
+async function loadPlayers() {
+  try {
+    const res = await fetch('./players.json');
+    PLAYERS = await res.json();
+  } catch (err) {
+    console.error('Impossible de charger players.json :', err);
+    PLAYERS = [];
+  }
+}
+
+function openTodoModal(game) {
+  modalGame = game;
+  document.getElementById('todo-modal-title').textContent = `Ajouter « ${game} » à la todo de…`;
+  document.getElementById('todo-modal-players').innerHTML = PLAYERS.map(p => `
+    <button type="button" class="todo-player-btn" data-player="${escapeHtml(p)}">${escapeHtml(p)}</button>
+  `).join('');
+  document.getElementById('todo-modal').hidden = false;
+}
+
+function closeTodoModal() {
+  document.getElementById('todo-modal').hidden = true;
+  modalGame = null;
+}
+
+async function addToTodo(player, game, btn) {
+  btn.disabled = true;
+  try {
+    const res = await fetch('/todos', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ player, game })
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    closeTodoModal();
+    showToast(`${game} ajouté à la todo liste de ${player}.`);
+  } catch (err) {
+    btn.disabled = false;
+    showToast(err.message || "Erreur lors de l'ajout.", true);
+  }
+}
+
+document.getElementById('todo-modal-players').addEventListener('click', (e) => {
+  const btn = e.target.closest('.todo-player-btn');
+  if (!btn || !modalGame) return;
+  addToTodo(btn.dataset.player, modalGame, btn);
+});
+
+document.getElementById('todo-modal-cancel').addEventListener('click', closeTodoModal);
+document.getElementById('todo-modal').addEventListener('click', (e) => {
+  if (e.target.id === 'todo-modal') closeTodoModal();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeTodoModal();
+});
 
 async function loadGames() {
   try {
@@ -154,15 +354,21 @@ function render(list) {
           ${chip(g.apworld, 'APWORLD', 'apworld')}
           ${chip(g.tracker, 'TRACKER', 'tracker')}
           ${chip(g.info,    'INFO',    'info'   )}
+          <button type="button" class="todo-add-btn" title="Ajouter à la todo liste" aria-label="Ajouter ${escapeHtml(g.name)} à la todo liste" data-game="${escapeHtml(g.name)}">+</button>
         </div>
       </td>
     </tr>`).join('');
+
+  tb.querySelectorAll('.todo-add-btn').forEach(btn => {
+    btn.addEventListener('click', () => openTodoModal(btn.dataset.game));
+  });
 }
 
 document.getElementById('search').addEventListener('input', applyFilters);
 document.getElementById('filter-chips').addEventListener('change', applyFilters);
 
 document.getElementById('yr').textContent = new Date().getFullYear();
+loadPlayers();
 loadGames();
 
 // Theme toggle

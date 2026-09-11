@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo liste — Game Dashboard</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./resources/favicon.png" type="image/svg+xml" />
+  <style>
+    .todo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: var(--sp-5);
+    }
+
+    .todo-card {
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      background: var(--surface);
+      overflow: hidden;
+    }
+
+    .todo-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--sp-2);
+      padding: var(--sp-3) var(--sp-4);
+      background: var(--surface-off);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .todo-card-header h2 {
+      font-size: var(--text-base);
+      font-weight: 700;
+      color: var(--tx);
+    }
+
+    .todo-count {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      color: var(--tx-muted);
+      background: oklch(from var(--accent) l c h / .1);
+      color: var(--accent);
+      border-radius: var(--r-pill);
+      padding: 2px 9px;
+    }
+
+    .todo-list {
+      list-style: none;
+      padding: var(--sp-2) 0;
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--sp-3);
+      padding: var(--sp-2) var(--sp-4);
+      font-size: var(--text-sm);
+    }
+
+    .todo-item:hover { background: oklch(from var(--accent) l c h / .04); }
+
+    .todo-item-name {
+      color: var(--tx);
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .todo-item-name .todo-player {
+      color: var(--tx-muted);
+      font-weight: 600;
+    }
+
+    .todo-remove-btn {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      border-radius: var(--r-pill);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--tx-faint);
+      border: 1px solid transparent;
+    }
+
+    .todo-remove-btn:hover {
+      color: var(--err);
+      background: oklch(from var(--err) l c h / .1);
+      border-color: oklch(from var(--err) l c h / .22);
+    }
+
+    .todo-card-empty {
+      padding: var(--sp-5) var(--sp-4);
+      font-size: var(--text-sm);
+      color: var(--tx-faint);
+      text-align: center;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: var(--sp-6);
+      right: var(--sp-6);
+      background: var(--tx);
+      color: var(--bg);
+      padding: var(--sp-3) var(--sp-5);
+      border-radius: var(--r-md);
+      box-shadow: var(--sh-md);
+      font-size: var(--text-sm);
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity var(--ease), transform var(--ease);
+      pointer-events: none;
+      z-index: 200;
+    }
+
+    .toast.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .toast.is-error { background: var(--err); color: #fff; }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="./index.html" class="nav-logo">
+        <img src="./resources/logo.svg" width="20" height="20" alt="GronouilleTracker" />
+        GronouilleTracker
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="./index.html">Jeux</a></li>
+          <li><a href="./matrix.html">Tracker</a></li>
+          <li><a href="./history.html">Historique</a></li>
+          <li><a href="./todoliste.html" class="active">Todo liste</a></li>
+          <li><a href="./guide.html">Guide</a></li>
+        </ul>
+      </nav>
+      <button class="theme-btn" data-theme-toggle aria-label="Basculer le thème"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div>
+        <h1>Todo liste</h1>
+        <p>Les jeux ajoutés à la liste de chaque joueur depuis la page Jeux.</p>
+      </div>
+    </div>
+
+    <div id="todo-container">
+      <div class="empty">
+        <p>Chargement…</p>
+      </div>
+    </div>
+  </main>
+
+  <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
+
+  <div class="toast" id="toast"></div>
+
+<script>
+let PLAYERS = [];
+let TODOS = [];
+
+function escapeHtml(value) {
+  return String(value ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+let toastTimer = null;
+function showToast(message, isError) {
+  const toast = document.getElementById('toast');
+  toast.textContent = message;
+  toast.classList.toggle('is-error', !!isError);
+  toast.classList.add('is-visible');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 2200);
+}
+
+async function fetchJsonSafe(url, options = {}) {
+  const res = await fetch(url, options);
+  const text = await res.text();
+  let data = null;
+
+  if (text) {
+    try {
+      data = JSON.parse(text);
+    } catch {
+      if (!res.ok) throw new Error(`HTTP ${res.status}: ${text.slice(0, 120)}`);
+      throw new Error('Réponse JSON invalide.');
+    }
+  }
+
+  if (!res.ok) throw new Error(data?.error || `HTTP ${res.status}`);
+  return data;
+}
+
+async function loadPlayers() {
+  try {
+    const res = await fetch('./players.json');
+    PLAYERS = await res.json();
+  } catch (err) {
+    console.error('Impossible de charger players.json :', err);
+    PLAYERS = [];
+  }
+}
+
+async function loadTodos() {
+  try {
+    TODOS = await fetchJsonSafe('/todos');
+  } catch (err) {
+    console.error('Impossible de charger les todos :', err);
+    TODOS = null;
+  }
+}
+
+async function removeTodo(id) {
+  try {
+    await fetchJsonSafe(`/todos/${id}`, { method: 'DELETE' });
+    TODOS = TODOS.filter(t => t.id !== id);
+    render();
+    showToast('Retiré de la todo liste.');
+  } catch (err) {
+    showToast(err.message || 'Erreur lors de la suppression.', true);
+  }
+}
+
+function render() {
+  const container = document.getElementById('todo-container');
+
+  if (TODOS === null) {
+    container.innerHTML = `<div class="empty">
+      <h3>Impossible de charger la todo liste</h3>
+      <p>Vérifiez la connexion ou réessayez plus tard.</p>
+    </div>`;
+    return;
+  }
+
+  // Regroupe les entrées par joueur, en conservant l'ordre de players.json,
+  // puis en ajoutant les joueurs "hors liste" trouvés dans les données.
+  const knownPlayers = [...PLAYERS];
+  TODOS.forEach(t => {
+    if (!knownPlayers.some(p => p.toLowerCase() === t.player.toLowerCase())) {
+      knownPlayers.push(t.player);
+    }
+  });
+
+  if (!TODOS.length) {
+    container.innerHTML = `<div class="empty">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+      </svg>
+      <h3>Todo liste vide</h3>
+      <p>Ajoutez un jeu à la liste d'un joueur depuis la page Jeux.</p>
+    </div>`;
+    return;
+  }
+
+  container.innerHTML = `<div class="todo-grid">
+    ${knownPlayers.map(player => {
+      const items = TODOS.filter(t => t.player.toLowerCase() === player.toLowerCase());
+      return `
+        <div class="todo-card">
+          <div class="todo-card-header">
+            <h2>${escapeHtml(player)}</h2>
+            <span class="todo-count">${items.length}</span>
+          </div>
+          ${items.length ? `
+            <ul class="todo-list">
+              ${items.map(t => `
+                <li class="todo-item">
+                  <span class="todo-item-name"><span class="todo-player">${escapeHtml(t.player)}:</span> ${escapeHtml(t.game)}</span>
+                  <button class="todo-remove-btn" title="Retirer" aria-label="Retirer ${escapeHtml(t.game)} de la liste de ${escapeHtml(t.player)}" data-id="${t.id}">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                      <path d="M18 6 6 18M6 6l12 12"/>
+                    </svg>
+                  </button>
+                </li>
+              `).join('')}
+            </ul>
+          ` : `<div class="todo-card-empty">Rien à faire 🎉</div>`}
+        </div>
+      `;
+    }).join('')}
+  </div>`;
+
+  container.querySelectorAll('.todo-remove-btn').forEach(btn => {
+    btn.addEventListener('click', () => removeTodo(Number(btn.dataset.id)));
+  });
+}
+
+async function init() {
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  await Promise.all([loadPlayers(), loadTodos()]);
+  render();
+}
+
+init();
+
+(function(){
+  const btn = document.querySelector('[data-theme-toggle]');
+  const root = document.documentElement;
+  let theme = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+  root.setAttribute('data-theme', theme);
+  const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+  const sun = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
+  const upd = () => btn.innerHTML = theme === 'dark' ? sun : moon;
+  upd();
+  btn.addEventListener('click', () => {
+    theme = theme === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', theme);
+    upd();
+  });
+})();
+</script>
+</body>
+</html>
