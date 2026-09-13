@@ -242,6 +242,37 @@
         "Objectif": "All bosses randomized"
       }
     ]
+  },
+  {
+    "id": 6,
+    "date": "2026-09-12",
+    "players": 3,
+    "games": [
+      "The Legend of Zelda : Ocarina of Time (Ship of Harkinian)",
+      "Pokémon Black and White",
+      "Cuphead"
+    ],
+    "seed": "IsrpPf8RQg2N6b-m7Fr21g",
+    "seedUrl": "./yaml_backup/6/spoiler.txt",
+    "summary": [
+      {
+        "player": "Alexis",
+        "playerUrl": "./yaml_backup/6/Alexis.yaml",
+        "Jeu": "The Legend of Zelda : Ocarina of Time (Ship of Harkinian)",
+        "Objectif": "Battre Ganon"
+      },
+      {
+        "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/6/caimez.yaml",
+        "Jeu": "Cuphead",
+        "Objectif": "17 contrats + Devil"
+      },
+      {
+        "player": "Sébastien",
+        "playerUrl": "./yaml_backup/6/Ryozen.yaml",
+        "Jeu": "Pokémon Black and White",
+        "Objectif": "Battre Ghetsis"
+      }
+    ]
   }
-
 ]
