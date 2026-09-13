@@ -3860,33 +3860,33 @@
     "name": "Wario Land 4",
     "icon": "🥚",
     "setup": "",
-    "tracker": "",
+    "tracker": "https://github.com/JackTHerbert/wl4_jth/releases/latest",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/lilDavid/Archipelago-Wario-Land-4/releases/latest"
   },
   {
     "name": "Watery Words",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://watery-words-ap.netlify.app/",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/spineraks-org/ArchipelagoWateryWords/releases/"
   },
   {
     "name": "WEBFISHING",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/mwoiii/webfishing-ap",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/mwoiii/webfishing-ap/releases"
   },
   {
     "name": "West of Loathing",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/Lucasvdm/WOLAP",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/Lucasvdm/WOLAP/releases/latest"
   },
   {
     "name": "WitchSpring R",
@@ -3899,34 +3899,34 @@
   {
     "name": "Wordipelago",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://apworlds.com/wordipelago",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/ProfDeCube/Archipelago/releases/"
   },
   {
     "name": "Wynncraft",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/EpicPuppy613/Wynnpelago/blob/main/README.md#Setup",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/EpicPuppy613/Wynncraft-APWorld/releases"
   },
   {
     "name": "XCOM2 : War of the Chosen",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/MaxReinstadler/X2WOTCArchipelago/blob/main/worlds/x2wotc/docs/setup_en.md",
     "tracker": "",
-    "info": "",
-    "apworld": ""
+    "info": "https://github.com/MaxReinstadler/X2WOTCArchipelago/blob/main/worlds/x2wotc/docs/en_XCOM%202%20War%20of%20the%20Chosen.md",
+    "apworld": "https://github.com/MaxReinstadler/X2WOTCArchipelago/releases"
   },
   {
     "name": "Xenoblade Chronicles X",
-    "icon": "👻",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
+    "icon": "🥚",
+    "setup": "https://github.com/MaragonMH/Archipelago/blob/XenoX/worlds/xenobladex/docs/setup_en.md",
+    "tracker": "https://github.com/limited-fears/xcxpoptracker/releases",
+    "info": "https://github.com/MaragonMH/Archipelago/blob/XenoX/worlds/xenobladex/docs/en_Xenoblade%20X.md",
+    "apworld": "https://github.com/MaragonMH/Archipelago/releases"
   },
   {
     "name": "Yacht Dice",
@@ -3939,10 +3939,10 @@
   {
     "name": "YARG (Yet Another Rythm Game)",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/energymaster22/YARGArchipelago",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/energymaster22/YARGArchipelago/releases"
   },
   {
     "name": "YARG (Guitar Hero/Rock Band)",
@@ -3950,7 +3950,7 @@
     "setup": "",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/GirlWithoutAFairy/YARGArchipelago-GH-and-RB-forks/releases"
   },
   {
     "name": "Yellow Taxi Goes Vroom",
@@ -3962,11 +3962,11 @@
   },
   {
     "name": "(SENS) yrtnuoC gnoK yeknoD",
-    "icon": "👻",
+    "icon": "🥚",
     "setup": "",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/TheLX5/Archipelago/releases/"
   },
   {
     "name": "Yohane the Parhelion : Blaze in the DeepBlue",
@@ -3979,18 +3979,18 @@
   {
     "name": "Yoku's Island Express",
     "icon": "🥚",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
+    "setup": "http://git.makuluni.com/Archipelago/YokuArchipelagoMod",
+    "tracker": "https://github.com/marcmagus/yoku-randomizer-tracker/releases",
+    "info": "https://docs.google.com/spreadsheets/d/1YDiQlOLORYKYaisAr-ZcbB6vnI5x04X3abCVEJB7Q_w",
+    "apworld": "https://git.makuluni.com/Archipelago/YokuAPWorld/releases"
   },
   {
     "name": "Yooka-Laylee",
     "icon": "👻",
-    "setup": "",
-    "tracker": "",
+    "setup": "https://github.com/SunnyBat/YLRandomizer/",
+    "tracker": "https://github.com/RisingPhoenix64/Yooka-Laylee-AP-tracker/releases",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/Awareqwx/Archipelago/releases/"
   },
   {
     "name": "Ys VIII : Lacrimosa of Dana",
@@ -4002,11 +4002,11 @@
   },
   {
     "name": "Yu-Gi-Oh! Dungeon Dice Monsters",
-    "icon": "👻",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
+    "icon": "🥚",
+    "setup": "https://github.com/JustinMarshall98/Archipelago---YuGiOh-Dungeon-Dice-Monsters-GBA-/blob/main/worlds/yugiohddm/docs/setup_en.md",
+    "tracker": "https://github.com/Aureooo-0/yugioh_ddm_poptracker/releases/latest",
+    "info": "https://github.com/JustinMarshall98/Archipelago/tree/Latest/worlds/yugiohddm/docs",
+    "apworld": "https://github.com/JustinMarshall98/Archipelago/releases"
   },
   {
     "name": "Yu-Gi-Oh! Ultimate Masters : WCT 2006",
@@ -4018,23 +4018,23 @@
   },
   {
     "name": "Yu-Gi-Oh! Forbidden Memories",
-    "icon": "👻",
-    "setup": "",
-    "tracker": "",
-    "info": "",
-    "apworld": ""
+    "icon": "🥚",
+    "setup": "https://github.com/sg4e/Archipelago/blob/fm/worlds/fm/docs/setup_en.md",
+    "tracker": "https://github.com/sg4e/FMArchipelagoTracker/releases/latest",
+    "info": "https://discord.com/channels/731205301247803413/1210743818564149288/1418007482491474041",
+    "apworld": "https://github.com/sg4e/Archipelago/releases/latest"
   },
   {
     "name": "Yu-Gi-Oh GX Duel Academy",
-    "icon": "👻",
+    "icon": "🥚",
     "setup": "",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "./resources/yugiohgx.apworld"
   },
   {
     "name": "Zillion",
-    "icon": "👻",
+    "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Zillion/setup/en",
     "tracker": "https://github.com/Br00ty/zillion_brooty/releases/latest",
     "info": "https://archipelago.gg/games/Zillion/info/en",
@@ -4043,10 +4043,10 @@
   {
     "name": "Zoomineos",
     "icon": "👻",
-    "setup": "",
+    "setup": "https://github.com/chickentuna/Archipelago-Zoominoes/releases/",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/chickentuna/Archipelago-Zoominoes/releases/"
   },
   {
     "name": "Zork: Grand Inquisitor",
