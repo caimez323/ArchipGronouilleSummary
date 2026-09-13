@@ -800,6 +800,14 @@
     "apworld": "https://github.com/zakwiz/DiddyKongRacingAP/releases/latest"
   },
   {
+    "name": "Die in the Dungeon",
+    "icon": "🥚",
+    "setup": "",
+    "tracker": "",
+    "info": "https://github.com/Skytttle/DITD-Archipelago",
+    "apworld": "https://github.com/Skytttle/DITD-Archipelago"
+  },
+  {
     "name": "Digimon World",
     "icon": "🥚",
     "setup": "https://github.com/ArsonAssassin/Archipelago.Core/wiki/How-to-start-playing-a-game-using-this-library",
@@ -984,7 +992,7 @@
     "apworld": "https://discord.com/channels/731205301247803413/1533221949822599218/1545327490560426046"
   },
   {
-    "name": "Ender Lilies : Quietus of the Knights",
+    "name": "Ender Lilies : Quietus of the Knights + Ender Magnolia : Bloom in the Mist",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/lurch9229/ender-lilies-poptracker/releases",
@@ -1046,6 +1054,14 @@
     "tracker": "",
     "info": "https://archipelago.gg/games/Faxanadu/info/en",
     "apworld": "https://archipelago.gg/games/Faxanadu/player-options"
+  },
+  {
+    "name": "Feeding Frenzy 2 : Shipwreck Showdown",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "https://github.com/barretg/feeding-frenzy-2-archipelago",
+    "apworld": "https://github.com/barretg/feeding-frenzy-2-archipelago/releases/"
   },
   {
     "name": "Final Fantasy",
@@ -1328,6 +1344,22 @@
     "apworld": "https://github.com/NaixGames/Polycosmos/releases/latest"
   },
   {
+    "name": "Half-Life (Sven Backport)",
+    "icon": "🥚",
+    "setup": "https://github.com/barretg/hl1-anniversary-ap/releases/",
+    "tracker": "",
+    "info": "https://github.com/barretg/hl1-anniversary-ap/",
+    "apworld": "https://github.com/barretg/hl1-anniversary-ap/releases/"
+  },
+  {
+    "name": "Half-Life Multiplayer (Sven Co-op)",
+    "icon": "🥚",
+    "setup": "https://github.com/barretg/hl1-sven-ap/releases/",
+    "tracker": "",
+    "info": "https://github.com/barretg/hl1-sven-ap",
+    "apworld": "https://github.com/barretg/hl1-sven-ap/releases/"
+  },
+  {
     "name": "Hammerwatch",
     "icon": "👻",
     "setup": "https://github.com/Parcosmic/Hammerwatch-Archipelago/blob/dev/worlds/hammerwatch/docs/setup_en.md",
@@ -1550,6 +1582,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/spineraks-org/ArchipelagoJigsaw/releases/latest"
+  },
+  {
+    "name": "Johnny Upgrade",
+    "icon": "👻",
+    "setup": "",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/barretg/johnny-upgrade-ap/releases"
   },
   {
     "name": "JS Paint",
@@ -2072,6 +2112,14 @@
     "apworld": "https://github.com/qwint/APMinit/releases"
   },
   {
+    "name": "Mirror's Edge",
+    "icon": "🥚",
+    "setup": "https://github.com/SerpentAI/Archipelago/blob/mirrors_edge/worlds/mirrors_edge/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/SerpentAI/Archipelago/blob/mirrors_edge/worlds/mirrors_edge/docs/en_Mirror's%20Edge.md",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22edge%22&expanded=true"
+  },
+  {
     "name": "Momodora : Moonlit Farewell",
     "icon": "👻",
     "setup": "https://github.com/alditoOt/Momodora-Moonlit-Farewell-Randomizer/blob/Archipelago-Randomizer/README.md",
@@ -2128,6 +2176,14 @@
     "apworld": "https://github.com/richarm4/Archipelago/releases/"
   },
   {
+    "name": "Neon White",
+    "icon": "🥚",
+    "setup": "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/blob/main/worlds/neonwhite/docs/en_NeonWhite.md",
+    "apworld": "https://github.com/Badhamknibbs/ArchipelagoNeonWhite/releases"
+  },
+  {
     "name": "New Super Mario Bros Wii",
     "icon": "👻",
     "setup": "https://github.com/Miiroun/Archipelago-NewSuperMarioBrosWii/blob/NSMBW/worlds/nsmbw/docs/setup_en.md",
@@ -2174,6 +2230,14 @@
     "tracker": "",
     "info": "",
     "apworld": "https://github.com/ChakraaThePanda/Archipelago-Northgard/releases/latest"
+  },
+  {
+    "name": "Nova Lands",
+    "icon": "👻",
+    "setup": "https://discord.com/channels/731205301247803413/1341453886598287493/1546222909406715928",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/Foxolotl713/NovaLandsMods/releases/"
   },
   {
     "name": "Old School Runescape",
@@ -2358,6 +2422,14 @@
     "tracker": "https://github.com/robotzurg/PikunikuPopTracker/releases/latest",
     "info": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/blob/main/worlds/pikuniku/docs/en_Pikuniku.md",
     "apworld": "https://github.com/Jeffdev-Archipelago-Implementations/Archipelago-Piku/releases/latest"
+  },
+  {
+    "name": "Pinball FX",
+    "icon": "👻",
+    "setup": "https://github.com/SerpentAI/Archipelago/blob/pinball_fx/worlds/pinball_fx/docs/setup_en.md",
+    "tracker": "",
+    "info": "https://github.com/SerpentAI/Archipelago/blob/pinball_fx/worlds/pinball_fx/docs/en_Pinball_FX.md",
+    "apworld": "https://github.com/SerpentAI/Archipelago/releases?q=%22Pinball+FX%22+traps&expanded=true"
   },
   {
     "name": "Pinball FX3",
@@ -3312,7 +3384,7 @@
     "apworld": "https://github.com/johnso48/TalosPrincipleArchipelago/releases/"
   },
   {
-    "name": "Taskipelago Taskipelabingo",
+    "name": "Taskipelago",
     "icon": "🥚",
     "setup": "https://github.com/barretg/Taskipelago",
     "tracker": "",
@@ -3400,7 +3472,7 @@
     "apworld": "https://github.com/MarioSpore/Grinch-AP/releases/"
   },
   {
-    "name": "The Legend of Heroes : Trails in the Sky 3rd",
+    "name": "The Legend of Heroes : Trails in the Sky the 3rd",
     "icon": "👻",
     "setup": "https://github.com/Archipelago-Trails-in-the-Sky-the-3rd/Archipelago-Trails-in-the-Sky-the-3rd/blob/main/worlds/tits_the_3rd/docs/setup_en.md",
     "tracker": "",
@@ -3673,7 +3745,7 @@
     "apworld": "https://github.com/imklubb/Archipelago-Toy-Story-2/releases/latest"
   },
   {
-    "name": "Trackmania : Random Campaign",
+    "name": "Trackmania Random Campaign",
     "icon": "🥚",
     "setup": "https://openplanet.dev/plugin/archipelagoplugin",
     "tracker": "",
@@ -3857,6 +3929,14 @@
     "apworld": "https://github.com/RvPA-Roopa/Wario-Land-3-Archipelago/releases"
   },
   {
+    "name": "Wario World",
+    "icon": "🥚",
+    "setup": "https://github.com/m0ester/WarioworldAP",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/m0ester/WarioworldAP/releases"
+  },
+  {
     "name": "Wario Land 4",
     "icon": "🥚",
     "setup": "",
@@ -3913,7 +3993,7 @@
     "apworld": "https://github.com/EpicPuppy613/Wynncraft-APWorld/releases"
   },
   {
-    "name": "XCOM2 : War of the Chosen",
+    "name": "XCOM 2 : War of the Chosen",
     "icon": "👻",
     "setup": "https://github.com/MaxReinstadler/X2WOTCArchipelago/blob/main/worlds/x2wotc/docs/setup_en.md",
     "tracker": "",
@@ -3937,7 +4017,7 @@
     "apworld": "https://archipelago.gg/games/Yacht%20Dice/player-options"
   },
   {
-    "name": "YARG (Yet Another Rythm Game)",
+    "name": "YARG (Yet Another Rhythm Game)",
     "icon": "👻",
     "setup": "https://github.com/energymaster22/YARGArchipelago",
     "tracker": "",
@@ -3969,7 +4049,7 @@
     "apworld": "https://github.com/TheLX5/Archipelago/releases/"
   },
   {
-    "name": "Yohane the Parhelion : Blaze in the DeepBlue",
+    "name": "Yohane the Parhelion : Blaze in the Deepblue",
     "icon": "👻",
     "setup": "",
     "tracker": "https://github.com/SeanCass/YohaneTheParhelion-BlazeInTheDeepblue-Poptracker/releases/latest",
@@ -4041,7 +4121,7 @@
     "apworld": "https://archipelago.gg/games/Zillion/player-options"
   },
   {
-    "name": "Zoomineos",
+    "name": "Zoominoes",
     "icon": "👻",
     "setup": "https://github.com/chickentuna/Archipelago-Zoominoes/releases/",
     "tracker": "",
@@ -4049,8 +4129,8 @@
     "apworld": "https://github.com/chickentuna/Archipelago-Zoominoes/releases/"
   },
   {
-    "name": "Zork: Grand Inquisitor",
-    "icon": "👻",
+    "name": "Zork : Grand Inquisitor",
+    "icon": "🐛",
     "setup": "https://github.com/SerpentAI/Archipelago/blob/zgi-v2-post-removal/worlds/zork_grand_inquisitor/docs/setup_en.md",
     "tracker": "",
     "info": "https://github.com/SerpentAI/Archipelago/blob/zgi-v2-post-removal/worlds/zork_grand_inquisitor/docs/en_Zork%20Grand%20Inquisitor.md",
