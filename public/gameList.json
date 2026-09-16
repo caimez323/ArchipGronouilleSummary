@@ -258,10 +258,10 @@
   {
     "name": "Bayonetta",
     "icon": "🥚",
-    "setup": "https://github.com/BrandenEK/BlasII.Randomizer.Multiworld",
+    "setup": "https://github.com/Boi-027/BayonettaArchipelago#installation",
     "tracker": "",
-    "info": "",
-    "apworld": ""
+    "info": "https://github.com/Boi-027/BayonettaArchipelago#installation",
+    "apworld": "https://github.com/Boi-027/BayonettaArchipelago/releases"
   },
   {
     "name": "Blasphemous",
@@ -3096,7 +3096,7 @@
     "apworld": "https://github.com/Tranquilite0/Archipelago-SoulBlazer/releases/"
   },
   {
-    "name": "Spark The Electric Jester 3",
+    "name": "Spark the Electric Jester 3",
     "icon": "👻",
     "setup": "https://github.com/Kylogias/Spark3-Archipelago",
     "tracker": "",
@@ -3631,6 +3631,14 @@
     "tracker": "https://github.com/alwaysintreble/TheMessengerTrackPack/releases/latest",
     "info": "https://archipelago.gg/games/The%20Messenger/info/en",
     "apworld": "https://archipelago.gg/games/The%20Messenger/player-options"
+  },
+  {
+    "name": "The Murder of Sonic the Hedgehog",
+    "icon": "🥚",
+    "setup": "https://github.com/TwinklePillar/MurderOfSonicAP#installation-client",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/TwinklePillar/MurderOfSonicAP/releases/latest"
   },
   {
     "name": "The Simpsons : Hit and Run",

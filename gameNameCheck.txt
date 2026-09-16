@@ -1,3 +1,5 @@
+Games 2-Bo
+
 2048 (PC): ⁠2048
 A Dance of Fire and Ice (PC): ⁠A Dance of Fire and Ice
 A Difficult Game About Climbing (PC): ⁠inconnu
@@ -10,8 +12,8 @@ Against the Storm (PC): ⁠Against The Storm
 Age of Empires II: Definitive Edition (PC): ⁠Age of Empires II: Definitive E…
 Air Delivery (PICO-8): ⁠inconnu
 An Untitled Story (PC): ⁠An Untitled Story
-ANIMAL WELL (PC): ⁠ANIMAL WELL
-Angband (PC): ⁠inconnu
+ANIMAL WELL (PC): ⁠inconnu
+Angband (PC): ⁠Angband
 Anno 1800 (PC): ⁠Anno 1800
 Anodyne (PC): ⁠inconnu
 Another Crab's Treasure (PC): ⁠Another Crab's Treasure
@@ -32,7 +34,7 @@ Blasphemous (PC): ⁠blasphemous
 Blasphemous 2 (PC): ⁠Blasphemous 2
 Bloons Tower Defense 6 (PC): ⁠bloons-tower-defense-6
 Bomberman Quest (GB): ⁠inconnu
-Bomberman 64 (N64): ⁠inconnu 
+Bomberman 64 (N64): ⁠Bomberman 64 
 Bomberman 64: The Second Attack! (N64): ⁠Bomberman 64: The Second Attack!
 Bomberman Hero (N64): ⁠inconnu
 Bomb Rush Cyberfunk (PC): ⁠bomb-rush-cyberfunk 
@@ -40,7 +42,7 @@ Games Br-C
 
 Brave Fencer Musashi (PSX): ⁠Brave Fencer Musashi (PSX)
 Brotato (PC): ⁠Brotato
-Buckshot Roulette (PC): ⁠Buckshot Roulette
+Buckshot Roulette (PC): ⁠inconnu
 Bugs Bunny: Lost in Time (PSX): ⁠Bugs Bunny: Lost in Time
 Build a Jetpack (PICO-8): ⁠inconnu
 Bumper Stickers (PC): ⁠bumper-stickers
@@ -55,29 +57,29 @@ Castlevania: Legacy of Darkness (N64): ⁠Castlevania: Legacy of Darkness
 Castlevania: Order of Ecclesia (NDS): ⁠Castlevania: Order of Ecclesia
 Castlevania: Portrait of Ruin (DS): ⁠Castlevania: Portrait of Ruin
 Castlevania: Symphony of the Night (PSX): ⁠castlevania-symphony-of-the-nig…
-Cat Quest (PC): ⁠inconnu
+Cat Quest (PC): ⁠Cat Quest
 Cavern of Dreams (PC): ⁠Cavern of Dreams
 Cave Story (PC): ⁠Cave Story
 Celeste (PC): ⁠celeste
 Celeste (Open World) (PC): ⁠celeste-open-world
 Celeste 64 (PC): ⁠celeste-64
-Chained Echoes (PC): ⁠inconnu
+Chained Echoes (PC): ⁠Chained Echoes
 ChecksFinder (PC): ⁠checks-finder
 ChecksMate (PC): ⁠Chess (Checksmate)
 Chibi Robo Plug Into Adventure (GC): ⁠Chibi-Robo Plug into Adventure
-Chrono Trigger (SNES): ⁠Chrono Trigger (SNES)
+Chrono Trigger (SNES): ⁠inconnu
 Choo-Choo Charles (PC): ⁠choo-choo-charles
 Clique (Web): ⁠clique
-ClusterTruck (PC): ⁠ClusterTruck
-Cobalt Core (PC): ⁠Cobalt Core
+ClusterTruck (PC): ⁠inconnu
+Cobalt Core (PC): ⁠inconnu
 Conbunn Cardboard (PC): ⁠inconnu
 Content Warning (PC): ⁠inconnu
-Corn Kidz 64 (PC): ⁠inconnu
+Corn Kidz 64 (PC): ⁠Corn Kidz 64
 Crash Bash (PSX): ⁠Crash Bash
 Crash Team Racing (PSX): ⁠Crash Team Racing (1999; PSX)
 Crazy Taxi (GC): ⁠inconnu
 CrossCode (PC): ⁠CrossCode
-Crosswords (PC): ⁠Crosswords 
+Crosswords (PC): ⁠inconnu 
 Crypt of the NecroDancer (PC): ⁠Crypt of the NecroDancer
 Crystal Project (PC): ⁠Crystal Project
 Crystalis (NES): ⁠Crystalis [NES]
@@ -98,7 +100,7 @@ Devil May Cry 3 (PC): ⁠Devil May Cry 3: Dante's Awaken…
 Dicey Dungeons (PC): ⁠Dicey Dungeons
 Diddy Kong Racing (N64): ⁠Diddy Kong Racing (N64)
 Die in the Dungeon (PC): ⁠Die  in the Dungeon
-Digimon World (PSX): ⁠inconnu
+Digimon World (PSX): ⁠Digimon World 1
 DLC Quest (PC): ⁠dlc-quest
 Dome Keeper (PC): ⁠Dome Keeper
 Don't Starve Together (PC): ⁠Don't Starve Together
@@ -110,54 +112,54 @@ Donkey Kong Country Returns (Wii): ⁠Donkey Kong Country Returns
 DOOM 1993 (PC): ⁠doom-1993
 DOOM II (PC): ⁠doom-ii
 Door to Door Door Salesman (PC): ⁠inconnu
-DORONKO WANKO (PC): ⁠inconnu 
-Dracomino (PC): ⁠inconnu 
+DORONKO WANKO (PC): ⁠DORONKO WANKO 
+Dracomino (PC): ⁠Dracomino 
 Dragon Warrior 1 (NES): ⁠inconnu
 Dragon Quest IX: Sentinels of the Starry Skies (DS): ⁠Dragon Quest IX: Sentinels of t… 
 DREDGE (PC): ⁠DREDGE 
 Duke Nukem 3D: Atomic Edition (PC): ⁠inconnu 
 Dungeon Clawler (PC): ⁠inconnu 
 EarthBound (SNES): ⁠earthbound
-Empire Earth: The Art of Conquest (PC): ⁠Empire Earth (and Art of Conque…
+Empire Earth: The Art of Conquest (PC): ⁠inconnu
 Ender Lilies: Quietus of the Knights + Ender Magnolia: Bloom in the Mist (PC): ⁠Ender Lilies: Quietus of the Kn…
 Everhood 2 (PC): ⁠Everhood 2
-Etrian Odyssey (DS): ⁠Etrian Odyssey (DS) 
+Etrian Odyssey (DS): ⁠inconnu 
 Games F-Ha
 
 Factorio (PC): ⁠factorio
-Factorio Space Age Without Space (PC): ⁠inconnu
+Factorio Space Age Without Space (PC): ⁠Factorio: Space Age Without Spa…
 Fakutori (PC): ⁠inconnu
 Faxanadu (NES): ⁠faxanadu
-Feeding Frenzy 2: Shipwreck Showdown (PC): ⁠Feeding Frenzy 2: Shipwreck Sho…
+Feeding Frenzy 2: Shipwreck Showdown (PC): ⁠inconnu
 Final Fantasy (NES): ⁠final-fantasy-1
 Final Fantasy IV (SNES): ⁠Final Fantasy 4 Free Enterprise
 Final Fantasy VI (SNES): ⁠Final Fantasy 6 Worlds Collide
 Final Fantasy X HD Remaster (PC): ⁠Final Fantasy X HD Remaster
 Final Fantasy XII: Open World (PC): ⁠Final Fantasy XII Open World
-Final Fantasy XII: Trial Mode (PC): ⁠inconnu
+Final Fantasy XII: Trial Mode (PC): ⁠Final Fantasy XII Trial Mode
 Final Fantasy Mystic Quest (SNES): ⁠final-fantasy-mystic-quest
 Final Fantasy Pixel Remaster (PC): ⁠Final Fantasy Pixel Remaster
 Final Fantasy Tactics Advance (GBA): ⁠Final Fantasy Tactics Advance
 Final Fantasy Tactics: Ivalice Island (PS1): ⁠Final Fantasy Tactics: Ivalice…
-Final Fantasy Tactics A2: Grimoire of the Rift (DS): ⁠inconnu
+Final Fantasy Tactics A2: Grimoire of the Rift (DS): ⁠Final Fantasy Tactics A2: Grimo…
 Fire Emblem: The Sacred Stones (GBA): ⁠fire-emblem-sacred-stones
 FNAF Ultimate Custom Night (PC): ⁠FNAF Ultimate Custom Night
 FNAF World (PC): ⁠fnaf-world 
 Freddy Fazbear's Pizzeria Simulator (PC): ⁠Freddy Fazbear's Pizzeria Simul…
-Freedom Planet 2 (PC): ⁠inconnu
+Freedom Planet 2 (PC): ⁠Freedom Planet 2
 Friday Night Funkin' (PC): ⁠Friday Night Funkin'
 Frogmonster (PC): ⁠inconnu
 Funi Raccoon Game (PC): ⁠Funi Raccoon Game
-Garfield Kart - Furious Racing (PC): ⁠Garfield Kart - Furious Racing
+Garfield Kart - Furious Racing (PC): ⁠inconnu
 Gato Roboto (PC): ⁠Gato Roboto
 Gato Roboto B-Side (PC): ⁠Gato Roboto B-Side
 Gauntlet Legends (N64): ⁠Gauntlet Legends (N64)
 Gemcraft: Frostborn Wrath (PC): ⁠Gemcraft: Frostborn Wrath
 Getting Over It with Bennett Foddy (PC): ⁠inconnu
-GLYPHS (PC): ⁠inconnu
+GLYPHS (PC): ⁠GLYPHS
 Gnosia (PC): ⁠Gnosia
-Golden Sun: The Lost Age (GBA): ⁠inconnu
-Goldeneye 007 (N64): ⁠Goldeneye 007
+Golden Sun: The Lost Age (GBA): ⁠Golden Sun: The Lost Age
+Goldeneye 007 (N64): ⁠inconnu
 Grim Dawn (PC): ⁠Grim Dawn
 Guild Wars 2 (PC): ⁠inconnu
 gzDoom (PC): ⁠UZDoom & GZDoom
@@ -165,13 +167,13 @@ Hacknet (PC): ⁠Hacknet
 Hades (PC): ⁠hades
 Half-Life (Sven Backport) (PC): ⁠Half-Life (Sven Backport)
 Half-Life Multiplayer (Sven Co-op) (PC): ⁠Sven Co-op (Half-Life Multiplay…
-Hammerwatch (PC): ⁠Hammerwatch
+Hammerwatch (PC): ⁠inconnu
 Harry Potter and the Chamber of Secrets (PC): ⁠Harry Potter and the Chamber of…
 HASTE: Broken Worlds (PC): ⁠HASTE: Broken Worlds
 Hatsune Miku: Project Diva Mega Mix+ (PC): ⁠Hatsune Miku: Project Diva Mega… 
 Games He-K
 
-Hello Kitty: Roller Rescue (GC): ⁠inconnu
+Hello Kitty: Roller Rescue (GC): ⁠Hello Kitty: Roller Rescue (GCN…
 Here Comes Niko! (PC): ⁠Here Comes Niko!
 Heretic (PC): ⁠heretic
 Hero Core (PC): ⁠inconnu
@@ -186,16 +188,16 @@ Hylics 2 (PC): ⁠hylics2
 Hyperrogue (PC): ⁠Hyperrogue ("New")
 Iji (PC): ⁠inconnu
 Inscryption (PC): ⁠inscryption
-Into the Breach (PC): ⁠Into the Breach
+Into the Breach (PC): ⁠inconnu
 Isles of Sea and Sky (PC): ⁠Isles of Sea and Sky
-Isles of Trials (PICO-8): ⁠Isles of Trials [PICO-8]
+Isles of Trials (PICO-8): ⁠inconnu
 Ittle Dew 2+ (PC): ⁠inconnu
 Jak and Daxter: The Precursor Legacy (PS2): ⁠jak-and-daxter
 Jak 2 (PC): ⁠Jak II
 Jak 3 (PC): ⁠Jak 3
 Jet Island (VR): ⁠inconnu
 Jigsaw (Web): ⁠jigsaw
-Johnny Upgrade (PC): ⁠Johnny Upgrade
+Johnny Upgrade (PC): ⁠inconnu
 JS Paint (PC): ⁠paint
 Jump King Quest (PC): ⁠Jump King Quest
 K-On! After School Live!! (PSP): ⁠K-On! After School Live!! (PSP)
@@ -218,21 +220,21 @@ Landstalker - The Treasures of King Nole (GEN): ⁠landstalker
 Laika: Aged Through Blood (PC): ⁠Laika: Aged Through Blood
 League of Legends (PC): ⁠League of Legends
 Legend of Dragoon (PSX): ⁠Legend of Dragoon
-Lego Batman: The Video Game (PC): ⁠inconnu
+Lego Batman: The Video Game (PC): ⁠Lego Batman: The Video Game
 Lego Harry Potter 5-7 (PC): ⁠Lego Harry Potter 5-7
-Lego Rock Raiders / Manic Miners (PC): ⁠LEGO Rock Raiders / Manic Miners
+Lego Rock Raiders / Manic Miners (PC): ⁠inconnu
 Lego Star Wars: The Complete Saga (PC): ⁠lego-star-wars-the-complete-saga
 Lethal Company (PC): ⁠lethal-company
 Lil Gator Game (PC): ⁠inconnu
 Lingo (PC): ⁠lingo
 Lingo 2 (PC): ⁠Lingo 2
-Little Witch Nobeta (PC): ⁠Little Witch Nobeta
+Little Witch Nobeta (PC): ⁠inconnu
 Loonyland: Halloween Hill (PC/Web): ⁠inconnu
 Lufia II: Rise of the Sinistrals (SNES): ⁠lufia2-ancient-cave
 Luigi's Mansion (GC): ⁠luigis-mansion
 Lunacid (PC): ⁠Lunacid
 Mario & Luigi: Superstar Saga (GBA): ⁠mario-and-luigi-superstar-saga
-Mario is Missing! (SNES): ⁠Mario is Missing (SNES)
+Mario is Missing! (SNES): ⁠inconnu
 Mario Kart 64 (N64): ⁠Mario Kart 64
 Mario Kart: Double Dash (GC): ⁠mario-kart-double-dash
 Mario Kart Wii (Wii): ⁠Mario Kart Wii
@@ -255,7 +257,7 @@ Metroid Prime (GC): ⁠metroid-prime
 Games Mi-Pl
 
 Mina the Hollower (PC): ⁠mina-the-hollower
-Mindustry (PC): ⁠inconnu
+Mindustry (PC): ⁠Mindustry (Steam/Itch.io)
 Minecraft (PC): ⁠minecraft
 Minecraft Dig (PC): ⁠minecraft
 Minishoot' Adventures (PC): ⁠Minishoot' Adventures
@@ -274,10 +276,10 @@ Nine Sols (PC): ⁠nine-sols
 Noita (PC): ⁠noita
 Nodebuster (PC): ⁠Nodebuster
 Nonogram (Picross) (PC/Mobile): ⁠Nonograhmm (Nonogram, Picross)
-Northgard (PC): ⁠Northgard
+Northgard (PC): ⁠inconnu
 Nova Lands (PC): ⁠Nova Lands
 Old School Runescape (PC): ⁠old-school-runescape
-One Must Fall 2097 (PC): ⁠inconnu
+One Must Fall 2097 (PC): ⁠One Must Fall 2097 (OMF)
 OpenRCT2 (PC): ⁠inconnu
 OpenTTD (PC): ⁠(OpenTTD) transport tycoon
 OpenTTD CargoLock (PC): ⁠inconnu
@@ -291,18 +293,18 @@ Oxygen Not Included (PC): ⁠Oxygen Not Included: Aquatic Pl…
 Panel De Pon/Tetris Attack (SNES): ⁠Panel De Pon/Tetris Attack
 Paper Mario (N64): ⁠paper-mario-64
 Paper Mario: The Thousand Year Door (GC): ⁠paper-mario-the-thousand-year-d…
-Parkitect (PC): ⁠inconnu
+Parkitect (PC): ⁠Parkitect
 Peaks of Yore (PC): ⁠Peaks of Yore
 Peggle Deluxe (PC): ⁠Peggle Deluxe
 Peggle Nights (PC): ⁠Peggle Nights
 Pikmin 1 (GC): ⁠Pikmin 1
 Pikmin 2 (GC): ⁠pikmin-2
-Pikuniku (PC): ⁠inconnu
+Pikuniku (PC): ⁠Pikuniku
 Pinball FX (PC): ⁠Pinball FX
 Pinball FX3 (PC): ⁠inconnu
 PixelDraw (PC): ⁠inconnu
 Pizza Tower (PC): ⁠Pizza Tower
-Placid Plastic Duck Simulator (PC): ⁠inconnu
+Placid Plastic Duck Simulator (PC): ⁠Placid Plastic Duck Simulator
 Plants vs Zombies: Replanted/GOTY (PC): ⁠plants-vs-zombies-goty
 Plateup! (PC): ⁠Plateup!
 Plok (SNES): ⁠inconnu 
@@ -315,7 +317,7 @@ Pokémon FireRed and LeafGreen (GBA): ⁠pokemon-firered-leafgreen
 Pokémon Emerald (GBA): ⁠pokemon-emerald
 Pokémon Black and White (DS): ⁠pokemon-black-white
 Pokémon Platinum (DS): ⁠pokemon-platinum
-Pokémon Ranger (Quest) (DS): ⁠inconnu
+Pokémon Ranger (Quest) (DS): ⁠Pokemon Ranger (Quest)
 Pokémon Trozei / Link! (DS): ⁠inconnu
 Pokémon Mystery Dungeon Explorers of Sky (DS): ⁠pokemon-mystery-dungeon-explore…
 PokéPark Wii: Pikachu's Adventure (Wii): ⁠PokePark Wii: Pikachu's Adventu…
@@ -331,7 +333,7 @@ Rabi-Ribi (PC): ⁠Rabi-Ribi
 Raft (PC): ⁠raft
 Rain World (PC): ⁠Rain World
 Ratchet & Clank (PS3): ⁠[PS3] Ratchet and Clank
-Ratchet & Clank: Going Commando (PS2): ⁠[PS2] Ratchet and Clank 2: Goin… 
+Ratchet & Clank: Going Commando (PS2): ⁠inconnu 
 Ratchet & Clank 3: Up Your Arsenal (PS2): ⁠ratchet-and-clank-3
 Rayman 2: The Great Escape (PC): ⁠Rayman 2: The Great Escape
 Refunct (PC): ⁠Refunct
@@ -339,9 +341,9 @@ R.E.P.O. (PC): ⁠repo
 Reventure (PC): ⁠Reventure
 Rift of the NecroDancer (PC): ⁠Rift of the NecroDancer
 Rift Wizard (PC): ⁠inconnu
-Risk of Rain (PC): ⁠Risk of Rain (2013)
+Risk of Rain (PC): ⁠inconnu
 Risk of Rain 2 (PC): ⁠risk-of-rain-2
-Risk of Rain Returns (PC): ⁠Risk of Rain Returns
+Risk of Rain Returns (PC): ⁠inconnu
 Riven (PC): ⁠Riven (2024)
 Rogue Legacy (PC): ⁠rogue-legacy
 Rune Factory 4 Special: ⁠Rune Factory 4 Special
@@ -361,7 +363,7 @@ Shadow the Hedgehog (GC): ⁠Shadow The Hedgehog
 Shadowgate 64 (N64): ⁠inconnu
 Shapez (PC): ⁠shapez
 Shapez 2 (PC): ⁠shapez 2
-Shellipelago (PC): ⁠inconnu
+Shellipelago (PC): ⁠Shellipelago
 Shivers (PC): ⁠shivers
 Sid Meier's Civilization V (PC): ⁠Civilization V
 Sid Meier's Civilization VI (PC): ⁠civilization-vi
@@ -379,13 +381,14 @@ Sonic the Hedgehog (GEN): ⁠Sonic the Hedgehog (1991)
 Sonic Adventure DX (PC): ⁠sonic-adventure-dx
 Sonic Adventure 2: Battle (PC): ⁠sonic-adventure-2-battle
 Sonic Battle (GBA): ⁠Sonic Battle
-Sonic Colours (DS): ⁠inconnu
+Sonic Colours (DS): ⁠Sonic Colours (DS)
 Sonic Heroes (PC): ⁠Sonic Heroes
 Sonic Riders (GC): ⁠Sonic Riders
 Sonic Rush (DS): ⁠inconnu
 Soulblazer (SNES): ⁠inconnu 
 Games Sp-Te
 
+Spark the Electric Jester 3 (PC): ⁠Spark The Electric Jester 3
 Spelunker (NES): ⁠inconnu
 Spelunky 2 (PC): ⁠Spelunky 2
 Spinball (Web): ⁠inconnu
@@ -395,13 +398,13 @@ Spyro 3 (PSX): ⁠Spyro 3
 Spyro: A Hero's Tail (GC): ⁠Spyro: A Hero's Tail (GC)
 (The Legend of) Spyro: Dawn of the Dragon (PS2): ⁠The Legend of Spyro: Dawn of th…
 Stacklands (PC): ⁠inconnu
-Star Wars: Episode I - Racer (PC): ⁠inconnu
+Star Wars: Episode I - Racer (PC): ⁠Star Wars: Episode 1 Racer
 StarCraft II (PC): ⁠starcraft-2
 Stardew Valley (PC): ⁠stardew-valley
 Starfox 64 (N64): ⁠Star Fox 64 (Now Playable on Ha…
-StarQuest 64 (PC): ⁠Star Quest 64
+StarQuest 64 (PC): ⁠inconnu
 Stick Ranger (PC): ⁠inconnu
-Streets of Rage (GEN): ⁠inconnu
+Streets of Rage (GEN): ⁠Streets of Rage
 Subnautica (PC): ⁠subnautica
 Super Cat Planet (PC): ⁠inconnu
 Super Junkoid (SNES): ⁠inconnu
@@ -412,14 +415,14 @@ Super Mario World (SNES): ⁠super-mario-world
 Super Mario World 2: Yoshi's Island (SNES): ⁠yoshis-island
 Super Mario 64 (N64/PC): ⁠super-mario-64
 Super Mario RPG (SNES): ⁠Super Mario RPG
-Super Market Simulator (PC): ⁠Super Market Simulator
+Super Market Simulator (PC): ⁠inconnu
 Super Metroid (SNES): ⁠super-metroid
 Super Metroid Map Rando (SNES): ⁠Super Metroid Map Rando
-Super Smash Bros. (N64): ⁠inconnu
+Super Smash Bros. (N64): ⁠Super Smash Bros. 64
 Super Smash Bros. Melee (GC): ⁠smash-bros-melee
 Super Smash Bros. Brawl: Subspace Emissary (Wii): ⁠ssbb-subspace-emissary
 Sweet Defeat (PC): ⁠inconnu
-System Shock 2 (PC): ⁠System Shock 2
+System Shock 2 (PC): ⁠inconnu
 Talos Principle Reawakened (PC): ⁠Talos Principle Reawakened
 Taskipelago (PC): ⁠Taskipelago/Taskipelabingo
 Taz Wanted (PS2): ⁠Taz Wanted
@@ -452,21 +455,22 @@ The Legend of Zelda: Phantom Hourglass (DS): ⁠phantom-hourglass
 The Legend of Zelda: Spirit Tracks (DS): ⁠The Legend of Zelda: Spirit Tra…
 The Legend of Zelda: A Link Between Worlds (3DS): ⁠link-between-worlds
 The Messenger (PC): ⁠messenger
+The Murder of Sonic the Hedgehog (PC): ⁠The Murder of Sonic the Hedgehog
 The Simpsons: Hit and Run (PC): ⁠simpsons-hit-and-run
 The Sims 4 (PC): ⁠The Sims 4
 The Witness (PC): ⁠witness 
 Games Thr-V
 
 Three Goblin Wobblin (PC): ⁠inconnu
-Time is Broken Again (PC): ⁠Time is broken again
+Time is Broken Again (PC): ⁠inconnu
 Timespinner (PC): ⁠timespinner
 Toejam & Earl (GEN): ⁠inconnu
 TOEM (PC): ⁠TOEM
 Tombola (PC): ⁠inconnu
-Tony Hawk's Pro Skater 1 + 2 (PC): ⁠Tony Hawk's Pro Skater 1+2
+Tony Hawk's Pro Skater 1 + 2 (PC): ⁠inconnu
 Total War Warhammer 3: Immortal Empires (PC): ⁠Total War Warhammer 3: Immortal…
 Totally Accurate Battle Simulator (PC): ⁠Totally Accurate Battle Simulat…
-Touhou 18.5 (PC): ⁠Touhou 18.5
+Touhou 18.5 (PC): ⁠inconnu
 Toy Story 2: Buzz Lightyear to the Rescue (PS1): ⁠Toy Story 2: Buzz Lightyear to…
 Trackmania Random Campaign (PC): ⁠Trackmania Random Campaign
 TUNIC (PC): ⁠tunic
@@ -480,11 +484,11 @@ Uncanny Cat Golf (PC): ⁠Uncanny Cat Golf
 Undertale (PC): ⁠undertale
 Undertale Yellow (PC): ⁠Undertale Yellow
 Unfair Flips (PC): ⁠Unfair Flips 
-Vacation Simulator (VR): ⁠inconnu
+Vacation Simulator (VR): ⁠Vacation Simulator
 Vampire Survivors (PC): ⁠vampire-survivors
 Vardrain-- (PC): ⁠inconnu
 Voltorb Flip (HGSS) (DS): ⁠inconnu
-Void Sols (PC): ⁠inconnu
+Void Sols (PC): ⁠Void Sols
 Void Stranger (PC): ⁠Void Stranger
 VVVVVV (PC): ⁠vvvvvv 
 Games W-Z
@@ -494,9 +498,9 @@ Wargroove 2 (PC): ⁠inconnu
 Wario Land: Super Mario Land 3 (GB): ⁠inconnu
 Wario Land 3 (GBC): ⁠Wario Land 3
 Wario Land 4 (GBA): ⁠Wario Land 4
-Wario World (GC): ⁠Wario World (GC)
-Watery Words (Web): ⁠Watery Words (Scrabble/Words wi…
-WEBFISHING (PC): ⁠Webfishing
+Wario World (GC): ⁠inconnu
+Watery Words (Web): ⁠inconnu
+WEBFISHING (PC): ⁠inconnu
 West of Loathing (PC): ⁠West of Loathing
 Wordipelago (Web): ⁠Wordipelago
 Wynncraft (PC): ⁠Wynncraft
@@ -506,14 +510,14 @@ Yacht Dice (Web): ⁠yacht-dice
 YARG (Yet Another Rhythm Game) (PC): ⁠YARG (Yet Another Rhythm Game)
 YARG (Guitar Hero/Rock Band) (PC): ⁠Guitar Hero/Rock Band in YARG
 Yellow Taxi Goes Vroom (PC): ⁠Yellow Taxi Goes Vroom
-(SENS) yrtnuoC gnoK yeknoD: ⁠yrtnuoC gnoK yeknoD (DKC Mirror…
-Yohane the Parhelion: Blaze in the Deepblue (PC): ⁠inconnu
+(SENS) yrtnuoC gnoK yeknoD: ⁠inconnu
+Yohane the Parhelion: Blaze in the Deepblue (PC): ⁠Yohane the Parhelion: Blaze in…
 Yoku's Island Express (PC): ⁠Yoku's Island Express
-Yooka-Laylee (PC): ⁠Yooka-Laylee
+Yooka-Laylee (PC): ⁠inconnu
 Yu-Gi-Oh! Dungeon Dice Monsters (GBA): ⁠Yu-Gi-Oh! Dungeon Dice Monsters…
 Yu-Gi-Oh! Ultimate Masters: WCT 2006 (GBA): ⁠yugioh-2006
 Yu-Gi-Oh! Forbidden Memories (PSX): ⁠Yu-Gi-Oh! Forbidden Memories (P…
-Yu-Gi-Oh GX Duel Academy (GBA): ⁠Yu-Gi-Oh! GX - Duel Academy (GB…
+Yu-Gi-Oh GX Duel Academy (GBA): ⁠inconnu
 Zillion (SMS): ⁠zillion
 Zoominoes (PC): ⁠Zoominoes
 Zork: Grand Inquisitor (PC): ⁠zork-grand-inquisitor 
