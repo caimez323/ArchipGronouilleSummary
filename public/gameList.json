@@ -256,6 +256,14 @@
     "apworld": "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/latest"
   },
   {
+    "name": "Bayonetta",
+    "icon": "🥚",
+    "setup": "https://github.com/BrandenEK/BlasII.Randomizer.Multiworld",
+    "tracker": "",
+    "info": "",
+    "apworld": ""
+  },
+  {
     "name": "Blasphemous",
     "icon": "🐢",
     "setup": "https://archipelago.gg/tutorial/Blasphemous/setup/en",
