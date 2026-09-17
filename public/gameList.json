@@ -288,6 +288,14 @@
     "apworld": "https://github.com/Matt41321/Archipelago/releases/latest"
   },
   {
+    "name": "Blue Prince",
+    "icon": "🥚",
+    "setup": "https://github.com/Yascob99/BluePrinceArchipelago#installation",
+    "tracker": "",
+    "info": "https://docs.google.com/spreadsheets/d/1mFsjqXtI9mt2Z97dLxKIeVYZobSBHiKVVkUpmdeJPtw/edit?usp=sharing",
+    "apworld": "https://github.com/BatmenzDW/Archipelago/releases/latest"
+  },
+  {
     "name": "Bomberman Quest",
     "icon": "🥚",
     "setup": "",
@@ -886,6 +894,14 @@
     "tracker": "https://github.com/pwkfisher/ap-dktoluca-tracker/releases/latest",
     "info": "",
     "apworld": "https://github.com/TheLX5/Archipelago/releases/latest"
+  },
+  {
+    "name": "Donut County",
+    "icon": "🥚",
+    "setup": "https://github.com/1e1001/DonutCountyAP/blob/main/donutcounty/docs/en_setup.md",
+    "tracker": "",
+    "info": "https://github.com/1e1001/DonutCountyAP/blob/main/donutcounty/docs/en_Donut%20County.md",
+    "apworld": "https://github.com/1e1001/DonutCountyAP/releases"
   },
   {
     "name": "Don't Starve Together",
