@@ -274,5 +274,52 @@
         "Objectif": "Battre Ghetsis"
       }
     ]
+  },
+  {
+    "id": 7,
+    "date": "2026-09-14",
+    "players": 5,
+    "games": [
+      "The Legend of Zelda : Majora's Mask",
+      "Yoku's Island Express",
+      "Hollow Knight",
+      "Inscryption",
+      "The Witness"
+    ],
+    "seed": "WOlnqMV1SBmSjzzLOBQyFg",
+    "seedUrl": "./yaml_backup/7/spoiler.txt",
+    "summary": [
+      {
+        "player": "Alexis",
+        "playerUrl": "./yaml_backup/7/Alexis.yaml",
+        "Jeu": "The Legend of Zelda : Majora's Mask",
+        "Objectif": "Fin du jeu"
+      },
+      {
+        "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/7/caimez.yaml",
+        "Jeu": "Yoku's Island Express",
+        "Objectif": "Fin du jeu"
+      },
+      {
+        "player": "Sébastien",
+        "playerUrl": "./yaml_backup/7/Ryozen.yaml",
+        "Jeu": "Hollow Knight",
+        "Objectif": "Battre le Hollow Knight"
+      },
+      {
+        "player": "Axel",
+        "playerUrl": "./yaml_backup/7/Axel.yaml",
+        "Jeu": "Inscryption",
+        "Objectif": "Acte 1/2/3 dans l'ordre + Épilogue"
+      },
+      {
+        "player": "Léo",
+        "playerUrl": "./yaml_backup/7/Laiken.yaml",
+        "Jeu": "The Witness",
+        "Objectif": "Fin du jeu"
+      }
+
+    ]
   }
 ]
