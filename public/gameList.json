@@ -2752,6 +2752,14 @@
     "apworld": "https://github.com/Automagic00/R.E.P.O.-Archipelago-Client-Mod/releases"
   },
   {
+    "name": "Resident Evil 2",
+    "icon": "🥚",
+    "setup": "https://fuzzygameson.github.io/RE2R_AP_SetupGuide/",
+    "tracker": "https://github.com/RopeyRed/RE2R-Poptracker-Pack",
+    "info": "https://discord.com/channels/1085716850370957462/1259648589039272028/1259660883832078388",
+    "apworld": "https://github.com/FuzzyGamesOn/RE2R_AP_World/releases/"
+  },
+  {
     "name": "Return of the Obra Dinn",
     "icon": "🥚",
     "setup": "https://gitlab.com/obra-dinn-archipelago/mod",
