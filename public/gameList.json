@@ -608,6 +608,14 @@
     "apworld": "https://github.com/Isaac-SOL/CobaltCoreArchipelagoMod/releases/"
   },
   {
+    "name": "Codename : Kids Next Door - Operation V.I.D.E.O.G.A.M.E.",
+    "icon": "👻",
+    "setup": "https://github.com/themasterzuku-debug/knd_apworld/blob/knd-ap-v2-release/Setup_Guide.md",
+    "tracker": "",
+    "info": "",
+    "apworld": "https://github.com/themasterzuku-debug/knd_apworld/releases/"
+  },
+  {
     "name": "Conbunn Cardboard",
     "icon": "👻",
     "setup": "https://github.com/SWCreeperKing/Conbunnipelago/blob/master/Readme.md",
