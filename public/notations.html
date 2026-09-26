@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notations — Game Dashboard</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,800&f[]=satoshi@400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./resources/favicon.png" type="image/svg+xml" />
+  <style>
+    .note-summary {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .note-summary .star-rating-display {
+      font-size: 1.1rem;
+    }
+
+    .note-summary .note-avg {
+      font-weight: 600;
+      color: var(--tx);
+    }
+
+    .note-summary .note-count {
+      font-size: var(--text-sm);
+      color: var(--tx-muted);
+    }
+
+    .game-section + .game-section { margin-top: var(--sp-5); }
+
+    .game-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--sp-3);
+      flex-wrap: wrap;
+      margin-bottom: var(--sp-3);
+    }
+
+    .game-section-header h2 {
+      font-size: var(--text-lg);
+      font-weight: 700;
+      color: var(--tx);
+    }
+
+    .comment-cell {
+      color: var(--tx-muted);
+      max-width: 420px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="./index.html" class="nav-logo">
+        <img src="./resources/logo.svg" width="20" height="20" alt="GronouilleTracker" />
+        GronouilleTracker
+      </a>
+      <nav aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="./index.html">Jeux</a></li>
+          <li><a href="./history.html">Historique</a></li>
+          <li><a href="./notations.html" class="active">Notations</a></li>
+          <li><a href="./todoliste.html">Todo liste</a></li>
+          <li><a href="./guide.html">Guide</a></li>
+        </ul>
+      </nav>
+      <button class="theme-btn" data-theme-toggle aria-label="Basculer le thème"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <div>
+        <h1>Notations</h1>
+        <p>Retrouvez les notes et avis laissés dans l'historique, par jeu.</p>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="search-wrap">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input class="search-input" type="search" id="jeu-search"
+               placeholder="Rechercher un jeu…" aria-label="Rechercher un jeu" />
+      </div>
+      <datalist id="game-options"></datalist>
+    </div>
+
+    <div id="results"></div>
+  </main>
+
+  <footer><p>GronouilleTracker &mdash; <span id="yr"></span></p></footer>
+
+  <script src="./notes-utils.js"></script>
+  <script>
+    let HISTORY = [];
+    let REVIEWS = [];
+    let GAMES = [];
+    let STATS = new Map();
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function fmt(dateStr) {
+      return new Date(dateStr + 'T00:00:00').toLocaleDateString('fr-FR', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric'
+      });
+    }
+
+    async function fetchJsonSafe(url) {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return await res.json();
+      } catch (err) {
+        console.error(`Impossible de charger ${url} :`, err);
+        return [];
+      }
+    }
+
+    function allKnownGameNames() {
+      const names = new Set(STATS.keys());
+      GAMES.forEach(g => names.add(g.name));
+      return [...names].sort((a, b) => a.localeCompare(b, 'fr'));
+    }
+
+    function buildGameOptions() {
+      const datalist = document.getElementById('game-options');
+      datalist.innerHTML = allKnownGameNames()
+        .map(name => `<option value="${escapeHtml(name)}"></option>`)
+        .join('');
+    }
+
+    function iconFor(name) {
+      const g = GAMES.find(g => g.name === name);
+      return g && g.icon ? `${g.icon} ` : '';
+    }
+
+    function renderGameSection(name) {
+      const stat = STATS.get(name) || { count: 0, avg: 0, entries: [] };
+      const entries = [...stat.entries].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+      const summaryHtml = stat.count
+        ? `
+          ${ntStarsHtml(stat.avg)}
+          <span class="note-avg">${stat.avg.toFixed(2)} / 5</span>
+          <span class="note-count">${stat.count} avis</span>
+        `
+        : `<span class="note-count">Pas encore noté</span>`;
+
+      const rowsHtml = entries.length
+        ? entries.map(e => `
+            <tr>
+              <td>
+                <a class="player-link" href="./history.html?session=${e.sessionId}">${fmt(e.date)}</a>
+              </td>
+              <td style="font-weight:600">
+                ${e.playerUrl
+                  ? `<a class="player-link" href="${escapeHtml(e.playerUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(e.player)}</a>`
+                  : escapeHtml(e.player)}
+              </td>
+              <td>${escapeHtml(e.objectif || '—')}</td>
+              <td>${e.rating ? ntStarsHtml(e.rating) : `<span style="color:var(--tx-faint)">—</span>`}</td>
+              <td class="comment-cell">${e.comment ? escapeHtml(e.comment) : '—'}</td>
+            </tr>
+          `).join('')
+        : `<tr><td colspan="5"><div class="empty"><p>Aucune session enregistrée pour ce jeu pour le moment.</p></div></td></tr>`;
+
+      return `
+        <div class="card game-section">
+          <div class="game-section-header">
+            <h2>${iconFor(name)}${escapeHtml(name)}</h2>
+            <div class="note-summary">${summaryHtml}</div>
+          </div>
+          <table class="game-table" aria-label="Notes pour ${escapeHtml(name)}">
+            <thead>
+              <tr>
+                <th>Session</th>
+                <th>Joueur</th>
+                <th>Objectif</th>
+                <th style="width:90px">Note</th>
+                <th>Commentaire</th>
+              </tr>
+            </thead>
+            <tbody>${rowsHtml}</tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function applySearch() {
+      const raw = document.getElementById('jeu-search').value.trim();
+      const resultsEl = document.getElementById('results');
+
+      if (!raw) {
+        resultsEl.innerHTML = `
+          <div class="card">
+            <div class="empty">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+              </svg>
+              <h3>Tapez le nom d'un jeu</h3>
+              <p>Ou cliquez sur une note depuis la page Jeux pour arriver directement ici.</p>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      const q = raw.toLowerCase();
+      const matched = allKnownGameNames()
+        .filter(name => name.toLowerCase().includes(q))
+        .sort((a, b) => {
+          const aExact = a.toLowerCase() === q ? 0 : 1;
+          const bExact = b.toLowerCase() === q ? 0 : 1;
+          return aExact - bExact || a.localeCompare(b, 'fr');
+        });
+
+      if (!matched.length) {
+        resultsEl.innerHTML = `
+          <div class="card">
+            <div class="empty">
+              <h3>Aucun jeu trouvé</h3>
+              <p>Aucun jeu ne correspond à « ${escapeHtml(raw)} ».</p>
+            </div>
+          </div>
+        `;
+        return;
+      }
+
+      resultsEl.innerHTML = matched.map(renderGameSection).join('');
+    }
+
+    document.getElementById('jeu-search').addEventListener('input', applySearch);
+
+    async function init() {
+      document.getElementById('yr').textContent = new Date().getFullYear();
+
+      const [history, reviews, gamesList] = await Promise.all([
+        fetchJsonSafe('./history.json'),
+        fetchJsonSafe('/reviews'),
+        fetchJsonSafe('./gameList.json')
+      ]);
+
+      HISTORY = history || [];
+      REVIEWS = reviews || [];
+      GAMES = gamesList || [];
+      STATS = ntBuildGameStats(HISTORY, REVIEWS);
+
+      buildGameOptions();
+
+      const params = new URLSearchParams(window.location.search);
+      const jeu = params.get('jeu');
+      if (jeu) {
+        document.getElementById('jeu-search').value = jeu;
+      }
+      applySearch();
+    }
+
+    init();
+
+    (function(){
+      const btn = document.querySelector('[data-theme-toggle]');
+      const root = document.documentElement;
+      let theme = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+      root.setAttribute('data-theme', theme);
+      const moon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`;
+      const sun = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>`;
+      const upd = () => btn.innerHTML = theme === 'dark' ? sun : moon;
+      upd();
+      btn.addEventListener('click', () => {
+        theme = theme === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', theme);
+        upd();
+      });
+    })();
+  </script>
+</body>
+</html>

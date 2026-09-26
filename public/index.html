@@ -116,6 +116,52 @@
 
     .toast.is-visible { opacity: 1; transform: translateY(0); }
     .toast.is-error { background: var(--err); color: #fff; }
+
+    .note-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      color: var(--tx);
+      white-space: nowrap;
+    }
+
+    .note-count {
+      font-size: var(--text-xs);
+      color: var(--tx-muted);
+    }
+
+    .note-link:hover .note-count { color: var(--accent); }
+
+    .note-link-empty {
+      font-size: var(--text-xs);
+      color: var(--tx-faint);
+    }
+
+    .note-link-empty:hover { color: var(--accent); }
+    
+    #games-table th:nth-child(1),
+    #games-table td:nth-child(1) { width: auto; }
+
+    #games-table th:nth-child(2),
+    #games-table td:nth-child(2) { width: 400px; white-space: nowrap; }
+
+    #games-table th:nth-child(3),
+    #games-table td:nth-child(3) { width: 150px; white-space: nowrap; }
+
+    #games-table .link-chips { flex-wrap: nowrap; }
+
+    @media (max-width: 900px) {
+      #games-table th:nth-child(2),
+      #games-table td:nth-child(2),
+      #games-table th:nth-child(3),
+      #games-table td:nth-child(3) {
+        width: auto;
+        white-space: normal;
+      }
+
+      #games-table .link-chips { flex-wrap: wrap; }
+    }
   </style>
 </head>
 <body>
@@ -130,6 +176,7 @@
         <ul class="nav-links">
           <li><a href="./index.html" class="active">Jeux</a></li>
           <li><a href="./history.html">Historique</a></li>
+          <li><a href="./notations.html">Notations</a></li>
           <li><a href="./todoliste.html">Todo liste</a></li>
           <li><a href="./guide.html">Guide</a></li>
         </ul>
@@ -172,11 +219,12 @@
   </div>
 
     <div class="card">
-      <table class="game-table" aria-label="Liste des jeux">
+      <table class="game-table" id="games-table" aria-label="Liste des jeux">
         <thead>
           <tr>
             <th>Jeu</th>
             <th>Liens</th>
+            <th>Note</th>
           </tr>
         </thead>
         <tbody id="game-list"></tbody>
@@ -199,11 +247,13 @@
 
   <div class="toast" id="toast"></div>
 
+<script src="./notes-utils.js"></script>
 <script>
 let games = [];
 let searchActive = false;
 let PLAYERS = [];
 let modalGame = null;
+let GAME_STATS = new Map();
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -285,15 +335,29 @@ async function loadGames() {
     const response = await fetch('./gameList.json');
     if (!response.ok) throw new Error('Failed to load game list');
     games = await response.json();
-    applyFilters();
   } catch (err) {
-    document.getElementById('game-list').innerHTML = `<tr><td colspan="2">
+    document.getElementById('game-list').innerHTML = `<tr><td colspan="3">
       <div class="empty">
         <h3>Impossible de charger la liste des jeux</h3>
         <p>Vérifiez la connexion ou réessayez plus tard.</p>
       </div>
     </td></tr>`;
     console.error(err);
+  }
+}
+
+async function loadNotes() {
+  try {
+    const [historyRes, reviewsRes] = await Promise.all([
+      fetch('./history.json'),
+      fetch('/reviews')
+    ]);
+    const history = historyRes.ok ? await historyRes.json() : [];
+    const reviews = reviewsRes.ok ? await reviewsRes.json() : [];
+    GAME_STATS = ntBuildGameStats(history, reviews);
+  } catch (err) {
+    console.error('Impossible de charger les notes :', err);
+    GAME_STATS = new Map();
   }
 }
 
@@ -325,10 +389,21 @@ function applyFilters() {
   render(list);
 }
 
+function noteCell(g) {
+  const stat = GAME_STATS.get(g.name);
+  const url = `./notations.html?jeu=${encodeURIComponent(g.name)}`;
+
+  if (!stat || !stat.count) {
+    return `<a class="note-link note-link-empty" href="${url}">Pas encore noté</a>`;
+  }
+
+  return `<a class="note-link" href="${url}" title="${stat.avg.toFixed(2)} / 5 · ${stat.count} avis">${ntStarsHtml(stat.avg)}<span class="note-count">${stat.avg.toFixed(1)} (${stat.count})</span></a>`;
+}
+
 function render(list) {
   const tb = document.getElementById('game-list');
   if (!list.length) {
-    tb.innerHTML = `<tr><td colspan="2">
+    tb.innerHTML = `<tr><td colspan="3">
       <div class="empty">
         <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
           <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
@@ -356,6 +431,7 @@ function render(list) {
           <button type="button" class="todo-add-btn" title="Ajouter à la todo liste" aria-label="Ajouter ${escapeHtml(g.name)} à la todo liste" data-game="${escapeHtml(g.name)}">+</button>
         </div>
       </td>
+      <td>${noteCell(g)}</td>
     </tr>`).join('');
 
   tb.querySelectorAll('.todo-add-btn').forEach(btn => {
@@ -368,7 +444,7 @@ document.getElementById('filter-chips').addEventListener('change', applyFilters)
 
 document.getElementById('yr').textContent = new Date().getFullYear();
 loadPlayers();
-loadGames();
+Promise.all([loadGames(), loadNotes()]).then(applyFilters);
 
 // Theme toggle
 (function(){

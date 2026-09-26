@@ -4,12 +4,12 @@
     "date": "2026-05-14",
     "players": 6,
     "games": [
-      "Dark Souls Remastered",
-      "Jak and Daxter: The Precursor Legacy",
+      "Dark Souls : Remastered",
+      "Jak and Daxter : The Precursor Legacy",
       "Celeste (Open World)",
       "Ori and the Blind Forest",
       "Hollow Knight",
-      "A Link Between Worlds"
+      "The Legend of Zelda : A Link Between Worlds"
     ],
     "seed": "KfsLb8a-Q-KKYYLH0IjioA",
     "seedUrl": "./yaml_backup/1/spoileer.txt",
@@ -17,13 +17,13 @@
       {
         "player": "Lucas",
         "playerUrl": "./yaml_backup/1/Lutrion.yaml",
-        "Jeu": "Dark Souls Remastered",
+        "Jeu": "Dark Souls : Remastered",
         "Objectif": "Gwyn, Lord of Cinder"
       },
       {
         "player": "Alexis",
         "playerUrl": "./yaml_backup/1/Alexis.yaml",
-        "Jeu": "Jak and Daxter: The Precursor Legacy",
+        "Jeu": "Jak and Daxter : The Precursor Legacy",
         "Objectif": "Fin du jeu"
       },
       {
@@ -47,7 +47,7 @@
       {
         "player": "Clément (caimez)",
         "playerUrl": "./yaml_backup/1/caimez.yaml",
-        "Jeu": "A Link Between Worlds",
+        "Jeu": "The Legend of Zelda : A Link Between Worlds",
         "Objectif": "Fin du jeu"
       }
     ]
@@ -59,7 +59,7 @@
     "games": [
       "Celeste (Open World)",
       "Subnautica",
-      "Hadès",
+      "Hades",
       "TUNIC",
       "Minecraft"
     ],
@@ -81,7 +81,7 @@
       {
         "player": "Sébastien",
         "playerUrl": "./yaml_backup/2/Ryozen.yaml",
-        "Jeu": "Hadès",
+        "Jeu": "Hades",
         "Objectif": "Hadès avec chaque armes"
       },
       {
@@ -106,8 +106,8 @@
       "The Legend of Zelda",
       "Celeste (Open World)",
       "Outer Wilds",
-      "Darks Souls Remastered",
-      "Hadès",
+      "Dark Souls : Remastered",
+      "Hades",
       "Balatro",
       "Ori and the Will of the Wisps"
     ],
@@ -135,13 +135,13 @@
       {
         "player": "Lucas",
         "playerUrl": "./yaml_backup/3/Lutrion.yaml",
-        "Jeu": "Dark Souls Remastered",
+        "Jeu": "Dark Souls : Remastered",
         "Objectif": "Fin du jeu"
       },
       {
         "player": "Léo",
         "playerUrl": "./yaml_backup/3/Noixdelekan.yaml",
-        "Jeu": "Hadès",
+        "Jeu": "Hades",
         "Objectif": "5 Hadès"
       },
       {
@@ -163,9 +163,9 @@
     "date": "2026-07-25",
     "players": 5,
     "games": [
-      "A Link to the Past",
+      "The Legend of Zelda : A Link to the Past",
       "Ori and the Will of the Wisps",
-      "The Binding of Isaac Repentance",
+      "The Binding of Isaac : Repentance",
       "Celeste (Open World)",
       "Resident Evil 2 Remake"
     ],
@@ -175,7 +175,7 @@
       {
         "player": "Alexis",
         "playerUrl": "./yaml_backup/4/Alexis.yaml",
-        "Jeu": "A Link to the Past",
+        "Jeu": "The Legend of Zelda : A Link to the Past",
         "Objectif": "Fin du jeu"
       },
       {
@@ -187,7 +187,7 @@
       {
         "player": "Clément (caimez)",
         "playerUrl": "./yaml_backup/4/caimez.yaml",
-        "Jeu": "The Binding of Isaac Repentance",
+        "Jeu": "The Binding of Isaac : Repentance",
         "Objectif": "Tout les boss avec persos spécifiques"
       },
       {
@@ -209,10 +209,10 @@
     "date": "2026-07-31",
     "players": 5,
     "games": [
-      "Links Awakening DX",
-      "shapez.io",
+      "The Legend of Zelda : Link's Awakening DX",
+      "Shapez",
       "Outer Wilds",
-      "Dark Souls Remastered"
+      "Dark Souls : Remastered"
     ],
     "seed": "DMnewHtsSPSrOgHzaCsGsw",
     "seedUrl": "./yaml_backup/5/spoiler.txt",
@@ -220,13 +220,13 @@
       {
         "player": "Alexis",
         "playerUrl": "./yaml_backup/5/Alexis.yaml",
-        "Jeu": "Links Awakening DX",
+        "Jeu": "The Legend of Zelda : Link's Awakening DX",
         "Objectif": "Fin du jeu"
       },
       {
         "player": "Clément (caimez)",
         "playerUrl": "./yaml_backup/5/caimez.yaml",
-        "Jeu": "shapez.io",
+        "Jeu": "Shapez",
         "Objectif": "Niveau 50"
       },
       {
@@ -238,7 +238,7 @@
       {
         "player": "Lucas",
         "playerUrl": "./yaml_backup/5/Lutrion.yaml",
-        "Jeu": "Dark Souls Remastered",
+        "Jeu": "Dark Souls : Remastered",
         "Objectif": "All bosses randomized"
       }
     ]
@@ -319,7 +319,6 @@
         "Jeu": "The Witness",
         "Objectif": "Fin du jeu"
       }
-
     ]
   }
 ]

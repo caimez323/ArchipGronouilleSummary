@@ -345,6 +345,25 @@ footer {
   .page-header { flex-direction: column; align-items: flex-start; }
 }
 
+/* ── Étoiles (notations) ──────────────────────────────────── */
+.star-rating-display {
+  position: relative;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.star-rating-display .star-bg { color: var(--tx-faint); }
+.star-rating-display .star-fg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: #f5b301;
+  white-space: nowrap;
+}
+
 /* ── Flat DL (remplace les KPI cards arrondies) ──────────── */
 .flat-dl { display: flex; flex-direction: column; }
 .flat-dl-row {
