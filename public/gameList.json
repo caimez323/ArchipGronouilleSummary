@@ -1361,7 +1361,7 @@
   },
   {
     "name": "Hacknet",
-    "icon": "👻",
+    "icon": "👻", 
     "setup": "https://github.com/AutumnRivers/HacknetAP#installation",
     "tracker": "",
     "info": "",
@@ -1378,10 +1378,10 @@
   {
     "name": "Hades 2",
     "icon": "🥚",
-    "setup": "",
+    "setup": "https://github.com/BrittisH39/Hades2Archipelago",
     "tracker": "",
     "info": "",
-    "apworld": ""
+    "apworld": "https://github.com/BrittisH39/Hades2Archipelago/releases/"
   },
   {
     "name": "Half-Life (Sven Backport)",
