@@ -56,18 +56,26 @@
     .todo-item {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: var(--sp-3);
+      gap: var(--sp-2);
       padding: var(--sp-2) var(--sp-4);
       font-size: var(--text-sm);
     }
 
     .todo-item:hover { background: oklch(from var(--accent) l c h / .04); }
 
+    .todo-item.is-dragging { opacity: .35; }
+
+    .todo-item.is-drag-over {
+      background: oklch(from var(--accent) l c h / .08);
+      outline: 2px dashed oklch(from var(--accent) l c h / .35);
+      outline-offset: -2px;
+    }
+
     .todo-item-name {
       color: var(--tx);
       min-width: 0;
       overflow-wrap: anywhere;
+      flex: 1;
     }
 
     .todo-item-name .todo-player {
@@ -75,6 +83,12 @@
       font-weight: 600;
     }
 
+    .todo-item-actions {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      flex-shrink: 0;
+    }
     .todo-remove-btn {
       flex-shrink: 0;
       width: 24px;
@@ -225,6 +239,45 @@ async function loadTodos() {
   }
 }
 
+function getPlayerItems(player) {
+  return TODOS
+    .filter(t => t.player.toLowerCase() === player.toLowerCase())
+    .sort((a, b) => (a.position ?? a.id) - (b.position ?? b.id) || a.id - b.id);
+}
+
+async function persistOrder(player, orderedIds) {
+  // Mise à jour optimiste locale, puis sauvegarde côté serveur.
+  orderedIds.forEach((id, i) => {
+    const t = TODOS.find(t => t.id === id);
+    if (t) t.position = i + 1;
+  });
+  render();
+
+  try {
+    await fetchJsonSafe('/todos/reorder', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ order: orderedIds })
+    });
+  } catch (err) {
+    showToast(err.message || "Erreur lors de la réorganisation, on annule.", true);
+    await loadTodos();
+    render();
+  }
+}
+
+function moveTodo(player, id, direction) {
+  const items = getPlayerItems(player);
+  const idx = items.findIndex(t => t.id === id);
+  if (idx === -1) return;
+
+  const swapIdx = direction === 'up' ? idx - 1 : idx + 1;
+  if (swapIdx < 0 || swapIdx >= items.length) return;
+
+  [items[idx], items[swapIdx]] = [items[swapIdx], items[idx]];
+  persistOrder(player, items.map(t => t.id));
+}
+
 async function removeTodo(id) {
   try {
     await fetchJsonSafe(`/todos/${id}`, { method: 'DELETE' });
@@ -234,6 +287,58 @@ async function removeTodo(id) {
   } catch (err) {
     showToast(err.message || 'Erreur lors de la suppression.', true);
   }
+}
+
+let dragState = null;
+
+function attachItemEvents(container) {
+  container.querySelectorAll('.todo-remove-btn').forEach(btn => {
+    btn.addEventListener('click', () => removeTodo(Number(btn.dataset.id)));
+  });
+
+  container.querySelectorAll('.todo-item').forEach(li => {
+    li.addEventListener('dragstart', (e) => {
+      dragState = { id: Number(li.dataset.id), player: li.dataset.player };
+      li.classList.add('is-dragging');
+      e.dataTransfer.effectAllowed = 'move';
+      e.dataTransfer.setData('text/plain', li.dataset.id);
+    });
+
+    li.addEventListener('dragend', () => {
+      li.classList.remove('is-dragging');
+      container.querySelectorAll('.todo-item.is-drag-over').forEach(el => el.classList.remove('is-drag-over'));
+      dragState = null;
+    });
+
+    li.addEventListener('dragover', (e) => {
+      if (!dragState || dragState.player.toLowerCase() !== li.dataset.player.toLowerCase()) return;
+      e.preventDefault();
+      li.classList.add('is-drag-over');
+    });
+
+    li.addEventListener('dragleave', () => li.classList.remove('is-drag-over'));
+
+    li.addEventListener('drop', (e) => {
+      e.preventDefault();
+      li.classList.remove('is-drag-over');
+      if (!dragState) return;
+
+      const player = li.dataset.player;
+      if (dragState.player.toLowerCase() !== player.toLowerCase()) return;
+
+      const targetId = Number(li.dataset.id);
+      if (targetId === dragState.id) return;
+
+      const items = getPlayerItems(player);
+      const fromIdx = items.findIndex(t => t.id === dragState.id);
+      const toIdx = items.findIndex(t => t.id === targetId);
+      if (fromIdx === -1 || toIdx === -1) return;
+
+      const [moved] = items.splice(fromIdx, 1);
+      items.splice(toIdx, 0, moved);
+      persistOrder(player, items.map(t => t.id));
+    });
+  });
 }
 
 function render() {
@@ -269,7 +374,7 @@ function render() {
 
   container.innerHTML = `<div class="todo-grid">
     ${knownPlayers.map(player => {
-      const items = TODOS.filter(t => t.player.toLowerCase() === player.toLowerCase());
+      const items = getPlayerItems(player);
       return `
         <div class="todo-card">
           <div class="todo-card-header">
@@ -278,14 +383,16 @@ function render() {
           </div>
           ${items.length ? `
             <ul class="todo-list">
-              ${items.map(t => `
-                <li class="todo-item">
+              ${items.map((t, i) => `
+                <li class="todo-item" draggable="true" data-id="${t.id}" data-player="${escapeHtml(player)}">
                   <span class="todo-item-name"><span class="todo-player">${escapeHtml(t.player)}:</span> ${escapeHtml(t.game)}</span>
-                  <button class="todo-remove-btn" title="Retirer" aria-label="Retirer ${escapeHtml(t.game)} de la liste de ${escapeHtml(t.player)}" data-id="${t.id}">
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-                      <path d="M18 6 6 18M6 6l12 12"/>
-                    </svg>
-                  </button>
+                  <div class="todo-item-actions">
+                    <button class="todo-remove-btn" title="Retirer" aria-label="Retirer ${escapeHtml(t.game)} de la liste de ${escapeHtml(t.player)}" data-id="${t.id}">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                        <path d="M18 6 6 18M6 6l12 12"/>
+                      </svg>
+                    </button>
+                  </div>
                 </li>
               `).join('')}
             </ul>
@@ -295,9 +402,7 @@ function render() {
     }).join('')}
   </div>`;
 
-  container.querySelectorAll('.todo-remove-btn').forEach(btn => {
-    btn.addEventListener('click', () => removeTodo(Number(btn.dataset.id)));
-  });
+  attachItemEvents(container);
 }
 
 async function init() {

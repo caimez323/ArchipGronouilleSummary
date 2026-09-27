@@ -62,6 +62,26 @@ async function initDb() {
     ON todos (lower(player), lower(game));
   `);
 
+  // Colonne pour l'ordre custom (par joueur). NULL sur les anciennes lignes
+  // tant qu'elles n'ont pas été backfillées ci-dessous.
+  await pool.query(`
+    ALTER TABLE todos ADD COLUMN IF NOT EXISTS position INTEGER;
+  `);
+
+  // Attribue une position (basée sur l'ordre de création) à toute ligne qui
+  // n'en a pas encore, pour que l'ordre initial reste stable avant tout
+  // réarrangement manuel.
+  await pool.query(`
+    WITH ranked AS (
+      SELECT id, ROW_NUMBER() OVER (PARTITION BY lower(player) ORDER BY id) AS rn
+      FROM todos
+      WHERE position IS NULL
+    )
+    UPDATE todos t SET position = ranked.rn
+    FROM ranked
+    WHERE t.id = ranked.id;
+  `);
+
   console.log('DB OK — tables "reviews" et "todos" prêtes.');
 }
 
@@ -110,6 +130,7 @@ function rowToTodo(row) {
     id: row.id,
     player: row.player,
     game: row.game,
+    position: row.position,
     createdAt: row.created_at instanceof Date
       ? row.created_at.toISOString()
       : row.created_at,
@@ -118,15 +139,18 @@ function rowToTodo(row) {
 
 async function readTodos() {
   const { rows } = await pool.query(
-    'SELECT * FROM todos ORDER BY id ASC'
+    'SELECT * FROM todos ORDER BY lower(player) ASC, position ASC, id ASC'
   );
   return rows.map(rowToTodo);
 }
 
 async function addTodo(todo) {
   const { rows } = await pool.query(
-    `INSERT INTO todos (player, game)
-     VALUES ($1, $2)
+    `INSERT INTO todos (player, game, position)
+     VALUES (
+       $1, $2,
+       (SELECT COALESCE(MAX(position), 0) + 1 FROM todos WHERE lower(player) = lower($1))
+     )
      ON CONFLICT (lower(player), lower(game)) DO NOTHING
      RETURNING *`,
     [todo.player, todo.game]
@@ -139,6 +163,22 @@ async function addTodo(todo) {
     [todo.player, todo.game]
   );
   return rowToTodo(existing.rows[0]);
+}
+
+async function reorderTodos(order) {
+  const client = await pool.connect();
+  try {
+    await client.query('BEGIN');
+    for (let i = 0; i < order.length; i++) {
+      await client.query('UPDATE todos SET position = $1 WHERE id = $2', [i + 1, order[i]]);
+    }
+    await client.query('COMMIT');
+  } catch (err) {
+    await client.query('ROLLBACK');
+    throw err;
+  } finally {
+    client.release();
+  }
 }
 
 async function deleteTodo(id) {
@@ -277,6 +317,32 @@ async function handleApi(req, res) {
     } catch (err) {
       return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
     }
+  }
+
+  if (pathname === '/todos/reorder' && req.method === 'POST') {
+    try {
+      const body = await collectJsonBody(req);
+      const order = Array.isArray(body.order)
+        ? body.order.map(Number).filter(Number.isInteger)
+        : null;
+
+      if (!order || !order.length) {
+        return sendJson(res, 400, { error: 'order (tableau d\'ids) est requis.' });
+      }
+
+      await reorderTodos(order);
+      return sendJson(res, 200, { ok: true });
+    } catch (err) {
+      return sendJson(res, 500, { error: err.message || 'Erreur serveur.' });
+    }
+  }
+
+  if (pathname === '/todos/reorder' && req.method === 'OPTIONS') {
+    res.writeHead(204, {
+      'Allow': 'POST, OPTIONS'
+    });
+    res.end();
+    return;
   }
 
   const todoIdMatch = pathname.match(/^\/todos\/(\d+)$/);

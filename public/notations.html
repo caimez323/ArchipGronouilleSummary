@@ -51,6 +51,23 @@
       color: var(--tx-muted);
       max-width: 420px;
     }
+
+    .sort-select {
+      appearance: none;
+      background: var(--surface);
+      color: var(--tx);
+      border: 1px solid var(--border);
+      border-radius: var(--r-md);
+      padding: 8px 32px 8px 12px;
+      font-size: var(--text-sm);
+      font-weight: 500;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      cursor: pointer;
+    }
+
+    .sort-select:focus { outline: 2px solid var(--accent); border-color: transparent; }
   </style>
 </head>
 <body>
@@ -90,6 +107,12 @@
         <input class="search-input" type="search" id="jeu-search"
                placeholder="Rechercher un jeu…" aria-label="Rechercher un jeu" />
       </div>
+      <select class="sort-select" id="sort-select" aria-label="Trier par">
+        <option value="recent">Plus récent</option>
+        <option value="plus-joue">Plus joué</option>
+        <option value="meilleure-note">Meilleure note</option>
+        <option value="alpha">Ordre alphabétique</option>
+      </select>
       <datalist id="game-options"></datalist>
     </div>
 
@@ -203,50 +226,84 @@
       `;
     }
 
+    function latestDate(stat) {
+      return stat.entries.reduce((max, e) => (e.date > max ? e.date : max), '');
+    }
+
+    function sortNames(names) {
+      const sort = document.getElementById('sort-select').value;
+      const withStats = names.map(name => ({
+        name,
+        stat: STATS.get(name) || { count: 0, avg: 0, entries: [] }
+      }));
+
+      withStats.sort((a, b) => {
+        switch (sort) {
+          case 'plus-joue':
+            return b.stat.entries.length - a.stat.entries.length
+              || a.name.localeCompare(b.name, 'fr');
+          case 'meilleure-note':
+            return b.stat.avg - a.stat.avg
+              || b.stat.count - a.stat.count
+              || a.name.localeCompare(b.name, 'fr');
+          case 'alpha':
+            return a.name.localeCompare(b.name, 'fr');
+          case 'recent':
+          default:
+            return latestDate(b.stat).localeCompare(latestDate(a.stat))
+              || a.name.localeCompare(b.name, 'fr');
+        }
+      });
+
+      return withStats.map(w => w.name);
+    }
+
     function applySearch() {
       const raw = document.getElementById('jeu-search').value.trim();
       const resultsEl = document.getElementById('results');
 
+      let names;
+
       if (!raw) {
-        resultsEl.innerHTML = `
-          <div class="card">
-            <div class="empty">
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-              </svg>
-              <h3>Tapez le nom d'un jeu</h3>
-              <p>Ou cliquez sur une note depuis la page Jeux pour arriver directement ici.</p>
+        // Par défaut : les jeux qui ont déjà au moins une note.
+        names = [...STATS.keys()].filter(name => STATS.get(name).count > 0);
+
+        if (!names.length) {
+          resultsEl.innerHTML = `
+            <div class="card">
+              <div class="empty">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                </svg>
+                <h3>Aucune note pour le moment</h3>
+                <p>Ou tapez le nom d'un jeu pour voir ses sessions même sans note.</p>
+              </div>
             </div>
-          </div>
-        `;
-        return;
+          `;
+          return;
+        }
+      } else {
+        const q = raw.toLowerCase();
+        names = allKnownGameNames().filter(name => name.toLowerCase().includes(q));
+
+        if (!names.length) {
+          resultsEl.innerHTML = `
+            <div class="card">
+              <div class="empty">
+                <h3>Aucun jeu trouvé</h3>
+                <p>Aucun jeu ne correspond à « ${escapeHtml(raw)} ».</p>
+              </div>
+            </div>
+          `;
+          return;
+        }
       }
 
-      const q = raw.toLowerCase();
-      const matched = allKnownGameNames()
-        .filter(name => name.toLowerCase().includes(q))
-        .sort((a, b) => {
-          const aExact = a.toLowerCase() === q ? 0 : 1;
-          const bExact = b.toLowerCase() === q ? 0 : 1;
-          return aExact - bExact || a.localeCompare(b, 'fr');
-        });
-
-      if (!matched.length) {
-        resultsEl.innerHTML = `
-          <div class="card">
-            <div class="empty">
-              <h3>Aucun jeu trouvé</h3>
-              <p>Aucun jeu ne correspond à « ${escapeHtml(raw)} ».</p>
-            </div>
-          </div>
-        `;
-        return;
-      }
-
-      resultsEl.innerHTML = matched.map(renderGameSection).join('');
+      resultsEl.innerHTML = sortNames(names).map(renderGameSection).join('');
     }
 
     document.getElementById('jeu-search').addEventListener('input', applySearch);
+    document.getElementById('sort-select').addEventListener('change', applySearch);
 
     async function init() {
       document.getElementById('yr').textContent = new Date().getFullYear();
