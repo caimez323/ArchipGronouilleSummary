@@ -32,6 +32,18 @@
       border-color: oklch(from var(--accent) l c h / .3);
     }
 
+    .todo-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: var(--text-xs);
+      color: var(--tx-muted);
+      flex-shrink: 0;
+      cursor: default;
+    }
+
+    .todo-indicator svg { flex-shrink: 0; }
+
     .modal-overlay {
       position: fixed;
       inset: 0;
@@ -156,7 +168,7 @@
     #games-table td:nth-child(1) { width: auto; }
 
     #games-table th:nth-child(2),
-    #games-table td:nth-child(2) { width: 400px; white-space: nowrap; }
+    #games-table td:nth-child(2) { width: 440px; white-space: nowrap; }
 
     #games-table th:nth-child(3),
     #games-table td:nth-child(3) { width: 150px; white-space: nowrap; }
@@ -436,6 +448,7 @@ function noteCell(g) {
 
   return `<a class="note-link" href="${url}" title="${stat.avg.toFixed(2)} / 5 · ${stat.count} avis">${ntStarsHtml(stat.avg)}<span class="note-count">${stat.avg.toFixed(1)} (${stat.count})</span></a>`;
 }
+
 
 function render(list) {
   const tb = document.getElementById('game-list');
