@@ -32,6 +32,18 @@
       border-color: oklch(from var(--accent) l c h / .3);
     }
 
+    .todo-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: var(--text-xs);
+      color: var(--tx-muted);
+      flex-shrink: 0;
+      cursor: default;
+    }
+
+    .todo-indicator svg { flex-shrink: 0; }
+
     .modal-overlay {
       position: fixed;
       inset: 0;
@@ -95,6 +107,18 @@
 
     .todo-player-btn:disabled { opacity: .5; pointer-events: none; }
 
+    .todo-player-btn.is-added {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .todo-player-btn.is-added .is-added-badge {
+      font-size: var(--text-xs);
+      font-weight: 700;
+      color: var(--ok);
+    }
+
     .modal-actions { display: flex; justify-content: flex-end; }
 
     .toast {
@@ -144,7 +168,7 @@
     #games-table td:nth-child(1) { width: auto; }
 
     #games-table th:nth-child(2),
-    #games-table td:nth-child(2) { width: 400px; white-space: nowrap; }
+    #games-table td:nth-child(2) { width: 440px; white-space: nowrap; }
 
     #games-table th:nth-child(3),
     #games-table td:nth-child(3) { width: 150px; white-space: nowrap; }
@@ -254,6 +278,7 @@ let searchActive = false;
 let PLAYERS = [];
 let modalGame = null;
 let GAME_STATS = new Map();
+let TODOS = [];
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -284,12 +309,34 @@ async function loadPlayers() {
   }
 }
 
+async function loadTodos() {
+  try {
+    const res = await fetch('/todos');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    TODOS = await res.json();
+  } catch (err) {
+    console.error('Impossible de charger la todo liste :', err);
+    TODOS = [];
+  }
+}
+
+function todosForGame(game) {
+  return TODOS.filter(t => t.game.toLowerCase() === game.toLowerCase());
+}
+
 function openTodoModal(game) {
   modalGame = game;
+  const already = new Set(todosForGame(game).map(t => t.player.toLowerCase()));
   document.getElementById('todo-modal-title').textContent = `Ajouter « ${game} » à la todo de…`;
-  document.getElementById('todo-modal-players').innerHTML = PLAYERS.map(p => `
-    <button type="button" class="todo-player-btn" data-player="${escapeHtml(p)}">${escapeHtml(p)}</button>
-  `).join('');
+  document.getElementById('todo-modal-players').innerHTML = PLAYERS.map(p => {
+    const isAdded = already.has(p.toLowerCase());
+    return `
+      <button type="button" class="todo-player-btn${isAdded ? ' is-added' : ''}" data-player="${escapeHtml(p)}" ${isAdded ? 'disabled' : ''}>
+        <span>${escapeHtml(p)}</span>
+        ${isAdded ? '<span class="is-added-badge">✓ déjà ajouté</span>' : ''}
+      </button>
+    `;
+  }).join('');
   document.getElementById('todo-modal').hidden = false;
 }
 
@@ -308,8 +355,10 @@ async function addToTodo(player, game, btn) {
     });
     const data = await res.json().catch(() => ({}));
     if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    if (data.todo) TODOS.push(data.todo);
     closeTodoModal();
     showToast(`${game} ajouté à la todo liste de ${player}.`);
+    applyFilters();
   } catch (err) {
     btn.disabled = false;
     showToast(err.message || "Erreur lors de l'ajout.", true);
@@ -400,6 +449,7 @@ function noteCell(g) {
   return `<a class="note-link" href="${url}" title="${stat.avg.toFixed(2)} / 5 · ${stat.count} avis">${ntStarsHtml(stat.avg)}<span class="note-count">${stat.avg.toFixed(1)} (${stat.count})</span></a>`;
 }
 
+
 function render(list) {
   const tb = document.getElementById('game-list');
   if (!list.length) {
@@ -444,7 +494,7 @@ document.getElementById('filter-chips').addEventListener('change', applyFilters)
 
 document.getElementById('yr').textContent = new Date().getFullYear();
 loadPlayers();
-Promise.all([loadGames(), loadNotes()]).then(applyFilters);
+Promise.all([loadGames(), loadNotes(), loadTodos()]).then(applyFilters);
 
 // Theme toggle
 (function(){
