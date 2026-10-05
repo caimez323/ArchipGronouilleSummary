@@ -320,5 +320,59 @@
         "Objectif": "Fin du jeu"
       }
     ]
+  },
+  {
+    "id": 8,
+    "date": "2026-10-02",
+    "players": 6,
+    "games": [
+      "Celeste (Open World)",
+      "Celeste (Open World)",
+      "Celeste (Open World)",
+      "Celeste (Open World)",
+      "Celeste (Open World)",
+      "Plants vs Zombies : Replanted/GOTY"
+    ],
+    "seed": "z0rINLbZTm-WVAxaaFobGg",
+    "seedUrl": "./yaml_backup/8/spoiler.txt",
+    "summary": [
+      {
+        "player": "Alexis",
+        "playerUrl": "./yaml_backup/8/Alexis.yaml",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "Empty Space"
+      },
+      {
+        "player": "Clément (caimez)",
+        "playerUrl": "./yaml_backup/8/caimez.yaml",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "Farewell"
+      },
+      {
+        "player": "Clément (Axo)",
+        "playerUrl": "./yaml_backup/8/Axo.yaml",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "Farewell"
+      },
+      {
+        "player": "Léo",
+        "playerUrl": "./yaml_backup/8/Laiken.yaml",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "Empty Space"
+      }
+      ,
+      {
+        "player": "Lucas",
+        "playerUrl": "./yaml_backup/8/Lutrion.yaml",
+        "Jeu": "Celeste (Open World)",
+        "Objectif": "Farewell"
+      },
+      {
+        "player": "Ronflex",
+        "playerUrl": "./yaml_backup/8/Ronflex.yaml",
+        "Jeu": "Plants vs Zombies : Replanted/GOTY",
+        "Objectif": "Fin du jeu"
+      }
+    ]
   }
 ]
